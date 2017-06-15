@@ -1,0 +1,61 @@
+
+
+a,  u {
+    text-decoration: none;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    color: grey;
+    display: block;
+    position: relative;
+    -webkit-animation:colorchange 3s;
+}
+
+.s, .d, .f, .e {
+    -webkit-animation:colorchange 3s;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: white;
+    }
+
+    65% {
+        color: white;
+    }
+    89% {
+        color: gray;
+    }
+
+    90% {
+        color: pink;
+    }
+}
+
+p {
+    display: block;
+    color: grey;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+div.container {
+    max-width:750px;
+    max-height: 100vh;
+    margin:auto;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+div.container img{
+    height: calc(100% - 50px -  100px);
+}
+
+div.container .link-block{
+    height: 50px;
+    font-size: 13px;
+    padding-top: 10px;
+}
