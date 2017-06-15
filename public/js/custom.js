@@ -7,5 +7,5 @@ $('[data-role="random"]').on('click', function (e) {
     var links = ["dva", "tri"];
     var link = links[Math.floor(Math.random()*links.length)];
 
-    window.location = link;
+    window.location.href = link;
 });
