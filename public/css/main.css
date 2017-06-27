@@ -1,4 +1,6 @@
-
+body{
+    margin: 0 !important;
+}
 
 a,  u {
     text-decoration: none;
@@ -42,20 +44,35 @@ p {
 }
 
 div.container {
-    max-width:750px;
-    max-height: 100vh;
+    max-width:600px;
+    height: 100vh;
+    box-sizing: border-box;
     margin:auto;
     text-align: center;
     position: relative;
     padding-top: 100px;
+    overflow: hidden;
 }
 
 div.container img{
-    height: calc(100% - 50px -  100px);
+    max-height: calc(100vh - 100px - 100px);
+    width: 600px;
+    border: 20px solid gray;
+      box-sizing: border-box;
 }
 
 div.container .link-block{
-    height: 50px;
+    height: 100px;
+      box-sizing: border-box;
     font-size: 13px;
     padding-top: 10px;
+}
+
+.okrugli-link{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: gray;
 }

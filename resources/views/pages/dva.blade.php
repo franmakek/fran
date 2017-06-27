@@ -5,10 +5,13 @@
 @section('content')
     <div class="container">
 
-        <img src="images/stol-krevet.gif">
+        <img src="images/krevet-kut.gif">
 
         <div class="link-block">
-             <a href="/"><p class="s">prvi</p></a>
+             <a href="pet"><p class="s">m</p></a>
+        </div>
+        <div class="link-block">
+             <a href="6"><p class="s">Ć</p></a>
         </div>
     </div>
 @stop
