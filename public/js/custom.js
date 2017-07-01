@@ -5,28 +5,38 @@ $('[data-role="random"]').on('click', function (e) {
 
     e.stopPropagation();
     var links = ["dva", "tri"];
-    var link = links[Math.floor(Math.random()*links.length)];
+    var link = links[Math.floor(Math.random() * links.length)];
 
     window.location.href = link;
 });
 
-$(document).ready(function()
+$(document).ready(function ()
 {
-    setTimeout(function(){
+    
+    function randomIntFromInterval(min,max)
+    {
+        return Math.floor(Math.random() * (max-min+1)+min);
+    }
+    
+      var links = [];
         
-        var links = [];
-        
-        $.each($('a'), function(){
+        $.each($('a'), function () {
            
-            var value = $(this).attr('href');
-            
-            links.push(value);
+            if($(this).text().substring(0) !== "m")
+            {
+                var value = $(this).attr('href');
+                links.push(value)   
+            };
         });
-        
-    var link = links[Math.floor(Math.random()*links.length)];
+    
+        var link = links[Math.floor(Math.random() * links.length)];
+
+        $('[href="'+ link +'"]').hide();
+            
+    setTimeout(function (){ 
 
     window.location.href = link;
-       
         
-    }, 8000)
+        
+    }, randomIntFromInterval(3,6) * 1000)
 })

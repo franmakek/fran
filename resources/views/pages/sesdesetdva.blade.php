@@ -12,9 +12,8 @@
         <div class="link-block">
              <a href="pedesetdevet"><p class="s">m</p></a>
         </div>
-        
         <div class="link-block">
-             <a href="pedesetosam"><p class="s"></p>m1</a>
+             <a href="pedesetosam"><p class="s">m1</p></a>
         </div>
         
     

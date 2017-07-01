@@ -10,10 +10,10 @@
         <img src="images/prozor-sjedivrata.gif">
 
         <div class="link-block">
-             <a href="pedesetosam"><p class="s">Č</p></a>
+             <a href="tridesetosam"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="sesdesetcetiri"><p class="s">m</p></a>
+             <a href=""><p class="s">Č</p></a>
         </div>
     </div>
 @stop

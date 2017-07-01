@@ -7,14 +7,15 @@
 
     <div class="container">
 
-        <img src="images/stol-kutkal.gif">
+        <img src="images/sjedi-zatprozor-vankut.gif">
 
+        <div class="link-block">
+             <a href="pet"><p class="s">m</p></a>
+        </div>
         
         <div class="link-block">
-             <a href="tridesettri"><p class="s">m</p></a>
+             <a href="6"><p class="s">Č</p></a>
         </div>
-        <div class="link-block">
-             <a href="7"><p class="s">Č</p></a>
-        </div>
+        
     </div>
 @stop

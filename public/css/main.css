@@ -10,11 +10,11 @@ a,  u {
     color: grey;
     display: block;
     position: relative;
-    -webkit-animation:colorchange 3s;
+    -webkit-animation:colorchange 1s;
 }
 
 .s, .d, .f, .e {
-    -webkit-animation:colorchange 3s;
+    -webkit-animation:colorchange 1s;
 }
 
 @-webkit-keyframes colorchange {

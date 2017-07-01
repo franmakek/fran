@@ -7,14 +7,13 @@
 
     <div class="container">
 
-        <img src="images/stol-kutkal.gif">
+        <img src="images/sjedi-zatprozor-vanstolica.gif">
 
-        
         <div class="link-block">
-             <a href="tridesettri"><p class="s">m</p></a>
+             <a href="pedesetosam"><p class="s">Č</p></a>
         </div>
         <div class="link-block">
-             <a href="7"><p class="s">Č</p></a>
+             <a href="sesdesetcetiri"><p class="s">m</p></a>
         </div>
     </div>
 @stop

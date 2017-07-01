@@ -14,7 +14,7 @@
         </div>
         
         <div class="link-block">
-             <a href="22"><p class="s"></p></a>
+             <a href="53"><p class="s">Č</p></a>
         </div>
         
     

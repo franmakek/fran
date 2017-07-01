@@ -7,10 +7,16 @@
 
     <div class="container">
 
-        <img src="images/polica-krevet.gif">
+        <img src="images/kalendar-stolstol.gif">
 
         <div class="link-block">
-             <a href="dva"><p class="s">prvi</p></a>
+             <a href="cetrdesetpet"><p class="s">m</p></a>
+        </div>
+        <div class="link-block">
+             <a href="devetnaest"><p class="s">m</p></a>
+        </div>
+        <div class="link-block">
+             <a href="21"><p class="s">Č</p></a>
         </div>
     </div>
 @stop

@@ -15,11 +15,13 @@
          <div class="link-block">
              <a href="osam"><p class="s">m1</p></a>
         </div>
+         <div class="link-block">
+             <a href="sedamdesetsest"><p class="s">Č</p></a>
+        </div>
         <div class="link-block">
              <a href="sesdesetpet"><p class="s">Č</p></a>
         </div>
-        <div class="link-block">
-             <a href="sedamdesetsest"><p class="s">mČ</p></a>
-        </div>
+       
+        
     </div>
 @stop

@@ -7,16 +7,16 @@
 
     <div class="container">
 
-        <img src="images/prozor-sjedistolica.gif">
+        <img src="images/sjedi-zatprozor-vankomp.gif">
 
         <div class="link-block">
-             <a href="dvadesetdva"><p class="s">m</p></a>
+             <a href="trinaest"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="sesdesetsedam"><p class="s"></p></a>
+             <a href="deset"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="21"><p class="s"></p></a>
+             <a href="8"><p class="s">Č</p></a>
         </div>
     </div>
 @stop

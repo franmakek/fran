@@ -7,7 +7,7 @@
 
     <div class="container">
 
-        <img src="images/krevet-kutsint.gif">
+        <img src="images/stol-stolicakal.gif">
 
         <div class="link-block">
              <a href="dva"><p class="s">prvi</p></a>

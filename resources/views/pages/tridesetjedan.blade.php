@@ -10,7 +10,7 @@
         <img src="images/komp-policalezi.gif">
 
         <div class="link-block">
-             <a href="dva"><p class="s">prvi</p></a>
+             <a href="tridesetsest"><p class="s">m</p></a>
         </div>
         
         <div class="link-block">

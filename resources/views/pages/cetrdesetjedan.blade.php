@@ -14,7 +14,7 @@
         </div>
         
         <div class="link-block">
-             <a href="16"><p class="s">Č</p></a>
+             <a href="37"><p class="s">Č</p></a>
         </div>
     </div>
 @stop

@@ -14,7 +14,7 @@
         </div>
         
         <div class="link-block">
-             <a href="pedesetdevet"><p class="s"></p>m1</a>
+             <a href="pedesetdevet"><p class="s">m</p></a>
         </div>
         
     

@@ -13,10 +13,10 @@
              <a href="sedamdesettri"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="tridesetsedam"><p class="s"></p></a>
+             <a href="tridesetsedam"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="sedamdesetcetiri"><p class="s">Č</p></a>
+             <a href=""><p class="s"></p></a>
         </div>
     </div>
 @stop

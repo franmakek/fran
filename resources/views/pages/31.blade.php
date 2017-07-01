@@ -13,7 +13,7 @@
              <a href="dvadesetjedan"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="tridesetjedan"><p class="s">m1</p></a>
+             <a href="tridesetjedan"><p class="s">m</p></a>
         </div>
         <div class="link-block">
              <a href="20"><p class="s">Č</p></a>

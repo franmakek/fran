@@ -10,10 +10,10 @@
         <img src="images/krevet-sjedistol.gif">
 
         <div class="link-block">
-             <a href="cetrdesetjedan"><p class="s"></p></a>
+             <a href="cetrdesetjedan"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="sedamdesetsedam"><p class="s">Č</p></a>
+             <a href="sedamdesetsedam"><p class="s"></p></a>
         </div>
     </div>
 @stop

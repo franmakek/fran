@@ -10,13 +10,13 @@
         <img src="images/prozor-sjedistol.gif">
 
         <div class="link-block">
-             <a href="sedamdesetdevet"><p class="s">m</p></a>
+             <a href="pedesetsest"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="tridesetjedan"><p class="s"></p></a>
+             <a href="pedesetsedam"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="20"><p class="s"></p></a>
+             <a href="48"><p class="s">Č</p></a>
         </div>
     </div>
 @stop

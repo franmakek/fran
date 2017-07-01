@@ -13,11 +13,8 @@
              <a href="cetrdesetsedam"><p class="s">m</p></a>
         </div>
         
-        <div class="link-block">
-             <a href="27"><p class="s"></p>Č</a>
-        </div>
            <div class="link-block">
-             <a href="28"><p class="s"></p>Č1</a>
+             <a href="28"><p class="s"></p>Č</a>
         </div>
 
     </div>

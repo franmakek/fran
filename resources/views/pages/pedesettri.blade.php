@@ -13,6 +13,6 @@
              <a href="pedesetcetiri"><p class="s">m</p></a>
         </div>
         <div class="link-block">
-             <a href="-"><p class="s">Č</p></a>
+             <a href="49"><p class="s">Č</p></a>
     </div>
 @stop

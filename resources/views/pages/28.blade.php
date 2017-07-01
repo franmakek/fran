@@ -16,7 +16,7 @@
         <div class="link-block">
              <a href="1"><p class="s">Č</p></a>
         </div>
-                <embed  src="images/kraj6.mp3" loop="false" autostart="true" hidden="true" />
+                <embed  src="images/kraj6.mp" loop="false" autostart="true" hidden="true" />
 
     </div>
 @stop

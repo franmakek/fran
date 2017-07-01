@@ -12,8 +12,9 @@
         <div class="link-block">
              <a href="cetrdesetsedam"><p class="s">m</p></a>
         </div>
-       <div class="link-block">
-             <a href="22"><p class="s">Č</p></a>
+     
+         <div class="link-block">
+             <a href="24"><p class="s">Č</p></a>
         </div>
     </div>
 @stop

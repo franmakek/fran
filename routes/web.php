@@ -368,6 +368,33 @@ Route::get('/45', function () {
 Route::get('/46', function () {
     return view('pages.46');
  });   
+Route::get('/47', function () {
+    return view('pages.47');
+ });   
+Route::get('/48', function () {
+    return view('pages.48');
+ });   
+Route::get('/49', function () {
+    return view('pages.49');
+ });   
+Route::get('/50', function () {
+    return view('pages.50');
+ });   
+Route::get('/51', function () {
+    return view('pages.51');
+ }); 
+Route::get('/52', function () {
+    return view('pages.52');
+ }); 
+Route::get('/53', function () {
+    return view('pages.53');
+ }); 
+Route::get('/54', function () {
+    return view('pages.54');
+ });
+Route::get('/55', function () {
+    return view('pages.55');
+ });   
 Route::get('/pedesetsest', function () {
     return view('pages.pedesetsest');
 });
@@ -392,7 +419,6 @@ Route::get('/sesdesetdva', function () {
 Route::get('/sesdesettri', function () {
     return view('pages.sesdesettri');
 });
-
 Route::get('/sesdesetcetiri', function () {
     return view('pages.sesdesetcetiri');
 });
@@ -414,7 +440,6 @@ Route::get('/sesdesetdevet', function () {
 Route::get('/sedamdeset', function () {
     return view('pages.sedamdeset');
 });
-
 Route::get('/sedamdesetdva', function () {
     return view('pages.sedamdesetdva');
 });
@@ -427,11 +452,9 @@ Route::get('/sedamdesettri', function () {
 Route::get('/sedamdesetcetiri', function () {
     return view('pages.sedamdesetcetiri');
 });
-
 Route::get('/sedamdesetpet', function () {
     return view('pages.sedamdesetpet');
 });
-
 Route::get('/sedamdesetsest', function () {
     return view('pages.sedamdesetsest');
 });
@@ -444,7 +467,6 @@ Route::get('/sedamdesetosam', function () {
 Route::get('/sedamdesetdevet', function () {
     return view('pages.sedamdesetdevet');
 });
-
 Route::get('/osamdeset', function () {
     return view('pages.osamdeset');
 });
