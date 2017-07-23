@@ -10,12 +10,12 @@
         <img src="images/stol-krevetliksam.gif">
 
        
-         <div class="link-block">
+         
              <a href="dvadesetosam"><p class="s">m</p></a>
-        </div>
         
-         <div class="link-block">
+        
+         
              <a href="17"><p class="s">Č</p></a>
-        </div>
+     
     </div>
 @stop

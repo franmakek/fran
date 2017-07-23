@@ -1,6 +1,9 @@
-/**
- * Created by GREGOS on 6/15/2017.
- */
+$(window).on('resize', function(){
+    $('.container').height($('img').outerHeight());
+})
+
+
+
 $('[data-role="random"]').on('click', function (e) {
 
     e.stopPropagation();
@@ -24,6 +27,7 @@ $(document).ready(function ()
            
             if($(this).text().substring(0) !== "m")
             {
+                $(this).hide();
                 var value = $(this).attr('href');
                 links.push(value)   
             };
@@ -31,12 +35,10 @@ $(document).ready(function ()
     
         var link = links[Math.floor(Math.random() * links.length)];
 
-        $('[href="'+ link +'"]').hide();
-            
     setTimeout(function (){ 
 
     window.location.href = link;
         
         
-    }, randomIntFromInterval(3,6) * 1000)
+    }, randomIntFromInterval(5,10) * 1000)
 })

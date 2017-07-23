@@ -9,13 +9,17 @@
 
         <img src="images/prvi.jpg">
 
-        <div class="link-block">
-             <a href="dva"><p class="s">m</p></a>
-        </div>
         
-        <div class="link-block">
+             <a href="dva" class="link7"><p class="s">m</p></a>
+        
+        
+        
              <a href="1"><p class="s">Č</p></a>
-        </div>
+        
+        
+         
+             <a href="54"><p class="s">Č</p></a>
+      
         
     </div>
 @stop

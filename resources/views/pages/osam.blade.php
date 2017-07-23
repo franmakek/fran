@@ -8,12 +8,13 @@
     <div class="container">
 
         <img src="images/stol-stolica.gif">
+        
 
-        <div class="link-block">
+             <a href="devet" class="link5"><p class="s">m</p></a>
+        
+      
              <a href="29"><p class="s">Č</p></a>
-        </div>
-          <div class="link-block">
-             <a href="devet"><p class="s">m</p></a>
-        </div>
+      
+          
     </div>
 @stop

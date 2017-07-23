@@ -7,11 +7,11 @@
 
         <img src="images/kut-vrata.gif">
 
-        <div class="link-block">
-             <a href="sest"><p class="s">m</p></a>
-        </div>
-        <div class="link-block">
+        
+             <a href="sest" class="link3"><p class="s">m</p></a>
+       
+        
              <a href="10"><p class="s">Č</p></a>
-        </div>
+      
     </div>
 @stop

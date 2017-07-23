@@ -9,14 +9,11 @@
 
         <img src="images/stolica-komp.gif">
 
-        <div class="link-block">
-             <a href="deset"><p class="s">m</p></a>
-        </div>
-         <div class="link-block">
-             <a href="trinaest"><p class="s">m1</p></a>
-        </div>
-        <div class="link-block">
+             <a href="deset" class=link4><p class="s">m</p></a>
+        
+             <a href="trinaest" class=link8><p class="s">m</p></a>
+        
              <a href="8"><p class="s">Č</p></a>
-        </div>
+        
     </div>
 @stop

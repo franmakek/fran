@@ -8,15 +8,9 @@
     <div class="container">
 
         <img src="images/stol-krevetstol.gif">
-
-        <div class="link-block">
-             <a href="dvadesetsest"><p class="s">m</p></a>
-        </div>
-        <div class="link-block">
-             <a href="dvadesetdevet"><p class="s">m</p></a>
-        </div>
-            <div class="link-block">
-             <a href="18"><p class="s"></p></a>
-        </div>
+         
+         <a href="dvadesetsest" class="link1"><p class="s">m</p></a>
+         <a href="dvadesetdevet" class="link7"><p class="s">m</p></a>
+         <a href="18"><p class="s"></p></a>
     </div>
 @stop

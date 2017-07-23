@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    
+<head> 
+ </head>
+    
+<body>
+    
+<script>
+    //Health variables:
+    var puding = 4;
+    var kile = 70;
+    
+    
+    //Damage variables:
+    var playerDamageOutput = 1;
+    var enemyDamageOutput = 5;
+    
+    //misc. variables
+    var actionChoice;
+    
+    //function that will contain:
+    function RunGame() 
+    { 
+    alert("Bok. Imaš 4 pudinga. Hočeš li sad pojesti jednog?");
+    actionChoice = prompt("da  ne")
+        CheckActionChoice(actionChoice);
+    }
+    
+    //function that will check player choice:
+    function CheckActionChoice(str)
+    { 
+        if (str == "da") 
+        { 
+            
+            da();
+        }
+        
+       else if (str == "ne") 
+        { 
+            
+            ne();
+        }
+        
+        else  (str) 
+        { 
+            
+            alert("odluci da ili ne");
+        }
+    }
+    //Attack functionality:
+    function da()
+    {
+    alert("njam!");
+        puding -= playerDamageOutput;
+        alert("ostala su mi još " + puding + " pudinga")
+    }
+    function ne()
+    {
+    alert("hm");
+        
+        alert("ostala su mi još " + puding + " pudinga")
+    }
+    
+    RunGame();
+    
+</script>    
+    
+    
+    
+    
+    
+    
+ </body>
+
+
+
+
+
+
+
+
+
+</html>

@@ -10,7 +10,7 @@
         <img src="images/krevet-sjedi.gif">
 
         <div class="link-block">
-             <a href="cetrdesetsedam"><p class="s">m</p></a>
+             <a href="cetrdesetsedam" class="link1 link-block"><p class="s">m</p></a>
         </div>
      
          <div class="link-block">
