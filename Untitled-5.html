@@ -7,23 +7,26 @@
 <body>
     
 <script>
-  
     var puding = 4;
     var kile = 70;
     var gutanje = 1;
     //misc. variables
     var actionChoice;
     
-    while(puding > 0)   
-          {
-    function RunGame() 
-    { 
-    alert("Bok. Imaš 4 pudinga. Hočeš li sad pojesti jednog?");
-    actionChoice = prompt("da  ne")
-        CheckActionChoice(actionChoice);
-    }
     
-    //function that will check player choice:
+    
+    document.write("Bok.");
+    while (puding > 1)   
+          {
+
+        
+    document.write("Imam " + puding + " pudinga. Hoću li sad pojesti jednog?");
+    actionChoice = prompt("da  ne")
+              
+    CheckActionChoice(actionChoice);
+    
+    
+  
     function CheckActionChoice(str)
     { 
         if (str == "da") 
@@ -38,28 +41,27 @@
             ne();
         }
         
-        else  (str) 
-        { 
+     
             
-            alert("odluci da ili ne");
-        }
+    
     }
-    //Attack functionality:
+    
     function da()
-    {
+   {
     alert("njam!");
         puding -= gutanje;
         alert("ostala su mi još " + puding + " pudinga")
+        alert("Da vidim...")
     }
+    
     function ne()
     {
     alert("hm");
         
         alert("ostala su mi još " + puding + " pudinga")
     }
-     
-    RunGame();
-     
+    }
+    alert("ostao je još samo jedan. Ponjet ću ga Mariji");
 </script>    
     
     

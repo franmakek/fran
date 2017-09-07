@@ -40,5 +40,5 @@ $(document).ready(function ()
     window.location.href = link;
         
         
-    }, randomIntFromInterval(5,10) * 1000)
+    }, randomIntFromInterval(3,5) * 1000)
 })

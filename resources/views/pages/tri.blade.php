@@ -3,6 +3,7 @@
 
 @stop
 @section('content')
+<script>$(a,p).hide(500).show(500);</script>
 
 
     <div class="container">

@@ -9,31 +9,27 @@ body{
     font-size: 13px;
     position: absolute;
     display: inline-block;
-    background-color: coral;
-    height: 5%;
-    width: 5%;
-    -webkit-animation:colorchange 1s;
+    background-color: red;
+    height: 3%;
+    width: 3%;
+    
+    -webkit-animation:colorchange 3s;
 }
 
 .s, .d, .f, .e {
-    -webkit-animation:colorchange 1s;
+    -webkit-animation:colorchange 3s;
 }
 
 @-webkit-keyframes colorchange {
     0% {
         color: white;
     }
-
-    65% {
-        color: white;
-    }
+    
     89% {
         color: gray;
     }
 
-    90% {
-        color: pink;
-    }
+    
 }
 
 p {
@@ -47,14 +43,14 @@ p {
 
 div.container {
     max-width:600px;
-    border-radius: 25px;
+    border-radius: 5px;
     box-sizing: border-box;
     margin:auto;
     text-align: center;
     position: relative;
     margin-top: 100px;
     overflow: hidden;
-        background-color: rosybrown;
+        background-color: #939992;
     padding: 2%;
 }
 
@@ -62,6 +58,7 @@ div.container img{
     max-height: calc(100vh - 100px - 100px);
     width: 100%;
       box-sizing: border-box;
+  
 }
 
 .okrugli-link{
@@ -70,7 +67,8 @@ div.container img{
     border-radius: 100%;
     display: block;
     margin: 0 auto;
-    background-color: gray;
+    background-color: blue;
+   
 }
 
 .link1{
