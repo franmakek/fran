@@ -1,11 +1,9 @@
-$(window).on('resize', function(){
-    $('.container').height($('img').outerHeight());
-})
+function mainFunctions() {
 
 
+  
 
-$('[data-role="random"]').on('click', function (e) {
-
+}
     e.stopPropagation();
     var links = ["dva", "tri"];
     var link = links[Math.floor(Math.random() * links.length)];

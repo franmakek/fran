@@ -1,20 +1,156 @@
 body{
     margin: 0 !important;
+    background-color: #fafdfa;
 }
 
-.container a,  u {
+
+.loader {
+    width: 100px;
     height: 100px;
-      box-sizing: border-box;
-    
-    font-size: 13px;
+    -webkit-perspective: 100px;
+    perspective: 100px;
     position: absolute;
-    display: inline-block;
-    background-color: red;
-    height: 3%;
-    width: 3%;
-    
-    -webkit-animation:colorchange 3s;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
 }
+
+.picture{
+    width: 40px;
+    height: 25px;
+    border: 5px solid red;
+    position: absolute;
+    left: 5%;
+    top:6%;
+    z-index: 99999;
+}
+
+.loader__tile {
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    -webkit-animation-name: flip;
+    animation-name: flip;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    z-index: 0;
+}
+
+.loader__tile__1 {
+    background-color: #943048;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.loader__tile__2 {
+    background-color: #d7532d;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.loader__tile__3 {
+    background-color: #d2cabb;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.loader__tile__4 {
+    background-color: #9faad0;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.loader__tile__5 {
+    background-color: #b39a3b;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.loader__tile__6 {
+    background-color: #dc2c34;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.loader__tile__7 {
+    background-color: #ece5be;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+.loader__tile__8 {
+    background-color: #d07500;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.loader__tile__9 {
+    background-color: #7983a9;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes flip {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    11% {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes flip {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    11% {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+
+.container a {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: transparent;
+    display: none;
+    border-radius: 100%;
+    height: 21%;
+    top: -1%;
+    left: 37%;
+    width: 8%;
+    pointer-events:none;
+}
+
+.container a:after{
+    content: "m";
+    font-size: 0;
+    display: none;
+    width: 20px;
+    height: 20px;
+    -webkit-animation:colorchange 10s;
+}
+
+.container a.shown,
+.container a.shown:after{
+    pointer-events: auto;
+    display: inline-block;
+}
+
+
 
 .s, .d, .f, .e {
     -webkit-animation:colorchange 3s;
@@ -22,14 +158,24 @@ body{
 
 @-webkit-keyframes colorchange {
     0% {
-        color: white;
+        background-color: red;
     }
-    
-    89% {
-        color: gray;
+    25% {
+        background-color: pink;
     }
 
-    
+
+    65% {
+        background-color: white;
+    }
+    89% {
+        background-color: gray;
+    }
+
+
+    90% {
+        background-color: pink;
+    }
 }
 
 p {
@@ -50,15 +196,23 @@ div.container {
     position: relative;
     margin-top: 100px;
     overflow: hidden;
-        background-color: #939992;
-    padding: 2%;
+        background-color: rosybrown;
+    border:5px solid rosybrown;
+}
+
+.load-img{
+    position: relative !important;
 }
 
 div.container img{
     max-height: calc(100vh - 100px - 100px);
     width: 100%;
       box-sizing: border-box;
-  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .okrugli-link{
