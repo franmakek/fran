@@ -2,7 +2,38 @@ body{
     margin: 0 !important;
     background-color: #fafdfa;
 }
-
+.container .m{
+     display: none;
+    background-color: rgba(10, 15, 26, .1);
+        border-radius: 100%;
+        height: 5%;
+        top: 23%;
+        left: 49%;
+        width: 5%;
+    }
+.container .m1{
+     display: none;
+        border-radius: 100%;
+        height: 5%;
+        top: 83%;
+        left: 19%;
+        width: 5%;
+    }
+      .container .c{
+           display: none;
+        border-radius: 100%;
+        height: 5%;
+        top: 83%;
+        left:13%;
+        width: 5%;
+    }
+     .container .c1{
+        border-radius: 100%;
+        height: 8%;
+        top: 83%;
+        left: 29%;
+        width: 8%;
+    }
 
 .loader {
     width: 100px;
@@ -17,6 +48,7 @@ body{
 }
 
 .picture{
+    display: none;
     width: 40px;
     height: 25px;
     border: 5px solid red;
@@ -123,16 +155,18 @@ body{
 }
 
 .container a {
+    display: none;
     box-sizing: border-box;
     position: absolute;
-    background-color: transparent;
+    background-color: rgba(43, 15, 226, .1);
     display: none;
     border-radius: 100%;
-    height: 21%;
+    height: 8%;
     top: -1%;
     left: 37%;
     width: 8%;
-    pointer-events:none;
+   /* pointer-events:none;
+*/
 }
 
 .container a:after{
@@ -141,7 +175,7 @@ body{
     display: none;
     width: 20px;
     height: 20px;
-    -webkit-animation:colorchange 10s;
+    -webkit-animation:colorchange 2s;
 }
 
 .container a.shown,
@@ -152,30 +186,20 @@ body{
 
 
 
-.s, .d, .f, .e {
-    -webkit-animation:colorchange 3s;
+  .s, .d, .f, .e {  
+    -webkit-animation:colorchange 13s;
 }
 
-@-webkit-keyframes colorchange {
+@-webkit-keyframes colorchange { xxx
     0% {
-        background-color: red;
-    }
-    25% {
-        background-color: pink;
-    }
-
-
-    65% {
         background-color: white;
     }
-    89% {
-        background-color: gray;
+    
+    50% {
+        background-color: rosybrown;
     }
 
 
-    90% {
-        background-color: pink;
-    }
 }
 
 p {
@@ -197,7 +221,7 @@ div.container {
     margin-top: 100px;
     overflow: hidden;
         background-color: rosybrown;
-    border:5px solid rosybrown;
+    border:7px solid rosybrown;
 }
 
 .load-img{

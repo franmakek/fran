@@ -1,8 +1,4 @@
-@extends('base')
-@section('css')
 
-@stop
-@section('content')
 
 
     <div class="container">

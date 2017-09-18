@@ -22,7 +22,7 @@
         </div>
         
 
-     <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">m</a>
+     <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">i</a>
 
 </div>
     
