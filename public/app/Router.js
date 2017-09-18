@@ -43,18 +43,12 @@ class AppRouter extends Backbone.Router
             let $a = $(e.currentTarget);
 
             let href = $a.attr("href");
-            let fragment = '/' + Backbone.history.fragment;
-
-            if(href === fragment)
-            {
-                Backbone.history.loadUrl(Backbone.history.fragment);
+            let fragment = Backbone.history.fragment;
 
 
-            }
-            else
-            {
-                this.navigate(href, true);
-            }
+                Backbone.history.loadUrl(href, true);
+
+                $('#spadiv img').attr('src', $('#spadiv img').attr('src'));
         });
 
         return this;
@@ -62,9 +56,6 @@ class AppRouter extends Backbone.Router
 
     add(path, callback)
     {
-        console.log(path)
-        console.log(callback)
-
         let route  = {};
 
         route[path] = callback;

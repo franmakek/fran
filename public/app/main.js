@@ -1,5 +1,6 @@
 import $                     from 'jquery';
 import {Router}              from 'app/Router.js';
+import Backbone     from 'backbone';
 
 import index                 from 'app/pages/prvi.hbs!';
 
@@ -677,7 +678,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
     $('#loader').hide();
     $('.container').show();
-
+    Backbone.history.stop()
     $element.html(index()).fadeIn(1000);
 
     $(window).on('resize', function () {
@@ -691,7 +692,6 @@ Router.add('a21', () => {
     Router.on("route", () =>
     {
         let href = window.location.pathname;
-
         CustomStaff();
     });
     
@@ -749,12 +749,13 @@ Router.add('a21', () => {
 
         var link = links[Math.floor(Math.random() * links.length)];
 
-       setTimeout(function () {
-          
-           $('a[href="'+ link +'"]').trigger('click');
-       }, randomIntFromInterval(12, 30) * 1000);
+       // setTimeout(function () {
+       //
+       //     $('a[href="'+ link +'"]').trigger('click');
+       // }, randomIntFromInterval(12, 30) * 1000);
 
         showLink(2000);
+
     }
 
     CustomStaff();
