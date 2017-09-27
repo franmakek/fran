@@ -2,6 +2,7 @@
 <head>
     <link rel="stylesheet" href="/css/main.css"/>
     <link rel="dns-prefetch" href="/">
+    <script src="js/custom.js"></script>
     @yield('css')
 </head>
 
@@ -14,6 +15,8 @@
     <div class="picture"></div>
 
     <img class="load-img" src="images/prvi.jpg">
+    <img class="wall-image" src="">
+
 
     <!--ovdje se ubacuje html iz .hbs fileova-->
     <span  id="spadiv">

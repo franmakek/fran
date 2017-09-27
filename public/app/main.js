@@ -845,6 +845,63 @@ Router.add('a21', () => {
        //     $('a[href="'+ link +'"]').trigger('click');
        // }, randomIntFromInterval(12, 30) * 1000);
 
+        var keyPressed = false;
+
+
+        $(document).off('keydown').on('keydown', function(e) {
+            if ($(".key-hold-img").length != 0)
+            {
+                var key;
+                if (keyPressed === false) {
+                    keyPressed = true;
+                    key = e.keyCode;
+
+                    //this is where you map your key
+                    if (key == 0 || key == 32) {
+                        $(".key-hold-img").show();
+                    }
+                }
+                $(this).on('keyup', function() {
+                    if (keyPressed === true) {
+                        keyPressed = false;
+                        $(".key-hold-img").hide();
+                    }
+                });
+            }
+
+        });
+
+
+       /*KEY HOLD MORE GENERIC FUNCTION*/
+/*
+function showImageOnHoldSpace(keySrc)
+{
+    var keyPressed = false;
+
+    $(document).off('keydown').on('keydown', function(e) {
+        var key;
+        if (keyPressed === false) {
+            keyPressed = true;
+            key = e.keyCode;
+            console.log(key);
+
+            //this is where you map your key
+            if (key == 0 || key == 32) {
+                console.log('readiii');
+               $('<img src="'+ keySrc +'" class="key-hold-img">').appendTo('#spadiv');
+            }
+        }
+        $(this).on('keyup', function() {
+            if (keyPressed === true) {
+                keyPressed = false;
+                $('.key-hold-img').remove();
+            }
+        });
+    });
+}
+
+   showImageOnHoldSpace('images/prvi.jpg');
+*/
         showLink(2000);
 
     }
@@ -852,4 +909,9 @@ Router.add('a21', () => {
     CustomStaff();
 
 
+
+
+
+
 });
+
