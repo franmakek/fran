@@ -175,7 +175,7 @@ body{
     display: none;
     width: 20px;
     height: 20px;
-    -webkit-animation:colorchange 2s;
+    -webkit-animation:colorchange 0s;
 }
 
 .container a.shown,

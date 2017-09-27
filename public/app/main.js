@@ -7,6 +7,16 @@ import index                 from 'app/pages/prvi.hbs!';
 import jedan                  from 'app/pages/jedan.hbs!';
 import a6                 from 'app/pages/a6.hbs!';
 import a8                 from 'app/pages/a8.hbs!';
+import y8                 from 'app/pages/y8.hbs!';
+import y10               from 'app/pages/y10.hbs!';
+import y6                 from 'app/pages/y6.hbs!';
+import y12               from 'app/pages/y12.hbs!';
+import y14                 from 'app/pages/y14.hbs!';
+import y16               from 'app/pages/y16.hbs!';
+import y18                 from 'app/pages/y18.hbs!';
+import y20              from 'app/pages/y20.hbs!';
+import ydva                 from 'app/pages/ydva.hbs!';
+import ycetiri             from 'app/pages/ycetiri.hbs!';
 import a7                 from 'app/pages/a7.hbs!';
 import a9                 from 'app/pages/a9.hbs!';
 import a10                 from 'app/pages/a10.hbs!';
@@ -44,7 +54,7 @@ import a30     from
 
 import b24                 from 'app/pages/b24.hbs!';
 import b26                 from 'app/pages/b26.hbs!';
-
+import x22                 from 'app/pages/x22.hbs!';
 import x24                 from 'app/pages/x24.hbs!';
 import x26                 from 'app/pages/x26.hbs!';
 import x28                 from 'app/pages/x28.hbs!';
@@ -56,6 +66,8 @@ import a31     from
 'app/pages/a31.hbs!'; 
 
 import x36                 from 'app/pages/x36.hbs!';
+import x38                 from 'app/pages/x38.hbs!';
+import x40                 from 'app/pages/x40.hbs!';
 import a33                 from 'app/pages/a33.hbs!';
 import a37                 from 'app/pages/a37.hbs!';
 import a35                 from 'app/pages/a35.hbs!';
@@ -137,6 +149,13 @@ import a94                 from 'app/pages/a94.hbs!';
 import a96                 from 'app/pages/a96.hbs!';
 import a98                 from 'app/pages/a98.hbs!';
 
+import a100                 from 'app/pages/a100.hbs!';
+import a102                 from 'app/pages/a102.hbs!';
+import a04                 from 'app/pages/a104.hbs!';
+import a106                 from 'app/pages/a106.hbs!';
+import a108                 from 'app/pages/a108.hbs!';
+
+
 import a80                from 'app/pages/a80.hbs!';
       import a82                 from 'app/pages/a82.hbs!';
 
@@ -191,7 +210,46 @@ $(document).ready(() =>
         $element.html(a8());
     //    showLink(5000);
     });
-
+     Router.add('y8', () => {
+        $element.html(y8());
+    //    showLink(5000);
+    });
+      Router.add('y10', () => {
+        $element.html(y10());
+    //    showLink(5000);
+    });
+  Router.add('y6', () => {
+        $element.html(y6());
+    //    showLink(5000);
+    });
+      Router.add('y12', () => {
+        $element.html(y12());
+    //    showLink(5000);
+    });
+     Router.add('y14', () => {
+        $element.html(y14());
+    //    showLink(5000);
+    });
+      Router.add('y16', () => {
+        $element.html(y16());
+    //    showLink(5000);
+    });
+  Router.add('y18', () => {
+        $element.html(y18());
+    //    showLink(5000);
+    });
+      Router.add('y20', () => {
+        $element.html(y20());
+    //    showLink(5000);
+    });
+      Router.add('ydva', () => {
+        $element.html(ydva());
+    //    showLink(5000);
+    });
+      Router.add('ycetiri', () => {
+        $element.html(ycetiri());
+    //    showLink(5000);
+    });
     
     
     Router.add('a9', () => {
@@ -314,7 +372,9 @@ Router.add('a21', () => {
     //    showLink(5000);
     });
     
-    
+        Router.add('x22', () => {
+        $element.html(x22());
+    });
     
        Router.add('x24', () => {
         $element.html(x24());
@@ -346,7 +406,14 @@ Router.add('a21', () => {
     //    showLink(5000);
     });
     
-    
+        Router.add('x38', () => {
+        $element.html(x38());
+    //    showLink(5000);
+    });
+          Router.add('x40', () => {
+        $element.html(x40());
+    //    showLink(5000);
+    });
 
     
     
@@ -652,6 +719,30 @@ Router.add('a21', () => {
         $element.html(a98());
         showLink(5000);
     });
+    
+    
+      Router.add('a100', () => {
+        $element.html(a100());
+    //    showLink(5000);
+    });
+     Router.add('a102', () => {
+        $element.html(a102());
+        showLink(5000);
+    });
+    Router.add('a104', () => {
+        $element.html(a104());
+    });
+    
+        Router.add('a106', () => {
+        $element.html(a106());
+    //    showLink(5000);
+    });
+    Router.add('a108', () => {
+        $element.html(a108());
+    });
+    
+       
+    
     
     Router.add('cetiri', () => {
         $element.html(cetiri());
