@@ -1,3 +1,7 @@
+.preload-img{
+    display: none !important;
+}
+
 body{
     margin: 0 !important;
     background-color: #fafdfa;
