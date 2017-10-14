@@ -808,6 +808,58 @@ Router.add('a21', () => {
     }
 
 
+    function autoClick(){
+        var links = [];
+        $.each($('a'), function () {
+
+            if ($(this).hasClass('c')) {
+                $(this).hide();
+                var value = $(this).attr('href');
+                links.push(value)
+            }
+        });
+
+        var link = links[Math.floor(Math.random() * links.length)];
+
+        $('a[href="'+ link +'"]').trigger('click');
+        console.log('clicked');
+
+        // setTimeout(function () {
+        //     $('a[href="'+ link +'"]').trigger('click');
+        // }, randomIntFromInterval(12, 30) * 1000);
+    }
+
+
+    function reRunUntilClickEnabled()
+    {
+        if($('body').hasClass('auto-link-click-enabled'))
+        {
+            autoClick();
+            mainTimeout();
+        }
+        else
+        {
+            setTimeout(function () {
+                reRunUntilClickEnabled();
+            }, 100);
+        }
+
+        console.log('re run');
+    }
+
+    function mainTimeout()
+    {
+        console.log('main-timeou');
+
+
+        setTimeout(function () {
+            reRunUntilClickEnabled();
+            console.log('main-timeout done');
+        }, 60000);
+    }
+
+    mainTimeout();
+
     //------------------------------------------------------------------------------------------------------------------
     // Custom Functions
     //------------------------------------------------------------------------------------------------------------------
@@ -825,25 +877,13 @@ Router.add('a21', () => {
             return Math.floor(Math.random() * (max - min + 1) + min);
         }
 
+        $('body').removeClass('auto-link-click-enabled');
 
-        var links = [];
+        setTimeout(function () {
+            $('body').addClass('auto-link-click-enabled');
+        }, 5000);
 
-        $.each($('a'), function () {
 
-            if ($(this).hasClass('c')) {
-                $(this).hide();
-                var value = $(this).attr('href');
-                links.push(value)
-            }
-            ;
-        });
-
-        var link = links[Math.floor(Math.random() * links.length)];
-
-       // setTimeout(function () {
-       //
-       //     $('a[href="'+ link +'"]').trigger('click');
-       // }, randomIntFromInterval(12, 30) * 1000);
 
         var keyPressed = false;
 
