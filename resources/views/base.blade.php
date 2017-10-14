@@ -15,7 +15,7 @@
     <div class="picture"></div>
 
     <img class="load-img" src="images/prvi.jpg">
-    <img class="wall-image" src="">
+    <img class="wall-image" src="images/wall/slikaprva.png">
 
 
     <!--ovdje se ubacuje html iz .hbs fileova-->

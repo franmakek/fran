@@ -7,7 +7,7 @@
 
     <div class="container">
 
-        <img src="images/stol-krevetpolica.gif">
+              <img src="images/stol-krevetpolica.gif">
 
         <div class="link-block">
              <a href="tridesetsest"><p class="s">m</p></a>
