@@ -2,21 +2,71 @@ body{
     margin: 0 !important;
     background-color: #fafdfa;
 }
+.container .m0{
+     display: none;
+    background-color: rgba(10, 15, 26, .05);
+        border-radius: 100%;
+        height: 6%;
+        top: 36%;
+        left: 18%;
+        width: 6%;
+    }
 .container .m{
      display: none;
     background-color: rgba(10, 15, 26, .1);
         border-radius: 100%;
         height: 5%;
-        top: 23%;
-        left: 49%;
+        top: 36%;
+        left: 18%;
         width: 5%;
     }
 .container .m1{
      display: none;
         border-radius: 100%;
         height: 5%;
-        top: 83%;
-        left: 19%;
+        top: 66%;
+        left: 59%;
+        width: 5%;
+    }
+.container .m2{
+     display: none;
+        border-radius: 100%;
+        height: 5%;
+        top: 8%;
+        left: 31%;
+        width: 5%;
+    }
+.container .m3{
+     display: none;
+        border-radius: 100%;
+        height: 5%;
+        top: 51%;
+        left: 87%;
+        width: 5%;
+    }
+.container .m4{
+     display: none;
+        border-radius: 100%;
+        height: 5%;
+        top: 52%;
+        left: 41%;
+        width: 5%;
+    }
+
+.container .m5{
+     display: none;
+        border-radius: 100%;
+        height: 5%;
+        top: 43%;
+        left: 69%;
+        width: 5%;
+    }
+.container .m6{
+     display: none;
+        border-radius: 100%;
+        height: 5%;
+        top: 3%;
+        left: 71%;
         width: 5%;
     }
       .container .c{
@@ -29,10 +79,17 @@ body{
     }
      .container .c1{
         border-radius: 100%;
-        height: 8%;
+        height: 5%;
         top: 83%;
         left: 29%;
-        width: 8%;
+        width: 5%;
+    }
+ .container .c2{
+        border-radius: 100%;
+        height: 5%;
+        top: 83%;
+        left: 39%;
+        width: 5%;
     }
 
 .loader {
@@ -59,7 +116,7 @@ body{
 }
 
 .key-hold-img{
-    z-index: 1600;
+    z-index: 11990;
     display: none;
 }
 
@@ -234,15 +291,19 @@ div.container {
 }
 
 body div.container .wall-image{
-    z-index: 1900;
-    width: 128px;
+    z-index: 100;
+    width: 25.7%;
     position: absolute;
-    top: -83px;
-    height: 128px;
-    -ms-transform: rotate(-23deg);
-    -webkit-transform: rotate(-23deg);
-    transform: rotate(-23deg);
+    top: 0%;
+    left: 0%;
+    height: 14.3%;
+    
+   
 }
+
+ 
+   
+
 
 div.container img{
     max-height: calc(100vh - 100px - 100px);
