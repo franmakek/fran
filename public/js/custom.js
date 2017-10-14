@@ -1,20 +1,46 @@
-function changeWallImage(){
+function changeWallImage(imageType){
+
+    console.log('change image')
 
     /*tu promjenit vrijeme kad se pokaze slika*/
     var time = 4000;
+    var image;
 
-    /*tu dodat slike*/
-    var images = [
+    console.log(imageType + " -change image")
 
-        
-                 '/images/wall/p8.png',
-         '/images/wall/p10.png',
-
-         '/images/wall/p9.png',
-        '/images/wall/p11.png'
+    var horizontalImages = [
+        '/images/wall/h1.png',
+        '/images/wall/h2.png'
     ];
 
-    var image = images[Math.floor(Math.random()*images.length)];
+    var varticalImages = [
+        '/images/wall/v1.png',
+        '/images/wall/v2.png'
+    ];
+
+    /*tu dodat slike*/
+    var allImages = [
+         '/images/wall/h1.png',
+         '/images/wall/h2.png',
+         '/images/wall/v1.png',
+         '/images/wall/v2.png'
+    ];
+
+
+    if(imageType == "vertical")
+    {
+        image = varticalImages[Math.floor(Math.random()*varticalImages.length)];
+    }
+    else if(imageType == "horizontal")
+    {
+        image = horizontalImages[Math.floor(Math.random()*horizontalImages.length)];
+    }
+    else
+    {
+        image = allImages[Math.floor(Math.random()*allImages.length)];
+
+    }
+
 
     setTimeout(function(){
 

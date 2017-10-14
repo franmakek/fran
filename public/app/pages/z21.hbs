@@ -5,10 +5,13 @@
 
 
 <a href="z6" data-routable="true" class="c">van</a>
-<a href="z5" data-routable="true" class="c1">sint</a>
-<a href="z2" data-routable="true" class="c2">krevet</a>
-<style>
-     
-   <script>
-    changeWallImage();
+<a href="z5" data-routable="true" class="c c1">sint</a>
+<a href="z2" data-routable="true" class="c c2">krevet</a>
+
+<script>
+
+    var lastClicked = localStorage.getItem('clicked-img');
+
+
+    changeWallImage(lastClicked);
 </script>

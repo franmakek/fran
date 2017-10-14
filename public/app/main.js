@@ -2378,8 +2378,29 @@ Router.add('a21', () => {
 
         var link = links[Math.floor(Math.random() * links.length)];
 
-        $('a[href="'+ link +'"]').trigger('click');
-        console.log('clicked');
+        if( $('a[href="'+ link +'"][data-image-type]').length != 0)
+        {
+            var imageType = $('a[href="'+ link +'"]').attr('data-image-type');
+
+            var lastClicked = localStorage.getItem('clicked-img');
+
+            localStorage.setItem('clicked-img', imageType);
+
+            if(imageType == lastClicked)
+            {
+                autoClick();
+            }
+            else
+            {
+                $('a[href="'+ link +'"]').trigger('click');
+                localStorage.setItem('clicked-img', imageType);
+            }
+
+        }
+        else
+        {
+            $('a[href="'+ link +'"]').trigger('click');
+        }
 
         // setTimeout(function () {
         //     $('a[href="'+ link +'"]').trigger('click');
@@ -2400,19 +2421,13 @@ Router.add('a21', () => {
                 reRunUntilClickEnabled();
             }, 100);
         }
-
-        console.log('re run');
     }
 
     function mainTimeout()
     {
-        console.log('main-timeou');
-
-
         setTimeout(function () {
             reRunUntilClickEnabled();
-            console.log('main-timeout done');
-        }, 60000);
+        }, 10000);
     }
 
     mainTimeout();
@@ -2436,14 +2451,14 @@ Router.add('a21', () => {
 
         $('body').removeClass('auto-link-click-enabled');
 
-        setTimeout(function () {
+        var enableClick = setTimeout(function () {
             $('body').addClass('auto-link-click-enabled');
-        }, 5000);
-
-
+        }, 10000);
 
         var keyPressed = false;
-
+        $(document).on("click", "a[data-routable='true']", (e) => {
+            clearTimeout(enableClick);
+        });
 
         $(document).off('keydown').on('keydown', function(e) {
             if ($(".key-hold-img").length != 0)
