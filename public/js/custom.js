@@ -37,7 +37,7 @@ function changeWallImage(imageType){
     }
     else
     {
-        image = allImages[Math.floor(Math.random()*allImages.length)];
+        image = horizontalImages[Math.floor(Math.random()*horizontalImages.length)];
 
     }
 

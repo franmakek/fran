@@ -2349,6 +2349,7 @@ Router.add('a21', () => {
     Router.setElement($element).start();
 
 
+    localStorage.removeItem('clicked-img');
 
     function showLink(time) {
         var delay = 1000;
