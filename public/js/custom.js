@@ -1,3 +1,6 @@
+var gifTime = 10000;
+
+
 function changeWallImage(imageType){
 
     console.log('change image')
