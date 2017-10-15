@@ -2317,7 +2317,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-
+    var mainTimeToClickMan = randomIntFromInterval(10000, 20000);
 
 
     let $element = $("#spadiv");
@@ -2348,7 +2348,11 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
     Router.setElement($element).start();
 
+    localStorage.removeItem('clicked-img');
 
+    function randomIntFromInterval(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    }
 
     function showLink(time) {
         var delay = 1000;
@@ -2427,7 +2431,7 @@ Router.add('a21', () => {
     {
         setTimeout(function () {
             reRunUntilClickEnabled();
-        }, 5000);
+        }, mainTimeToClickMan);
     }
 
     mainTimeout();
@@ -2445,15 +2449,13 @@ Router.add('a21', () => {
             window.location.href = link;
         });
 
-        function randomIntFromInterval(min, max) {
-            return Math.floor(Math.random() * (max - min + 1) + min);
-        }
+
 
         $('body').removeClass('auto-link-click-enabled');
 
         var enableClick = setTimeout(function () {
             $('body').addClass('auto-link-click-enabled');
-        }, 5000);
+        }, gifTime);
 
         var keyPressed = false;
         $(document).on("click", "a[data-routable='true']", (e) => {
