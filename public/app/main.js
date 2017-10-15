@@ -2427,7 +2427,7 @@ Router.add('a21', () => {
     {
         setTimeout(function () {
             reRunUntilClickEnabled();
-        }, 10000);
+        }, 5000);
     }
 
     mainTimeout();
@@ -2453,7 +2453,7 @@ Router.add('a21', () => {
 
         var enableClick = setTimeout(function () {
             $('body').addClass('auto-link-click-enabled');
-        }, 10000);
+        }, 5000);
 
         var keyPressed = false;
         $(document).on("click", "a[data-routable='true']", (e) => {

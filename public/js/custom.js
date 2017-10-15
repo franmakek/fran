@@ -49,3 +49,20 @@ function changeWallImage(imageType){
     }, time);
 
 }
+
+var lastClickedImg = localStorage.getItem('clicked-img');
+
+if(lastClickedImg === null)
+    {
+        changeWallImage()
+    }
+else if(lastClickedImg === "horizontal")
+    {
+        changeWallImage('vertical')
+    }
+else{
+    changeWallImage('horizontal')
+}
+
+
+
