@@ -2351,7 +2351,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
     Router.setElement($element).start();
 
-    localStorage.removeItem('clicked-img');
+   // localStorage.removeItem('clicked-img');
 
     function randomIntFromInterval(min, max) {
         return Math.floor(Math.random() * (max - min + 1) + min);
@@ -2452,7 +2452,17 @@ Router.add('a21', () => {
             window.location.href = link;
         });
 
+        
 
+
+        //
+        // setTimeout(function () {
+        //     $.each($('.preload-img'), function () {
+        //         var src = $(this).attr('data-src');
+        //         console.log(src)
+        //         $(this).attr('src', src);
+        //     });
+        // }, 0);
 
         $('body').removeClass('auto-link-click-enabled');
 

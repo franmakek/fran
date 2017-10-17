@@ -1,5 +1,5 @@
 .preload-img{
-    display: none !important;
+    visibility: hidden !important;
 }
 
 body{

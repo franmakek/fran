@@ -1,3 +1,5 @@
+
+
 var gifTime = 10000;
 
 
@@ -9,7 +11,10 @@ function changeWallImage(imageType){
     var time = 4000;
     var image;
 
-    console.log(imageType + " -change image")
+    if(imageType == undefined)
+    {
+         imageType = localStorage.getItem('clicked-img');
+    }
 
     var horizontalImages = [
         '/images/wall/h1.png',
@@ -47,7 +52,7 @@ function changeWallImage(imageType){
 
     setTimeout(function(){
 
-        $('.wall-image').attr('src', image);
+        document.getElementsByClassName('wall-image')[0].setAttribute("src", image);
 
     }, time);
 
@@ -57,14 +62,20 @@ var lastClickedImg = localStorage.getItem('clicked-img');
 
 if(lastClickedImg === null)
     {
-        changeWallImage()
+        changeWallImage('horizontal');
+        localStorage.setItem('clicked-img', 'horizontal');
+
     }
 else if(lastClickedImg === "horizontal")
     {
-        changeWallImage('vertical')
+        changeWallImage('vertical');
+        localStorage.setItem('clicked-img', 'vertical');
+
     }
 else{
-    changeWallImage('horizontal')
+    changeWallImage('horizontal');
+    localStorage.setItem('clicked-img', 'horizontal');
+
 }
 
 

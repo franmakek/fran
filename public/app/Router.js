@@ -48,7 +48,8 @@ class AppRouter extends Backbone.Router
             this.navigate(href, true);
 
             // Backbone.history.loadUrl(href, true);
-            $('#spadiv img').attr('src', $('#spadiv img').attr('src'));
+            $('#spadiv img.main-tpl-img').attr('src', $('#spadiv img.main-tpl-img').attr('src'));
+            
 
         });
 
