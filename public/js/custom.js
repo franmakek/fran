@@ -16,23 +16,23 @@ function changeWallImage(imageType){
         '/images/wall/h2.png'
     ];
 
-    var varticalImages = [
+    var verticalImages = [
         '/images/wall/v1.png',
         '/images/wall/v2.png'
     ];
 
     /*tu dodat slike*/
-    var allImages = [
-         '/images/wall/h1.png',
-         '/images/wall/h2.png',
-         '/images/wall/v1.png',
-         '/images/wall/v2.png'
+   var allImages = [
+           '/images/wall/h1.png',
+        '/images/wall/h2.png',  
+       '/images/wall/v1.png',
+        '/images/wall/v2.png'
     ];
 
 
     if(imageType == "vertical")
     {
-        image = varticalImages[Math.floor(Math.random()*varticalImages.length)];
+        image = verticalImages[Math.floor(Math.random()*verticalImages.length)];
     }
     else if(imageType == "horizontal")
     {

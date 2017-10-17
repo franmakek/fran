@@ -398,7 +398,7 @@ import z147                 from 'app/pages/z147.hbs!';
 import z148                 from 'app/pages/z148.hbs!';
 import z149                 from 'app/pages/z149.hbs!';
 import z150                 from 'app/pages/z150.hbs!';
-
+import z150q                 from 'app/pages/z150q.hbs!';
 import z151                 from 'app/pages/z151.hbs!';
 import z152                 from 'app/pages/z152.hbs!';
 import z153                 from 'app/pages/z153.hbs!';
@@ -1897,6 +1897,9 @@ Router.add('a21', () => {
       Router.add('z150', () => {
         $element.html(z150());
     });
+     Router.add('z150q', () => {
+        $element.html(z150q());
+    });
     
     Router.add('z151', () => {
         $element.html(z151());
@@ -2317,7 +2320,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(10000, 20000);
+    var mainTimeToClickMan = randomIntFromInterval(2000, 3000);
 
 
     let $element = $("#spadiv");
