@@ -49,8 +49,8 @@ import a24                 from 'app/pages/a24.hbs!';
 import a26                 from 'app/pages/a26.hbs!';
 
 import a28                 from 'app/pages/a28.hbs!';
-import a30     from 
-'app/pages/a30.hbs!';         
+import a30     from
+'app/pages/a30.hbs!';
 
 import b24                 from 'app/pages/b24.hbs!';
 import b26                 from 'app/pages/b26.hbs!';
@@ -61,9 +61,9 @@ import x28                 from 'app/pages/x28.hbs!';
 import x30                 from 'app/pages/x30.hbs!';
 import x32                 from 'app/pages/x32.hbs!';
 import x34     from
-'app/pages/x34.hbs!';        
+'app/pages/x34.hbs!';
 import a31     from
-'app/pages/a31.hbs!'; 
+'app/pages/a31.hbs!';
 
 import x36                 from 'app/pages/x36.hbs!';
 import x38                 from 'app/pages/x38.hbs!';
@@ -85,13 +85,13 @@ import a51                 from 'app/pages/a51.hbs!';
 import a34                 from 'app/pages/a34.hbs!';
 import a36                 from 'app/pages/a36.hbs!';
 import a38                 from 'app/pages/a38.hbs!';
-      
+
 import a40                 from 'app/pages/a40.hbs!';
       import a42                 from 'app/pages/a42.hbs!';
 import a44                 from 'app/pages/a44.hbs!';
 import a46                 from 'app/pages/a46.hbs!';
 import a48                 from 'app/pages/a48.hbs!';
-      
+
 import a50                 from 'app/pages/a50.hbs!';
       import a52                 from 'app/pages/a52.hbs!';
 import a54                 from 'app/pages/a54.hbs!';
@@ -554,16 +554,16 @@ $(document).ready(() =>
         $element.html(bdva());
     //    showLink(5000);
     });
-    
+
     Router.add('tri', () => {
         $element.html(tri());
     });
-    
+
         Router.add('jedan', () => {
         $element.html(jedan());
     //    showLink(5000);
     });
-    
+
      Router.add('a7', () => {
         $element.html(a7());
       showLink(0);
@@ -613,12 +613,12 @@ $(document).ready(() =>
         $element.html(ycetiri());
     //    showLink(5000);
     });
-    
-    
+
+
     Router.add('a9', () => {
         $element.html(a9());
     });
-    
+
         Router.add('a10', () => {
         $element.html(a10());
     //    showLink(5000);
@@ -651,21 +651,21 @@ $(document).ready(() =>
     //    showLink(5000);
     });
 
-    
-    
+
+
     Router.add('a13', () => {
         $element.html(a13());
     });
-    
+
         Router.add('a14', () => {
         $element.html(a14());
     //    showLink(5000);
-            
+
     });
     Router.add('b14', () => {
         $element.html(b14());
     //    showLink(5000);
-            
+
     });
        Router.add('a15', () => {
         $element.html(a15());
@@ -676,12 +676,12 @@ Router.add('a16', () => {
     //    showLink(5000);
     });
 
-    
-    
+
+
     Router.add('a18', () => {
         $element.html(a18());
     });
-    
+
       Router.add('a19', () => {
         $element.html(a19());
     //    showLink(5000);
@@ -691,13 +691,13 @@ Router.add('a21', () => {
     //    showLink(5000);
     });
 
-    
-    
+
+
     Router.add('a17', () => {
         $element.html(a17());
     });
-    
-    
+
+
         Router.add('a20', () => {
         $element.html(a20());
     //    showLink(5000);
@@ -707,22 +707,22 @@ Router.add('a21', () => {
     //    showLink(5000);
     });
 
-    
-    
+
+
     Router.add('a24', () => {
         $element.html(a24());
     });
-    
-    
+
+
      Router.add('a23', () => {
         $element.html(a23());
     });
-    
+
     Router.add('b24', () => {
         $element.html(b24());
     });
-    
-    
+
+
      Router.add('b26', () => {
         $element.html(b26());
     });
@@ -734,25 +734,25 @@ Router.add('a21', () => {
         $element.html(a27());
     //    showLink(5000);
     });
-    
+
         Router.add('x22', () => {
         $element.html(x22());
     });
-    
+
        Router.add('x24', () => {
         $element.html(x24());
     });
-    
-    
+
+
      Router.add('x26', () => {
         $element.html(x26());
     });
-    
+
     Router.add('x28', () => {
         $element.html(x28());
     });
-    
-    
+
+
      Router.add('x30', () => {
         $element.html(x30());
     });
@@ -768,7 +768,7 @@ Router.add('a21', () => {
         $element.html(x36());
     //    showLink(5000);
     });
-    
+
         Router.add('x38', () => {
         $element.html(x38());
     //    showLink(5000);
@@ -778,12 +778,12 @@ Router.add('a21', () => {
     //    showLink(5000);
     });
 
-    
-    
+
+
     Router.add('a29', () => {
         $element.html(a29());
     });
-    
+
         Router.add('a26', () => {
         $element.html(a26());
     //    showLink(5000);
@@ -791,24 +791,24 @@ Router.add('a21', () => {
     Router.add('a28', () => {
         $element.html(a28());
     });
-    
+
         Router.add('a30', () => {
         $element.html(a30());
     //    showLink(5000);
     });
-    
+
         Router.add('a31', () => {
         $element.html(a31());
     //    showLink(5000);
     });
-    
+
     Router.add('a32', () => {
         $element.html(a32());
     });
       Router.add('b32', () => {
         $element.html(b32());
     });
-    
+
         Router.add('a34', () => {
         $element.html(a34());
     //    showLink(5000);
@@ -816,7 +816,7 @@ Router.add('a21', () => {
     Router.add('a36', () => {
         $element.html(a36());
     });
-    
+
         Router.add('a33', () => {
         $element.html(a33());
     //    showLink(5000);
@@ -825,11 +825,11 @@ Router.add('a21', () => {
         $element.html(a35());
     //    showLink(5000);
     });
-    
+
     Router.add('a37', () => {
         $element.html(a37());
     });
-    
+
         Router.add('a39', () => {
         $element.html(a39());
     //    showLink(5000);
@@ -845,20 +845,20 @@ Router.add('a21', () => {
         $element.html(a45());
     //    showLink(5000);
     });
-    
+
     Router.add('a47', () => {
         $element.html(a47());
     });
-    
+
         Router.add('a49', () => {
         $element.html(a49());
     //    showLink(5000);
     });
-    
+
     Router.add('a51', () => {
         $element.html(a51());
-           }); 
-    
+           });
+
      Router.add('a53', () => {
         $element.html(a53());
     //    showLink(5000);
@@ -867,11 +867,11 @@ Router.add('a21', () => {
         $element.html(a55());
     //    showLink(5000);
     });
-    
+
     Router.add('a57', () => {
         $element.html(a57());
     });
-    
+
         Router.add('a59', () => {
         $element.html(a59());
     //    showLink(5000);
@@ -879,7 +879,7 @@ Router.add('a21', () => {
     Router.add('a61', () => {
         $element.html(a61());
     });
-    
+
       Router.add('a63', () => {
         $element.html(a63());
     //    showLink(5000);
@@ -888,11 +888,11 @@ Router.add('a21', () => {
         $element.html(a65());
     //    showLink(5000);
     });
-    
+
     Router.add('a67', () => {
         $element.html(a67());
     });
-    
+
         Router.add('a69', () => {
         $element.html(a69());
     //    showLink(5000);
@@ -900,8 +900,8 @@ Router.add('a21', () => {
     Router.add('a71', () => {
         $element.html(a71());
     });
-    
-    
+
+
      Router.add('a73', () => {
         $element.html(a73());
     //    showLink(5000);
@@ -910,11 +910,11 @@ Router.add('a21', () => {
         $element.html(a75());
     //    showLink(5000);
     });
-    
+
     Router.add('a77', () => {
         $element.html(a77());
     });
-    
+
         Router.add('a79', () => {
         $element.html(a79());
     //    showLink(5000);
@@ -922,9 +922,9 @@ Router.add('a21', () => {
     Router.add('a81', () => {
         $element.html(a81());
     });
-    
-    
-    
+
+
+
          Router.add('a83', () => {
         $element.html(a83());
     //    showLink(5000);
@@ -933,11 +933,11 @@ Router.add('a21', () => {
         $element.html(a85());
     //    showLink(5000);
     });
-    
+
     Router.add('a87', () => {
         $element.html(a87());
     });
-    
+
         Router.add('a89', () => {
         $element.html(a89());
     //    showLink(5000);
@@ -945,10 +945,10 @@ Router.add('a21', () => {
     Router.add('a91', () => {
         $element.html(a91());
     });
-    
-    
-    
-    
+
+
+
+
         Router.add('a38', () => {
         $element.html(a38());
     //    showLink(5000);
@@ -957,11 +957,11 @@ Router.add('a21', () => {
         $element.html(a40());
     //    showLink(5000);
     });
-    
+
     Router.add('a42', () => {
         $element.html(a42());
     });
-    
+
         Router.add('a44', () => {
         $element.html(a44());
     //    showLink(5000);
@@ -969,21 +969,21 @@ Router.add('a21', () => {
     Router.add('a46', () => {
         $element.html(a46());
     });
-    
+
         Router.add('a48', () => {
         $element.html(a48());
         showLink(5000);
     });
-    
+
          Router.add('a50', () => {
         $element.html(a50());
     //    showLink(5000);
     });
-    
+
     Router.add('a52', () => {
         $element.html(a52());
     });
-    
+
         Router.add('a54', () => {
         $element.html(a54());
     //    showLink(5000);
@@ -991,7 +991,7 @@ Router.add('a21', () => {
     Router.add('a56', () => {
         $element.html(a56());
     });
-    
+
         Router.add('a58', () => {
         $element.html(a58());
         showLink(5000);
@@ -1000,11 +1000,11 @@ Router.add('a21', () => {
         $element.html(a60());
     //    showLink(5000);
     });
-    
+
     Router.add('a62', () => {
         $element.html(a62());
     });
-    
+
         Router.add('a64', () => {
         $element.html(a64());
     //    showLink(5000);
@@ -1012,7 +1012,7 @@ Router.add('a21', () => {
     Router.add('a66', () => {
         $element.html(a66());
     });
-    
+
         Router.add('a68', () => {
         $element.html(a68());
         showLink(5000);
@@ -1021,11 +1021,11 @@ Router.add('a21', () => {
         $element.html(a70());
     //    showLink(5000);
     });
-    
+
     Router.add('a72', () => {
         $element.html(a72());
     });
-    
+
         Router.add('a74', () => {
         $element.html(a74());
     //    showLink(5000);
@@ -1033,21 +1033,21 @@ Router.add('a21', () => {
     Router.add('a76', () => {
         $element.html(a76());
     });
-    
+
         Router.add('a78', () => {
         $element.html(a78());
         showLink(5000);
     });
-    
+
       Router.add('a80', () => {
         $element.html(a80());
     //    showLink(5000);
     });
-    
+
     Router.add('a82', () => {
         $element.html(a82());
     });
-    
+
         Router.add('a84', () => {
         $element.html(a84());
     //    showLink(5000);
@@ -1055,7 +1055,7 @@ Router.add('a21', () => {
     Router.add('a86', () => {
         $element.html(a86());
     });
-    
+
         Router.add('a88', () => {
         $element.html(a88());
         showLink(5000);
@@ -1064,14 +1064,14 @@ Router.add('a21', () => {
         $element.html(a89());
         showLink(5000);
     });
-    
+
     Router.add('a90', () => {
         $element.html(a90());
     //    showLink(5000);
     });
-   
 
-    
+
+
     Router.add('a92', () => {
         $element.html(a92());
     });
@@ -1079,7 +1079,7 @@ Router.add('a21', () => {
         $element.html(a93());
     //    showLink(5000);
     });
-    
+
         Router.add('a94', () => {
         $element.html(a94());
     //    showLink(5000);
@@ -1103,13 +1103,13 @@ Router.add('a21', () => {
         $element.html(a99());
        // showLink(5000);
     });
-     
-    
+
+
       Router.add('a100', () => {
         $element.html(a100());
     //    showLink(5000);
     });
-    
+
        Router.add('a101', () => {
         $element.html(a101());
     //    showLink(5000);
@@ -1122,9 +1122,9 @@ Router.add('a21', () => {
         $element.html(a105());
     //    showLink(5000);
     });
-    
-    
-    
+
+
+
        Router.add('a107', () => {
         $element.html(a107());
     //    showLink(5000);
@@ -1145,8 +1145,8 @@ Router.add('a21', () => {
         $element.html(a115());
     //    showLink(5000);
     });
-    
-    
+
+
     Router.add('a117', () => {
         $element.html(a117());
     //    showLink(5000);
@@ -1167,8 +1167,8 @@ Router.add('a21', () => {
         $element.html(a125());
     //    showLink(5000);
     });
-    
-    
+
+
         Router.add('a127', () => {
         $element.html(a127());
     //    showLink(5000);
@@ -1189,8 +1189,8 @@ Router.add('a21', () => {
         $element.html(a135());
     //    showLink(5000);
     });
-    
-    
+
+
      Router.add('a137', () => {
         $element.html(a137());
     //    showLink(5000);
@@ -1211,9 +1211,9 @@ Router.add('a21', () => {
         $element.html(a145());
     //    showLink(5000);
     });
-    
-    
-    
+
+
+
      Router.add('a147', () => {
         $element.html(a147());
     //    showLink(5000);
@@ -1234,7 +1234,7 @@ Router.add('a21', () => {
         $element.html(a155());
     //    showLink(5000);
     });
-    
+
      Router.add('a102', () => {
         $element.html(a102());
         showLink(5000);
@@ -1242,7 +1242,7 @@ Router.add('a21', () => {
     Router.add('a104', () => {
         $element.html(a104());
     });
-    
+
         Router.add('a106', () => {
         $element.html(a106());
     //    showLink(5000);
@@ -1250,9 +1250,9 @@ Router.add('a21', () => {
     Router.add('a108', () => {
         $element.html(a108());
     });
-    
-       
-    
+
+
+
       Router.add('a110', () => {
         $element.html(a110());
         showLink(5000);
@@ -1264,7 +1264,7 @@ Router.add('a21', () => {
     Router.add('a114', () => {
         $element.html(a114());
     });
-    
+
         Router.add('a116', () => {
         $element.html(a116());
     //    showLink(5000);
@@ -1272,8 +1272,8 @@ Router.add('a21', () => {
     Router.add('a118', () => {
         $element.html(a118());
     });
-    
-    
+
+
       Router.add('a120', () => {
         $element.html(a120());
         showLink(5000);
@@ -1285,7 +1285,7 @@ Router.add('a21', () => {
     Router.add('a124', () => {
         $element.html(a124());
     });
-    
+
         Router.add('a126', () => {
         $element.html(a126());
     //    showLink(5000);
@@ -1304,7 +1304,7 @@ Router.add('a21', () => {
     Router.add('a134', () => {
         $element.html(a134());
     });
-    
+
         Router.add('a136', () => {
         $element.html(a136());
     //    showLink(5000);
@@ -1312,7 +1312,7 @@ Router.add('a21', () => {
     Router.add('a138', () => {
         $element.html(a138());
     });
-    
+
     Router.add('a140', () => {
         $element.html(a140());
         showLink(5000);
@@ -1331,7 +1331,7 @@ Router.add('a21', () => {
     Router.add('a148', () => {
         $element.html(a148());
     });
-    
+
       Router.add('a150', () => {
         $element.html(a150());
         showLink(5000);
@@ -1350,26 +1350,26 @@ Router.add('a21', () => {
     Router.add('a158', () => {
         $element.html(a158());
     });
-    
-    
-    
+
+
+
     Router.add('cetiri', () => {
         $element.html(cetiri());
     });
-      
+
     Router.add('pet', () => {
         $element.html(pet());
     });
      Router.add('a6', () => {
         $element.html(a6());
     });
-   
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
      Router.add('z1', () => {
         $element.html(z1());
         showLink(5000);
@@ -1445,7 +1445,7 @@ Router.add('a21', () => {
        Router.add('z20', () => {
         $element.html(z20());
     });
-    
+
        Router.add('z21', () => {
         $element.html(z21());
     });
@@ -1459,7 +1459,7 @@ Router.add('a21', () => {
        Router.add('z24', () => {
         $element.html(z24());
     });
-    
+
        Router.add('z25', () => {
         $element.html(z25());
     });
@@ -1473,7 +1473,7 @@ Router.add('a21', () => {
        Router.add('z28', () => {
         $element.html(z28());
     });
-    
+
        Router.add('z29', () => {
         $element.html(z29());
     });
@@ -1490,7 +1490,7 @@ Router.add('a21', () => {
        Router.add('z33', () => {
         $element.html(z33());
     });
-    
+
        Router.add('z34', () => {
         $element.html(z34());
     });
@@ -1507,14 +1507,14 @@ Router.add('a21', () => {
        Router.add('z38', () => {
         $element.html(z38());
     });
-    
+
        Router.add('z39', () => {
         $element.html(z39());
     });
       Router.add('z40', () => {
         $element.html(z40());
     });
-    
+
          Router.add('z41', () => {
         $element.html(z41());
     //    showLink(5000);
@@ -1525,7 +1525,7 @@ Router.add('a21', () => {
        Router.add('z43', () => {
         $element.html(z43());
     });
-    
+
        Router.add('z44', () => {
         $element.html(z44());
     });
@@ -1542,15 +1542,15 @@ Router.add('a21', () => {
        Router.add('z48', () => {
         $element.html(z48());
     });
-    
+
        Router.add('z49', () => {
         $element.html(z49());
     });
       Router.add('z50', () => {
         $element.html(z50());
     });
-    
-    
+
+
         Router.add('z51', () => {
         $element.html(z51());
     //    showLink(5000);
@@ -1561,7 +1561,7 @@ Router.add('a21', () => {
        Router.add('z53', () => {
         $element.html(z53());
     });
-    
+
        Router.add('z54', () => {
         $element.html(z54());
     });
@@ -1578,14 +1578,14 @@ Router.add('a21', () => {
        Router.add('z58', () => {
         $element.html(z58());
     });
-    
+
        Router.add('z59', () => {
         $element.html(z59());
     });
       Router.add('z60', () => {
         $element.html(z60());
     });
-    
+
          Router.add('z61', () => {
         $element.html(z61());
     //    showLink(5000);
@@ -1596,7 +1596,7 @@ Router.add('a21', () => {
        Router.add('z63', () => {
         $element.html(z63());
     });
-    
+
        Router.add('z64', () => {
         $element.html(z64());
     });
@@ -1613,7 +1613,7 @@ Router.add('a21', () => {
        Router.add('z68', () => {
         $element.html(z68());
     });
-    
+
        Router.add('z69', () => {
         $element.html(z69());
     });
@@ -1630,7 +1630,7 @@ Router.add('a21', () => {
        Router.add('z73', () => {
         $element.html(z73());
     });
-    
+
        Router.add('z74', () => {
         $element.html(z74());
     });
@@ -1647,14 +1647,14 @@ Router.add('a21', () => {
        Router.add('z78', () => {
         $element.html(z78());
     });
-    
+
        Router.add('z79', () => {
         $element.html(z79());
     });
       Router.add('z80', () => {
         $element.html(z80());
     });
-    
+
          Router.add('z81', () => {
         $element.html(z81());
     //    showLink(5000);
@@ -1665,7 +1665,7 @@ Router.add('a21', () => {
        Router.add('z83', () => {
         $element.html(z83());
     });
-    
+
        Router.add('z84', () => {
         $element.html(z84());
     });
@@ -1682,14 +1682,14 @@ Router.add('a21', () => {
        Router.add('z88', () => {
         $element.html(z88());
     });
-    
+
        Router.add('z89', () => {
         $element.html(z89());
     });
       Router.add('z90', () => {
         $element.html(z90());
     });
-    
+
        Router.add('z91', () => {
         $element.html(z91());
     //    showLink(5000);
@@ -1700,7 +1700,7 @@ Router.add('a21', () => {
        Router.add('z93', () => {
         $element.html(z93());
     });
-    
+
        Router.add('z94', () => {
         $element.html(z94());
     });
@@ -1717,7 +1717,7 @@ Router.add('a21', () => {
        Router.add('z98', () => {
         $element.html(z98());
     });
-    
+
        Router.add('z99', () => {
         $element.html(z99());
     });
@@ -1733,7 +1733,7 @@ Router.add('a21', () => {
        Router.add('z103', () => {
         $element.html(z103());
     });
-    
+
        Router.add('z104', () => {
         $element.html(z104());
     });
@@ -1750,14 +1750,14 @@ Router.add('a21', () => {
        Router.add('z108', () => {
         $element.html(z108());
     });
-    
+
        Router.add('z109', () => {
         $element.html(z109());
     });
       Router.add('z110', () => {
         $element.html(z110());
     });
-    
+
       Router.add('z111', () => {
         $element.html(z111());
     //    showLink(5000);
@@ -1768,7 +1768,7 @@ Router.add('a21', () => {
        Router.add('z113', () => {
         $element.html(z113());
     });
-    
+
        Router.add('z114', () => {
         $element.html(z114());
     });
@@ -1785,7 +1785,7 @@ Router.add('a21', () => {
        Router.add('z118', () => {
         $element.html(z118());
     });
-    
+
        Router.add('z119', () => {
         $element.html(z119());
     });
@@ -1802,7 +1802,7 @@ Router.add('a21', () => {
        Router.add('z123', () => {
         $element.html(z123());
     });
-    
+
        Router.add('z124', () => {
         $element.html(z124());
     });
@@ -1819,14 +1819,14 @@ Router.add('a21', () => {
        Router.add('z128', () => {
         $element.html(z128());
     });
-    
+
        Router.add('z129', () => {
         $element.html(z129());
     });
       Router.add('z130', () => {
         $element.html(z130());
     });
-    
+
     Router.add('z131', () => {
         $element.html(z131());
     //    showLink(5000);
@@ -1837,7 +1837,7 @@ Router.add('a21', () => {
        Router.add('z133', () => {
         $element.html(z133());
     });
-    
+
        Router.add('z134', () => {
         $element.html(z134());
     });
@@ -1854,15 +1854,15 @@ Router.add('a21', () => {
        Router.add('z138', () => {
         $element.html(z138());
     });
-    
+
        Router.add('z139', () => {
         $element.html(z139());
     });
       Router.add('z140', () => {
         $element.html(z140());
     });
-    
-    
+
+
       Router.add('z141', () => {
         $element.html(z141());
     //    showLink(5000);
@@ -1873,7 +1873,7 @@ Router.add('a21', () => {
        Router.add('z143', () => {
         $element.html(z143());
     });
-    
+
        Router.add('z144', () => {
         $element.html(z144());
     });
@@ -1890,7 +1890,7 @@ Router.add('a21', () => {
        Router.add('z148', () => {
         $element.html(z148());
     });
-    
+
        Router.add('z149', () => {
         $element.html(z149());
     });
@@ -1900,7 +1900,7 @@ Router.add('a21', () => {
      Router.add('z150q', () => {
         $element.html(z150q());
     });
-    
+
     Router.add('z151', () => {
         $element.html(z151());
     //    showLink(5000);
@@ -1911,7 +1911,7 @@ Router.add('a21', () => {
        Router.add('z153', () => {
         $element.html(z153());
     });
-    
+
        Router.add('z154', () => {
         $element.html(z154());
     });
@@ -1928,14 +1928,14 @@ Router.add('a21', () => {
        Router.add('z158', () => {
         $element.html(z158());
     });
-    
+
        Router.add('z159', () => {
         $element.html(z159());
     });
       Router.add('z160', () => {
         $element.html(z160());
     });
-     
+
       Router.add('z161', () => {
         $element.html(z161());
     //    showLink(5000);
@@ -1946,7 +1946,7 @@ Router.add('a21', () => {
        Router.add('z163', () => {
         $element.html(z163());
     });
-    
+
        Router.add('z164', () => {
         $element.html(z164());
     });
@@ -1963,14 +1963,14 @@ Router.add('a21', () => {
        Router.add('z168', () => {
         $element.html(z168());
     });
-    
+
        Router.add('z169', () => {
         $element.html(z169());
     });
       Router.add('z170', () => {
         $element.html(z170());
     });
-    
+
     Router.add('z171', () => {
         $element.html(z171());
     //    showLink(5000);
@@ -1981,7 +1981,7 @@ Router.add('a21', () => {
        Router.add('z173', () => {
         $element.html(z173());
     });
-    
+
        Router.add('z174', () => {
         $element.html(z174());
     });
@@ -1998,7 +1998,7 @@ Router.add('a21', () => {
        Router.add('z178', () => {
         $element.html(z178());
     });
-    
+
        Router.add('z179', () => {
         $element.html(z179());
     });
@@ -2015,15 +2015,15 @@ Router.add('a21', () => {
        Router.add('z183', () => {
         $element.html(z183());
     });
-    
+
        Router.add('z184', () => {
         $element.html(z184());
     });
        Router.add('z185', () => {
         $element.html(z185());
     });
-    
-    
+
+
     Router.add('z186', () => {
         $element.html(z186());
     //    showLink(5000);
@@ -2034,7 +2034,7 @@ Router.add('a21', () => {
        Router.add('z188', () => {
         $element.html(z188());
     });
-    
+
        Router.add('z189', () => {
         $element.html(z189());
     });
@@ -2051,14 +2051,14 @@ Router.add('a21', () => {
        Router.add('z193', () => {
         $element.html(z193());
     });
-    
+
        Router.add('z194', () => {
         $element.html(z194());
     });
        Router.add('z195', () => {
         $element.html(z195());
     });
-    
+
      Router.add('z196', () => {
         $element.html(z196());
     //    showLink(5000);
@@ -2069,7 +2069,7 @@ Router.add('a21', () => {
        Router.add('z198', () => {
         $element.html(z198());
     });
-    
+
        Router.add('z199', () => {
         $element.html(z199());
     });
@@ -2086,14 +2086,14 @@ Router.add('a21', () => {
        Router.add('z203', () => {
         $element.html(z203());
     });
-    
+
        Router.add('z204', () => {
         $element.html(z204());
     });
        Router.add('z205', () => {
         $element.html(z205());
     });
-    
+
       Router.add('z206', () => {
         $element.html(z206());
     //    showLink(5000);
@@ -2132,11 +2132,11 @@ Router.add('a21', () => {
     Router.add('z217', () => {
         $element.html(z217());
     });
-    
+
      Router.add('z218', () => {
         $element.html(z218());
     });
-    
+
        Router.add('z219', () => {
         $element.html(z219());
     });
@@ -2152,7 +2152,7 @@ Router.add('a21', () => {
        Router.add('z223', () => {
         $element.html(z223());
     });
-    
+
        Router.add('z224', () => {
         $element.html(z224());
     });
@@ -2169,7 +2169,7 @@ Router.add('a21', () => {
      Router.add('z228', () => {
         $element.html(z228());
     });
-    
+
        Router.add('z229', () => {
         $element.html(z229());
     });
@@ -2185,7 +2185,7 @@ Router.add('a21', () => {
        Router.add('z233', () => {
         $element.html(z233());
     });
-    
+
        Router.add('z234', () => {
         $element.html(z234());
     });
@@ -2198,7 +2198,7 @@ Router.add('a21', () => {
     });
     Router.add('z237', () => {
         $element.html(z237());
-    });      
+    });
     Router.add('z238', () => {
         $element.html(z238());
     });
@@ -2209,7 +2209,7 @@ Router.add('a21', () => {
     Router.add('z240', () => {
         $element.html(z240());
     });
-    
+
     Router.add('z230', () => {
         $element.html(z230());
     });
@@ -2222,7 +2222,7 @@ Router.add('a21', () => {
        Router.add('z243', () => {
         $element.html(z243());
     });
-    
+
        Router.add('z244', () => {
         $element.html(z244());
     });
@@ -2235,7 +2235,7 @@ Router.add('a21', () => {
     });
     Router.add('z247', () => {
         $element.html(z247());
-    });      
+    });
     Router.add('z248', () => {
         $element.html(z248());
     });
@@ -2246,7 +2246,7 @@ Router.add('a21', () => {
     Router.add('z250', () => {
         $element.html(z250());
     });
-    
+
     Router.add('z251', () => {
         $element.html(z251());
     });
@@ -2256,7 +2256,7 @@ Router.add('a21', () => {
        Router.add('z253', () => {
         $element.html(z253());
     });
-    
+
        Router.add('z254', () => {
         $element.html(z254());
     });
@@ -2269,7 +2269,7 @@ Router.add('a21', () => {
     });
     Router.add('z257', () => {
         $element.html(z257());
-    });      
+    });
     Router.add('z258', () => {
         $element.html(z258());
     });
@@ -2280,7 +2280,7 @@ Router.add('a21', () => {
     Router.add('z260', () => {
         $element.html(z260());
     });
-    
+
       Router.add('z261', () => {
         $element.html(z261());
     });
@@ -2290,7 +2290,7 @@ Router.add('a21', () => {
        Router.add('z263', () => {
         $element.html(z263());
     });
-    
+
        Router.add('z264', () => {
         $element.html(z264());
     });
@@ -2303,7 +2303,7 @@ Router.add('a21', () => {
     });
     Router.add('z267', () => {
         $element.html(z267());
-    });      
+    });
     Router.add('z268', () => {
         $element.html(z268());
     });
@@ -2314,7 +2314,7 @@ Router.add('a21', () => {
     Router.add('z270', () => {
         $element.html(z270());
     });
-    
+
     //------------------------------------------------------------------------------------------------------------------
     //Kraj za Frana!!!!!!!!!!!!!
     //------------------------------------------------------------------------------------------------------------------
@@ -2345,7 +2345,7 @@ Router.add('a21', () => {
         let href = window.location.pathname;
         CustomStaff();
     });
-    
+
     //------------------------------------------------------------------------------------------------------------------
     // Initiate the client side router
     //------------------------------------------------------------------------------------------------------------------
@@ -2452,7 +2452,7 @@ Router.add('a21', () => {
             window.location.href = link;
         });
 
-        
+
 
 
         //
