@@ -8,7 +8,7 @@ function changeWallImage(imageType){
     console.log('change image')
 
     /*tu promjenit vrijeme kad se pokaze slika*/
-    var time = 4000;
+    var time = 3500;
     var image;
 
     if(imageType == undefined)
@@ -49,10 +49,15 @@ function changeWallImage(imageType){
 
     }
 
+    setTimeout(function(){
+
+        $('.wall-image').fadeOut(500)
+
+    }, time - 1500);
 
     setTimeout(function(){
 
-        document.getElementsByClassName('wall-image')[0].setAttribute("src", image);
+        $('.wall-image').attr("src", image).fadeIn(500);
 
     }, time);
 
