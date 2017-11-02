@@ -1,3 +1,5 @@
+
+
 import $                     from 'jquery';
 import {Router}              from 'app/Router.js';
 import Backbone     from 'backbone';
@@ -494,6 +496,7 @@ import z232                 from 'app/pages/z232.hbs!';
 import z233                 from 'app/pages/z233.hbs!';
 import z234                 from 'app/pages/z234.hbs!';
 import z235                 from 'app/pages/z235.hbs!';
+import z235q                 from 'app/pages/z235q.hbs!';
 import z236                 from 'app/pages/z236.hbs!';
 import z237                 from 'app/pages/z237.hbs!';
 import z238                 from 'app/pages/z238.hbs!';
@@ -532,6 +535,85 @@ import z267                 from 'app/pages/z267.hbs!';
 import z268                 from 'app/pages/z268.hbs!';
 import z269                 from 'app/pages/z269.hbs!';
 import z270                 from 'app/pages/z270.hbs!';
+
+import z271                 from 'app/pages/z271.hbs!';
+import z272                 from 'app/pages/z272.hbs!';
+import z273                 from 'app/pages/z273.hbs!';
+import z274                 from 'app/pages/z274.hbs!';
+import z275                 from 'app/pages/z275.hbs!';
+import z276                 from 'app/pages/z276.hbs!';
+import z277                 from 'app/pages/z277.hbs!';
+import z278                 from 'app/pages/z278.hbs!';
+import z279                 from 'app/pages/z279.hbs!';
+import z280                 from 'app/pages/z280.hbs!';
+
+
+
+import z281                 from 'app/pages/z281.hbs!';
+import z282                 from 'app/pages/z282.hbs!';
+import z283                 from 'app/pages/z283.hbs!';
+import z284                 from 'app/pages/z284.hbs!';
+import z285                 from 'app/pages/z285.hbs!';
+import z286                 from 'app/pages/z286.hbs!';
+import z287                 from 'app/pages/z287.hbs!';
+import z288                 from 'app/pages/z288.hbs!';
+import z289                 from 'app/pages/z289.hbs!';
+import z290                 from 'app/pages/z290.hbs!';
+
+import z291                 from 'app/pages/z291.hbs!';
+import z292                 from 'app/pages/z292.hbs!';
+import z293                 from 'app/pages/z293.hbs!';
+import z294                 from 'app/pages/z294.hbs!';
+import z295                 from 'app/pages/z295.hbs!';
+import z296                 from 'app/pages/z296.hbs!';
+import z297                 from 'app/pages/z297.hbs!';
+import z298                 from 'app/pages/z298.hbs!';
+import z299                 from 'app/pages/z299.hbs!';
+import z300                 from 'app/pages/z300.hbs!';
+
+import z301                 from 'app/pages/z301.hbs!';
+import z302                 from 'app/pages/z302.hbs!';
+import z303                 from 'app/pages/z303.hbs!';
+import z304                 from 'app/pages/z304.hbs!';
+import z305                 from 'app/pages/z305.hbs!';
+import z306                 from 'app/pages/z306.hbs!';
+import z307                 from 'app/pages/z307.hbs!';
+import z308                 from 'app/pages/z308.hbs!';
+import z309                 from 'app/pages/z309.hbs!';
+import z310                 from 'app/pages/z310.hbs!';
+
+import z311                 from 'app/pages/z311.hbs!';
+import z312                 from 'app/pages/z312.hbs!';
+import z313                 from 'app/pages/z313.hbs!';
+import z314                 from 'app/pages/z314.hbs!';
+import z315                 from 'app/pages/z315.hbs!';
+import z316                 from 'app/pages/z316.hbs!';
+import z317                 from 'app/pages/z317.hbs!';
+import z318                 from 'app/pages/z318.hbs!';
+import z319                 from 'app/pages/z319.hbs!';
+import z320                 from 'app/pages/z320.hbs!';
+
+import z321                 from 'app/pages/z321.hbs!';
+import z322                 from 'app/pages/z322.hbs!';
+import z323                 from 'app/pages/z323.hbs!';
+import z324                 from 'app/pages/z324.hbs!';
+import z325                 from 'app/pages/z325.hbs!';
+import z326                 from 'app/pages/z326.hbs!';
+import z327                 from 'app/pages/z327.hbs!';
+import z328                 from 'app/pages/z328.hbs!';
+import z329                 from 'app/pages/z329.hbs!';
+import z330                 from 'app/pages/z330.hbs!';
+
+import z331                 from 'app/pages/z331.hbs!';
+import z332                 from 'app/pages/z332.hbs!';
+import z333                 from 'app/pages/z333.hbs!';
+import z334                 from 'app/pages/z334.hbs!';
+import z335                 from 'app/pages/z335.hbs!';
+import z336                 from 'app/pages/z336.hbs!';
+import z337                 from 'app/pages/z337.hbs!';
+import z338                 from 'app/pages/z338.hbs!';
+import z339                 from 'app/pages/z339.hbs!';
+import z340                 from 'app/pages/z340.hbs!';
 
 $(document).ready(() =>
 {
@@ -2192,6 +2274,9 @@ Router.add('a21', () => {
        Router.add('z235', () => {
         $element.html(z235());
     });
+         Router.add('z235q', () => {
+        $element.html(z235q());
+    });
     Router.add('z236', () => {
         $element.html(z236());
     //    showLink(5000);
@@ -2210,9 +2295,7 @@ Router.add('a21', () => {
         $element.html(z240());
     });
     
-    Router.add('z230', () => {
-        $element.html(z230());
-    });
+  
       Router.add('z241', () => {
         $element.html(z241());
     });
@@ -2315,12 +2398,253 @@ Router.add('a21', () => {
         $element.html(z270());
     });
     
+     Router.add('z271', () => {
+        $element.html(z271());
+    });
+    Router.add('z272', () => {
+        $element.html(z272());
+    });
+       Router.add('z273', () => {
+        $element.html(z273());
+    });
+    
+       Router.add('z274', () => {
+        $element.html(z274());
+    });
+       Router.add('z275', () => {
+        $element.html(z275());
+    });
+    Router.add('z276', () => {
+        $element.html(z276());
+    //    showLink(5000);
+    });
+    Router.add('z277', () => {
+        $element.html(z277());
+    });      
+    Router.add('z278', () => {
+        $element.html(z278());
+    });
+    Router.add('z279', () => {
+        $element.html(z279());
+    //    showLink(5000);
+    });
+    Router.add('z280', () => {
+        $element.html(z280());
+    });
+    
+    
+    
+      Router.add('z281', () => {
+        $element.html(z281());
+    });
+    Router.add('z282', () => {
+        $element.html(z282());
+    });
+       Router.add('z283', () => {
+        $element.html(z283());
+    });
+    
+       Router.add('z284', () => {
+        $element.html(z284());
+    });
+       Router.add('z285', () => {
+        $element.html(z285());
+    });
+    Router.add('z286', () => {
+        $element.html(z286());
+    //    showLink(5000);
+    });
+    Router.add('z287', () => {
+        $element.html(z287());
+    });      
+    Router.add('z288', () => {
+        $element.html(z288());
+    });
+    Router.add('z289', () => {
+        $element.html(z289());
+    //    showLink(5000);
+    });
+    Router.add('z290', () => {
+        $element.html(z290());
+    });
+    
+    
+    Router.add('z291', () => {
+        $element.html(z291());
+    });
+    Router.add('z292', () => {
+        $element.html(z292());
+    });
+       Router.add('z293', () => {
+        $element.html(z293());
+    });
+    
+       Router.add('z294', () => {
+        $element.html(z294());
+    });
+       Router.add('z295', () => {
+        $element.html(z295());
+    });
+    Router.add('z296', () => {
+        $element.html(z296());
+    //    showLink(5000);
+    });
+    Router.add('z297', () => {
+        $element.html(z297());
+    });      
+    Router.add('z298', () => {
+        $element.html(z298());
+    });
+    Router.add('z299', () => {
+        $element.html(z299());
+    //    showLink(5000);
+    });
+    Router.add('z300', () => {
+        $element.html(z300());
+    });
+    
+          Router.add('z301', () => {
+        $element.html(z301());
+    });
+    Router.add('z302', () => {
+        $element.html(z302());
+    });
+       Router.add('z303', () => {
+        $element.html(z303());
+    });
+    
+       Router.add('z304', () => {
+        $element.html(z304());
+    });
+       Router.add('z305', () => {
+        $element.html(z305());
+    });
+    Router.add('z306', () => {
+        $element.html(z306());
+    //    showLink(5000);
+    });
+    Router.add('z307', () => {
+        $element.html(z307());
+    });      
+    Router.add('z308', () => {
+        $element.html(z308());
+    });
+    Router.add('z309', () => {
+        $element.html(z309());
+    //    showLink(5000);
+    });
+    Router.add('z310', () => {
+        $element.html(z310());
+    });
+    
+              Router.add('z311', () => {
+        $element.html(z311());
+    });
+    Router.add('z312', () => {
+        $element.html(z312());
+    });
+       Router.add('z313', () => {
+        $element.html(z313());
+    });
+    
+       Router.add('z314', () => {
+        $element.html(z314());
+    });
+       Router.add('z315', () => {
+        $element.html(z315());
+    });
+    Router.add('z316', () => {
+        $element.html(z316());
+    //    showLink(5000);
+    });
+    Router.add('z317', () => {
+        $element.html(z317());
+    });      
+    Router.add('z318', () => {
+        $element.html(z318());
+    });
+    Router.add('z319', () => {
+        $element.html(z319());
+    //    showLink(5000);
+    });
+    Router.add('z320', () => {
+        $element.html(z320());
+    });
+    
+              Router.add('z321', () => {
+        $element.html(z321());
+    });
+    Router.add('z322', () => {
+        $element.html(z322());
+    });
+       Router.add('z323', () => {
+        $element.html(z323());
+    });
+    
+       Router.add('z324', () => {
+        $element.html(z324());
+    });
+       Router.add('z325', () => {
+        $element.html(z325());
+    });
+    Router.add('z326', () => {
+        $element.html(z326());
+    //    showLink(5000);
+    });
+    Router.add('z327', () => {
+        $element.html(z327());
+    });      
+    Router.add('z328', () => {
+        $element.html(z328());
+    });
+    Router.add('z329', () => {
+        $element.html(z329());
+    //    showLink(5000);
+    });
+    Router.add('z330', () => {
+        $element.html(z330());
+    });
+    
+              Router.add('z331', () => {
+        $element.html(z331());
+    });
+    Router.add('z332', () => {
+        $element.html(z332());
+    });
+       Router.add('z333', () => {
+        $element.html(z333());
+    });
+    
+       Router.add('z334', () => {
+        $element.html(z334());
+    });
+       Router.add('z335', () => {
+        $element.html(z335());
+    });
+    Router.add('z336', () => {
+        $element.html(z336());
+    //    showLink(5000);
+    });
+    Router.add('z337', () => {
+        $element.html(z337());
+    });      
+    Router.add('z338', () => {
+        $element.html(z338());
+    });
+    Router.add('z339', () => {
+        $element.html(z339());
+    //    showLink(5000);
+    });
+    Router.add('z340', () => {
+        $element.html(z340());
+    });
+    
     //------------------------------------------------------------------------------------------------------------------
     //Kraj za Frana!!!!!!!!!!!!!
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(2000, 3000);
+    var mainTimeToClickMan = randomIntFromInterval(12000, 45000);
 
 
     let $element = $("#spadiv");
