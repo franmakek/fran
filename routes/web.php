@@ -10,11 +10,28 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Route;
 
 
-Route::get('{any?}', function ($any = null) {
-    return view('base');
-})->where('any', '.*');
+//Route::get('{any?}', function ($any = null) {
+//    return view('base');
+//})->where('any', '.*');
+
+Route::get('/chat', function() {
+    return view('pusher');
+});
+
+Route::post('/send-message', function() {
+    $pusher = App::make('pusher');
+    $message = Input::get('message');
+
+
+    $pusher->trigger( 'test-channel',
+        'test-event',
+        array('text' => $message));
+});
 
 //Route::get('dva', function () {
 //    return view('pages.dva');
