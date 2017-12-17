@@ -15,13 +15,22 @@ use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Route;
 
 
-//Route::get('{any?}', function ($any = null) {
-//    return view('base');
-//})->where('any', '.*');
+Route::get('{any?}', function ($any ) {
+   if($any == "chat")
+   {
+       return view('pusher');
+   }
+    else
+    {
+        return view('base');
+    }
+})->where('any', '.*');
 
-Route::get('/chat', function() {
-    return view('pusher');
-});
+
+
+//Route::get('/chat', function() {
+//    return view('pusher');
+//});
 
 Route::post('/send-message', function() {
     $pusher = App::make('pusher');

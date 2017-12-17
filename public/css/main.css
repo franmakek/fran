@@ -389,3 +389,29 @@ div.container img{
     left:21%;
     top: 29%;
 }
+
+form button {
+    height: 60px;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid #a09788;
+    vertical-align: top;
+    color: #a09788;
+    cursor: pointer;
+    padding: 0 30px;
+}
+
+form button:hover{
+    border: 1px solid #a09788;
+    color: white;
+    background-color: #a09788;
+
+}
+
+form textarea{
+    border-radius: 2px;
+    height: 60px;
+    width: 300px;
+    padding: 5px 10px;
+    border: 1px solid #a09788;
+}
