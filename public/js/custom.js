@@ -47,7 +47,7 @@ function changeWallImage(imageType){
 
     /*tu promjenit vrijeme kad se pokaze slika*/
 
-    var time = 3500;
+    var time = 2800;
     var image;
 
     if(imageType == undefined)

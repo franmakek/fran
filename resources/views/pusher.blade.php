@@ -6,7 +6,6 @@
 
 <body>
 <div class="container">
-
     <div class="picture"></div>
 
     <img class="load-img" src="images/prvi.jpg">

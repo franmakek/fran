@@ -6,6 +6,89 @@ import Backbone     from 'backbone';
 
 import index                 from 'app/pages/prvi.hbs!';
 
+
+import h1                 from 'app/pages/h1.hbs!';
+import h2                 from 'app/pages/h2.hbs!';
+import h3                 from 'app/pages/h3.hbs!';
+import h4                 from 'app/pages/h4.hbs!';
+import h5                 from 'app/pages/h5.hbs!';
+import h6                 from 'app/pages/h6.hbs!';
+import h7                 from 'app/pages/h7.hbs!';
+import h8                 from 'app/pages/h8.hbs!';
+import h9                 from 'app/pages/h9.hbs!';
+import h10                 from 'app/pages/h10.hbs!';
+
+import h11                 from 'app/pages/h11.hbs!';
+import h12                 from 'app/pages/h12.hbs!';
+import h13                 from 'app/pages/h13.hbs!';
+import h14                 from 'app/pages/h14.hbs!';
+import h15                 from 'app/pages/h15.hbs!';
+import h16                 from 'app/pages/h16.hbs!';
+import h17                 from 'app/pages/h17.hbs!';
+import h18                 from 'app/pages/h18.hbs!';
+import h19                 from 'app/pages/h19.hbs!';
+import h20                 from 'app/pages/h20.hbs!';
+
+import h21                 from 'app/pages/h21.hbs!';
+import h22                 from 'app/pages/h22.hbs!';
+import h23                 from 'app/pages/h23.hbs!';
+import h24                 from 'app/pages/h24.hbs!';
+import h25                 from 'app/pages/h25.hbs!';
+import h26                 from 'app/pages/h26.hbs!';
+import h27                 from 'app/pages/h27.hbs!';
+import h28                 from 'app/pages/h28.hbs!';
+import h29                 from 'app/pages/h29.hbs!';
+import h30                 from 'app/pages/h30.hbs!';
+
+import h31                 from 'app/pages/h31.hbs!';
+import h32                 from 'app/pages/h32.hbs!';
+import h33                 from 'app/pages/h33.hbs!';
+import h34                 from 'app/pages/h34.hbs!';
+import h35                 from 'app/pages/h35.hbs!';
+import h36                 from 'app/pages/h36.hbs!';
+
+import h36q                 from 'app/pages/h36q.hbs!';
+
+import h37                 from 'app/pages/h37.hbs!';
+import h38                 from 'app/pages/h38.hbs!';
+import h39                 from 'app/pages/h39.hbs!';
+import h40                 from 'app/pages/h40.hbs!';
+
+import h41                 from 'app/pages/h41.hbs!';
+import h42                 from 'app/pages/h42.hbs!';
+import h43                 from 'app/pages/h43.hbs!';
+import h44                 from 'app/pages/h44.hbs!';
+import h45                 from 'app/pages/h45.hbs!';
+import h46                 from 'app/pages/h46.hbs!';
+import h47                 from 'app/pages/h47.hbs!';
+import h48                 from 'app/pages/h48.hbs!';
+import h49                 from 'app/pages/h49.hbs!';
+import h50                 from 'app/pages/h50.hbs!';
+import h50q                 from 'app/pages/h50q.hbs!';
+
+import h51                 from 'app/pages/h51.hbs!';
+import h52                 from 'app/pages/h52.hbs!';
+import h53                 from 'app/pages/h53.hbs!';
+import h54                 from 'app/pages/h54.hbs!';
+import h55                 from 'app/pages/h55.hbs!';
+import h56                 from 'app/pages/h56.hbs!';
+import h57                 from 'app/pages/h57.hbs!';
+import h58                 from 'app/pages/h58.hbs!';
+import h59                 from 'app/pages/h59.hbs!';
+import h60                 from 'app/pages/h60.hbs!';
+
+import h61                 from 'app/pages/h61.hbs!';
+import h62                 from 'app/pages/h62.hbs!';
+import h63                 from 'app/pages/h63.hbs!';
+import h64                 from 'app/pages/h64.hbs!';
+import h65                 from 'app/pages/h65.hbs!';
+import h66                 from 'app/pages/h66.hbs!';
+import h67                 from 'app/pages/h67.hbs!';
+import h68                 from 'app/pages/h68.hbs!';
+import h69                 from 'app/pages/h69.hbs!';
+import h70                 from 'app/pages/h70.hbs!';
+
+
 import jedan                  from 'app/pages/jedan.hbs!';
 import a6                 from 'app/pages/a6.hbs!';
 import a8                 from 'app/pages/a8.hbs!';
@@ -621,7 +704,241 @@ $(document).ready(() =>
 
     //------------------------------------------------------------------------------------------------------------------
     // Za Frana!!!!!!!!!!!!!
-    //------------------------------------------------------------------------------------------------------------------
+    //------------------------------------------------------------------------------------------------------------------ž
+    
+    
+    Router.add('h1', () => {
+        $element.html(h1());
+    });
+      Router.add('h2', () => {
+        $element.html(h2());
+    });
+      Router.add('h3', () => {
+        $element.html(h3());
+    });
+      Router.add('h4', () => {
+        $element.html(h4());
+    });
+      Router.add('h5', () => {
+        $element.html(h5());
+    });
+      Router.add('h6', () => {
+        $element.html(h6());
+    });
+      Router.add('h7', () => {
+        $element.html(h7());
+    });
+      Router.add('h8', () => {
+        $element.html(h8());
+    });
+      Router.add('h9', () => {
+        $element.html(h9());
+    });
+      Router.add('h10', () => {
+        $element.html(h10());
+    });
+    
+    
+     Router.add('h11', () => {
+        $element.html(h11());
+    });
+      Router.add('h12', () => {
+        $element.html(h12());
+    });
+      Router.add('h13', () => {
+        $element.html(h13());
+    });
+      Router.add('h14', () => {
+        $element.html(h14());
+    });
+      Router.add('h15', () => {
+        $element.html(h15());
+    });
+      Router.add('h16', () => {
+        $element.html(h16());
+    });
+      Router.add('h17', () => {
+        $element.html(h17());
+    });
+      Router.add('h18', () => {
+        $element.html(h18());
+    });
+      Router.add('h19', () => {
+        $element.html(h19());
+    });
+      Router.add('h20', () => {
+        $element.html(h20());
+    });
+    
+        
+        
+    
+     Router.add('h21', () => {
+        $element.html(h21());
+    });
+      Router.add('h22', () => {
+        $element.html(h22());
+    });
+      Router.add('h23', () => {
+        $element.html(h23());
+    });
+      Router.add('h24', () => {
+        $element.html(h24());
+    });
+      Router.add('h25', () => {
+        $element.html(h25());
+    });
+      Router.add('h26', () => {
+        $element.html(h26());
+    });
+      Router.add('h27', () => {
+        $element.html(h27());
+    });
+      Router.add('h28', () => {
+        $element.html(h28());
+    });
+      Router.add('h29', () => {
+        $element.html(h29());
+    });
+      Router.add('h30', () => {
+        $element.html(h30());
+    });
+    
+    
+     Router.add('h31', () => {
+        $element.html(h31());
+    });
+      Router.add('h32', () => {
+        $element.html(h32());
+    });
+      Router.add('h33', () => {
+        $element.html(h33());
+    });
+      Router.add('h34', () => {
+        $element.html(h34());
+    });
+      Router.add('h35', () => {
+        $element.html(h35());
+    });
+      Router.add('h36', () => {
+        $element.html(h36());
+    });
+      Router.add('h36q', () => {
+        $element.html(h36q());
+    });
+      Router.add('h37', () => {
+        $element.html(h37());
+    });
+      Router.add('h38', () => {
+        $element.html(h38());
+    });
+      Router.add('h39', () => {
+        $element.html(h39());
+    });
+      Router.add('h40', () => {
+        $element.html(h40());
+    });
+
+    Router.add('h41', () => {
+        $element.html(h41());
+    });
+      Router.add('h42', () => {
+        $element.html(h42());
+    });
+      Router.add('h43', () => {
+        $element.html(h43());
+    });
+      Router.add('h44', () => {
+        $element.html(h44());
+    });
+      Router.add('h45', () => {
+        $element.html(h45());
+    });
+      Router.add('h46', () => {
+        $element.html(h46());
+    });
+      Router.add('h47', () => {
+        $element.html(h47());
+    });
+      Router.add('h48', () => {
+        $element.html(h48());
+    });
+      Router.add('h49', () => {
+        $element.html(h49());
+    });
+      Router.add('h50', () => {
+        $element.html(h50());
+    });
+
+       Router.add('h50q', () => {
+        $element.html(h50q());
+    });
+    
+    
+    Router.add('h51', () => {
+        $element.html(h51());
+    });
+      Router.add('h52', () => {
+        $element.html(h52());
+    });
+      Router.add('h53', () => {
+        $element.html(h53());
+    });
+      Router.add('h54', () => {
+        $element.html(h54());
+    });
+      Router.add('h55', () => {
+        $element.html(h55());
+    });
+      Router.add('h56', () => {
+        $element.html(h56());
+    });
+      Router.add('h57', () => {
+        $element.html(h57());
+    });
+      Router.add('h58', () => {
+        $element.html(h58());
+    });
+      Router.add('h59', () => {
+        $element.html(h59());
+    });
+      Router.add('h60', () => {
+        $element.html(h60());
+    });
+    
+    
+    Router.add('h61', () => {
+        $element.html(h61());
+    });
+      Router.add('h62', () => {
+        $element.html(h62());
+    });
+      Router.add('h63', () => {
+        $element.html(h63());
+    });
+      Router.add('h64', () => {
+        $element.html(h64());
+    });
+      Router.add('h65', () => {
+        $element.html(h65());
+    });
+      Router.add('h66', () => {
+        $element.html(h66());
+    });
+      Router.add('h67', () => {
+        $element.html(h67());
+    });
+      Router.add('h68', () => {
+        $element.html(h68());
+    });
+      Router.add('h69', () => {
+        $element.html(h69());
+    });
+      Router.add('h70', () => {
+        $element.html(h70());
+    });
+    
+    
     Router.add('sedamnaest', () => {
         $element.html(sest());
       showLink(0);
@@ -2644,7 +2961,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(12000, 45000);
+    var mainTimeToClickMan = randomIntFromInterval(50000, 70000);
 
 
     let $element = $("#spadiv");
@@ -2809,13 +3126,13 @@ Router.add('a21', () => {
 
                     //this is where you map your key
                     if (key == 0 || key == 32) {
-                        $(".key-hold-img").show();
+                        $(".key-hold-img").fadeIn(1300);
                     }
                 }
                 $(this).on('keyup', function() {
                     if (keyPressed === true) {
                         keyPressed = false;
-                        $(".key-hold-img").hide();
+                        $(".key-hold-img").fadeOut(1000);
                     }
                 });
             }

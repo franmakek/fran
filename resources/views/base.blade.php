@@ -14,7 +14,7 @@
 
     <div class="picture"></div>
 
-    <img class="load-img" src="images/prvi.jpg">
+    <img class="load-img" src="images/prvipravi1.jpg">
     <img class="wall-image" src="images/wall/slikaprva.png">
 
 
