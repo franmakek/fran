@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('{any?}', function ($any ) {
+Route::get('{any?}', function ($any) {
    if($any == "chat")
    {
        return view('pusher');
