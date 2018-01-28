@@ -2961,7 +2961,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(15000, 16000);
+    var mainTimeToClickMan = randomIntFromInterval(5000, 3000);
 
 
     let $element = $("#spadiv");
@@ -3149,8 +3149,25 @@ Router.add('a21', () => {
         });
 
         $(document).off('keydown').on('keydown', function(e) {
+
             if ($(".key-hold-img").length != 0)
             {
+
+                  if($("[data-wall-postion]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png")
+                  {
+                        var position = $('[data-wall-postion]').attr('data-wall-postion');
+                        var wallImage = $('.wall-image').attr('src');
+
+                        var wallImageName = wallImage.split('.png').shift();
+
+                        var newImageName = wallImageName + "-" + position + ".png";
+
+                        if($('.wall-img-hold').length === 0)
+                        {
+                              $('<img class="key-hold-img wall-img-hold" src="'+ newImageName +'">').insertAfter('.key-hold-img');
+                        }
+                  }
+
                 var wallImg = $('.wall-image').attr('src');
                 var key;
                 if (keyPressed === false) {
@@ -3158,8 +3175,8 @@ Router.add('a21', () => {
                     key = e.keyCode;
 
                     if (key == 0 || key == 32) {
-                        
-                        
+
+
                         $(".key-hold-img").fadeIn(1000);
                     }
                 }

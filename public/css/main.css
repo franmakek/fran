@@ -168,6 +168,15 @@ body{
     display: none;
 }
 
+
+.key-hold-img.govno{
+    z-index:80001;
+}
+
+.key-hold-img.wall-image-hold{
+    z-index:80001;
+}
+
 .loader__tile {
     display: block;
     float: left;
@@ -344,8 +353,6 @@ body div.container .wall-image{
     top: 0%;
     left: 0%;
     height: 14.3%;
-    
-   
 }
 
  
@@ -471,7 +478,3 @@ a.disabled{
 }
 
 
-
-.key-hold-img.govno{
-    z-index:80000; 
-}
