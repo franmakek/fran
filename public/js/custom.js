@@ -39,8 +39,6 @@ var vm13 = 9000;
 var vm14 = 12000;
 var vm15 = 5000;
 
-
-
 function changeWallImage(imageType){
 
     console.log('change image')
@@ -52,7 +50,7 @@ function changeWallImage(imageType){
 
     if(imageType == undefined)
     {
-         imageType = localStorage.getItem('clicked-img');
+         imageType = "horizontal";
     }
 
     var horizontalImages = [

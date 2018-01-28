@@ -2961,8 +2961,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval('giftime' - 6000);
-
+    var mainTimeToClickMan = randomIntFromInterval(10000, 15000);
 
     let $element = $("#spadiv");
     //------------------------------------------------------------------------------------------------------------------
@@ -3089,18 +3088,34 @@ Router.add('a21', () => {
         {
             $('.t').addClass('disabled');
         }
+
+          if($('body').hasClass('teleskop-pokazan'))
+          {
+                $('.tunos').addClass('disabled');
+          }
         
-        if(!$('body').hasClass('prozor-otvoren'))
+        if($('body').hasClass('prozor-otvoren'))
         {
             $('.ot').addClass('disabled');
-        } 
-        
-        if(!$('body').hasClass('slika-pokazana'))
+        }
+
+          if(!$('body').hasClass('prozor-otvoren'))
+          {
+                $('.skok').addClass('disabled');
+          }
+
+          if(!$('body').hasClass('slika-pokazana'))
         {
             $('.pipa').addClass('disabled');
-        } 
-        
-        $('[data-role="random"]').on('click', function (e) {
+
+        }
+          if($('body').hasClass('slika-pokazana'))
+          {
+                $('.sunos').addClass('disabled');
+
+          }
+
+          $('[data-role="random"]').on('click', function (e) {
 
             e.stopPropagation();
             var links = ["dva", "tri"];
