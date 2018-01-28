@@ -50,7 +50,7 @@ function changeWallImage(imageType){
 
     if(imageType == undefined)
     {
-         imageType = "horizontal";
+         imageType = localStorage.getItem('clicked-img');
     }
 
     var horizontalImages = [
