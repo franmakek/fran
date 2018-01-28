@@ -90,13 +90,13 @@ function changeWallImage(imageType){
 
     setTimeout(function(){
 
-        $('.wall-image').fadeOut(500)
+        $('.wall-image').fadeOut(270)
 
     }, time - 1500);
 
     setTimeout(function(){
 
-        $('.wall-image').attr("src", image).fadeIn(500);
+        $('.wall-image').attr("src", image).fadeIn(200);
 
     }, time);
 
@@ -104,23 +104,22 @@ function changeWallImage(imageType){
 
 var lastClickedImg = localStorage.getItem('clicked-img');
 
-if(lastClickedImg === null)
-    {
-        changeWallImage('horizontal');
-        localStorage.setItem('clicked-img', 'horizontal');
-
-    }
-else if(lastClickedImg === "horizontal")
-    {
-        changeWallImage('vertical');
-        localStorage.setItem('clicked-img', 'vertical');
-
-    }
-else{
-    changeWallImage('horizontal');
-    localStorage.setItem('clicked-img', 'horizontal');
-
-}
-
+//if(lastClickedImg === null)
+//    {
+//        changeWallImage('horizontal');
+//        localStorage.setItem('clicked-img', 'horizontal');
+//
+//    }
+//else 
+//if(lastClickedImg === "horizontal")
+//    {
+//        changeWallImage('vertical');
+//        localStorage.setItem('clicked-img', 'vertical');
+//
+//    }
+//else{
+//    changeWallImage('horizontal');
+//    localStorage.setItem('clicked-img', 'horizontal');
+//}
 
 

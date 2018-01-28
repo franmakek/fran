@@ -2,6 +2,10 @@
 <head>
     <link rel="stylesheet" href="/css/main.css"/>
     <link rel="dns-prefetch" href="/">
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
     <script src="js/custom.js"></script>
     @yield('css')
 </head>
@@ -15,7 +19,10 @@
     <div class="picture"></div>
 
     <img class="load-img" src="images/prvipravi1.jpg">
-    <img class="wall-image" src="images/wall/slikaprva.png">
+    <img class="wall-image" src="images/wall/v0.png">
+    <img src="images/teleskop.png" class="teleskop-img">
+    <img src="images/prozor.png" class="prozor-img">
+
 
 
     <!--ovdje se ubacuje html iz .hbs fileova-->
@@ -30,10 +37,7 @@
 <script>
     System.import('/app/main.js');
 </script>
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

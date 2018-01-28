@@ -2961,7 +2961,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(50000, 70000);
+    var mainTimeToClickMan = randomIntFromInterval('giftime' - 6000);
 
 
     let $element = $("#spadiv");
@@ -3017,7 +3017,7 @@ Router.add('a21', () => {
         var links = [];
         $.each($('a'), function () {
 
-            if ($(this).hasClass('c')) {
+            if ($(this).hasClass('c') && !$(this).hasClass('disabled')) {
                 $(this).hide();
                 var value = $(this).attr('href');
                 links.push(value)
@@ -3084,6 +3084,22 @@ Router.add('a21', () => {
     // Custom Functions
     //------------------------------------------------------------------------------------------------------------------
     function CustomStaff() {
+     
+        if(!$('body').hasClass('teleskop-pokazan'))
+        {
+            $('.t').addClass('disabled');
+        }
+        
+        if(!$('body').hasClass('prozor-otvoren'))
+        {
+            $('.ot').addClass('disabled');
+        } 
+        
+        if(!$('body').hasClass('slika-pokazana'))
+        {
+            $('.pipa').addClass('disabled');
+        } 
+        
         $('[data-role="random"]').on('click', function (e) {
 
             e.stopPropagation();
@@ -3119,20 +3135,22 @@ Router.add('a21', () => {
         $(document).off('keydown').on('keydown', function(e) {
             if ($(".key-hold-img").length != 0)
             {
+                var wallImg = $('.wall-image').attr('src');
                 var key;
                 if (keyPressed === false) {
                     keyPressed = true;
                     key = e.keyCode;
 
-                    //this is where you map your key
                     if (key == 0 || key == 32) {
-                        $(".key-hold-img").fadeIn(1300);
+                        
+                        
+                        $(".key-hold-img").fadeIn(1000);
                     }
                 }
                 $(this).on('keyup', function() {
                     if (keyPressed === true) {
                         keyPressed = false;
-                        $(".key-hold-img").fadeOut(1000);
+                        $(".key-hold-img").fadeOut(700);
                     }
                 });
             }
@@ -3177,9 +3195,28 @@ function showImageOnHoldSpace(keySrc)
     CustomStaff();
 
 
+    $('body').on('click', '.tunos', function(){
+        $('body').addClass('teleskop-pokazan');
+        $('.tunos').addClass('disabled');
+        $('.t').removeClass('disabled');
+    });
 
+    $('body').on('click', '.ot', function(){
+        $('body').addClass('prozor-otvoren');
+        $('.ot').addClass('disabled');
+        $('.zat').add('.skok').removeClass('disabled');
+    });
 
-
-
+    $('body').on('click', '.zat', function(){
+        $('body').removeClass('prozor-otvoren');
+         $('.zat').add('.skok').addClass('disabled');
+        $('.zat').removeClass('disabled');
+    });
+    
+    $('body').on('click', '.sunos', function(){
+        $('body').addClass('slika-pokazana');
+        $('.sunos').addClass('disabled');
+        $('.pipa').removeClass('disabled');
+    });
 });
 
