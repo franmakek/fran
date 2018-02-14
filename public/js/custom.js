@@ -1,43 +1,43 @@
 
 
 var gifTime = 10000;
-var vc1 = 8800;
-var vc2 = 3400;
-var vc3 = 7900;
-var vc4 = 9600;
-var vc5 = 7200;
-var vc6 = 4100;
-var vc7 = 11200;
-var vc8 = 4800;
-var vc9 = 2300;
-var vc10 = 1300;
-var vc11 = 3600;
-var vc12 = 4600;
-var vc13 = 5500;
-var vc14 = 5100;
-var vc15 = 12500;
-var vc16 = 5800;
-var vc17 = 12500;
-var vc18 = 5800;
-var vc19 = 4100;
-var vc20 = 4000;
-var vc21 = 3000;
+var vc1 = 6600;
+var vc2 = 1520;
+var vc3 = 6640;
+var vc4 = 5720;
+var vc5 = 5040;
+var vc6 = 4000;
+var vc7 = 4360;
+var vc8 = 3920;
+var vc9 = 1520;
+var vc10 = 1120;
+var vc11 = 1000;
+var vc12 = 3000;
+var vc13 = 4480;
+var vc14 = 3240;
+var vc15 = 7120;
+var vc16 = 4000;
+var vc17 = 7120;
+var vc18 = 4000;
+var vc19 = 3160;
+var vc20 = 2200;
+var vc21 = 2200;
 
-var vm1 = 5580;
-var vm2 = 10500;
-var vm3 = 2800;
-var vm4 = 7500;
-var vm5 = 6100;
-var vm6= 6500;
-var vm7 = 12800;
-var vm8 = 8500;
-var vm9 = 3700;
-var vm10 = 8700;
-var vm11 = 7000;
-var vm12 = 5000;
-var vm13 = 9000;
-var vm14 = 12000;
-var vm15 = 5000;
+var vm1 = 3480;
+var vm2 = 8720;
+var vm3 = 1600;
+var vm4 = 5080;
+var vm5 = 3840;
+var vm6= 3480;
+var vm7 = 8720;
+var vm8 = 6080;
+var vm9 = 2080;
+var vm10 = 5800;
+var vm11 = 4840;
+var vm12 = 3240;
+var vm13 = 6080;
+var vm14 = 6080;
+var vm15 = 2200;
 
 function changeWallImage(imageType){
 
@@ -45,7 +45,7 @@ function changeWallImage(imageType){
 
     /*tu promjenit vrijeme kad se pokaze slika*/
 
-    var time = 2800;
+    var time = 3800;
     var image;
 
     if(imageType == undefined)
@@ -60,7 +60,8 @@ function changeWallImage(imageType){
 
     var verticalImages = [
         '/images/wall/v1.png',
-        '/images/wall/v2.png'
+        '/images/wall/v2.png',
+         '/images/wall/v3.png'
     ];
 
     /*tu dodat slike*/
@@ -68,7 +69,8 @@ function changeWallImage(imageType){
            '/images/wall/h1.png',
         '/images/wall/h2.png',  
        '/images/wall/v1.png',
-        '/images/wall/v2.png'
+        '/images/wall/v2.png',
+       '/images/wall/v3.png'
     ];
 
 
@@ -88,13 +90,13 @@ function changeWallImage(imageType){
 
     setTimeout(function(){
 
-        $('.wall-image').fadeOut(270)
+        $('.wall-image').fadeOut(220)
 
-    }, time - 1500);
+    }, time - 2300);
 
     setTimeout(function(){
 
-        $('.wall-image').attr("src", image).fadeIn(200);
+        $('.wall-image').attr("src", image).fadeIn(290);
 
     }, time);
 

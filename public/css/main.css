@@ -417,6 +417,12 @@ div.container img{
     top: 29%;
 }
 
+
+.kukac{  
+   z-index: 10;
+}
+
+
 .teleskop-pokazan .tunos{  
     display: none !important;
 }

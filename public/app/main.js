@@ -2957,11 +2957,11 @@ Router.add('a21', () => {
     
 
     //------------------------------------------------------------------------------------------------------------------
-    //Kraj za Frana!!!!!!!!!!!!!
+    //Kraj za Frana!!!!!!!!!!!!! var mainTimeToClickMan = randomIntFromInterval(10000, 19000);
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(5000, 3000);
+    var mainTimeToClickMan = randomIntFromInterval(8000, 17000);
 
 
     let $element = $("#spadiv");
@@ -3177,13 +3177,13 @@ Router.add('a21', () => {
                     if (key == 0 || key == 32) {
 
 
-                        $(".key-hold-img").fadeIn(1000);
+                        $(".key-hold-img").fadeIn(600);
                     }
                 }
                 $(this).on('keyup', function() {
                     if (keyPressed === true) {
                         keyPressed = false;
-                        $(".key-hold-img").fadeOut(700);
+                        $(".key-hold-img").fadeOut(500);
                     }
                 });
             }
