@@ -1,0 +1,486 @@
+.preload-img{
+    visibility: hidden !important;
+}
+
+body{
+    margin: 0 !important;
+    background-color: #ffffff;
+}
+
+
+.container .m{
+    display: none;
+    z-index: 11;
+}
+
+.container .m0{
+     display: none;
+    background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 28%;
+        left: 16%;
+        width: 19%;
+    z-index: 1000000;
+    }
+
+.container .m1{
+     display: none;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 60%;
+        left: 51%;
+        width: 19%;
+    z-index: 1000000;
+    }
+.container .m2{
+     display: none;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 7%;
+        left: 26%;
+        width: 19%;
+    z-index: 1000000;
+    }
+.container .m3{
+     display: none;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 46%;
+        left: 79%;
+        width: 19%;
+        z-index: 1000000;
+    }
+.container .m4{
+     display: none;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 44%;
+        left: 33%;
+        width: 19%;
+        z-index: 1000000;
+    }
+
+.container .m5{
+     display: none;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 39%;
+        left: 65%;
+        width: 19%;
+        z-index: 1000000;
+    }
+.container .m6{
+     display: none;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 1%;
+        left: 69%;
+        width: 19%;
+        z-index: 1000000;
+    }
+.container .m7{
+     display: none;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 19%;
+        top: 55%;
+        left: 73%;
+        width: 19%;
+        z-index: 1000000;
+    }
+
+      .container .c{
+           display: none;
+           background-color: rgba(10, 15, 26, .1);
+        border-radius: 100%;
+        height: 2%;
+        top: 83%;
+        left:13%;
+        width: 2%;
+          z-index: 100000;
+    }
+     .container .c1{
+          background-color: rgba(10, 15, 26, .1);
+        border-radius: 100%;
+        height: 2%;
+        top: 83%;
+        left: 26%;
+        width: 2%;
+    }
+ .container .c2{
+      background-color: rgba(10, 15, 26, .1);
+        border-radius: 100%;
+        height: 2%;
+        top: 83%;
+        left: 39%;
+        width: %;
+    }
+
+ .container .c3{
+      background-color: rgba(10, 15, 26, .1);
+        border-radius: 100%;
+        height: 2%;
+        top: 83%;
+        left: 45%;
+        width: %;
+    }
+ .container .c4{
+      background-color: rgba(10, 15, 26, .1);
+        border-radius: 100%;
+        height: 2%;
+        top: 83%;
+        left: 51%;
+        width: %;
+    }
+
+.loader {
+    width: 100px;
+    height: 100px;
+    -webkit-perspective: 100px;
+    perspective: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.picture{
+    display: none;
+    width: 40px;
+    height: 25px;
+   
+    position: absolute;
+    left: 5%;
+    top:6%;
+    z-index: ;
+}
+
+.key-hold-img{
+    z-index: 80000;
+    display: none;
+}
+
+
+.key-hold-img.govno{
+    z-index:80001;
+}
+
+.key-hold-img.wall-image-hold{
+    z-index:80001;
+}
+
+.loader__tile {
+    display: block;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    -webkit-animation-name: flip;
+    animation-name: flip;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    z-index: 0;
+}
+
+.loader__tile__1 {
+    background-color: #943048;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.loader__tile__2 {
+    background-color: #d7532d;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.loader__tile__3 {
+    background-color: #d2cabb;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.loader__tile__4 {
+    background-color: #9faad0;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.loader__tile__5 {
+    background-color: #b39a3b;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.loader__tile__6 {
+    background-color: #dc2c34;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.loader__tile__7 {
+    background-color: #ece5be;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+.loader__tile__8 {
+    background-color: #d07500;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.loader__tile__9 {
+    background-color: #7983a9;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes flip {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    11% {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes flip {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    11% {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+}
+
+.container a {
+    display: none;
+   
+    position: absolute;
+    background-color: rgba(43, 15, 226, .1);
+    display: none;
+   
+    height: 8%;
+    top: -1%;
+    left: 37%;
+    width: 8%;
+   /* pointer-events:none;
+*/
+}
+
+.container a:after{
+    content: "m";
+    font-size: 0;
+    display: none;
+    width: 20px;
+    height: 20px;
+    -webkit-animation:colorchange 0s;
+}
+
+.container a.shown,
+.container a.shown:after{
+    pointer-events: auto;
+    display: inline-block;
+}
+
+
+
+  .s, .d, .f, .e {  
+    -webkit-animation:colorchange 13s;
+}
+
+@-webkit-keyframes colorchange { xxx
+    0% {
+        background-color: #fafdfa;
+    }
+    
+    50% {
+        background-color: #fafdfa;
+    }
+
+
+}
+
+p {
+    display: block;
+    color: grey;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+div.container {
+    max-width:600px;
+    
+    margin:auto;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
+    overflow: hidden;
+        background-color: #ffffff;
+ 
+}
+
+.load-img{
+    position: relative !important;
+}
+
+body div.container .wall-image{
+    z-index: 9;
+    width: 25.7%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 14.3%;
+}
+
+ 
+   
+
+
+div.container img{
+    max-height: calc(100vh - 100px - 100px);
+    width: 100%;
+     
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.okrugli-link{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+   
+}
+
+.link1{
+    left: 30%;
+    top: 15%;
+}
+
+.link2{
+    left:40%;
+    top: 50%;
+}
+
+.link3{
+    left:83%;
+    top: 53%;
+}
+
+.link4{
+    left:85%;
+    top: 13%;
+}
+
+.link5{
+    left:68%;
+    top: 43%;
+}
+.link6{
+    left:70%;
+    top: 58%;
+} 
+.link7{
+    left:61%;
+    top: 69%;
+}
+.link8{
+    left:21%;
+    top: 29%;
+}
+
+
+.kukac{  
+   z-index: 10;
+}
+
+
+.teleskop-pokazan .tunos{  
+    display: none !important;
+}
+
+.slika-pokazana .sunos{  
+    display: none !important;
+}
+
+
+.teleskop-img{
+    display: none;
+}
+
+.teleskop-pokazan .teleskop-img{
+    display: block !important;
+        z-index: 8;
+}
+
+.teleskop-pokazan .t{
+        display: block !important;
+}
+
+a.disabled{
+        display: none !important;
+}
+
+.slika-pokazana .pipa{
+        display: block !important;
+
+}
+
+.t{
+    display: none !important;
+}
+
+.ot{
+    display: block;
+}
+
+.zat,
+.skok,
+.prozor-img{
+    display: none !important;
+}
+
+.prozor-otvoren .zat,
+.prozor-otvoren .skok,
+.prozor-otvoren .prozor-img{
+    display: block !important;
+}
+
+.prozor-otvoren .prozor-img{
+    display: block !important;
+    z-index: 9;
+}
+
+.prozor-otvoren .ot{
+    display: none !important;
+}
+
+

@@ -1,0 +1,39 @@
+
+
+<html>
+<head>
+
+
+
+</head>
+<body>
+    <script>
+var UserNumber = 5;
+var counter = 0;
+var MaxTries = 5;
+
+var RandomNumber = Math.floor(Math.random() * UserNumber) + 1;
+
+while (Attempts != RandomNumber)
+     {
+     var Attempts = prompt("pogodi broj između 1 i " + UserNumber);
+     counter += 1;
+
+      if (counter > MaxTries) {
+      document.write("nema vise pokusaja");
+      break
+       }
+
+        if (Attempts == RandomNumber) {
+         document.write("cestitam");
+         document.write("<p> zamisljeni broj je bio " + RandomNumber + "</p>");    
+          document.write("<p> trebalo vam je " + counter + " pokusaja da pogodite</p>");  
+     }
+}
+    
+    
+    </script>
+
+</body>
+</html>
+
