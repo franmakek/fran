@@ -98,7 +98,7 @@ body{
 
       .container .c{
            display: none;
-           background-color: rgba(10, 15, 26, .1);
+           background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 2%;
         top: 83%;
@@ -107,7 +107,7 @@ body{
           z-index: 100000;
     }
      .container .c1{
-          background-color: rgba(10, 15, 26, .1);
+          background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 2%;
         top: 83%;
@@ -115,7 +115,7 @@ body{
         width: 2%;
     }
  .container .c2{
-      background-color: rgba(10, 15, 26, .1);
+      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 2%;
         top: 83%;
@@ -124,7 +124,7 @@ body{
     }
 
  .container .c3{
-      background-color: rgba(10, 15, 26, .1);
+      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 2%;
         top: 83%;
@@ -132,7 +132,7 @@ body{
         width: %;
     }
  .container .c4{
-      background-color: rgba(10, 15, 26, .1);
+      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 2%;
         top: 83%;
@@ -171,6 +171,10 @@ body{
 
 .key-hold-img.govno{
     z-index:80001;
+}
+
+.key-hold-img.teleskopImages{
+    z-index:80002;
 }
 
 .key-hold-img.wall-image-hold{
@@ -477,6 +481,20 @@ a.disabled{
 .prozor-otvoren .prozor-img{
     display: block !important;
     z-index: 9;
+}
+
+.prozorpodloga-img {
+    display: none !important;
+    z-index: 12000;
+}
+
+.prozorpodloga-pokazan .prozorpodloga-img {
+    display: block !important;
+    z-index: 12000;
+}
+.prozorpodloga-pokazan .prozorpodloga-img .m5{
+    display: none !important;
+    z-index: 12000;
 }
 
 .prozor-otvoren .ot{

@@ -22,6 +22,15 @@ var vc18 = 4000;
 var vc19 = 3160;
 var vc20 = 2200;
 var vc21 = 2200;
+var vc22 = 4120;
+var vc23 = 3280;
+var vc24 = 2240;
+var vc25 = 4240;
+var vc26 = 7520;
+var vc25 = 4480;
+var vc26 = 3000;
+
+
 
 var vm1 = 3480;
 var vm2 = 8720;
@@ -38,6 +47,13 @@ var vm12 = 3240;
 var vm13 = 6080;
 var vm14 = 6080;
 var vm15 = 2200;
+
+
+
+
+
+
+
 
 function changeWallImage(imageType){
 

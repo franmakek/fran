@@ -2961,7 +2961,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(8000, 17000);
+    var mainTimeToClickMan = randomIntFromInterval(10000, 67000);
 
 
     let $element = $("#spadiv");
@@ -3055,6 +3055,17 @@ Router.add('a21', () => {
         // }, randomIntFromInterval(12, 30) * 1000);
     }
 
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
 
     function reRunUntilClickEnabled()
     {
@@ -3116,6 +3127,11 @@ Router.add('a21', () => {
 
           }
 
+        
+        
+        
+        
+        
           $('[data-role="random"]').on('click', function (e) {
 
             e.stopPropagation();
@@ -3172,7 +3188,7 @@ Router.add('a21', () => {
                 var key;
                 if (keyPressed === false) {
                     keyPressed = true;
-                    key = e.keyCode;
+                        key = e.keyCode;
 
                     if (key == 0 || key == 32) {
 
@@ -3251,5 +3267,17 @@ function showImageOnHoldSpace(keySrc)
         $('.sunos').addClass('disabled');
         $('.pipa').removeClass('disabled');
     });
+    
+     $('body').on('click', '.skok', function(){
+        $('body').addClass('prozorpodloga-pokazan');
+  
+    });
+     $('body').on('click', '.m5', function(){
+        $('body').removeClass('prozorpodloga-pokazan');
+  
+    });
+    
+  
+     
 });
 
