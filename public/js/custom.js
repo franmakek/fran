@@ -29,6 +29,8 @@ var vc25 = 4240;
 var vc26 = 7520;
 var vc25 = 4480;
 var vc26 = 3000;
+var vc27 = 4480;
+var vc28 = 3000;
 
 
 

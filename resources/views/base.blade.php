@@ -28,6 +28,31 @@
     
       
 
+    <audio id="sound-m0" controls>
+        <source src="images/m0.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sound-m1" constrols>
+        <source src="images/m1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sound-m2" constrols>
+        <source src="images/m2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sound-m3" constrols>
+        <source src="images/m3.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sound-m4" constrols>
+        <source src="images/m4.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sound-m5" constrols>
+        <source src="images/m5.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sound-m6" constrols>
+        <source src="images/m6.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sound-m7" constrols>
+        <source src="images/m7.mp3" type="audio/mpeg">
+    </audio>
+
 
 
     <!--ovdje se ubacuje html iz .hbs fileova-->

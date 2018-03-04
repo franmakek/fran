@@ -2961,7 +2961,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(10000, 67000);
+    var mainTimeToClickMan = randomIntFromInterval(60000, 67000);
 
 
     let $element = $("#spadiv");
@@ -3128,6 +3128,22 @@ Router.add('a21', () => {
           }
 
         
+        $('[data-sound]').on('click', function(e){
+                    
+              if (e.originalEvent !== undefined)
+                  {
+                    console.log('sound2')
+                        var name = $(this).attr('data-sound');
+                    if($('#sound-' + name).length != 0)
+                    { 
+                                            console.log('sound2' + name)
+ 
+                        document.getElementById('sound-' + name).play();
+                    }
+                   
+                  }
+        });
+        
         
         
         
@@ -3169,6 +3185,7 @@ Router.add('a21', () => {
             if ($(".key-hold-img").length != 0)
             {
 
+                /*ako postoji dodatna slika*/
                   if($("[data-wall-postion]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png")
                   {
                         var position = $('[data-wall-postion]').attr('data-wall-postion');
@@ -3191,9 +3208,8 @@ Router.add('a21', () => {
                         key = e.keyCode;
 
                     if (key == 0 || key == 32) {
-
-
                         $(".key-hold-img").fadeIn(600);
+                        
                     }
                 }
                 $(this).on('keyup', function() {
