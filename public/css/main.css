@@ -439,7 +439,7 @@ div.container img{
     display: none;
 }
 
-.teleskop-pokazan .teleskop-img{
+.teleskop-pokazan:not(.teleskop-pokazan-uvjek) .teleskop-img{
     z-index: 8;
     -webkit-animation-duration: 8s;
     animation-duration: 8s;
@@ -448,6 +448,10 @@ div.container img{
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
+ html .teleskop-pokazan.teleskop-pokazan-uvjek .teleskop-img
+ {
+     display: block !important;
+ }
 
 @-webkit-keyframes show {
     0% {
@@ -508,6 +512,19 @@ a.disabled{
     z-index: 9;
 }
 
+body.teleskop-pokazan{
+    display:blo
+}
+
+.prozor-otvoren .prozor-img{
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: show;
+    animation-name: show;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    z-index: 9;
+}
 
 .prozorpodloga-img {
     -webkit-animation-duration: 2s;
