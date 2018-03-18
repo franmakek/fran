@@ -23,10 +23,6 @@
     <img src="images/teleskop.png" class="teleskop-img">
     <img src="images/prozor.png" class="prozor-img">
     <img src="images/prozorpodloga.png" class="prozorpodloga-img">
-    
-
-    
-      
 
     <audio id="sound-m0" controls>
         <source src="images/m0.mp3" type="audio/mpeg">
