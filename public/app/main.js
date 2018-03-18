@@ -47,8 +47,6 @@ import h34                 from 'app/pages/h34.hbs!';
 import h35                 from 'app/pages/h35.hbs!';
 import h36                 from 'app/pages/h36.hbs!';
 
-import h36q                 from 'app/pages/h36q.hbs!';
-
 import h37                 from 'app/pages/h37.hbs!';
 import h38                 from 'app/pages/h38.hbs!';
 import h39                 from 'app/pages/h39.hbs!';
@@ -822,9 +820,6 @@ $(document).ready(() =>
     });
       Router.add('h36', () => {
         $element.html(h36());
-    });
-      Router.add('h36q', () => {
-        $element.html(h36q());
     });
       Router.add('h37', () => {
         $element.html(h37());
@@ -3180,44 +3175,45 @@ Router.add('a21', () => {
             clearTimeout(enableClick);
         });
 
-        $(document).off('keydown').on('keydown', function(e) {
+        $('body').off('click').on('click', function(e) {
 
-            if ($(".key-hold-img").length != 0)
-            {
+              showSvemir();
+              $('#svemir').toggle(0);
+              return;
 
-                /*ako postoji dodatna slika*/
-                  if($("[data-wall-postion]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png")
-                  {
-                        var position = $('[data-wall-postion]').attr('data-wall-postion');
-                        var wallImage = $('.wall-image').attr('src');
+            if ($(".key-hold-img").length != 0) {
 
-                        var wallImageName = wallImage.split('.png').shift();
+                  var target = $(e.target);
+                  if (!target.is("a")) {
+                        /*ako postoji dodatna slika*/
+                        if ($("[data-wall-postion]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png") {
+                              var position = $('[data-wall-postion]').attr('data-wall-postion');
+                              var wallImage = $('.wall-image').attr('src');
 
-                        var newImageName = wallImageName + "-" + position + ".png";
+                              var wallImageName = wallImage.split('.png').shift();
 
-                        if($('.wall-img-hold').length === 0)
-                        {
-                              $('<img class="key-hold-img wall-img-hold" src="'+ newImageName +'">').insertAfter('.key-hold-img');
+                              var newImageName = wallImageName + "-" + position + ".png";
+
+                              if ($('.wall-img-hold').length === 0) {
+                                    $('<img class="key-hold-img wall-img-hold" src="' + newImageName + '">').insertAfter('.key-hold-img');
+                              }
                         }
+
+                        if($('body').hasClass('teleskop-pokazan') && $('[data-teleskop-position]').length != 0)
+                        {
+                              var tunosSrc = $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";
+                              $('<img class="key-hold-img wall-img-hold" src="' + tunosSrc + '">').insertAfter('.key-hold-img');
+                        }
+
+                        if($('body').hasClass('prozor-otvoren') && $('[data-govno-position]').length != 0)
+                        {
+                              var govnoSrc = $('[data-govno-position]').attr('data-govno-position') + ".png";
+                              $('<img class="key-hold-img wall-img-hold" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
+                        }
+
+                        $(".key-hold-img").toggle(0);
+
                   }
-
-                var wallImg = $('.wall-image').attr('src');
-                var key;
-                if (keyPressed === false) {
-                    keyPressed = true;
-                        key = e.keyCode;
-
-                    if (key == 0 || key == 32) {
-                        $(".key-hold-img").fadeIn(600);
-                        
-                    }
-                }
-                $(this).on('keyup', function() {
-                    if (keyPressed === true) {
-                        keyPressed = false;
-                        $(".key-hold-img").fadeOut(500);
-                    }
-                });
             }
 
         });
@@ -3294,6 +3290,32 @@ function showImageOnHoldSpace(keySrc)
     });
     
   
-     
+     function showSvemir() {
+           var canvas = document.getElementById("svemir");
+           var ctx = canvas.getContext("2d");
+
+           var dots=[];
+           var numDots = 20;
+           var width = $('.container').width();
+           var height = $('.container').height();
+           for(var i=0 ; i<numDots ; i++){
+                 dots.push({
+                       x : Math.random() * width,
+                       y : Math.random() * height,
+                       vx : Math.random() * 10-5,
+                       vy : Math.random() * 10-5,
+                 })
+           }
+
+           ctx.clearRect(0, 0, width, height);
+           var j, dot;
+           for(j = 0; j < numDots; j++) {
+                 dot = dots[j];
+                 ctx.beginPath();
+                 ctx.arc(dot.x, dot.y, Math.floor(Math.random() * (3 - 1 + 1)) + 1, 0, Math.PI * 2, false);
+                 ctx.fillStyle = "white";
+                 ctx.fill();
+           }
+     }
 });
 

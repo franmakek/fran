@@ -6,7 +6,7 @@
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <script src="js/custom.js"></script>
+    <script src="/js/custom.js"></script>
     @yield('css')
 </head>
 
@@ -17,7 +17,7 @@
 <div class="container" style="display: none">
 
     <div class="picture"></div>
-
+    <canvas id="svemir" width="500" height="500"></canvas>
     <img class="load-img" src="images/prvipravi1.jpg">
     <img class="wall-image" src="images/wall/v0.png">
     <img src="images/teleskop.png" class="teleskop-img">
@@ -85,6 +85,8 @@
 <!--<script src="/js/custom.js"></script>-->
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
+<script src="/build.js"></script>
+
 <script>
     System.import('/app/main.js');
 </script>
