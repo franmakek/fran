@@ -85,7 +85,7 @@
 <!--<script src="/js/custom.js"></script>-->
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
-<script src="/build.js"></script>
+<!--<script src="/build.js"></script>-->
 
 <script>
     System.import('/app/main.js');
