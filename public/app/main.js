@@ -2961,7 +2961,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(60000, 67000);
+    var mainTimeToClickMan = randomIntFromInterval(18000, 43000,);
 
 
     let $element = $("#spadiv");

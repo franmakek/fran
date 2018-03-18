@@ -31,8 +31,20 @@
     <audio id="sound-m0" controls>
         <source src="images/m0.mp3" type="audio/mpeg">
     </audio>
+       <audio id="sound-m0b" controls>
+        <source src="images/m0b.mp3" type="audio/mpeg">
+    </audio>
+       <audio id="sound-m0c" controls>
+        <source src="images/m0c.mp3" type="audio/mpeg">
+    </audio>
+       <audio id="sound-m0d" controls>
+        <source src="images/m0d.mp3" type="audio/mpeg">
+    </audio>
     <audio id="sound-m1" constrols>
         <source src="images/m1.mp3" type="audio/mpeg">
+    </audio>
+      <audio id="sound-m1b" constrols>
+        <source src="images/m1b.mp3" type="audio/mpeg">
     </audio>
     <audio id="sound-m2" constrols>
         <source src="images/m2.mp3" type="audio/mpeg">
@@ -40,11 +52,20 @@
     <audio id="sound-m3" constrols>
         <source src="images/m3.mp3" type="audio/mpeg">
     </audio>
+     <audio id="sound-m3b" constrols>
+        <source src="images/m3b.mp3" type="audio/mpeg">
+    </audio>
     <audio id="sound-m4" constrols>
         <source src="images/m4.mp3" type="audio/mpeg">
     </audio>
+      <audio id="sound-m4b" constrols>
+        <source src="images/m4b.mp3" type="audio/mpeg">
+    </audio>
     <audio id="sound-m5" constrols>
         <source src="images/m5.mp3" type="audio/mpeg">
+    </audio>
+     <audio id="sound-m5b" constrols>
+        <source src="images/m5b.mp3" type="audio/mpeg">
     </audio>
     <audio id="sound-m6" constrols>
         <source src="images/m6.mp3" type="audio/mpeg">
