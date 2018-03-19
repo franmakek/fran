@@ -35,9 +35,6 @@ class AppRouter extends Backbone.Router
 
         $(document).on("click", "a[data-routable='true']", (e) =>
         {
-
-            console.log(this.routes);
-
             e.preventDefault();
 
             let $a = $(e.currentTarget);
@@ -50,7 +47,6 @@ class AppRouter extends Backbone.Router
             // Backbone.history.loadUrl(href, true);
             $('#spadiv img.main-tpl-img').attr('src', $('#spadiv img.main-tpl-img').attr('src'));
             
-
         });
 
         return this;
