@@ -696,6 +696,19 @@ import z338                 from 'app/pages/z338.hbs!';
 import z339                 from 'app/pages/z339.hbs!';
 import z340                 from 'app/pages/z340.hbs!';
 
+import primjerpocetak                 from 'app/primjer/primjerpocetak/primjerpocetak.hbs!';
+import primjerkomp                 from 'app/primjer/primjerkomp/primjerkomp.hbs!';
+import primjersint                 from 'app/primjer/primjersint/primjersint.hbs!';
+import primjersunos                 from 'app/primjer/primjersunos/primjersunos.hbs!';
+import primjertunos                 from 'app/primjer/primjertunos/primjertunos.hbs!';
+import primjerpipa                 from 'app/primjer/primjerpipa/primjerpipa.hbs!';
+import primjerot                 from 'app/primjer/primjerot/primjerot.hbs!';
+import primjerzat               from 'app/primjer/primjerzat/primjerzat.hbs!';
+import primjert               from 'app/primjer/primjert/primjert.hbs!';
+import primjerskok               from 'app/primjer/primjerskok/primjerskok.hbs!';
+import primjersvemiron               from 'app/primjer/primjersvemiron/primjersvemiron.hbs!';
+import primjersvemiroff              from 'app/primjer/primjersvemiroff/primjersvemiroff.hbs!';
+
 $(document).ready(() =>
 {
 
@@ -2950,7 +2963,56 @@ Router.add('a21', () => {
         $element.html(z340());
     });
     
+    
+    
+    
+          Router.add('primjerpocetak', () => {
+        $element.html(primjerpocetak());
+    });
+       Router.add('primjerkomp', () => {
+        $element.html(primjerkomp());
+    });
+    Router.add('primjersint', () => {
+        $element.html(primjersint());
+    //    showLink(5000);
+ });
 
+        Router.add('primjersunos', () => {
+        $element.html(primjersunos());
+    });
+       Router.add('primjertunos', () => {
+        $element.html(primjertunos());
+    });
+    Router.add('primjerot', () => {
+        $element.html(primjerot());
+    //    showLink(5000);
+ });
+    Router.add('primjerzat', () => {
+        $element.html(primjerzat());
+    //    showLink(5000);
+ });
+       Router.add('primjerpipa', () => {
+        $element.html(primjerpipa());
+    //    showLink(5000);
+ });
+        Router.add('primjert', () => {
+        $element.html(primjert());
+    //    showLink(5000);
+ });
+       Router.add('primjerskok', () => {
+        $element.html(primjerskok());
+    //    showLink(5000);
+ });
+            Router.add('primjersvemiron', () => {
+        $element.html(primjersvemiron());
+    //    showLink(5000);
+ });
+       Router.add('primjersvemiroff', () => {
+        $element.html(primjersvemiroff());
+    //    showLink(5000);
+ });
+    
+    
     //------------------------------------------------------------------------------------------------------------------
     //Kraj za Frana!!!!!!!!!!!!! var mainTimeToClickMan = randomIntFromInterval(10000, 19000);
     //------------------------------------------------------------------------------------------------------------------
@@ -3297,15 +3359,6 @@ function showImageOnHoldSpace(keySrc)
         $('body').removeClass('prozorpodloga-pokazan');
   
     });
-
-
-
-
-
-
-
-
-
 
       $('body').on('click', '.teleskop-pokazan a', function(){
             $('body').addClass('teleskop-pokazan-uvjek');
