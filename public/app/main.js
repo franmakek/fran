@@ -3314,50 +3314,67 @@ function showImageOnHoldSpace(keySrc)
    showImageOnHoldSpace('images/prvi.jpg');
 */
         showLink(2000);
+          $('body').on('click', '[data-svemir="on"]', function(){
+                $('body').addClass('svemir-on');
+          });
 
+          $('body').on('click', '[data-svemir="off"]', function(){
+                $('body').removeClass('svemir-on');
+          });
+
+          $('body').on('click', '.tunos', function(){
+                $('body').addClass('teleskop-pokazan');
+                $('.tunos').addClass('disabled');
+                $('.t').removeClass('disabled');
+          });
+
+          $('body').on('click', '.ot', function(){
+                $('body').addClass('prozor-otvoren');
+                $('.ot').addClass('disabled');
+                $('.zat').add('.skok').removeClass('disabled');
+          });
+
+          $('body').on('click', '.zat', function(){
+                $('body').removeClass('prozor-otvoren');
+                $('.zat').add('.skok').addClass('disabled');
+                $('.zat').removeClass('disabled');
+          });
+
+          $('body').on('click', '.sunos', function(){
+                $('body').addClass('slika-pokazana');
+                $('.sunos').addClass('disabled');
+                $('.pipa').removeClass('disabled');
+          });
+
+          $('body').on('click', '.skok', function(){
+                $('body').addClass('prozorpodloga-pokazan');
+
+          });
+          $('body').on('click', '.m5', function(){
+                $('body').removeClass('prozorpodloga-pokazan');
+          });
+
+          $('body').on('click', 'a', function(e){
+                console.log($(e.currentTarget).hasClass('tunos'));
+                if(!$(e.currentTarget).hasClass('tunos'))
+                {
+
+                      console.log($(e.currentTarget).hasClass('tunos'));
+
+                      if($('body').hasClass('teleskop-pokazan'))
+                      {
+                            $('body').addClass('teleskop-pokazan-uvjek');
+                      }
+                }
+          });
     }
 
     CustomStaff();
 
-      $('body').on('click', '[data-svemir="on"]', function(){
-            $('body').addClass('svemir-on');
-      });
 
-      $('body').on('click', '[data-svemir="off"]', function(){
-            $('body').removeClass('svemir-on');
-      });
-
-    $('body').on('click', '.tunos', function(){
-        $('body').addClass('teleskop-pokazan');
-        $('.tunos').addClass('disabled');
-        $('.t').removeClass('disabled');
-    });
-
-    $('body').on('click', '.ot', function(){
-        $('body').addClass('prozor-otvoren');
-        $('.ot').addClass('disabled');
-        $('.zat').add('.skok').removeClass('disabled');
-    });
-
-    $('body').on('click', '.zat', function(){
-        $('body').removeClass('prozor-otvoren');
-         $('.zat').add('.skok').addClass('disabled');
-        $('.zat').removeClass('disabled');
-    });
     
-    $('body').on('click', '.sunos', function(){
-        $('body').addClass('slika-pokazana');
-        $('.sunos').addClass('disabled');
-        $('.pipa').removeClass('disabled');
-    });
-    
-     $('body').on('click', '.skok', function(){
-        $('body').addClass('prozorpodloga-pokazan');
   
-    });
-     $('body').on('click', '.m5', function(){
-        $('body').removeClass('prozorpodloga-pokazan');
-  
+<<<<<<< HEAD
     });
 
       $('body').on('click', '.teleskop-pokazan a', function(){
@@ -3366,13 +3383,21 @@ function showImageOnHoldSpace(keySrc)
     
   
      function showSvemir() {
+=======
+     function showSvemir() {
+
+           $('#svemir').attr('width', $('html').width());
+           $('#svemir').attr('height', $('html').height());
+
+
+>>>>>>> origin/latest-master
            var canvas = document.getElementById("svemir");
            var ctx = canvas.getContext("2d");
 
            var dots=[];
            var numDots = 20;
-           var width = $('.container').width();
-           var height = $('.container').height();
+           var width = canvas.width;
+           var height = canvas.height;
            for(var i=0 ; i<numDots ; i++){
                  dots.push({
                        x : Math.random() * width,
@@ -3387,7 +3412,7 @@ function showImageOnHoldSpace(keySrc)
            for(j = 0; j < numDots; j++) {
                  dot = dots[j];
                  ctx.beginPath();
-                 ctx.arc(dot.x, dot.y, Math.floor(Math.random() * (3 - 1 + 1)) + 1, 0, Math.PI * 2, false);
+                 ctx.arc(dot.x, dot.y, Math.floor(Math.random() * (3 - 1 + 1)) + 1, 0, Math.PI * 2);
                  ctx.fillStyle = "white";
                  ctx.fill();
            }
