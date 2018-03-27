@@ -21,6 +21,7 @@ System.config({
     "handlebars": "github:components/handlebars.js@4.0.10",
     "hbs": "github:davis/plugin-hbs@1.2.3",
     "jquery": "npm:jquery@3.2.1",
+    "jquery-modal": "npm:jquery-modal@0.9.1",
     "underscore": "npm:underscore@1.8.3",
     "github:davis/plugin-hbs@1.2.3": {
       "handlebars": "github:components/handlebars.js@4.0.10"

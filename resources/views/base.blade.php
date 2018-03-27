@@ -77,12 +77,17 @@
 
     </span>
 </div>
+<a href="#" data-wiki="true">WIKI</a>
 
+<div id="wiki-modal" class="modal" style="display: none;">
+    <h4 id="wiki-title"></h4>
+    <p  id="wiki-text"></p>
+</div>
 <!--<script src="/js/custom.js"></script>-->
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <script src="/build.js"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script>
     System.import('/app/main.js');
 </script>
