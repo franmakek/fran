@@ -89,6 +89,8 @@
 <!--<script src="/build.js"></script>-->
 <script src="/build.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
 <script>
     System.import('/app/main.js');
 </script>

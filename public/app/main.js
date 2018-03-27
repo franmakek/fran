@@ -3474,13 +3474,6 @@ function showImageOnHoldSpace(keySrc)
 
     CustomStaff();
 
-<<<<<<< HEAD
-
-    
-  
-
-=======
->>>>>>> origin/latest-master
      function showSvemir() {
 
            $('#svemir').attr('width', $('html').width());
