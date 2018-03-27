@@ -2,7 +2,8 @@
 
 import $                     from 'jquery';
 import {Router}              from 'app/Router.js';
-import Backbone     from 'backbone';
+import Backbone               from 'backbone';
+import modal                  from 'jquery-modal';
 
 import index                 from 'app/pages/prvi.hbs!';
 
@@ -3198,25 +3199,18 @@ Router.add('a21', () => {
         }
         else
         {
-            $('a[href="'+ link +'"]').trigger('click');
+              if($('a[href="'+ link +'"]').hasClass('zat') && !$('body').hasClass('prozor-otvoren'))
+              {
+                    return false;
+              }
+
+              $('a[href="'+ link +'"]').trigger('click');
         }
 
         // setTimeout(function () {
         //     $('a[href="'+ link +'"]').trigger('click');
         // }, randomIntFromInterval(12, 30) * 1000);
     }
-
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
 
     function reRunUntilClickEnabled()
     {
@@ -3246,7 +3240,7 @@ Router.add('a21', () => {
     // Custom Functions
     //------------------------------------------------------------------------------------------------------------------
     function CustomStaff() {
-     
+
         if(!$('body').hasClass('teleskop-pokazan'))
         {
             $('.t').addClass('disabled');
@@ -3281,22 +3275,16 @@ Router.add('a21', () => {
         
         $('[data-sound]').on('click', function(e){
                     
-              if (e.originalEvent !== undefined)
+            if (e.originalEvent !== undefined)
+            {
+                  var name = $(this).attr('data-sound');
+                  if($('#sound-' + name).length != 0)
                   {
-                    console.log('sound2')
-                        var name = $(this).attr('data-sound');
-                    if($('#sound-' + name).length != 0)
-                    { 
-                                            console.log('sound2' + name)
- 
                         document.getElementById('sound-' + name).play();
-                    }
-                   
                   }
+
+            }
         });
-        
-        
-        
         
         
           $('[data-role="random"]').on('click', function (e) {
@@ -3309,6 +3297,25 @@ Router.add('a21', () => {
         });
 
 
+
+
+          $('[data-wiki]').off('click').on('click', function () {
+                $.ajax({
+                      url: 'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&&generator=random&grnnamespace=0&rvprop=content&grnlimit=1',
+                      dataType: 'jsonp',
+                      success: function (data) {
+                            $.each(data.query.pages, function(key, value)
+                            {
+                                  $('#wiki-modal #wiki-title').text(value.title);
+                                  $('#wiki-modal #wiki-text').text(value.extract);
+                            });
+
+                            $('#wiki-modal').modal({
+                                  fadeDuration: 100
+                            });
+                      }
+                });
+          });
 
 
         //
@@ -3333,11 +3340,12 @@ Router.add('a21', () => {
 
         $('body').off('click').on('click', function(e) {
                   var target = $(e.target);
-                  if (!target.is("a")) {
+                  if (!target.is("a") && !target.is(".modal")) {
+
                         if($('body').hasClass('svemir-on'))
                         {
                               showSvemir();
-                              $('#svemir').toggle(0);
+                              $('#svemir').fadeToggle( 300, "linear" );
                               return;
                         }
 
@@ -3369,7 +3377,7 @@ Router.add('a21', () => {
                                     $('<img class="key-hold-img wall-img-hold" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
                               }
 
-                              $(".key-hold-img").toggle(0);
+                              $(".key-hold-img").fadeToggle( 300, "linear" );
 
                         }
                   }
@@ -3442,8 +3450,9 @@ function showImageOnHoldSpace(keySrc)
 
           $('body').on('click', '.skok', function(){
                 $('body').addClass('prozorpodloga-pokazan');
-
+                $('.skok').addClass('disabled');
           });
+          
           $('body').on('click', '.m5', function(){
                 $('body').removeClass('prozorpodloga-pokazan');
           });
@@ -3465,10 +3474,13 @@ function showImageOnHoldSpace(keySrc)
 
     CustomStaff();
 
+<<<<<<< HEAD
 
     
   
 
+=======
+>>>>>>> origin/latest-master
      function showSvemir() {
 
            $('#svemir').attr('width', $('html').width());

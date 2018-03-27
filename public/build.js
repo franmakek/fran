@@ -2067,6 +2067,1481 @@ System.registerDynamic("npm:underscore@1.8.3.js", ["npm:underscore@1.8.3/undersc
       GLOBAL = global;
   module.exports = $__require("npm:underscore@1.8.3/underscore.js");
 });
+System.registerDynamic('npm:process@0.11.10/browser.js', [], true, function ($__require, exports, module) {
+    var global = this || self,
+        GLOBAL = global;
+    // shim for using process in browser
+    var process = module.exports = {};
+
+    // cached from whatever global is present so that test runners that stub it
+    // don't break things.  But we need to wrap it in a try catch in case it is
+    // wrapped in strict mode code which doesn't define any globals.  It's inside a
+    // function because try/catches deoptimize in certain engines.
+
+    var cachedSetTimeout;
+    var cachedClearTimeout;
+
+    function defaultSetTimout() {
+        throw new Error('setTimeout has not been defined');
+    }
+    function defaultClearTimeout() {
+        throw new Error('clearTimeout has not been defined');
+    }
+    (function () {
+        try {
+            if (typeof setTimeout === 'function') {
+                cachedSetTimeout = setTimeout;
+            } else {
+                cachedSetTimeout = defaultSetTimout;
+            }
+        } catch (e) {
+            cachedSetTimeout = defaultSetTimout;
+        }
+        try {
+            if (typeof clearTimeout === 'function') {
+                cachedClearTimeout = clearTimeout;
+            } else {
+                cachedClearTimeout = defaultClearTimeout;
+            }
+        } catch (e) {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    })();
+    function runTimeout(fun) {
+        if (cachedSetTimeout === setTimeout) {
+            //normal enviroments in sane situations
+            return setTimeout(fun, 0);
+        }
+        // if setTimeout wasn't available but was latter defined
+        if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+            cachedSetTimeout = setTimeout;
+            return setTimeout(fun, 0);
+        }
+        try {
+            // when when somebody has screwed with setTimeout but no I.E. maddness
+            return cachedSetTimeout(fun, 0);
+        } catch (e) {
+            try {
+                // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+                return cachedSetTimeout.call(null, fun, 0);
+            } catch (e) {
+                // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+                return cachedSetTimeout.call(this, fun, 0);
+            }
+        }
+    }
+    function runClearTimeout(marker) {
+        if (cachedClearTimeout === clearTimeout) {
+            //normal enviroments in sane situations
+            return clearTimeout(marker);
+        }
+        // if clearTimeout wasn't available but was latter defined
+        if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+            cachedClearTimeout = clearTimeout;
+            return clearTimeout(marker);
+        }
+        try {
+            // when when somebody has screwed with setTimeout but no I.E. maddness
+            return cachedClearTimeout(marker);
+        } catch (e) {
+            try {
+                // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+                return cachedClearTimeout.call(null, marker);
+            } catch (e) {
+                // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+                // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+                return cachedClearTimeout.call(this, marker);
+            }
+        }
+    }
+    var queue = [];
+    var draining = false;
+    var currentQueue;
+    var queueIndex = -1;
+
+    function cleanUpNextTick() {
+        if (!draining || !currentQueue) {
+            return;
+        }
+        draining = false;
+        if (currentQueue.length) {
+            queue = currentQueue.concat(queue);
+        } else {
+            queueIndex = -1;
+        }
+        if (queue.length) {
+            drainQueue();
+        }
+    }
+
+    function drainQueue() {
+        if (draining) {
+            return;
+        }
+        var timeout = runTimeout(cleanUpNextTick);
+        draining = true;
+
+        var len = queue.length;
+        while (len) {
+            currentQueue = queue;
+            queue = [];
+            while (++queueIndex < len) {
+                if (currentQueue) {
+                    currentQueue[queueIndex].run();
+                }
+            }
+            queueIndex = -1;
+            len = queue.length;
+        }
+        currentQueue = null;
+        draining = false;
+        runClearTimeout(timeout);
+    }
+
+    process.nextTick = function (fun) {
+        var args = new Array(arguments.length - 1);
+        if (arguments.length > 1) {
+            for (var i = 1; i < arguments.length; i++) {
+                args[i - 1] = arguments[i];
+            }
+        }
+        queue.push(new Item(fun, args));
+        if (queue.length === 1 && !draining) {
+            runTimeout(drainQueue);
+        }
+    };
+
+    // v8 likes predictible objects
+    function Item(fun, array) {
+        this.fun = fun;
+        this.array = array;
+    }
+    Item.prototype.run = function () {
+        this.fun.apply(null, this.array);
+    };
+    process.title = 'browser';
+    process.browser = true;
+    process.env = {};
+    process.argv = [];
+    process.version = ''; // empty string to avoid regexp issues
+    process.versions = {};
+
+    function noop() {}
+
+    process.on = noop;
+    process.addListener = noop;
+    process.once = noop;
+    process.off = noop;
+    process.removeListener = noop;
+    process.removeAllListeners = noop;
+    process.emit = noop;
+    process.prependListener = noop;
+    process.prependOnceListener = noop;
+
+    process.listeners = function (name) {
+        return [];
+    };
+
+    process.binding = function (name) {
+        throw new Error('process.binding is not supported');
+    };
+
+    process.cwd = function () {
+        return '/';
+    };
+    process.chdir = function (dir) {
+        throw new Error('process.chdir is not supported');
+    };
+    process.umask = function () {
+        return 0;
+    };
+});
+System.registerDynamic("npm:process@0.11.10.js", ["npm:process@0.11.10/browser.js"], true, function ($__require, exports, module) {
+  var global = this || self,
+      GLOBAL = global;
+  module.exports = $__require("npm:process@0.11.10/browser.js");
+});
+System.registerDynamic('github:jspm/nodelibs-process@0.1.2/index.js', ['npm:process@0.11.10.js'], true, function ($__require, exports, module) {
+  var global = this || self,
+      GLOBAL = global;
+  module.exports = System._nodeRequire ? process : $__require('npm:process@0.11.10.js');
+});
+System.registerDynamic("github:jspm/nodelibs-process@0.1.2.js", ["github:jspm/nodelibs-process@0.1.2/index.js"], true, function ($__require, exports, module) {
+  var global = this || self,
+      GLOBAL = global;
+  module.exports = $__require("github:jspm/nodelibs-process@0.1.2/index.js");
+});
+System.registerDynamic('npm:backbone@1.3.3/backbone.js', ['npm:underscore@1.8.3.js', 'npm:jquery@3.2.1.js', 'github:jspm/nodelibs-process@0.1.2.js'], true, function ($__require, exports, module) {
+  /* */
+  "format cjs";
+
+  var global = this || self,
+      GLOBAL = global;
+  (function (process) {
+    (function (factory) {
+      var root = typeof self == 'object' && self.self === self && self || typeof global == 'object' && global.global === global && global;
+      if (typeof undefined === 'function' && define.amd) {
+        define(['underscore', 'jquery', 'exports'], function (_, $, exports) {
+          root.Backbone = factory(root, exports, _, $);
+        });
+      } else if (typeof exports !== 'undefined') {
+        var _ = $__require('npm:underscore@1.8.3.js'),
+            $;
+        try {
+          $ = $__require('npm:jquery@3.2.1.js');
+        } catch (e) {}
+        factory(root, exports, _, $);
+      } else {
+        root.Backbone = factory(root, {}, root._, root.jQuery || root.Zepto || root.ender || root.$);
+      }
+    })(function (root, Backbone, _, $) {
+      var previousBackbone = root.Backbone;
+      var slice = Array.prototype.slice;
+      Backbone.VERSION = '1.3.3';
+      Backbone.$ = $;
+      Backbone.noConflict = function () {
+        root.Backbone = previousBackbone;
+        return this;
+      };
+      Backbone.emulateHTTP = false;
+      Backbone.emulateJSON = false;
+      var addMethod = function (length, method, attribute) {
+        switch (length) {
+          case 1:
+            return function () {
+              return _[method](this[attribute]);
+            };
+          case 2:
+            return function (value) {
+              return _[method](this[attribute], value);
+            };
+          case 3:
+            return function (iteratee, context) {
+              return _[method](this[attribute], cb(iteratee, this), context);
+            };
+          case 4:
+            return function (iteratee, defaultVal, context) {
+              return _[method](this[attribute], cb(iteratee, this), defaultVal, context);
+            };
+          default:
+            return function () {
+              var args = slice.call(arguments);
+              args.unshift(this[attribute]);
+              return _[method].apply(_, args);
+            };
+        }
+      };
+      var addUnderscoreMethods = function (Class, methods, attribute) {
+        _.each(methods, function (length, method) {
+          if (_[method]) Class.prototype[method] = addMethod(length, method, attribute);
+        });
+      };
+      var cb = function (iteratee, instance) {
+        if (_.isFunction(iteratee)) return iteratee;
+        if (_.isObject(iteratee) && !instance._isModel(iteratee)) return modelMatcher(iteratee);
+        if (_.isString(iteratee)) return function (model) {
+          return model.get(iteratee);
+        };
+        return iteratee;
+      };
+      var modelMatcher = function (attrs) {
+        var matcher = _.matches(attrs);
+        return function (model) {
+          return matcher(model.attributes);
+        };
+      };
+      var Events = Backbone.Events = {};
+      var eventSplitter = /\s+/;
+      var eventsApi = function (iteratee, events, name, callback, opts) {
+        var i = 0,
+            names;
+        if (name && typeof name === 'object') {
+          if (callback !== void 0 && 'context' in opts && opts.context === void 0) opts.context = callback;
+          for (names = _.keys(name); i < names.length; i++) {
+            events = eventsApi(iteratee, events, names[i], name[names[i]], opts);
+          }
+        } else if (name && eventSplitter.test(name)) {
+          for (names = name.split(eventSplitter); i < names.length; i++) {
+            events = iteratee(events, names[i], callback, opts);
+          }
+        } else {
+          events = iteratee(events, name, callback, opts);
+        }
+        return events;
+      };
+      Events.on = function (name, callback, context) {
+        return internalOn(this, name, callback, context);
+      };
+      var internalOn = function (obj, name, callback, context, listening) {
+        obj._events = eventsApi(onApi, obj._events || {}, name, callback, {
+          context: context,
+          ctx: obj,
+          listening: listening
+        });
+        if (listening) {
+          var listeners = obj._listeners || (obj._listeners = {});
+          listeners[listening.id] = listening;
+        }
+        return obj;
+      };
+      Events.listenTo = function (obj, name, callback) {
+        if (!obj) return this;
+        var id = obj._listenId || (obj._listenId = _.uniqueId('l'));
+        var listeningTo = this._listeningTo || (this._listeningTo = {});
+        var listening = listeningTo[id];
+        if (!listening) {
+          var thisId = this._listenId || (this._listenId = _.uniqueId('l'));
+          listening = listeningTo[id] = {
+            obj: obj,
+            objId: id,
+            id: thisId,
+            listeningTo: listeningTo,
+            count: 0
+          };
+        }
+        internalOn(obj, name, callback, this, listening);
+        return this;
+      };
+      var onApi = function (events, name, callback, options) {
+        if (callback) {
+          var handlers = events[name] || (events[name] = []);
+          var context = options.context,
+              ctx = options.ctx,
+              listening = options.listening;
+          if (listening) listening.count++;
+          handlers.push({
+            callback: callback,
+            context: context,
+            ctx: context || ctx,
+            listening: listening
+          });
+        }
+        return events;
+      };
+      Events.off = function (name, callback, context) {
+        if (!this._events) return this;
+        this._events = eventsApi(offApi, this._events, name, callback, {
+          context: context,
+          listeners: this._listeners
+        });
+        return this;
+      };
+      Events.stopListening = function (obj, name, callback) {
+        var listeningTo = this._listeningTo;
+        if (!listeningTo) return this;
+        var ids = obj ? [obj._listenId] : _.keys(listeningTo);
+        for (var i = 0; i < ids.length; i++) {
+          var listening = listeningTo[ids[i]];
+          if (!listening) break;
+          listening.obj.off(name, callback, this);
+        }
+        return this;
+      };
+      var offApi = function (events, name, callback, options) {
+        if (!events) return;
+        var i = 0,
+            listening;
+        var context = options.context,
+            listeners = options.listeners;
+        if (!name && !callback && !context) {
+          var ids = _.keys(listeners);
+          for (; i < ids.length; i++) {
+            listening = listeners[ids[i]];
+            delete listeners[listening.id];
+            delete listening.listeningTo[listening.objId];
+          }
+          return;
+        }
+        var names = name ? [name] : _.keys(events);
+        for (; i < names.length; i++) {
+          name = names[i];
+          var handlers = events[name];
+          if (!handlers) break;
+          var remaining = [];
+          for (var j = 0; j < handlers.length; j++) {
+            var handler = handlers[j];
+            if (callback && callback !== handler.callback && callback !== handler.callback._callback || context && context !== handler.context) {
+              remaining.push(handler);
+            } else {
+              listening = handler.listening;
+              if (listening && --listening.count === 0) {
+                delete listeners[listening.id];
+                delete listening.listeningTo[listening.objId];
+              }
+            }
+          }
+          if (remaining.length) {
+            events[name] = remaining;
+          } else {
+            delete events[name];
+          }
+        }
+        return events;
+      };
+      Events.once = function (name, callback, context) {
+        var events = eventsApi(onceMap, {}, name, callback, _.bind(this.off, this));
+        if (typeof name === 'string' && context == null) callback = void 0;
+        return this.on(events, callback, context);
+      };
+      Events.listenToOnce = function (obj, name, callback) {
+        var events = eventsApi(onceMap, {}, name, callback, _.bind(this.stopListening, this, obj));
+        return this.listenTo(obj, events);
+      };
+      var onceMap = function (map, name, callback, offer) {
+        if (callback) {
+          var once = map[name] = _.once(function () {
+            offer(name, once);
+            callback.apply(this, arguments);
+          });
+          once._callback = callback;
+        }
+        return map;
+      };
+      Events.trigger = function (name) {
+        if (!this._events) return this;
+        var length = Math.max(0, arguments.length - 1);
+        var args = Array(length);
+        for (var i = 0; i < length; i++) args[i] = arguments[i + 1];
+        eventsApi(triggerApi, this._events, name, void 0, args);
+        return this;
+      };
+      var triggerApi = function (objEvents, name, callback, args) {
+        if (objEvents) {
+          var events = objEvents[name];
+          var allEvents = objEvents.all;
+          if (events && allEvents) allEvents = allEvents.slice();
+          if (events) triggerEvents(events, args);
+          if (allEvents) triggerEvents(allEvents, [name].concat(args));
+        }
+        return objEvents;
+      };
+      var triggerEvents = function (events, args) {
+        var ev,
+            i = -1,
+            l = events.length,
+            a1 = args[0],
+            a2 = args[1],
+            a3 = args[2];
+        switch (args.length) {
+          case 0:
+            while (++i < l) (ev = events[i]).callback.call(ev.ctx);
+            return;
+          case 1:
+            while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1);
+            return;
+          case 2:
+            while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1, a2);
+            return;
+          case 3:
+            while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1, a2, a3);
+            return;
+          default:
+            while (++i < l) (ev = events[i]).callback.apply(ev.ctx, args);
+            return;
+        }
+      };
+      Events.bind = Events.on;
+      Events.unbind = Events.off;
+      _.extend(Backbone, Events);
+      var Model = Backbone.Model = function (attributes, options) {
+        var attrs = attributes || {};
+        options || (options = {});
+        this.cid = _.uniqueId(this.cidPrefix);
+        this.attributes = {};
+        if (options.collection) this.collection = options.collection;
+        if (options.parse) attrs = this.parse(attrs, options) || {};
+        var defaults = _.result(this, 'defaults');
+        attrs = _.defaults(_.extend({}, defaults, attrs), defaults);
+        this.set(attrs, options);
+        this.changed = {};
+        this.initialize.apply(this, arguments);
+      };
+      _.extend(Model.prototype, Events, {
+        changed: null,
+        validationError: null,
+        idAttribute: 'id',
+        cidPrefix: 'c',
+        initialize: function () {},
+        toJSON: function (options) {
+          return _.clone(this.attributes);
+        },
+        sync: function () {
+          return Backbone.sync.apply(this, arguments);
+        },
+        get: function (attr) {
+          return this.attributes[attr];
+        },
+        escape: function (attr) {
+          return _.escape(this.get(attr));
+        },
+        has: function (attr) {
+          return this.get(attr) != null;
+        },
+        matches: function (attrs) {
+          return !!_.iteratee(attrs, this)(this.attributes);
+        },
+        set: function (key, val, options) {
+          if (key == null) return this;
+          var attrs;
+          if (typeof key === 'object') {
+            attrs = key;
+            options = val;
+          } else {
+            (attrs = {})[key] = val;
+          }
+          options || (options = {});
+          if (!this._validate(attrs, options)) return false;
+          var unset = options.unset;
+          var silent = options.silent;
+          var changes = [];
+          var changing = this._changing;
+          this._changing = true;
+          if (!changing) {
+            this._previousAttributes = _.clone(this.attributes);
+            this.changed = {};
+          }
+          var current = this.attributes;
+          var changed = this.changed;
+          var prev = this._previousAttributes;
+          for (var attr in attrs) {
+            val = attrs[attr];
+            if (!_.isEqual(current[attr], val)) changes.push(attr);
+            if (!_.isEqual(prev[attr], val)) {
+              changed[attr] = val;
+            } else {
+              delete changed[attr];
+            }
+            unset ? delete current[attr] : current[attr] = val;
+          }
+          if (this.idAttribute in attrs) this.id = this.get(this.idAttribute);
+          if (!silent) {
+            if (changes.length) this._pending = options;
+            for (var i = 0; i < changes.length; i++) {
+              this.trigger('change:' + changes[i], this, current[changes[i]], options);
+            }
+          }
+          if (changing) return this;
+          if (!silent) {
+            while (this._pending) {
+              options = this._pending;
+              this._pending = false;
+              this.trigger('change', this, options);
+            }
+          }
+          this._pending = false;
+          this._changing = false;
+          return this;
+        },
+        unset: function (attr, options) {
+          return this.set(attr, void 0, _.extend({}, options, { unset: true }));
+        },
+        clear: function (options) {
+          var attrs = {};
+          for (var key in this.attributes) attrs[key] = void 0;
+          return this.set(attrs, _.extend({}, options, { unset: true }));
+        },
+        hasChanged: function (attr) {
+          if (attr == null) return !_.isEmpty(this.changed);
+          return _.has(this.changed, attr);
+        },
+        changedAttributes: function (diff) {
+          if (!diff) return this.hasChanged() ? _.clone(this.changed) : false;
+          var old = this._changing ? this._previousAttributes : this.attributes;
+          var changed = {};
+          for (var attr in diff) {
+            var val = diff[attr];
+            if (_.isEqual(old[attr], val)) continue;
+            changed[attr] = val;
+          }
+          return _.size(changed) ? changed : false;
+        },
+        previous: function (attr) {
+          if (attr == null || !this._previousAttributes) return null;
+          return this._previousAttributes[attr];
+        },
+        previousAttributes: function () {
+          return _.clone(this._previousAttributes);
+        },
+        fetch: function (options) {
+          options = _.extend({ parse: true }, options);
+          var model = this;
+          var success = options.success;
+          options.success = function (resp) {
+            var serverAttrs = options.parse ? model.parse(resp, options) : resp;
+            if (!model.set(serverAttrs, options)) return false;
+            if (success) success.call(options.context, model, resp, options);
+            model.trigger('sync', model, resp, options);
+          };
+          wrapError(this, options);
+          return this.sync('read', this, options);
+        },
+        save: function (key, val, options) {
+          var attrs;
+          if (key == null || typeof key === 'object') {
+            attrs = key;
+            options = val;
+          } else {
+            (attrs = {})[key] = val;
+          }
+          options = _.extend({
+            validate: true,
+            parse: true
+          }, options);
+          var wait = options.wait;
+          if (attrs && !wait) {
+            if (!this.set(attrs, options)) return false;
+          } else if (!this._validate(attrs, options)) {
+            return false;
+          }
+          var model = this;
+          var success = options.success;
+          var attributes = this.attributes;
+          options.success = function (resp) {
+            model.attributes = attributes;
+            var serverAttrs = options.parse ? model.parse(resp, options) : resp;
+            if (wait) serverAttrs = _.extend({}, attrs, serverAttrs);
+            if (serverAttrs && !model.set(serverAttrs, options)) return false;
+            if (success) success.call(options.context, model, resp, options);
+            model.trigger('sync', model, resp, options);
+          };
+          wrapError(this, options);
+          if (attrs && wait) this.attributes = _.extend({}, attributes, attrs);
+          var method = this.isNew() ? 'create' : options.patch ? 'patch' : 'update';
+          if (method === 'patch' && !options.attrs) options.attrs = attrs;
+          var xhr = this.sync(method, this, options);
+          this.attributes = attributes;
+          return xhr;
+        },
+        destroy: function (options) {
+          options = options ? _.clone(options) : {};
+          var model = this;
+          var success = options.success;
+          var wait = options.wait;
+          var destroy = function () {
+            model.stopListening();
+            model.trigger('destroy', model, model.collection, options);
+          };
+          options.success = function (resp) {
+            if (wait) destroy();
+            if (success) success.call(options.context, model, resp, options);
+            if (!model.isNew()) model.trigger('sync', model, resp, options);
+          };
+          var xhr = false;
+          if (this.isNew()) {
+            _.defer(options.success);
+          } else {
+            wrapError(this, options);
+            xhr = this.sync('delete', this, options);
+          }
+          if (!wait) destroy();
+          return xhr;
+        },
+        url: function () {
+          var base = _.result(this, 'urlRoot') || _.result(this.collection, 'url') || urlError();
+          if (this.isNew()) return base;
+          var id = this.get(this.idAttribute);
+          return base.replace(/[^\/]$/, '$&/') + encodeURIComponent(id);
+        },
+        parse: function (resp, options) {
+          return resp;
+        },
+        clone: function () {
+          return new this.constructor(this.attributes);
+        },
+        isNew: function () {
+          return !this.has(this.idAttribute);
+        },
+        isValid: function (options) {
+          return this._validate({}, _.extend({}, options, { validate: true }));
+        },
+        _validate: function (attrs, options) {
+          if (!options.validate || !this.validate) return true;
+          attrs = _.extend({}, this.attributes, attrs);
+          var error = this.validationError = this.validate(attrs, options) || null;
+          if (!error) return true;
+          this.trigger('invalid', this, error, _.extend(options, { validationError: error }));
+          return false;
+        }
+      });
+      var modelMethods = {
+        keys: 1,
+        values: 1,
+        pairs: 1,
+        invert: 1,
+        pick: 0,
+        omit: 0,
+        chain: 1,
+        isEmpty: 1
+      };
+      addUnderscoreMethods(Model, modelMethods, 'attributes');
+      var Collection = Backbone.Collection = function (models, options) {
+        options || (options = {});
+        if (options.model) this.model = options.model;
+        if (options.comparator !== void 0) this.comparator = options.comparator;
+        this._reset();
+        this.initialize.apply(this, arguments);
+        if (models) this.reset(models, _.extend({ silent: true }, options));
+      };
+      var setOptions = {
+        add: true,
+        remove: true,
+        merge: true
+      };
+      var addOptions = {
+        add: true,
+        remove: false
+      };
+      var splice = function (array, insert, at) {
+        at = Math.min(Math.max(at, 0), array.length);
+        var tail = Array(array.length - at);
+        var length = insert.length;
+        var i;
+        for (i = 0; i < tail.length; i++) tail[i] = array[i + at];
+        for (i = 0; i < length; i++) array[i + at] = insert[i];
+        for (i = 0; i < tail.length; i++) array[i + length + at] = tail[i];
+      };
+      _.extend(Collection.prototype, Events, {
+        model: Model,
+        initialize: function () {},
+        toJSON: function (options) {
+          return this.map(function (model) {
+            return model.toJSON(options);
+          });
+        },
+        sync: function () {
+          return Backbone.sync.apply(this, arguments);
+        },
+        add: function (models, options) {
+          return this.set(models, _.extend({ merge: false }, options, addOptions));
+        },
+        remove: function (models, options) {
+          options = _.extend({}, options);
+          var singular = !_.isArray(models);
+          models = singular ? [models] : models.slice();
+          var removed = this._removeModels(models, options);
+          if (!options.silent && removed.length) {
+            options.changes = {
+              added: [],
+              merged: [],
+              removed: removed
+            };
+            this.trigger('update', this, options);
+          }
+          return singular ? removed[0] : removed;
+        },
+        set: function (models, options) {
+          if (models == null) return;
+          options = _.extend({}, setOptions, options);
+          if (options.parse && !this._isModel(models)) {
+            models = this.parse(models, options) || [];
+          }
+          var singular = !_.isArray(models);
+          models = singular ? [models] : models.slice();
+          var at = options.at;
+          if (at != null) at = +at;
+          if (at > this.length) at = this.length;
+          if (at < 0) at += this.length + 1;
+          var set = [];
+          var toAdd = [];
+          var toMerge = [];
+          var toRemove = [];
+          var modelMap = {};
+          var add = options.add;
+          var merge = options.merge;
+          var remove = options.remove;
+          var sort = false;
+          var sortable = this.comparator && at == null && options.sort !== false;
+          var sortAttr = _.isString(this.comparator) ? this.comparator : null;
+          var model, i;
+          for (i = 0; i < models.length; i++) {
+            model = models[i];
+            var existing = this.get(model);
+            if (existing) {
+              if (merge && model !== existing) {
+                var attrs = this._isModel(model) ? model.attributes : model;
+                if (options.parse) attrs = existing.parse(attrs, options);
+                existing.set(attrs, options);
+                toMerge.push(existing);
+                if (sortable && !sort) sort = existing.hasChanged(sortAttr);
+              }
+              if (!modelMap[existing.cid]) {
+                modelMap[existing.cid] = true;
+                set.push(existing);
+              }
+              models[i] = existing;
+            } else if (add) {
+              model = models[i] = this._prepareModel(model, options);
+              if (model) {
+                toAdd.push(model);
+                this._addReference(model, options);
+                modelMap[model.cid] = true;
+                set.push(model);
+              }
+            }
+          }
+          if (remove) {
+            for (i = 0; i < this.length; i++) {
+              model = this.models[i];
+              if (!modelMap[model.cid]) toRemove.push(model);
+            }
+            if (toRemove.length) this._removeModels(toRemove, options);
+          }
+          var orderChanged = false;
+          var replace = !sortable && add && remove;
+          if (set.length && replace) {
+            orderChanged = this.length !== set.length || _.some(this.models, function (m, index) {
+              return m !== set[index];
+            });
+            this.models.length = 0;
+            splice(this.models, set, 0);
+            this.length = this.models.length;
+          } else if (toAdd.length) {
+            if (sortable) sort = true;
+            splice(this.models, toAdd, at == null ? this.length : at);
+            this.length = this.models.length;
+          }
+          if (sort) this.sort({ silent: true });
+          if (!options.silent) {
+            for (i = 0; i < toAdd.length; i++) {
+              if (at != null) options.index = at + i;
+              model = toAdd[i];
+              model.trigger('add', model, this, options);
+            }
+            if (sort || orderChanged) this.trigger('sort', this, options);
+            if (toAdd.length || toRemove.length || toMerge.length) {
+              options.changes = {
+                added: toAdd,
+                removed: toRemove,
+                merged: toMerge
+              };
+              this.trigger('update', this, options);
+            }
+          }
+          return singular ? models[0] : models;
+        },
+        reset: function (models, options) {
+          options = options ? _.clone(options) : {};
+          for (var i = 0; i < this.models.length; i++) {
+            this._removeReference(this.models[i], options);
+          }
+          options.previousModels = this.models;
+          this._reset();
+          models = this.add(models, _.extend({ silent: true }, options));
+          if (!options.silent) this.trigger('reset', this, options);
+          return models;
+        },
+        push: function (model, options) {
+          return this.add(model, _.extend({ at: this.length }, options));
+        },
+        pop: function (options) {
+          var model = this.at(this.length - 1);
+          return this.remove(model, options);
+        },
+        unshift: function (model, options) {
+          return this.add(model, _.extend({ at: 0 }, options));
+        },
+        shift: function (options) {
+          var model = this.at(0);
+          return this.remove(model, options);
+        },
+        slice: function () {
+          return slice.apply(this.models, arguments);
+        },
+        get: function (obj) {
+          if (obj == null) return void 0;
+          return this._byId[obj] || this._byId[this.modelId(obj.attributes || obj)] || obj.cid && this._byId[obj.cid];
+        },
+        has: function (obj) {
+          return this.get(obj) != null;
+        },
+        at: function (index) {
+          if (index < 0) index += this.length;
+          return this.models[index];
+        },
+        where: function (attrs, first) {
+          return this[first ? 'find' : 'filter'](attrs);
+        },
+        findWhere: function (attrs) {
+          return this.where(attrs, true);
+        },
+        sort: function (options) {
+          var comparator = this.comparator;
+          if (!comparator) throw new Error('Cannot sort a set without a comparator');
+          options || (options = {});
+          var length = comparator.length;
+          if (_.isFunction(comparator)) comparator = _.bind(comparator, this);
+          if (length === 1 || _.isString(comparator)) {
+            this.models = this.sortBy(comparator);
+          } else {
+            this.models.sort(comparator);
+          }
+          if (!options.silent) this.trigger('sort', this, options);
+          return this;
+        },
+        pluck: function (attr) {
+          return this.map(attr + '');
+        },
+        fetch: function (options) {
+          options = _.extend({ parse: true }, options);
+          var success = options.success;
+          var collection = this;
+          options.success = function (resp) {
+            var method = options.reset ? 'reset' : 'set';
+            collection[method](resp, options);
+            if (success) success.call(options.context, collection, resp, options);
+            collection.trigger('sync', collection, resp, options);
+          };
+          wrapError(this, options);
+          return this.sync('read', this, options);
+        },
+        create: function (model, options) {
+          options = options ? _.clone(options) : {};
+          var wait = options.wait;
+          model = this._prepareModel(model, options);
+          if (!model) return false;
+          if (!wait) this.add(model, options);
+          var collection = this;
+          var success = options.success;
+          options.success = function (m, resp, callbackOpts) {
+            if (wait) collection.add(m, callbackOpts);
+            if (success) success.call(callbackOpts.context, m, resp, callbackOpts);
+          };
+          model.save(null, options);
+          return model;
+        },
+        parse: function (resp, options) {
+          return resp;
+        },
+        clone: function () {
+          return new this.constructor(this.models, {
+            model: this.model,
+            comparator: this.comparator
+          });
+        },
+        modelId: function (attrs) {
+          return attrs[this.model.prototype.idAttribute || 'id'];
+        },
+        _reset: function () {
+          this.length = 0;
+          this.models = [];
+          this._byId = {};
+        },
+        _prepareModel: function (attrs, options) {
+          if (this._isModel(attrs)) {
+            if (!attrs.collection) attrs.collection = this;
+            return attrs;
+          }
+          options = options ? _.clone(options) : {};
+          options.collection = this;
+          var model = new this.model(attrs, options);
+          if (!model.validationError) return model;
+          this.trigger('invalid', this, model.validationError, options);
+          return false;
+        },
+        _removeModels: function (models, options) {
+          var removed = [];
+          for (var i = 0; i < models.length; i++) {
+            var model = this.get(models[i]);
+            if (!model) continue;
+            var index = this.indexOf(model);
+            this.models.splice(index, 1);
+            this.length--;
+            delete this._byId[model.cid];
+            var id = this.modelId(model.attributes);
+            if (id != null) delete this._byId[id];
+            if (!options.silent) {
+              options.index = index;
+              model.trigger('remove', model, this, options);
+            }
+            removed.push(model);
+            this._removeReference(model, options);
+          }
+          return removed;
+        },
+        _isModel: function (model) {
+          return model instanceof Model;
+        },
+        _addReference: function (model, options) {
+          this._byId[model.cid] = model;
+          var id = this.modelId(model.attributes);
+          if (id != null) this._byId[id] = model;
+          model.on('all', this._onModelEvent, this);
+        },
+        _removeReference: function (model, options) {
+          delete this._byId[model.cid];
+          var id = this.modelId(model.attributes);
+          if (id != null) delete this._byId[id];
+          if (this === model.collection) delete model.collection;
+          model.off('all', this._onModelEvent, this);
+        },
+        _onModelEvent: function (event, model, collection, options) {
+          if (model) {
+            if ((event === 'add' || event === 'remove') && collection !== this) return;
+            if (event === 'destroy') this.remove(model, options);
+            if (event === 'change') {
+              var prevId = this.modelId(model.previousAttributes());
+              var id = this.modelId(model.attributes);
+              if (prevId !== id) {
+                if (prevId != null) delete this._byId[prevId];
+                if (id != null) this._byId[id] = model;
+              }
+            }
+          }
+          this.trigger.apply(this, arguments);
+        }
+      });
+      var collectionMethods = {
+        forEach: 3,
+        each: 3,
+        map: 3,
+        collect: 3,
+        reduce: 0,
+        foldl: 0,
+        inject: 0,
+        reduceRight: 0,
+        foldr: 0,
+        find: 3,
+        detect: 3,
+        filter: 3,
+        select: 3,
+        reject: 3,
+        every: 3,
+        all: 3,
+        some: 3,
+        any: 3,
+        include: 3,
+        includes: 3,
+        contains: 3,
+        invoke: 0,
+        max: 3,
+        min: 3,
+        toArray: 1,
+        size: 1,
+        first: 3,
+        head: 3,
+        take: 3,
+        initial: 3,
+        rest: 3,
+        tail: 3,
+        drop: 3,
+        last: 3,
+        without: 0,
+        difference: 0,
+        indexOf: 3,
+        shuffle: 1,
+        lastIndexOf: 3,
+        isEmpty: 1,
+        chain: 1,
+        sample: 3,
+        partition: 3,
+        groupBy: 3,
+        countBy: 3,
+        sortBy: 3,
+        indexBy: 3,
+        findIndex: 3,
+        findLastIndex: 3
+      };
+      addUnderscoreMethods(Collection, collectionMethods, 'models');
+      var View = Backbone.View = function (options) {
+        this.cid = _.uniqueId('view');
+        _.extend(this, _.pick(options, viewOptions));
+        this._ensureElement();
+        this.initialize.apply(this, arguments);
+      };
+      var delegateEventSplitter = /^(\S+)\s*(.*)$/;
+      var viewOptions = ['model', 'collection', 'el', 'id', 'attributes', 'className', 'tagName', 'events'];
+      _.extend(View.prototype, Events, {
+        tagName: 'div',
+        $: function (selector) {
+          return this.$el.find(selector);
+        },
+        initialize: function () {},
+        render: function () {
+          return this;
+        },
+        remove: function () {
+          this._removeElement();
+          this.stopListening();
+          return this;
+        },
+        _removeElement: function () {
+          this.$el.remove();
+        },
+        setElement: function (element) {
+          this.undelegateEvents();
+          this._setElement(element);
+          this.delegateEvents();
+          return this;
+        },
+        _setElement: function (el) {
+          this.$el = el instanceof Backbone.$ ? el : Backbone.$(el);
+          this.el = this.$el[0];
+        },
+        delegateEvents: function (events) {
+          events || (events = _.result(this, 'events'));
+          if (!events) return this;
+          this.undelegateEvents();
+          for (var key in events) {
+            var method = events[key];
+            if (!_.isFunction(method)) method = this[method];
+            if (!method) continue;
+            var match = key.match(delegateEventSplitter);
+            this.delegate(match[1], match[2], _.bind(method, this));
+          }
+          return this;
+        },
+        delegate: function (eventName, selector, listener) {
+          this.$el.on(eventName + '.delegateEvents' + this.cid, selector, listener);
+          return this;
+        },
+        undelegateEvents: function () {
+          if (this.$el) this.$el.off('.delegateEvents' + this.cid);
+          return this;
+        },
+        undelegate: function (eventName, selector, listener) {
+          this.$el.off(eventName + '.delegateEvents' + this.cid, selector, listener);
+          return this;
+        },
+        _createElement: function (tagName) {
+          return document.createElement(tagName);
+        },
+        _ensureElement: function () {
+          if (!this.el) {
+            var attrs = _.extend({}, _.result(this, 'attributes'));
+            if (this.id) attrs.id = _.result(this, 'id');
+            if (this.className) attrs['class'] = _.result(this, 'className');
+            this.setElement(this._createElement(_.result(this, 'tagName')));
+            this._setAttributes(attrs);
+          } else {
+            this.setElement(_.result(this, 'el'));
+          }
+        },
+        _setAttributes: function (attributes) {
+          this.$el.attr(attributes);
+        }
+      });
+      Backbone.sync = function (method, model, options) {
+        var type = methodMap[method];
+        _.defaults(options || (options = {}), {
+          emulateHTTP: Backbone.emulateHTTP,
+          emulateJSON: Backbone.emulateJSON
+        });
+        var params = {
+          type: type,
+          dataType: 'json'
+        };
+        if (!options.url) {
+          params.url = _.result(model, 'url') || urlError();
+        }
+        if (options.data == null && model && (method === 'create' || method === 'update' || method === 'patch')) {
+          params.contentType = 'application/json';
+          params.data = JSON.stringify(options.attrs || model.toJSON(options));
+        }
+        if (options.emulateJSON) {
+          params.contentType = 'application/x-www-form-urlencoded';
+          params.data = params.data ? { model: params.data } : {};
+        }
+        if (options.emulateHTTP && (type === 'PUT' || type === 'DELETE' || type === 'PATCH')) {
+          params.type = 'POST';
+          if (options.emulateJSON) params.data._method = type;
+          var beforeSend = options.beforeSend;
+          options.beforeSend = function (xhr) {
+            xhr.setRequestHeader('X-HTTP-Method-Override', type);
+            if (beforeSend) return beforeSend.apply(this, arguments);
+          };
+        }
+        if (params.type !== 'GET' && !options.emulateJSON) {
+          params.processData = false;
+        }
+        var error = options.error;
+        options.error = function (xhr, textStatus, errorThrown) {
+          options.textStatus = textStatus;
+          options.errorThrown = errorThrown;
+          if (error) error.call(options.context, xhr, textStatus, errorThrown);
+        };
+        var xhr = options.xhr = Backbone.ajax(_.extend(params, options));
+        model.trigger('request', model, xhr, options);
+        return xhr;
+      };
+      var methodMap = {
+        'create': 'POST',
+        'update': 'PUT',
+        'patch': 'PATCH',
+        'delete': 'DELETE',
+        'read': 'GET'
+      };
+      Backbone.ajax = function () {
+        return Backbone.$.ajax.apply(Backbone.$, arguments);
+      };
+      var Router = Backbone.Router = function (options) {
+        options || (options = {});
+        if (options.routes) this.routes = options.routes;
+        this._bindRoutes();
+        this.initialize.apply(this, arguments);
+      };
+      var optionalParam = /\((.*?)\)/g;
+      var namedParam = /(\(\?)?:\w+/g;
+      var splatParam = /\*\w+/g;
+      var escapeRegExp = /[\-{}\[\]+?.,\\\^$|#\s]/g;
+      _.extend(Router.prototype, Events, {
+        initialize: function () {},
+        route: function (route, name, callback) {
+          if (!_.isRegExp(route)) route = this._routeToRegExp(route);
+          if (_.isFunction(name)) {
+            callback = name;
+            name = '';
+          }
+          if (!callback) callback = this[name];
+          var router = this;
+          Backbone.history.route(route, function (fragment) {
+            var args = router._extractParameters(route, fragment);
+            if (router.execute(callback, args, name) !== false) {
+              router.trigger.apply(router, ['route:' + name].concat(args));
+              router.trigger('route', name, args);
+              Backbone.history.trigger('route', router, name, args);
+            }
+          });
+          return this;
+        },
+        execute: function (callback, args, name) {
+          if (callback) callback.apply(this, args);
+        },
+        navigate: function (fragment, options) {
+          Backbone.history.navigate(fragment, options);
+          return this;
+        },
+        _bindRoutes: function () {
+          if (!this.routes) return;
+          this.routes = _.result(this, 'routes');
+          var route,
+              routes = _.keys(this.routes);
+          while ((route = routes.pop()) != null) {
+            this.route(route, this.routes[route]);
+          }
+        },
+        _routeToRegExp: function (route) {
+          route = route.replace(escapeRegExp, '\\$&').replace(optionalParam, '(?:$1)?').replace(namedParam, function (match, optional) {
+            return optional ? match : '([^/?]+)';
+          }).replace(splatParam, '([^?]*?)');
+          return new RegExp('^' + route + '(?:\\?([\\s\\S]*))?$');
+        },
+        _extractParameters: function (route, fragment) {
+          var params = route.exec(fragment).slice(1);
+          return _.map(params, function (param, i) {
+            if (i === params.length - 1) return param || null;
+            return param ? decodeURIComponent(param) : null;
+          });
+        }
+      });
+      var History = Backbone.History = function () {
+        this.handlers = [];
+        this.checkUrl = _.bind(this.checkUrl, this);
+        if (typeof window !== 'undefined') {
+          this.location = window.location;
+          this.history = window.history;
+        }
+      };
+      var routeStripper = /^[#\/]|\s+$/g;
+      var rootStripper = /^\/+|\/+$/g;
+      var pathStripper = /#.*$/;
+      History.started = false;
+      _.extend(History.prototype, Events, {
+        interval: 50,
+        atRoot: function () {
+          var path = this.location.pathname.replace(/[^\/]$/, '$&/');
+          return path === this.root && !this.getSearch();
+        },
+        matchRoot: function () {
+          var path = this.decodeFragment(this.location.pathname);
+          var rootPath = path.slice(0, this.root.length - 1) + '/';
+          return rootPath === this.root;
+        },
+        decodeFragment: function (fragment) {
+          return decodeURI(fragment.replace(/%25/g, '%2525'));
+        },
+        getSearch: function () {
+          var match = this.location.href.replace(/#.*/, '').match(/\?.+/);
+          return match ? match[0] : '';
+        },
+        getHash: function (window) {
+          var match = (window || this).location.href.match(/#(.*)$/);
+          return match ? match[1] : '';
+        },
+        getPath: function () {
+          var path = this.decodeFragment(this.location.pathname + this.getSearch()).slice(this.root.length - 1);
+          return path.charAt(0) === '/' ? path.slice(1) : path;
+        },
+        getFragment: function (fragment) {
+          if (fragment == null) {
+            if (this._usePushState || !this._wantsHashChange) {
+              fragment = this.getPath();
+            } else {
+              fragment = this.getHash();
+            }
+          }
+          return fragment.replace(routeStripper, '');
+        },
+        start: function (options) {
+          if (History.started) throw new Error('Backbone.history has already been started');
+          History.started = true;
+          this.options = _.extend({ root: '/' }, this.options, options);
+          this.root = this.options.root;
+          this._wantsHashChange = this.options.hashChange !== false;
+          this._hasHashChange = 'onhashchange' in window && (document.documentMode === void 0 || document.documentMode > 7);
+          this._useHashChange = this._wantsHashChange && this._hasHashChange;
+          this._wantsPushState = !!this.options.pushState;
+          this._hasPushState = !!(this.history && this.history.pushState);
+          this._usePushState = this._wantsPushState && this._hasPushState;
+          this.fragment = this.getFragment();
+          this.root = ('/' + this.root + '/').replace(rootStripper, '/');
+          if (this._wantsHashChange && this._wantsPushState) {
+            if (!this._hasPushState && !this.atRoot()) {
+              var rootPath = this.root.slice(0, -1) || '/';
+              this.location.replace(rootPath + '#' + this.getPath());
+              return true;
+            } else if (this._hasPushState && this.atRoot()) {
+              this.navigate(this.getHash(), { replace: true });
+            }
+          }
+          if (!this._hasHashChange && this._wantsHashChange && !this._usePushState) {
+            this.iframe = document.createElement('iframe');
+            this.iframe.src = 'javascript:0';
+            this.iframe.style.display = 'none';
+            this.iframe.tabIndex = -1;
+            var body = document.body;
+            var iWindow = body.insertBefore(this.iframe, body.firstChild).contentWindow;
+            iWindow.document.open();
+            iWindow.document.close();
+            iWindow.location.hash = '#' + this.fragment;
+          }
+          var addEventListener = window.addEventListener || function (eventName, listener) {
+            return attachEvent('on' + eventName, listener);
+          };
+          if (this._usePushState) {
+            addEventListener('popstate', this.checkUrl, false);
+          } else if (this._useHashChange && !this.iframe) {
+            addEventListener('hashchange', this.checkUrl, false);
+          } else if (this._wantsHashChange) {
+            this._checkUrlInterval = setInterval(this.checkUrl, this.interval);
+          }
+          if (!this.options.silent) return this.loadUrl();
+        },
+        stop: function () {
+          var removeEventListener = window.removeEventListener || function (eventName, listener) {
+            return detachEvent('on' + eventName, listener);
+          };
+          if (this._usePushState) {
+            removeEventListener('popstate', this.checkUrl, false);
+          } else if (this._useHashChange && !this.iframe) {
+            removeEventListener('hashchange', this.checkUrl, false);
+          }
+          if (this.iframe) {
+            document.body.removeChild(this.iframe);
+            this.iframe = null;
+          }
+          if (this._checkUrlInterval) clearInterval(this._checkUrlInterval);
+          History.started = false;
+        },
+        route: function (route, callback) {
+          this.handlers.unshift({
+            route: route,
+            callback: callback
+          });
+        },
+        checkUrl: function (e) {
+          var current = this.getFragment();
+          if (current === this.fragment && this.iframe) {
+            current = this.getHash(this.iframe.contentWindow);
+          }
+          if (current === this.fragment) return false;
+          if (this.iframe) this.navigate(current);
+          this.loadUrl();
+        },
+        loadUrl: function (fragment) {
+          if (!this.matchRoot()) return false;
+          fragment = this.fragment = this.getFragment(fragment);
+          return _.some(this.handlers, function (handler) {
+            if (handler.route.test(fragment)) {
+              handler.callback(fragment);
+              return true;
+            }
+          });
+        },
+        navigate: function (fragment, options) {
+          if (!History.started) return false;
+          if (!options || options === true) options = { trigger: !!options };
+          fragment = this.getFragment(fragment || '');
+          var rootPath = this.root;
+          if (fragment === '' || fragment.charAt(0) === '?') {
+            rootPath = rootPath.slice(0, -1) || '/';
+          }
+          var url = rootPath + fragment;
+          fragment = this.decodeFragment(fragment.replace(pathStripper, ''));
+          if (this.fragment === fragment) return;
+          this.fragment = fragment;
+          if (this._usePushState) {
+            this.history[options.replace ? 'replaceState' : 'pushState']({}, document.title, url);
+          } else if (this._wantsHashChange) {
+            this._updateHash(this.location, fragment, options.replace);
+            if (this.iframe && fragment !== this.getHash(this.iframe.contentWindow)) {
+              var iWindow = this.iframe.contentWindow;
+              if (!options.replace) {
+                iWindow.document.open();
+                iWindow.document.close();
+              }
+              this._updateHash(iWindow.location, fragment, options.replace);
+            }
+          } else {
+            return this.location.assign(url);
+          }
+          if (options.trigger) return this.loadUrl(fragment);
+        },
+        _updateHash: function (location, fragment, replace) {
+          if (replace) {
+            var href = location.href.replace(/(javascript:|#).*$/, '');
+            location.replace(href + '#' + fragment);
+          } else {
+            location.hash = '#' + fragment;
+          }
+        }
+      });
+      Backbone.history = new History();
+      var extend = function (protoProps, staticProps) {
+        var parent = this;
+        var child;
+        if (protoProps && _.has(protoProps, 'constructor')) {
+          child = protoProps.constructor;
+        } else {
+          child = function () {
+            return parent.apply(this, arguments);
+          };
+        }
+        _.extend(child, parent, staticProps);
+        child.prototype = _.create(parent.prototype, protoProps);
+        child.prototype.constructor = child;
+        child.__super__ = parent.prototype;
+        return child;
+      };
+      Model.extend = Collection.extend = Router.extend = View.extend = History.extend = extend;
+      var urlError = function () {
+        throw new Error('A "url" property or function must be specified');
+      };
+      var wrapError = function (model, options) {
+        var error = options.error;
+        options.error = function (resp) {
+          if (error) error.call(options.context, model, resp, options);
+          model.trigger('error', model, resp, options);
+        };
+      };
+      return Backbone;
+    });
+  })($__require('github:jspm/nodelibs-process@0.1.2.js'));
+});
+System.registerDynamic("npm:backbone@1.3.3.js", ["npm:backbone@1.3.3/backbone.js"], true, function ($__require, exports, module) {
+  var global = this || self,
+      GLOBAL = global;
+  module.exports = $__require("npm:backbone@1.3.3/backbone.js");
+});
 (function() {
 var define = System.amdDefine;
 (function(global, factory) {
@@ -8334,1480 +9809,250 @@ define("npm:jquery@3.2.1.js", ["npm:jquery@3.2.1/dist/jquery.js"], function(main
 });
 
 })();
-System.registerDynamic('npm:process@0.11.10/browser.js', [], true, function ($__require, exports, module) {
-    var global = this || self,
-        GLOBAL = global;
-    // shim for using process in browser
-    var process = module.exports = {};
-
-    // cached from whatever global is present so that test runners that stub it
-    // don't break things.  But we need to wrap it in a try catch in case it is
-    // wrapped in strict mode code which doesn't define any globals.  It's inside a
-    // function because try/catches deoptimize in certain engines.
-
-    var cachedSetTimeout;
-    var cachedClearTimeout;
-
-    function defaultSetTimout() {
-        throw new Error('setTimeout has not been defined');
-    }
-    function defaultClearTimeout() {
-        throw new Error('clearTimeout has not been defined');
-    }
-    (function () {
-        try {
-            if (typeof setTimeout === 'function') {
-                cachedSetTimeout = setTimeout;
-            } else {
-                cachedSetTimeout = defaultSetTimout;
-            }
-        } catch (e) {
-            cachedSetTimeout = defaultSetTimout;
-        }
-        try {
-            if (typeof clearTimeout === 'function') {
-                cachedClearTimeout = clearTimeout;
-            } else {
-                cachedClearTimeout = defaultClearTimeout;
-            }
-        } catch (e) {
-            cachedClearTimeout = defaultClearTimeout;
-        }
-    })();
-    function runTimeout(fun) {
-        if (cachedSetTimeout === setTimeout) {
-            //normal enviroments in sane situations
-            return setTimeout(fun, 0);
-        }
-        // if setTimeout wasn't available but was latter defined
-        if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-            cachedSetTimeout = setTimeout;
-            return setTimeout(fun, 0);
-        }
-        try {
-            // when when somebody has screwed with setTimeout but no I.E. maddness
-            return cachedSetTimeout(fun, 0);
-        } catch (e) {
-            try {
-                // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-                return cachedSetTimeout.call(null, fun, 0);
-            } catch (e) {
-                // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-                return cachedSetTimeout.call(this, fun, 0);
-            }
-        }
-    }
-    function runClearTimeout(marker) {
-        if (cachedClearTimeout === clearTimeout) {
-            //normal enviroments in sane situations
-            return clearTimeout(marker);
-        }
-        // if clearTimeout wasn't available but was latter defined
-        if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-            cachedClearTimeout = clearTimeout;
-            return clearTimeout(marker);
-        }
-        try {
-            // when when somebody has screwed with setTimeout but no I.E. maddness
-            return cachedClearTimeout(marker);
-        } catch (e) {
-            try {
-                // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-                return cachedClearTimeout.call(null, marker);
-            } catch (e) {
-                // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-                // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-                return cachedClearTimeout.call(this, marker);
-            }
-        }
-    }
-    var queue = [];
-    var draining = false;
-    var currentQueue;
-    var queueIndex = -1;
-
-    function cleanUpNextTick() {
-        if (!draining || !currentQueue) {
-            return;
-        }
-        draining = false;
-        if (currentQueue.length) {
-            queue = currentQueue.concat(queue);
-        } else {
-            queueIndex = -1;
-        }
-        if (queue.length) {
-            drainQueue();
-        }
-    }
-
-    function drainQueue() {
-        if (draining) {
-            return;
-        }
-        var timeout = runTimeout(cleanUpNextTick);
-        draining = true;
-
-        var len = queue.length;
-        while (len) {
-            currentQueue = queue;
-            queue = [];
-            while (++queueIndex < len) {
-                if (currentQueue) {
-                    currentQueue[queueIndex].run();
-                }
-            }
-            queueIndex = -1;
-            len = queue.length;
-        }
-        currentQueue = null;
-        draining = false;
-        runClearTimeout(timeout);
-    }
-
-    process.nextTick = function (fun) {
-        var args = new Array(arguments.length - 1);
-        if (arguments.length > 1) {
-            for (var i = 1; i < arguments.length; i++) {
-                args[i - 1] = arguments[i];
-            }
-        }
-        queue.push(new Item(fun, args));
-        if (queue.length === 1 && !draining) {
-            runTimeout(drainQueue);
-        }
-    };
-
-    // v8 likes predictible objects
-    function Item(fun, array) {
-        this.fun = fun;
-        this.array = array;
-    }
-    Item.prototype.run = function () {
-        this.fun.apply(null, this.array);
-    };
-    process.title = 'browser';
-    process.browser = true;
-    process.env = {};
-    process.argv = [];
-    process.version = ''; // empty string to avoid regexp issues
-    process.versions = {};
-
-    function noop() {}
-
-    process.on = noop;
-    process.addListener = noop;
-    process.once = noop;
-    process.off = noop;
-    process.removeListener = noop;
-    process.removeAllListeners = noop;
-    process.emit = noop;
-    process.prependListener = noop;
-    process.prependOnceListener = noop;
-
-    process.listeners = function (name) {
-        return [];
-    };
-
-    process.binding = function (name) {
-        throw new Error('process.binding is not supported');
-    };
-
-    process.cwd = function () {
-        return '/';
-    };
-    process.chdir = function (dir) {
-        throw new Error('process.chdir is not supported');
-    };
-    process.umask = function () {
-        return 0;
-    };
-});
-System.registerDynamic("npm:process@0.11.10.js", ["npm:process@0.11.10/browser.js"], true, function ($__require, exports, module) {
+System.registerDynamic("npm:jquery-modal@0.9.1/jquery.modal.js", ["npm:jquery@3.2.1.js"], true, function ($__require, exports, module) {
   var global = this || self,
       GLOBAL = global;
-  module.exports = $__require("npm:process@0.11.10/browser.js");
-});
-System.registerDynamic('github:jspm/nodelibs-process@0.1.2/index.js', ['npm:process@0.11.10.js'], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  module.exports = System._nodeRequire ? process : $__require('npm:process@0.11.10.js');
-});
-System.registerDynamic("github:jspm/nodelibs-process@0.1.2.js", ["github:jspm/nodelibs-process@0.1.2/index.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  module.exports = $__require("github:jspm/nodelibs-process@0.1.2/index.js");
-});
-System.registerDynamic('npm:backbone@1.3.3/backbone.js', ['npm:underscore@1.8.3.js', 'npm:jquery@3.2.1.js', 'github:jspm/nodelibs-process@0.1.2.js'], true, function ($__require, exports, module) {
-  /* */
-  "format cjs";
+  /*
+      A simple jQuery modal (http://github.com/kylefox/jquery-modal)
+      Version 0.9.1
+  */
 
-  var global = this || self,
-      GLOBAL = global;
-  (function (process) {
-    (function (factory) {
-      var root = typeof self == 'object' && self.self === self && self || typeof global == 'object' && global.global === global && global;
-      if (typeof undefined === 'function' && define.amd) {
-        define(['underscore', 'jquery', 'exports'], function (_, $, exports) {
-          root.Backbone = factory(root, exports, _, $);
-        });
-      } else if (typeof exports !== 'undefined') {
-        var _ = $__require('npm:underscore@1.8.3.js'),
-            $;
-        try {
-          $ = $__require('npm:jquery@3.2.1.js');
-        } catch (e) {}
-        factory(root, exports, _, $);
-      } else {
-        root.Backbone = factory(root, {}, root._, root.jQuery || root.Zepto || root.ender || root.$);
+  (function (factory) {
+    // Making your jQuery plugin work better with npm tools
+    // http://blog.npmjs.org/post/112712169830/making-your-jquery-plugin-work-better-with-npm
+    if (typeof module === "object" && typeof module.exports === "object") {
+      factory($__require("npm:jquery@3.2.1.js"), window, document);
+    } else {
+      factory(jQuery, window, document);
+    }
+  })(function ($, window, document, undefined) {
+
+    var modals = [],
+        getCurrent = function () {
+      return modals.length ? modals[modals.length - 1] : null;
+    },
+        selectCurrent = function () {
+      var i,
+          selected = false;
+      for (i = modals.length - 1; i >= 0; i--) {
+        if (modals[i].$blocker) {
+          modals[i].$blocker.toggleClass('current', !selected).toggleClass('behind', selected);
+          selected = true;
+        }
       }
-    })(function (root, Backbone, _, $) {
-      var previousBackbone = root.Backbone;
-      var slice = Array.prototype.slice;
-      Backbone.VERSION = '1.3.3';
-      Backbone.$ = $;
-      Backbone.noConflict = function () {
-        root.Backbone = previousBackbone;
-        return this;
-      };
-      Backbone.emulateHTTP = false;
-      Backbone.emulateJSON = false;
-      var addMethod = function (length, method, attribute) {
-        switch (length) {
-          case 1:
-            return function () {
-              return _[method](this[attribute]);
-            };
-          case 2:
-            return function (value) {
-              return _[method](this[attribute], value);
-            };
-          case 3:
-            return function (iteratee, context) {
-              return _[method](this[attribute], cb(iteratee, this), context);
-            };
-          case 4:
-            return function (iteratee, defaultVal, context) {
-              return _[method](this[attribute], cb(iteratee, this), defaultVal, context);
-            };
-          default:
-            return function () {
-              var args = slice.call(arguments);
-              args.unshift(this[attribute]);
-              return _[method].apply(_, args);
-            };
-        }
-      };
-      var addUnderscoreMethods = function (Class, methods, attribute) {
-        _.each(methods, function (length, method) {
-          if (_[method]) Class.prototype[method] = addMethod(length, method, attribute);
-        });
-      };
-      var cb = function (iteratee, instance) {
-        if (_.isFunction(iteratee)) return iteratee;
-        if (_.isObject(iteratee) && !instance._isModel(iteratee)) return modelMatcher(iteratee);
-        if (_.isString(iteratee)) return function (model) {
-          return model.get(iteratee);
-        };
-        return iteratee;
-      };
-      var modelMatcher = function (attrs) {
-        var matcher = _.matches(attrs);
-        return function (model) {
-          return matcher(model.attributes);
-        };
-      };
-      var Events = Backbone.Events = {};
-      var eventSplitter = /\s+/;
-      var eventsApi = function (iteratee, events, name, callback, opts) {
-        var i = 0,
-            names;
-        if (name && typeof name === 'object') {
-          if (callback !== void 0 && 'context' in opts && opts.context === void 0) opts.context = callback;
-          for (names = _.keys(name); i < names.length; i++) {
-            events = eventsApi(iteratee, events, names[i], name[names[i]], opts);
-          }
-        } else if (name && eventSplitter.test(name)) {
-          for (names = name.split(eventSplitter); i < names.length; i++) {
-            events = iteratee(events, names[i], callback, opts);
-          }
+    };
+
+    $.modal = function (el, options) {
+      var remove, target;
+      this.$body = $('body');
+      this.options = $.extend({}, $.modal.defaults, options);
+      this.options.doFade = !isNaN(parseInt(this.options.fadeDuration, 10));
+      this.$blocker = null;
+      if (this.options.closeExisting) while ($.modal.isActive()) $.modal.close(); // Close any open modals.
+      modals.push(this);
+      if (el.is('a')) {
+        target = el.attr('href');
+        this.anchor = el;
+        //Select element by id from href
+        if (/^#/.test(target)) {
+          this.$elm = $(target);
+          if (this.$elm.length !== 1) return null;
+          this.$body.append(this.$elm);
+          this.open();
+          //AJAX
         } else {
-          events = iteratee(events, name, callback, opts);
-        }
-        return events;
-      };
-      Events.on = function (name, callback, context) {
-        return internalOn(this, name, callback, context);
-      };
-      var internalOn = function (obj, name, callback, context, listening) {
-        obj._events = eventsApi(onApi, obj._events || {}, name, callback, {
-          context: context,
-          ctx: obj,
-          listening: listening
-        });
-        if (listening) {
-          var listeners = obj._listeners || (obj._listeners = {});
-          listeners[listening.id] = listening;
-        }
-        return obj;
-      };
-      Events.listenTo = function (obj, name, callback) {
-        if (!obj) return this;
-        var id = obj._listenId || (obj._listenId = _.uniqueId('l'));
-        var listeningTo = this._listeningTo || (this._listeningTo = {});
-        var listening = listeningTo[id];
-        if (!listening) {
-          var thisId = this._listenId || (this._listenId = _.uniqueId('l'));
-          listening = listeningTo[id] = {
-            obj: obj,
-            objId: id,
-            id: thisId,
-            listeningTo: listeningTo,
-            count: 0
+          this.$elm = $('<div>');
+          this.$body.append(this.$elm);
+          remove = function (event, modal) {
+            modal.elm.remove();
           };
-        }
-        internalOn(obj, name, callback, this, listening);
-        return this;
-      };
-      var onApi = function (events, name, callback, options) {
-        if (callback) {
-          var handlers = events[name] || (events[name] = []);
-          var context = options.context,
-              ctx = options.ctx,
-              listening = options.listening;
-          if (listening) listening.count++;
-          handlers.push({
-            callback: callback,
-            context: context,
-            ctx: context || ctx,
-            listening: listening
+          this.showSpinner();
+          el.trigger($.modal.AJAX_SEND);
+          $.get(target).done(function (html) {
+            if (!$.modal.isActive()) return;
+            el.trigger($.modal.AJAX_SUCCESS);
+            var current = getCurrent();
+            current.$elm.empty().append(html).on($.modal.CLOSE, remove);
+            current.hideSpinner();
+            current.open();
+            el.trigger($.modal.AJAX_COMPLETE);
+          }).fail(function () {
+            el.trigger($.modal.AJAX_FAIL);
+            var current = getCurrent();
+            current.hideSpinner();
+            modals.pop(); // remove expected modal from the list
+            el.trigger($.modal.AJAX_COMPLETE);
           });
         }
-        return events;
-      };
-      Events.off = function (name, callback, context) {
-        if (!this._events) return this;
-        this._events = eventsApi(offApi, this._events, name, callback, {
-          context: context,
-          listeners: this._listeners
-        });
-        return this;
-      };
-      Events.stopListening = function (obj, name, callback) {
-        var listeningTo = this._listeningTo;
-        if (!listeningTo) return this;
-        var ids = obj ? [obj._listenId] : _.keys(listeningTo);
-        for (var i = 0; i < ids.length; i++) {
-          var listening = listeningTo[ids[i]];
-          if (!listening) break;
-          listening.obj.off(name, callback, this);
-        }
-        return this;
-      };
-      var offApi = function (events, name, callback, options) {
-        if (!events) return;
-        var i = 0,
-            listening;
-        var context = options.context,
-            listeners = options.listeners;
-        if (!name && !callback && !context) {
-          var ids = _.keys(listeners);
-          for (; i < ids.length; i++) {
-            listening = listeners[ids[i]];
-            delete listeners[listening.id];
-            delete listening.listeningTo[listening.objId];
-          }
-          return;
-        }
-        var names = name ? [name] : _.keys(events);
-        for (; i < names.length; i++) {
-          name = names[i];
-          var handlers = events[name];
-          if (!handlers) break;
-          var remaining = [];
-          for (var j = 0; j < handlers.length; j++) {
-            var handler = handlers[j];
-            if (callback && callback !== handler.callback && callback !== handler.callback._callback || context && context !== handler.context) {
-              remaining.push(handler);
-            } else {
-              listening = handler.listening;
-              if (listening && --listening.count === 0) {
-                delete listeners[listening.id];
-                delete listening.listeningTo[listening.objId];
-              }
-            }
-          }
-          if (remaining.length) {
-            events[name] = remaining;
-          } else {
-            delete events[name];
-          }
-        }
-        return events;
-      };
-      Events.once = function (name, callback, context) {
-        var events = eventsApi(onceMap, {}, name, callback, _.bind(this.off, this));
-        if (typeof name === 'string' && context == null) callback = void 0;
-        return this.on(events, callback, context);
-      };
-      Events.listenToOnce = function (obj, name, callback) {
-        var events = eventsApi(onceMap, {}, name, callback, _.bind(this.stopListening, this, obj));
-        return this.listenTo(obj, events);
-      };
-      var onceMap = function (map, name, callback, offer) {
-        if (callback) {
-          var once = map[name] = _.once(function () {
-            offer(name, once);
-            callback.apply(this, arguments);
-          });
-          once._callback = callback;
-        }
-        return map;
-      };
-      Events.trigger = function (name) {
-        if (!this._events) return this;
-        var length = Math.max(0, arguments.length - 1);
-        var args = Array(length);
-        for (var i = 0; i < length; i++) args[i] = arguments[i + 1];
-        eventsApi(triggerApi, this._events, name, void 0, args);
-        return this;
-      };
-      var triggerApi = function (objEvents, name, callback, args) {
-        if (objEvents) {
-          var events = objEvents[name];
-          var allEvents = objEvents.all;
-          if (events && allEvents) allEvents = allEvents.slice();
-          if (events) triggerEvents(events, args);
-          if (allEvents) triggerEvents(allEvents, [name].concat(args));
-        }
-        return objEvents;
-      };
-      var triggerEvents = function (events, args) {
-        var ev,
-            i = -1,
-            l = events.length,
-            a1 = args[0],
-            a2 = args[1],
-            a3 = args[2];
-        switch (args.length) {
-          case 0:
-            while (++i < l) (ev = events[i]).callback.call(ev.ctx);
-            return;
-          case 1:
-            while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1);
-            return;
-          case 2:
-            while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1, a2);
-            return;
-          case 3:
-            while (++i < l) (ev = events[i]).callback.call(ev.ctx, a1, a2, a3);
-            return;
-          default:
-            while (++i < l) (ev = events[i]).callback.apply(ev.ctx, args);
-            return;
-        }
-      };
-      Events.bind = Events.on;
-      Events.unbind = Events.off;
-      _.extend(Backbone, Events);
-      var Model = Backbone.Model = function (attributes, options) {
-        var attrs = attributes || {};
-        options || (options = {});
-        this.cid = _.uniqueId(this.cidPrefix);
-        this.attributes = {};
-        if (options.collection) this.collection = options.collection;
-        if (options.parse) attrs = this.parse(attrs, options) || {};
-        var defaults = _.result(this, 'defaults');
-        attrs = _.defaults(_.extend({}, defaults, attrs), defaults);
-        this.set(attrs, options);
-        this.changed = {};
-        this.initialize.apply(this, arguments);
-      };
-      _.extend(Model.prototype, Events, {
-        changed: null,
-        validationError: null,
-        idAttribute: 'id',
-        cidPrefix: 'c',
-        initialize: function () {},
-        toJSON: function (options) {
-          return _.clone(this.attributes);
-        },
-        sync: function () {
-          return Backbone.sync.apply(this, arguments);
-        },
-        get: function (attr) {
-          return this.attributes[attr];
-        },
-        escape: function (attr) {
-          return _.escape(this.get(attr));
-        },
-        has: function (attr) {
-          return this.get(attr) != null;
-        },
-        matches: function (attrs) {
-          return !!_.iteratee(attrs, this)(this.attributes);
-        },
-        set: function (key, val, options) {
-          if (key == null) return this;
-          var attrs;
-          if (typeof key === 'object') {
-            attrs = key;
-            options = val;
-          } else {
-            (attrs = {})[key] = val;
-          }
-          options || (options = {});
-          if (!this._validate(attrs, options)) return false;
-          var unset = options.unset;
-          var silent = options.silent;
-          var changes = [];
-          var changing = this._changing;
-          this._changing = true;
-          if (!changing) {
-            this._previousAttributes = _.clone(this.attributes);
-            this.changed = {};
-          }
-          var current = this.attributes;
-          var changed = this.changed;
-          var prev = this._previousAttributes;
-          for (var attr in attrs) {
-            val = attrs[attr];
-            if (!_.isEqual(current[attr], val)) changes.push(attr);
-            if (!_.isEqual(prev[attr], val)) {
-              changed[attr] = val;
-            } else {
-              delete changed[attr];
-            }
-            unset ? delete current[attr] : current[attr] = val;
-          }
-          if (this.idAttribute in attrs) this.id = this.get(this.idAttribute);
-          if (!silent) {
-            if (changes.length) this._pending = options;
-            for (var i = 0; i < changes.length; i++) {
-              this.trigger('change:' + changes[i], this, current[changes[i]], options);
-            }
-          }
-          if (changing) return this;
-          if (!silent) {
-            while (this._pending) {
-              options = this._pending;
-              this._pending = false;
-              this.trigger('change', this, options);
-            }
-          }
-          this._pending = false;
-          this._changing = false;
-          return this;
-        },
-        unset: function (attr, options) {
-          return this.set(attr, void 0, _.extend({}, options, { unset: true }));
-        },
-        clear: function (options) {
-          var attrs = {};
-          for (var key in this.attributes) attrs[key] = void 0;
-          return this.set(attrs, _.extend({}, options, { unset: true }));
-        },
-        hasChanged: function (attr) {
-          if (attr == null) return !_.isEmpty(this.changed);
-          return _.has(this.changed, attr);
-        },
-        changedAttributes: function (diff) {
-          if (!diff) return this.hasChanged() ? _.clone(this.changed) : false;
-          var old = this._changing ? this._previousAttributes : this.attributes;
-          var changed = {};
-          for (var attr in diff) {
-            var val = diff[attr];
-            if (_.isEqual(old[attr], val)) continue;
-            changed[attr] = val;
-          }
-          return _.size(changed) ? changed : false;
-        },
-        previous: function (attr) {
-          if (attr == null || !this._previousAttributes) return null;
-          return this._previousAttributes[attr];
-        },
-        previousAttributes: function () {
-          return _.clone(this._previousAttributes);
-        },
-        fetch: function (options) {
-          options = _.extend({ parse: true }, options);
-          var model = this;
-          var success = options.success;
-          options.success = function (resp) {
-            var serverAttrs = options.parse ? model.parse(resp, options) : resp;
-            if (!model.set(serverAttrs, options)) return false;
-            if (success) success.call(options.context, model, resp, options);
-            model.trigger('sync', model, resp, options);
-          };
-          wrapError(this, options);
-          return this.sync('read', this, options);
-        },
-        save: function (key, val, options) {
-          var attrs;
-          if (key == null || typeof key === 'object') {
-            attrs = key;
-            options = val;
-          } else {
-            (attrs = {})[key] = val;
-          }
-          options = _.extend({
-            validate: true,
-            parse: true
-          }, options);
-          var wait = options.wait;
-          if (attrs && !wait) {
-            if (!this.set(attrs, options)) return false;
-          } else if (!this._validate(attrs, options)) {
-            return false;
-          }
-          var model = this;
-          var success = options.success;
-          var attributes = this.attributes;
-          options.success = function (resp) {
-            model.attributes = attributes;
-            var serverAttrs = options.parse ? model.parse(resp, options) : resp;
-            if (wait) serverAttrs = _.extend({}, attrs, serverAttrs);
-            if (serverAttrs && !model.set(serverAttrs, options)) return false;
-            if (success) success.call(options.context, model, resp, options);
-            model.trigger('sync', model, resp, options);
-          };
-          wrapError(this, options);
-          if (attrs && wait) this.attributes = _.extend({}, attributes, attrs);
-          var method = this.isNew() ? 'create' : options.patch ? 'patch' : 'update';
-          if (method === 'patch' && !options.attrs) options.attrs = attrs;
-          var xhr = this.sync(method, this, options);
-          this.attributes = attributes;
-          return xhr;
-        },
-        destroy: function (options) {
-          options = options ? _.clone(options) : {};
-          var model = this;
-          var success = options.success;
-          var wait = options.wait;
-          var destroy = function () {
-            model.stopListening();
-            model.trigger('destroy', model, model.collection, options);
-          };
-          options.success = function (resp) {
-            if (wait) destroy();
-            if (success) success.call(options.context, model, resp, options);
-            if (!model.isNew()) model.trigger('sync', model, resp, options);
-          };
-          var xhr = false;
-          if (this.isNew()) {
-            _.defer(options.success);
-          } else {
-            wrapError(this, options);
-            xhr = this.sync('delete', this, options);
-          }
-          if (!wait) destroy();
-          return xhr;
-        },
-        url: function () {
-          var base = _.result(this, 'urlRoot') || _.result(this.collection, 'url') || urlError();
-          if (this.isNew()) return base;
-          var id = this.get(this.idAttribute);
-          return base.replace(/[^\/]$/, '$&/') + encodeURIComponent(id);
-        },
-        parse: function (resp, options) {
-          return resp;
-        },
-        clone: function () {
-          return new this.constructor(this.attributes);
-        },
-        isNew: function () {
-          return !this.has(this.idAttribute);
-        },
-        isValid: function (options) {
-          return this._validate({}, _.extend({}, options, { validate: true }));
-        },
-        _validate: function (attrs, options) {
-          if (!options.validate || !this.validate) return true;
-          attrs = _.extend({}, this.attributes, attrs);
-          var error = this.validationError = this.validate(attrs, options) || null;
-          if (!error) return true;
-          this.trigger('invalid', this, error, _.extend(options, { validationError: error }));
-          return false;
-        }
-      });
-      var modelMethods = {
-        keys: 1,
-        values: 1,
-        pairs: 1,
-        invert: 1,
-        pick: 0,
-        omit: 0,
-        chain: 1,
-        isEmpty: 1
-      };
-      addUnderscoreMethods(Model, modelMethods, 'attributes');
-      var Collection = Backbone.Collection = function (models, options) {
-        options || (options = {});
-        if (options.model) this.model = options.model;
-        if (options.comparator !== void 0) this.comparator = options.comparator;
-        this._reset();
-        this.initialize.apply(this, arguments);
-        if (models) this.reset(models, _.extend({ silent: true }, options));
-      };
-      var setOptions = {
-        add: true,
-        remove: true,
-        merge: true
-      };
-      var addOptions = {
-        add: true,
-        remove: false
-      };
-      var splice = function (array, insert, at) {
-        at = Math.min(Math.max(at, 0), array.length);
-        var tail = Array(array.length - at);
-        var length = insert.length;
-        var i;
-        for (i = 0; i < tail.length; i++) tail[i] = array[i + at];
-        for (i = 0; i < length; i++) array[i + at] = insert[i];
-        for (i = 0; i < tail.length; i++) array[i + length + at] = tail[i];
-      };
-      _.extend(Collection.prototype, Events, {
-        model: Model,
-        initialize: function () {},
-        toJSON: function (options) {
-          return this.map(function (model) {
-            return model.toJSON(options);
-          });
-        },
-        sync: function () {
-          return Backbone.sync.apply(this, arguments);
-        },
-        add: function (models, options) {
-          return this.set(models, _.extend({ merge: false }, options, addOptions));
-        },
-        remove: function (models, options) {
-          options = _.extend({}, options);
-          var singular = !_.isArray(models);
-          models = singular ? [models] : models.slice();
-          var removed = this._removeModels(models, options);
-          if (!options.silent && removed.length) {
-            options.changes = {
-              added: [],
-              merged: [],
-              removed: removed
-            };
-            this.trigger('update', this, options);
-          }
-          return singular ? removed[0] : removed;
-        },
-        set: function (models, options) {
-          if (models == null) return;
-          options = _.extend({}, setOptions, options);
-          if (options.parse && !this._isModel(models)) {
-            models = this.parse(models, options) || [];
-          }
-          var singular = !_.isArray(models);
-          models = singular ? [models] : models.slice();
-          var at = options.at;
-          if (at != null) at = +at;
-          if (at > this.length) at = this.length;
-          if (at < 0) at += this.length + 1;
-          var set = [];
-          var toAdd = [];
-          var toMerge = [];
-          var toRemove = [];
-          var modelMap = {};
-          var add = options.add;
-          var merge = options.merge;
-          var remove = options.remove;
-          var sort = false;
-          var sortable = this.comparator && at == null && options.sort !== false;
-          var sortAttr = _.isString(this.comparator) ? this.comparator : null;
-          var model, i;
-          for (i = 0; i < models.length; i++) {
-            model = models[i];
-            var existing = this.get(model);
-            if (existing) {
-              if (merge && model !== existing) {
-                var attrs = this._isModel(model) ? model.attributes : model;
-                if (options.parse) attrs = existing.parse(attrs, options);
-                existing.set(attrs, options);
-                toMerge.push(existing);
-                if (sortable && !sort) sort = existing.hasChanged(sortAttr);
-              }
-              if (!modelMap[existing.cid]) {
-                modelMap[existing.cid] = true;
-                set.push(existing);
-              }
-              models[i] = existing;
-            } else if (add) {
-              model = models[i] = this._prepareModel(model, options);
-              if (model) {
-                toAdd.push(model);
-                this._addReference(model, options);
-                modelMap[model.cid] = true;
-                set.push(model);
-              }
-            }
-          }
-          if (remove) {
-            for (i = 0; i < this.length; i++) {
-              model = this.models[i];
-              if (!modelMap[model.cid]) toRemove.push(model);
-            }
-            if (toRemove.length) this._removeModels(toRemove, options);
-          }
-          var orderChanged = false;
-          var replace = !sortable && add && remove;
-          if (set.length && replace) {
-            orderChanged = this.length !== set.length || _.some(this.models, function (m, index) {
-              return m !== set[index];
-            });
-            this.models.length = 0;
-            splice(this.models, set, 0);
-            this.length = this.models.length;
-          } else if (toAdd.length) {
-            if (sortable) sort = true;
-            splice(this.models, toAdd, at == null ? this.length : at);
-            this.length = this.models.length;
-          }
-          if (sort) this.sort({ silent: true });
-          if (!options.silent) {
-            for (i = 0; i < toAdd.length; i++) {
-              if (at != null) options.index = at + i;
-              model = toAdd[i];
-              model.trigger('add', model, this, options);
-            }
-            if (sort || orderChanged) this.trigger('sort', this, options);
-            if (toAdd.length || toRemove.length || toMerge.length) {
-              options.changes = {
-                added: toAdd,
-                removed: toRemove,
-                merged: toMerge
-              };
-              this.trigger('update', this, options);
-            }
-          }
-          return singular ? models[0] : models;
-        },
-        reset: function (models, options) {
-          options = options ? _.clone(options) : {};
-          for (var i = 0; i < this.models.length; i++) {
-            this._removeReference(this.models[i], options);
-          }
-          options.previousModels = this.models;
-          this._reset();
-          models = this.add(models, _.extend({ silent: true }, options));
-          if (!options.silent) this.trigger('reset', this, options);
-          return models;
-        },
-        push: function (model, options) {
-          return this.add(model, _.extend({ at: this.length }, options));
-        },
-        pop: function (options) {
-          var model = this.at(this.length - 1);
-          return this.remove(model, options);
-        },
-        unshift: function (model, options) {
-          return this.add(model, _.extend({ at: 0 }, options));
-        },
-        shift: function (options) {
-          var model = this.at(0);
-          return this.remove(model, options);
-        },
-        slice: function () {
-          return slice.apply(this.models, arguments);
-        },
-        get: function (obj) {
-          if (obj == null) return void 0;
-          return this._byId[obj] || this._byId[this.modelId(obj.attributes || obj)] || obj.cid && this._byId[obj.cid];
-        },
-        has: function (obj) {
-          return this.get(obj) != null;
-        },
-        at: function (index) {
-          if (index < 0) index += this.length;
-          return this.models[index];
-        },
-        where: function (attrs, first) {
-          return this[first ? 'find' : 'filter'](attrs);
-        },
-        findWhere: function (attrs) {
-          return this.where(attrs, true);
-        },
-        sort: function (options) {
-          var comparator = this.comparator;
-          if (!comparator) throw new Error('Cannot sort a set without a comparator');
-          options || (options = {});
-          var length = comparator.length;
-          if (_.isFunction(comparator)) comparator = _.bind(comparator, this);
-          if (length === 1 || _.isString(comparator)) {
-            this.models = this.sortBy(comparator);
-          } else {
-            this.models.sort(comparator);
-          }
-          if (!options.silent) this.trigger('sort', this, options);
-          return this;
-        },
-        pluck: function (attr) {
-          return this.map(attr + '');
-        },
-        fetch: function (options) {
-          options = _.extend({ parse: true }, options);
-          var success = options.success;
-          var collection = this;
-          options.success = function (resp) {
-            var method = options.reset ? 'reset' : 'set';
-            collection[method](resp, options);
-            if (success) success.call(options.context, collection, resp, options);
-            collection.trigger('sync', collection, resp, options);
-          };
-          wrapError(this, options);
-          return this.sync('read', this, options);
-        },
-        create: function (model, options) {
-          options = options ? _.clone(options) : {};
-          var wait = options.wait;
-          model = this._prepareModel(model, options);
-          if (!model) return false;
-          if (!wait) this.add(model, options);
-          var collection = this;
-          var success = options.success;
-          options.success = function (m, resp, callbackOpts) {
-            if (wait) collection.add(m, callbackOpts);
-            if (success) success.call(callbackOpts.context, m, resp, callbackOpts);
-          };
-          model.save(null, options);
-          return model;
-        },
-        parse: function (resp, options) {
-          return resp;
-        },
-        clone: function () {
-          return new this.constructor(this.models, {
-            model: this.model,
-            comparator: this.comparator
-          });
-        },
-        modelId: function (attrs) {
-          return attrs[this.model.prototype.idAttribute || 'id'];
-        },
-        _reset: function () {
-          this.length = 0;
-          this.models = [];
-          this._byId = {};
-        },
-        _prepareModel: function (attrs, options) {
-          if (this._isModel(attrs)) {
-            if (!attrs.collection) attrs.collection = this;
-            return attrs;
-          }
-          options = options ? _.clone(options) : {};
-          options.collection = this;
-          var model = new this.model(attrs, options);
-          if (!model.validationError) return model;
-          this.trigger('invalid', this, model.validationError, options);
-          return false;
-        },
-        _removeModels: function (models, options) {
-          var removed = [];
-          for (var i = 0; i < models.length; i++) {
-            var model = this.get(models[i]);
-            if (!model) continue;
-            var index = this.indexOf(model);
-            this.models.splice(index, 1);
-            this.length--;
-            delete this._byId[model.cid];
-            var id = this.modelId(model.attributes);
-            if (id != null) delete this._byId[id];
-            if (!options.silent) {
-              options.index = index;
-              model.trigger('remove', model, this, options);
-            }
-            removed.push(model);
-            this._removeReference(model, options);
-          }
-          return removed;
-        },
-        _isModel: function (model) {
-          return model instanceof Model;
-        },
-        _addReference: function (model, options) {
-          this._byId[model.cid] = model;
-          var id = this.modelId(model.attributes);
-          if (id != null) this._byId[id] = model;
-          model.on('all', this._onModelEvent, this);
-        },
-        _removeReference: function (model, options) {
-          delete this._byId[model.cid];
-          var id = this.modelId(model.attributes);
-          if (id != null) delete this._byId[id];
-          if (this === model.collection) delete model.collection;
-          model.off('all', this._onModelEvent, this);
-        },
-        _onModelEvent: function (event, model, collection, options) {
-          if (model) {
-            if ((event === 'add' || event === 'remove') && collection !== this) return;
-            if (event === 'destroy') this.remove(model, options);
-            if (event === 'change') {
-              var prevId = this.modelId(model.previousAttributes());
-              var id = this.modelId(model.attributes);
-              if (prevId !== id) {
-                if (prevId != null) delete this._byId[prevId];
-                if (id != null) this._byId[id] = model;
-              }
-            }
-          }
-          this.trigger.apply(this, arguments);
-        }
-      });
-      var collectionMethods = {
-        forEach: 3,
-        each: 3,
-        map: 3,
-        collect: 3,
-        reduce: 0,
-        foldl: 0,
-        inject: 0,
-        reduceRight: 0,
-        foldr: 0,
-        find: 3,
-        detect: 3,
-        filter: 3,
-        select: 3,
-        reject: 3,
-        every: 3,
-        all: 3,
-        some: 3,
-        any: 3,
-        include: 3,
-        includes: 3,
-        contains: 3,
-        invoke: 0,
-        max: 3,
-        min: 3,
-        toArray: 1,
-        size: 1,
-        first: 3,
-        head: 3,
-        take: 3,
-        initial: 3,
-        rest: 3,
-        tail: 3,
-        drop: 3,
-        last: 3,
-        without: 0,
-        difference: 0,
-        indexOf: 3,
-        shuffle: 1,
-        lastIndexOf: 3,
-        isEmpty: 1,
-        chain: 1,
-        sample: 3,
-        partition: 3,
-        groupBy: 3,
-        countBy: 3,
-        sortBy: 3,
-        indexBy: 3,
-        findIndex: 3,
-        findLastIndex: 3
-      };
-      addUnderscoreMethods(Collection, collectionMethods, 'models');
-      var View = Backbone.View = function (options) {
-        this.cid = _.uniqueId('view');
-        _.extend(this, _.pick(options, viewOptions));
-        this._ensureElement();
-        this.initialize.apply(this, arguments);
-      };
-      var delegateEventSplitter = /^(\S+)\s*(.*)$/;
-      var viewOptions = ['model', 'collection', 'el', 'id', 'attributes', 'className', 'tagName', 'events'];
-      _.extend(View.prototype, Events, {
-        tagName: 'div',
-        $: function (selector) {
-          return this.$el.find(selector);
-        },
-        initialize: function () {},
-        render: function () {
-          return this;
-        },
-        remove: function () {
-          this._removeElement();
-          this.stopListening();
-          return this;
-        },
-        _removeElement: function () {
-          this.$el.remove();
-        },
-        setElement: function (element) {
-          this.undelegateEvents();
-          this._setElement(element);
-          this.delegateEvents();
-          return this;
-        },
-        _setElement: function (el) {
-          this.$el = el instanceof Backbone.$ ? el : Backbone.$(el);
-          this.el = this.$el[0];
-        },
-        delegateEvents: function (events) {
-          events || (events = _.result(this, 'events'));
-          if (!events) return this;
-          this.undelegateEvents();
-          for (var key in events) {
-            var method = events[key];
-            if (!_.isFunction(method)) method = this[method];
-            if (!method) continue;
-            var match = key.match(delegateEventSplitter);
-            this.delegate(match[1], match[2], _.bind(method, this));
-          }
-          return this;
-        },
-        delegate: function (eventName, selector, listener) {
-          this.$el.on(eventName + '.delegateEvents' + this.cid, selector, listener);
-          return this;
-        },
-        undelegateEvents: function () {
-          if (this.$el) this.$el.off('.delegateEvents' + this.cid);
-          return this;
-        },
-        undelegate: function (eventName, selector, listener) {
-          this.$el.off(eventName + '.delegateEvents' + this.cid, selector, listener);
-          return this;
-        },
-        _createElement: function (tagName) {
-          return document.createElement(tagName);
-        },
-        _ensureElement: function () {
-          if (!this.el) {
-            var attrs = _.extend({}, _.result(this, 'attributes'));
-            if (this.id) attrs.id = _.result(this, 'id');
-            if (this.className) attrs['class'] = _.result(this, 'className');
-            this.setElement(this._createElement(_.result(this, 'tagName')));
-            this._setAttributes(attrs);
-          } else {
-            this.setElement(_.result(this, 'el'));
-          }
-        },
-        _setAttributes: function (attributes) {
-          this.$el.attr(attributes);
-        }
-      });
-      Backbone.sync = function (method, model, options) {
-        var type = methodMap[method];
-        _.defaults(options || (options = {}), {
-          emulateHTTP: Backbone.emulateHTTP,
-          emulateJSON: Backbone.emulateJSON
-        });
-        var params = {
-          type: type,
-          dataType: 'json'
-        };
-        if (!options.url) {
-          params.url = _.result(model, 'url') || urlError();
-        }
-        if (options.data == null && model && (method === 'create' || method === 'update' || method === 'patch')) {
-          params.contentType = 'application/json';
-          params.data = JSON.stringify(options.attrs || model.toJSON(options));
-        }
-        if (options.emulateJSON) {
-          params.contentType = 'application/x-www-form-urlencoded';
-          params.data = params.data ? { model: params.data } : {};
-        }
-        if (options.emulateHTTP && (type === 'PUT' || type === 'DELETE' || type === 'PATCH')) {
-          params.type = 'POST';
-          if (options.emulateJSON) params.data._method = type;
-          var beforeSend = options.beforeSend;
-          options.beforeSend = function (xhr) {
-            xhr.setRequestHeader('X-HTTP-Method-Override', type);
-            if (beforeSend) return beforeSend.apply(this, arguments);
-          };
-        }
-        if (params.type !== 'GET' && !options.emulateJSON) {
-          params.processData = false;
-        }
-        var error = options.error;
-        options.error = function (xhr, textStatus, errorThrown) {
-          options.textStatus = textStatus;
-          options.errorThrown = errorThrown;
-          if (error) error.call(options.context, xhr, textStatus, errorThrown);
-        };
-        var xhr = options.xhr = Backbone.ajax(_.extend(params, options));
-        model.trigger('request', model, xhr, options);
-        return xhr;
-      };
-      var methodMap = {
-        'create': 'POST',
-        'update': 'PUT',
-        'patch': 'PATCH',
-        'delete': 'DELETE',
-        'read': 'GET'
-      };
-      Backbone.ajax = function () {
-        return Backbone.$.ajax.apply(Backbone.$, arguments);
-      };
-      var Router = Backbone.Router = function (options) {
-        options || (options = {});
-        if (options.routes) this.routes = options.routes;
-        this._bindRoutes();
-        this.initialize.apply(this, arguments);
-      };
-      var optionalParam = /\((.*?)\)/g;
-      var namedParam = /(\(\?)?:\w+/g;
-      var splatParam = /\*\w+/g;
-      var escapeRegExp = /[\-{}\[\]+?.,\\\^$|#\s]/g;
-      _.extend(Router.prototype, Events, {
-        initialize: function () {},
-        route: function (route, name, callback) {
-          if (!_.isRegExp(route)) route = this._routeToRegExp(route);
-          if (_.isFunction(name)) {
-            callback = name;
-            name = '';
-          }
-          if (!callback) callback = this[name];
-          var router = this;
-          Backbone.history.route(route, function (fragment) {
-            var args = router._extractParameters(route, fragment);
-            if (router.execute(callback, args, name) !== false) {
-              router.trigger.apply(router, ['route:' + name].concat(args));
-              router.trigger('route', name, args);
-              Backbone.history.trigger('route', router, name, args);
-            }
-          });
-          return this;
-        },
-        execute: function (callback, args, name) {
-          if (callback) callback.apply(this, args);
-        },
-        navigate: function (fragment, options) {
-          Backbone.history.navigate(fragment, options);
-          return this;
-        },
-        _bindRoutes: function () {
-          if (!this.routes) return;
-          this.routes = _.result(this, 'routes');
-          var route,
-              routes = _.keys(this.routes);
-          while ((route = routes.pop()) != null) {
-            this.route(route, this.routes[route]);
-          }
-        },
-        _routeToRegExp: function (route) {
-          route = route.replace(escapeRegExp, '\\$&').replace(optionalParam, '(?:$1)?').replace(namedParam, function (match, optional) {
-            return optional ? match : '([^/?]+)';
-          }).replace(splatParam, '([^?]*?)');
-          return new RegExp('^' + route + '(?:\\?([\\s\\S]*))?$');
-        },
-        _extractParameters: function (route, fragment) {
-          var params = route.exec(fragment).slice(1);
-          return _.map(params, function (param, i) {
-            if (i === params.length - 1) return param || null;
-            return param ? decodeURIComponent(param) : null;
-          });
-        }
-      });
-      var History = Backbone.History = function () {
-        this.handlers = [];
-        this.checkUrl = _.bind(this.checkUrl, this);
-        if (typeof window !== 'undefined') {
-          this.location = window.location;
-          this.history = window.history;
-        }
-      };
-      var routeStripper = /^[#\/]|\s+$/g;
-      var rootStripper = /^\/+|\/+$/g;
-      var pathStripper = /#.*$/;
-      History.started = false;
-      _.extend(History.prototype, Events, {
-        interval: 50,
-        atRoot: function () {
-          var path = this.location.pathname.replace(/[^\/]$/, '$&/');
-          return path === this.root && !this.getSearch();
-        },
-        matchRoot: function () {
-          var path = this.decodeFragment(this.location.pathname);
-          var rootPath = path.slice(0, this.root.length - 1) + '/';
-          return rootPath === this.root;
-        },
-        decodeFragment: function (fragment) {
-          return decodeURI(fragment.replace(/%25/g, '%2525'));
-        },
-        getSearch: function () {
-          var match = this.location.href.replace(/#.*/, '').match(/\?.+/);
-          return match ? match[0] : '';
-        },
-        getHash: function (window) {
-          var match = (window || this).location.href.match(/#(.*)$/);
-          return match ? match[1] : '';
-        },
-        getPath: function () {
-          var path = this.decodeFragment(this.location.pathname + this.getSearch()).slice(this.root.length - 1);
-          return path.charAt(0) === '/' ? path.slice(1) : path;
-        },
-        getFragment: function (fragment) {
-          if (fragment == null) {
-            if (this._usePushState || !this._wantsHashChange) {
-              fragment = this.getPath();
-            } else {
-              fragment = this.getHash();
-            }
-          }
-          return fragment.replace(routeStripper, '');
-        },
-        start: function (options) {
-          if (History.started) throw new Error('Backbone.history has already been started');
-          History.started = true;
-          this.options = _.extend({ root: '/' }, this.options, options);
-          this.root = this.options.root;
-          this._wantsHashChange = this.options.hashChange !== false;
-          this._hasHashChange = 'onhashchange' in window && (document.documentMode === void 0 || document.documentMode > 7);
-          this._useHashChange = this._wantsHashChange && this._hasHashChange;
-          this._wantsPushState = !!this.options.pushState;
-          this._hasPushState = !!(this.history && this.history.pushState);
-          this._usePushState = this._wantsPushState && this._hasPushState;
-          this.fragment = this.getFragment();
-          this.root = ('/' + this.root + '/').replace(rootStripper, '/');
-          if (this._wantsHashChange && this._wantsPushState) {
-            if (!this._hasPushState && !this.atRoot()) {
-              var rootPath = this.root.slice(0, -1) || '/';
-              this.location.replace(rootPath + '#' + this.getPath());
-              return true;
-            } else if (this._hasPushState && this.atRoot()) {
-              this.navigate(this.getHash(), { replace: true });
-            }
-          }
-          if (!this._hasHashChange && this._wantsHashChange && !this._usePushState) {
-            this.iframe = document.createElement('iframe');
-            this.iframe.src = 'javascript:0';
-            this.iframe.style.display = 'none';
-            this.iframe.tabIndex = -1;
-            var body = document.body;
-            var iWindow = body.insertBefore(this.iframe, body.firstChild).contentWindow;
-            iWindow.document.open();
-            iWindow.document.close();
-            iWindow.location.hash = '#' + this.fragment;
-          }
-          var addEventListener = window.addEventListener || function (eventName, listener) {
-            return attachEvent('on' + eventName, listener);
-          };
-          if (this._usePushState) {
-            addEventListener('popstate', this.checkUrl, false);
-          } else if (this._useHashChange && !this.iframe) {
-            addEventListener('hashchange', this.checkUrl, false);
-          } else if (this._wantsHashChange) {
-            this._checkUrlInterval = setInterval(this.checkUrl, this.interval);
-          }
-          if (!this.options.silent) return this.loadUrl();
-        },
-        stop: function () {
-          var removeEventListener = window.removeEventListener || function (eventName, listener) {
-            return detachEvent('on' + eventName, listener);
-          };
-          if (this._usePushState) {
-            removeEventListener('popstate', this.checkUrl, false);
-          } else if (this._useHashChange && !this.iframe) {
-            removeEventListener('hashchange', this.checkUrl, false);
-          }
-          if (this.iframe) {
-            document.body.removeChild(this.iframe);
-            this.iframe = null;
-          }
-          if (this._checkUrlInterval) clearInterval(this._checkUrlInterval);
-          History.started = false;
-        },
-        route: function (route, callback) {
-          this.handlers.unshift({
-            route: route,
-            callback: callback
-          });
-        },
-        checkUrl: function (e) {
-          var current = this.getFragment();
-          if (current === this.fragment && this.iframe) {
-            current = this.getHash(this.iframe.contentWindow);
-          }
-          if (current === this.fragment) return false;
-          if (this.iframe) this.navigate(current);
-          this.loadUrl();
-        },
-        loadUrl: function (fragment) {
-          if (!this.matchRoot()) return false;
-          fragment = this.fragment = this.getFragment(fragment);
-          return _.some(this.handlers, function (handler) {
-            if (handler.route.test(fragment)) {
-              handler.callback(fragment);
-              return true;
-            }
-          });
-        },
-        navigate: function (fragment, options) {
-          if (!History.started) return false;
-          if (!options || options === true) options = { trigger: !!options };
-          fragment = this.getFragment(fragment || '');
-          var rootPath = this.root;
-          if (fragment === '' || fragment.charAt(0) === '?') {
-            rootPath = rootPath.slice(0, -1) || '/';
-          }
-          var url = rootPath + fragment;
-          fragment = this.decodeFragment(fragment.replace(pathStripper, ''));
-          if (this.fragment === fragment) return;
-          this.fragment = fragment;
-          if (this._usePushState) {
-            this.history[options.replace ? 'replaceState' : 'pushState']({}, document.title, url);
-          } else if (this._wantsHashChange) {
-            this._updateHash(this.location, fragment, options.replace);
-            if (this.iframe && fragment !== this.getHash(this.iframe.contentWindow)) {
-              var iWindow = this.iframe.contentWindow;
-              if (!options.replace) {
-                iWindow.document.open();
-                iWindow.document.close();
-              }
-              this._updateHash(iWindow.location, fragment, options.replace);
-            }
-          } else {
-            return this.location.assign(url);
-          }
-          if (options.trigger) return this.loadUrl(fragment);
-        },
-        _updateHash: function (location, fragment, replace) {
-          if (replace) {
-            var href = location.href.replace(/(javascript:|#).*$/, '');
-            location.replace(href + '#' + fragment);
-          } else {
-            location.hash = '#' + fragment;
-          }
-        }
-      });
-      Backbone.history = new History();
-      var extend = function (protoProps, staticProps) {
-        var parent = this;
-        var child;
-        if (protoProps && _.has(protoProps, 'constructor')) {
-          child = protoProps.constructor;
+      } else {
+        this.$elm = el;
+        this.anchor = el;
+        this.$body.append(this.$elm);
+        this.open();
+      }
+    };
+
+    $.modal.prototype = {
+      constructor: $.modal,
+
+      open: function () {
+        var m = this;
+        this.block();
+        this.anchor.blur();
+        if (this.options.doFade) {
+          setTimeout(function () {
+            m.show();
+          }, this.options.fadeDuration * this.options.fadeDelay);
         } else {
-          child = function () {
-            return parent.apply(this, arguments);
-          };
+          this.show();
         }
-        _.extend(child, parent, staticProps);
-        child.prototype = _.create(parent.prototype, protoProps);
-        child.prototype.constructor = child;
-        child.__super__ = parent.prototype;
-        return child;
-      };
-      Model.extend = Collection.extend = Router.extend = View.extend = History.extend = extend;
-      var urlError = function () {
-        throw new Error('A "url" property or function must be specified');
-      };
-      var wrapError = function (model, options) {
-        var error = options.error;
-        options.error = function (resp) {
-          if (error) error.call(options.context, model, resp, options);
-          model.trigger('error', model, resp, options);
-        };
-      };
-      return Backbone;
+        $(document).off('keydown.modal').on('keydown.modal', function (event) {
+          var current = getCurrent();
+          if (event.which === 27 && current.options.escapeClose) current.close();
+        });
+        if (this.options.clickClose) this.$blocker.click(function (e) {
+          if (e.target === this) $.modal.close();
+        });
+      },
+
+      close: function () {
+        modals.pop();
+        this.unblock();
+        this.hide();
+        if (!$.modal.isActive()) $(document).off('keydown.modal');
+      },
+
+      block: function () {
+        this.$elm.trigger($.modal.BEFORE_BLOCK, [this._ctx()]);
+        this.$body.css('overflow', 'hidden');
+        this.$blocker = $('<div class="' + this.options.blockerClass + ' blocker current"></div>').appendTo(this.$body);
+        selectCurrent();
+        if (this.options.doFade) {
+          this.$blocker.css('opacity', 0).animate({ opacity: 1 }, this.options.fadeDuration);
+        }
+        this.$elm.trigger($.modal.BLOCK, [this._ctx()]);
+      },
+
+      unblock: function (now) {
+        if (!now && this.options.doFade) this.$blocker.fadeOut(this.options.fadeDuration, this.unblock.bind(this, true));else {
+          this.$blocker.children().appendTo(this.$body);
+          this.$blocker.remove();
+          this.$blocker = null;
+          selectCurrent();
+          if (!$.modal.isActive()) this.$body.css('overflow', '');
+        }
+      },
+
+      show: function () {
+        this.$elm.trigger($.modal.BEFORE_OPEN, [this._ctx()]);
+        if (this.options.showClose) {
+          this.closeButton = $('<a href="#close-modal" rel="modal:close" class="close-modal ' + this.options.closeClass + '">' + this.options.closeText + '</a>');
+          this.$elm.append(this.closeButton);
+        }
+        this.$elm.addClass(this.options.modalClass).appendTo(this.$blocker);
+        if (this.options.doFade) {
+          this.$elm.css({ opacity: 0, display: 'inline-block' }).animate({ opacity: 1 }, this.options.fadeDuration);
+        } else {
+          this.$elm.css('display', 'inline-block');
+        }
+        this.$elm.trigger($.modal.OPEN, [this._ctx()]);
+      },
+
+      hide: function () {
+        this.$elm.trigger($.modal.BEFORE_CLOSE, [this._ctx()]);
+        if (this.closeButton) this.closeButton.remove();
+        var _this = this;
+        if (this.options.doFade) {
+          this.$elm.fadeOut(this.options.fadeDuration, function () {
+            _this.$elm.trigger($.modal.AFTER_CLOSE, [_this._ctx()]);
+          });
+        } else {
+          this.$elm.hide(0, function () {
+            _this.$elm.trigger($.modal.AFTER_CLOSE, [_this._ctx()]);
+          });
+        }
+        this.$elm.trigger($.modal.CLOSE, [this._ctx()]);
+      },
+
+      showSpinner: function () {
+        if (!this.options.showSpinner) return;
+        this.spinner = this.spinner || $('<div class="' + this.options.modalClass + '-spinner"></div>').append(this.options.spinnerHtml);
+        this.$body.append(this.spinner);
+        this.spinner.show();
+      },
+
+      hideSpinner: function () {
+        if (this.spinner) this.spinner.remove();
+      },
+
+      //Return context for custom events
+      _ctx: function () {
+        return { elm: this.$elm, $elm: this.$elm, $blocker: this.$blocker, options: this.options };
+      }
+    };
+
+    $.modal.close = function (event) {
+      if (!$.modal.isActive()) return;
+      if (event) event.preventDefault();
+      var current = getCurrent();
+      current.close();
+      return current.$elm;
+    };
+
+    // Returns if there currently is an active modal
+    $.modal.isActive = function () {
+      return modals.length > 0;
+    };
+
+    $.modal.getCurrent = getCurrent;
+
+    $.modal.defaults = {
+      closeExisting: true,
+      escapeClose: true,
+      clickClose: true,
+      closeText: 'Close',
+      closeClass: '',
+      modalClass: "modal",
+      blockerClass: "jquery-modal",
+      spinnerHtml: '<div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div>',
+      showSpinner: true,
+      showClose: true,
+      fadeDuration: null, // Number of milliseconds the fade animation takes.
+      fadeDelay: 1.0 // Point during the overlay's fade-in that the modal begins to fade in (.5 = 50%, 1.5 = 150%, etc.)
+    };
+
+    // Event constants
+    $.modal.BEFORE_BLOCK = 'modal:before-block';
+    $.modal.BLOCK = 'modal:block';
+    $.modal.BEFORE_OPEN = 'modal:before-open';
+    $.modal.OPEN = 'modal:open';
+    $.modal.BEFORE_CLOSE = 'modal:before-close';
+    $.modal.CLOSE = 'modal:close';
+    $.modal.AFTER_CLOSE = 'modal:after-close';
+    $.modal.AJAX_SEND = 'modal:ajax:send';
+    $.modal.AJAX_SUCCESS = 'modal:ajax:success';
+    $.modal.AJAX_FAIL = 'modal:ajax:fail';
+    $.modal.AJAX_COMPLETE = 'modal:ajax:complete';
+
+    $.fn.modal = function (options) {
+      if (this.length === 1) {
+        new $.modal(this, options);
+      }
+      return this;
+    };
+
+    // Automatically bind links with rel="modal:close" to, well, close the modal.
+    $(document).on('click.modal', 'a[rel~="modal:close"]', $.modal.close);
+    $(document).on('click.modal', 'a[rel~="modal:open"]', function (event) {
+      event.preventDefault();
+      $(this).modal();
     });
-  })($__require('github:jspm/nodelibs-process@0.1.2.js'));
+  });
 });
-System.registerDynamic("npm:backbone@1.3.3.js", ["npm:backbone@1.3.3/backbone.js"], true, function ($__require, exports, module) {
+System.registerDynamic("npm:jquery-modal@0.9.1.js", ["npm:jquery-modal@0.9.1/jquery.modal.js"], true, function ($__require, exports, module) {
   var global = this || self,
       GLOBAL = global;
-  module.exports = $__require("npm:backbone@1.3.3/backbone.js");
+  module.exports = $__require("npm:jquery-modal@0.9.1/jquery.modal.js");
 });
 System.registerDynamic("app/pages/prvi.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
   var global = this || self,
@@ -15644,10 +15889,10 @@ System.registerDynamic("app/pages/z340.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       return "";
     }, "useData": true });
 });
-System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:backbone@1.3.3.js', 'app/pages/prvi.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h1.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h2.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h3.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h4.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h5.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h50q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/jedan.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/ydva.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/ycetiri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/bcetiri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a71.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a73.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a75.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a77.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a79.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a81.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a83.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a85.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a87.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a89.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a91.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a72.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a74.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a76.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a78.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a80.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a82.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a84.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a86.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a88.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a90.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a92.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a93.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a94.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a95.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a96.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a98.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a97.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a99.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a101.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a103.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a105.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a107.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a109.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a111.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a113.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a115.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a117.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a119.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a121.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a123.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a125.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a127.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a129.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a131.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a133.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a135.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a137.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a139.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a141.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a143.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a145.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a147.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a149.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a151.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a153.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a155.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a100.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a102.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a104.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a106.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a108.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a110.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a112.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a114.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a116.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a118.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a120.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a122.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a124.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a126.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a128.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a130.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a132.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a134.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a136.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a138.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a140.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a142.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a144.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a146.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a148.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a150.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a152.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a154.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a156.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a158.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z1.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z2.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z3.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z4.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z5.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z9a.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z71.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z72.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z73.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z74.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z75.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z76.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z77.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z78.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z79.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z80.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z91.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z92.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z93.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z94.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z95.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z96.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z97.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z98.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z99.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z100.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z81.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z82.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z83.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z84.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z85.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z86.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z87.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z88.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z89.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z90.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/pet.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/dva.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/bdva.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/tri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/cetiri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z101.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z102.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z103.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z104.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z105.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z106.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z107.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z108.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z109.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z110.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z111.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z112.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z113.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z114.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z115.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z116.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z117.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z118.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z119.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z120.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z121.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z122.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z123.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z124.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z125.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z126.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z127.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z128.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z129.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z130.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z131.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z132.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z133.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z134.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z135.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z136.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z137.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z138.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z139.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z140.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z141.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z142.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z143.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z144.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z145.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z146.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z147.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z148.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z149.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z150.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z150q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z151.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z152.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z153.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z154.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z155.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z156.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z157.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z158.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z159.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z160.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z161.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z162.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z163.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z164.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z165.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z166.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z167.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z168.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z169.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z170.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z171.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z172.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z173.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z174.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z175.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z176.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z177.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z178.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z179.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z180.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z181.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z182.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z183.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z184.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z185.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z186.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z187.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z188.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z189.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z190.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z191.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z192.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z193.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z194.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z195.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z196.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z197.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z198.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z199.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z200.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z201.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z202.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z203.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z204.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z205.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z206.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z207.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z208.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z209.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z210.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z211.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z212.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z213.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z214.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z215.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z216.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z217.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z218.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z219.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z220.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z221.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z222.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z223.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z224.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z225.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z226.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z227.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z228.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z229.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z230.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z231.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z232.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z233.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z234.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z235.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z235q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z236.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z237.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z238.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z239.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z240.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z241.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z242.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z243.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z244.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z245.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z246.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z247.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z248.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z249.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z250.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z251.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z252.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z253.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z254.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z255.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z256.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z257.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z258.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z259.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z260.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z261.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z262.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z263.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z264.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z265.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z266.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z267.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z268.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z269.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z270.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z271.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z272.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z273.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z274.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z275.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z276.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z277.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z278.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z279.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z280.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z281.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z282.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z283.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z284.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z285.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z286.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z287.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z288.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z289.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z290.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z291.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z292.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z293.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z294.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z295.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z296.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z297.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z298.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z299.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z300.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z301.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z302.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z303.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z304.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z305.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z306.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z307.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z308.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z309.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z310.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z311.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z312.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z313.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z314.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z315.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z316.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z317.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z318.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z319.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z320.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z321.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z322.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z323.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z324.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z325.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z326.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z327.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z328.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z329.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z330.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z331.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z332.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z333.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z334.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z335.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z336.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z337.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z338.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z339.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z340.hbs!github:davis/plugin-hbs@1.2.3.js'], function (_export) {
+System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:backbone@1.3.3.js', 'npm:jquery-modal@0.9.1.js', 'app/pages/prvi.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h1.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h2.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h3.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h4.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h5.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h50q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/jedan.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/y20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/ydva.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/ycetiri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/bcetiri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/x40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/b32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a71.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a73.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a75.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a77.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a79.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a81.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a83.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a85.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a87.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a89.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a91.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a72.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a74.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a76.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a78.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a80.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a82.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a84.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a86.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a88.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a90.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a92.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a93.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a94.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a95.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a96.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a98.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a97.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a99.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a101.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a103.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a105.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a107.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a109.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a111.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a113.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a115.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a117.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a119.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a121.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a123.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a125.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a127.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a129.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a131.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a133.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a135.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a137.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a139.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a141.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a143.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a145.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a147.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a149.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a151.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a153.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a155.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a100.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a102.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a104.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a106.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a108.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a110.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a112.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a114.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a116.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a118.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a120.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a122.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a124.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a126.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a128.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a130.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a132.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a134.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a136.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a138.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a140.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a142.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a144.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a146.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a148.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a150.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a152.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a154.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a156.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a158.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z1.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z2.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z3.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z4.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z5.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z9a.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z71.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z72.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z73.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z74.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z75.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z76.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z77.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z78.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z79.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z80.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z91.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z92.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z93.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z94.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z95.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z96.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z97.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z98.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z99.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z100.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z81.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z82.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z83.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z84.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z85.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z86.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z87.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z88.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z89.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z90.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/pet.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/dva.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/bdva.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/tri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/cetiri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z101.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z102.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z103.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z104.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z105.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z106.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z107.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z108.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z109.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z110.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z111.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z112.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z113.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z114.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z115.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z116.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z117.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z118.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z119.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z120.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z121.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z122.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z123.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z124.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z125.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z126.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z127.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z128.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z129.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z130.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z131.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z132.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z133.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z134.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z135.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z136.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z137.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z138.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z139.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z140.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z141.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z142.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z143.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z144.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z145.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z146.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z147.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z148.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z149.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z150.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z150q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z151.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z152.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z153.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z154.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z155.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z156.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z157.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z158.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z159.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z160.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z161.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z162.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z163.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z164.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z165.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z166.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z167.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z168.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z169.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z170.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z171.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z172.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z173.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z174.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z175.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z176.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z177.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z178.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z179.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z180.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z181.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z182.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z183.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z184.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z185.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z186.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z187.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z188.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z189.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z190.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z191.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z192.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z193.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z194.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z195.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z196.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z197.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z198.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z199.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z200.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z201.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z202.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z203.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z204.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z205.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z206.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z207.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z208.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z209.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z210.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z211.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z212.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z213.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z214.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z215.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z216.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z217.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z218.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z219.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z220.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z221.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z222.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z223.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z224.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z225.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z226.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z227.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z228.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z229.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z230.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z231.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z232.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z233.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z234.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z235.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z235q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z236.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z237.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z238.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z239.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z240.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z241.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z242.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z243.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z244.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z245.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z246.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z247.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z248.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z249.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z250.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z251.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z252.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z253.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z254.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z255.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z256.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z257.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z258.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z259.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z260.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z261.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z262.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z263.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z264.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z265.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z266.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z267.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z268.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z269.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z270.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z271.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z272.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z273.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z274.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z275.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z276.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z277.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z278.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z279.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z280.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z281.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z282.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z283.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z284.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z285.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z286.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z287.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z288.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z289.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z290.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z291.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z292.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z293.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z294.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z295.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z296.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z297.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z298.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z299.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z300.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z301.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z302.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z303.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z304.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z305.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z306.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z307.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z308.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z309.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z310.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z311.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z312.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z313.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z314.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z315.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z316.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z317.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z318.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z319.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z320.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z321.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z322.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z323.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z324.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z325.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z326.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z327.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z328.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z329.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z330.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z331.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z332.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z333.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z334.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z335.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z336.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z337.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z338.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z339.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z340.hbs!github:davis/plugin-hbs@1.2.3.js'], function (_export) {
     'use strict';
 
-    var $, Router, Backbone, index, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, h19, h20, h21, h22, h23, h24, h25, h26, h27, h28, h29, h30, h31, h32, h33, h34, h35, h36, h37, h38, h39, h40, h41, h42, h43, h44, h45, h46, h47, h48, h49, h50, h50q, h51, h52, h53, h54, h55, h56, h57, h58, h59, h60, h61, h62, h63, h64, h65, h66, h67, h68, h69, h70, jedan, a6, a8, y8, y10, y6, y12, y14, y16, y18, y20, ydva, ycetiri, a7, a9, a10, b10, a11, a12, b12, bcetiri, b6, a13, a14, b14, a15, a16, a18, a17, a19, a21, a23, a25, a27, a29, a20, a22, a24, a26, a28, a30, b24, b26, x22, x24, x26, x28, x30, x32, x34, a31, x36, x38, x40, a33, a37, a35, a39, a41, a43, a47, a45, a49, a51, a32, b32, a34, a36, a38, a40, a42, a44, a46, a48, a50, a52, a54, a56, a58, a60, a62, a53, a55, a57, a59, a61, a63, a65, a67, a69, a71, a73, a75, a77, a79, a81, a83, a85, a87, a89, a91, a64, a66, a68, a70, a72, a74, a76, a78, a80, a82, a84, a86, a88, a90, a92, a93, a94, a95, a96, a98, a97, a99, a101, a103, a105, a107, a109, a111, a113, a115, a117, a119, a121, a123, a125, a127, a129, a131, a133, a135, a137, a139, a141, a143, a145, a147, a149, a151, a153, a155, a100, a102, a104, a106, a108, a110, a112, a114, a116, a118, a120, a122, a124, a126, a128, a130, a132, a134, a136, a138, a140, a142, a144, a146, a148, a150, a152, a154, a156, a158, z1, z2, z3, z4, z5, z6, z7, z8, z9, z9a, z10, z11, z12, z13, z14, z15, z17, z16, z18, z19, z20, z21, z22, z23, z24, z25, z26, z27, z28, z29, z30, z31, z32, z33, z34, z35, z36, z37, z38, z39, z40, z41, z42, z43, z44, z45, z46, z47, z48, z49, z50, z51, z52, z53, z54, z55, z56, z57, z58, z59, z60, z61, z62, z63, z64, z65, z66, z67, z68, z69, z70, z71, z72, z73, z74, z75, z76, z77, z78, z79, z80, z91, z92, z93, z94, z95, z96, z97, z98, z99, z100, z81, z82, z83, z84, z85, z86, z87, z88, z89, z90, pet, dva, bdva, tri, cetiri, z101, z102, z103, z104, z105, z106, z107, z108, z109, z110, z111, z112, z113, z114, z115, z116, z117, z118, z119, z120, z121, z122, z123, z124, z125, z126, z127, z128, z129, z130, z131, z132, z133, z134, z135, z136, z137, z138, z139, z140, z141, z142, z143, z144, z145, z146, z147, z148, z149, z150, z150q, z151, z152, z153, z154, z155, z156, z157, z158, z159, z160, z161, z162, z163, z164, z165, z166, z167, z168, z169, z170, z171, z172, z173, z174, z175, z176, z177, z178, z179, z180, z181, z182, z183, z184, z185, z186, z187, z188, z189, z190, z191, z192, z193, z194, z195, z196, z197, z198, z199, z200, z201, z202, z203, z204, z205, z206, z207, z208, z209, z210, z211, z212, z213, z214, z215, z216, z217, z218, z219, z220, z221, z222, z223, z224, z225, z226, z227, z228, z229, z230, z231, z232, z233, z234, z235, z235q, z236, z237, z238, z239, z240, z241, z242, z243, z244, z245, z246, z247, z248, z249, z250, z251, z252, z253, z254, z255, z256, z257, z258, z259, z260, z261, z262, z263, z264, z265, z266, z267, z268, z269, z270, z271, z272, z273, z274, z275, z276, z277, z278, z279, z280, z281, z282, z283, z284, z285, z286, z287, z288, z289, z290, z291, z292, z293, z294, z295, z296, z297, z298, z299, z300, z301, z302, z303, z304, z305, z306, z307, z308, z309, z310, z311, z312, z313, z314, z315, z316, z317, z318, z319, z320, z321, z322, z323, z324, z325, z326, z327, z328, z329, z330, z331, z332, z333, z334, z335, z336, z337, z338, z339, z340;
+    var $, Router, Backbone, modal, index, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, h19, h20, h21, h22, h23, h24, h25, h26, h27, h28, h29, h30, h31, h32, h33, h34, h35, h36, h37, h38, h39, h40, h41, h42, h43, h44, h45, h46, h47, h48, h49, h50, h50q, h51, h52, h53, h54, h55, h56, h57, h58, h59, h60, h61, h62, h63, h64, h65, h66, h67, h68, h69, h70, jedan, a6, a8, y8, y10, y6, y12, y14, y16, y18, y20, ydva, ycetiri, a7, a9, a10, b10, a11, a12, b12, bcetiri, b6, a13, a14, b14, a15, a16, a18, a17, a19, a21, a23, a25, a27, a29, a20, a22, a24, a26, a28, a30, b24, b26, x22, x24, x26, x28, x30, x32, x34, a31, x36, x38, x40, a33, a37, a35, a39, a41, a43, a47, a45, a49, a51, a32, b32, a34, a36, a38, a40, a42, a44, a46, a48, a50, a52, a54, a56, a58, a60, a62, a53, a55, a57, a59, a61, a63, a65, a67, a69, a71, a73, a75, a77, a79, a81, a83, a85, a87, a89, a91, a64, a66, a68, a70, a72, a74, a76, a78, a80, a82, a84, a86, a88, a90, a92, a93, a94, a95, a96, a98, a97, a99, a101, a103, a105, a107, a109, a111, a113, a115, a117, a119, a121, a123, a125, a127, a129, a131, a133, a135, a137, a139, a141, a143, a145, a147, a149, a151, a153, a155, a100, a102, a104, a106, a108, a110, a112, a114, a116, a118, a120, a122, a124, a126, a128, a130, a132, a134, a136, a138, a140, a142, a144, a146, a148, a150, a152, a154, a156, a158, z1, z2, z3, z4, z5, z6, z7, z8, z9, z9a, z10, z11, z12, z13, z14, z15, z17, z16, z18, z19, z20, z21, z22, z23, z24, z25, z26, z27, z28, z29, z30, z31, z32, z33, z34, z35, z36, z37, z38, z39, z40, z41, z42, z43, z44, z45, z46, z47, z48, z49, z50, z51, z52, z53, z54, z55, z56, z57, z58, z59, z60, z61, z62, z63, z64, z65, z66, z67, z68, z69, z70, z71, z72, z73, z74, z75, z76, z77, z78, z79, z80, z91, z92, z93, z94, z95, z96, z97, z98, z99, z100, z81, z82, z83, z84, z85, z86, z87, z88, z89, z90, pet, dva, bdva, tri, cetiri, z101, z102, z103, z104, z105, z106, z107, z108, z109, z110, z111, z112, z113, z114, z115, z116, z117, z118, z119, z120, z121, z122, z123, z124, z125, z126, z127, z128, z129, z130, z131, z132, z133, z134, z135, z136, z137, z138, z139, z140, z141, z142, z143, z144, z145, z146, z147, z148, z149, z150, z150q, z151, z152, z153, z154, z155, z156, z157, z158, z159, z160, z161, z162, z163, z164, z165, z166, z167, z168, z169, z170, z171, z172, z173, z174, z175, z176, z177, z178, z179, z180, z181, z182, z183, z184, z185, z186, z187, z188, z189, z190, z191, z192, z193, z194, z195, z196, z197, z198, z199, z200, z201, z202, z203, z204, z205, z206, z207, z208, z209, z210, z211, z212, z213, z214, z215, z216, z217, z218, z219, z220, z221, z222, z223, z224, z225, z226, z227, z228, z229, z230, z231, z232, z233, z234, z235, z235q, z236, z237, z238, z239, z240, z241, z242, z243, z244, z245, z246, z247, z248, z249, z250, z251, z252, z253, z254, z255, z256, z257, z258, z259, z260, z261, z262, z263, z264, z265, z266, z267, z268, z269, z270, z271, z272, z273, z274, z275, z276, z277, z278, z279, z280, z281, z282, z283, z284, z285, z286, z287, z288, z289, z290, z291, z292, z293, z294, z295, z296, z297, z298, z299, z300, z301, z302, z303, z304, z305, z306, z307, z308, z309, z310, z311, z312, z313, z314, z315, z316, z317, z318, z319, z320, z321, z322, z323, z324, z325, z326, z327, z328, z329, z330, z331, z332, z333, z334, z335, z336, z337, z338, z339, z340;
     return {
         setters: [function (_npmJquery321Js) {
             $ = _npmJquery321Js['default'];
@@ -15655,6 +15900,8 @@ System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:bac
             Router = _appRouterJs.Router;
         }, function (_npmBackbone133Js) {
             Backbone = _npmBackbone133Js['default'];
+        }, function (_npmJqueryModal091Js) {
+            modal = _npmJqueryModal091Js['default'];
         }, function (_appPagesPrviHbsGithubDavisPluginHbs123Js) {
             index = _appPagesPrviHbsGithubDavisPluginHbs123Js['default'];
         }, function (_appPagesH1HbsGithubDavisPluginHbs123Js) {
@@ -19131,6 +19378,10 @@ System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:bac
                             localStorage.setItem('clicked-img', imageType);
                         }
                     } else {
+                        if ($('a[href="' + link + '"]').hasClass('zat') && !$('body').hasClass('prozor-otvoren')) {
+                            return false;
+                        }
+
                         $('a[href="' + link + '"]').trigger('click');
                     }
 
@@ -19189,11 +19440,8 @@ System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:bac
                     $('[data-sound]').on('click', function (e) {
 
                         if (e.originalEvent !== undefined) {
-                            console.log('sound2');
                             var name = $(this).attr('data-sound');
                             if ($('#sound-' + name).length != 0) {
-                                console.log('sound2' + name);
-
                                 document.getElementById('sound-' + name).play();
                             }
                         }
@@ -19206,6 +19454,23 @@ System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:bac
                         var link = links[Math.floor(Math.random() * links.length)];
 
                         window.location.href = link;
+                    });
+
+                    $('[data-wiki]').off('click').on('click', function () {
+                        $.ajax({
+                            url: 'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&&generator=random&grnnamespace=0&rvprop=content&grnlimit=1',
+                            dataType: 'jsonp',
+                            success: function success(data) {
+                                $.each(data.query.pages, function (key, value) {
+                                    $('#wiki-modal #wiki-title').text(value.title);
+                                    $('#wiki-modal #wiki-text').text(value.extract);
+                                });
+
+                                $('#wiki-modal').modal({
+                                    fadeDuration: 100
+                                });
+                            }
+                        });
                     });
 
                     //
@@ -19230,10 +19495,11 @@ System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:bac
 
                     $('body').off('click').on('click', function (e) {
                         var target = $(e.target);
-                        if (!target.is("a")) {
+                        if (!target.is("a") && !target.is(".modal")) {
+
                             if ($('body').hasClass('svemir-on')) {
                                 showSvemir();
-                                $('#svemir').toggle(0);
+                                $('#svemir').fadeToggle(300, "linear");
                                 return;
                             }
 
@@ -19263,7 +19529,7 @@ System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:bac
                                     $('<img class="key-hold-img wall-img-hold" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
                                 }
 
-                                $(".key-hold-img").toggle(0);
+                                $(".key-hold-img").fadeToggle(300, "linear");
                             }
                         }
                     });
@@ -19333,7 +19599,9 @@ System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:bac
 
                     $('body').on('click', '.skok', function () {
                         $('body').addClass('prozorpodloga-pokazan');
+                        $('.skok').addClass('disabled');
                     });
+
                     $('body').on('click', '.m5', function () {
                         $('body').removeClass('prozorpodloga-pokazan');
                     });

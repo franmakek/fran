@@ -69,5 +69,6 @@
   "github:components/handlebars.js@4.0.10": {},
   "github:davis/plugin-hbs@1.2.3": {
     "handlebars": "github:components/handlebars.js@^4.0.5"
-  }
+  },
+  "npm:jquery-modal@0.9.1": {}
 }
