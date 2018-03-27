@@ -696,6 +696,28 @@ import z338                 from 'app/pages/z338.hbs!';
 import z339                 from 'app/pages/z339.hbs!';
 import z340                 from 'app/pages/z340.hbs!';
 
+import z341                 from 'app/pages/z341.hbs!';
+import z342                 from 'app/pages/z342.hbs!';
+import z343                 from 'app/pages/z343.hbs!';
+import z344                 from 'app/pages/z344.hbs!';
+import z345                 from 'app/pages/z345.hbs!';
+import z346                 from 'app/pages/z346.hbs!';
+import z347                 from 'app/pages/z347.hbs!';
+import z348                 from 'app/pages/z348.hbs!';
+import z349                 from 'app/pages/z349.hbs!';
+import z350                 from 'app/pages/z350.hbs!';
+
+import z351                 from 'app/pages/z351.hbs!';
+import z352                 from 'app/pages/z352.hbs!';
+import z353                 from 'app/pages/z353.hbs!';
+import z354                 from 'app/pages/z354.hbs!';
+import z355                 from 'app/pages/z355.hbs!';
+import z356                 from 'app/pages/z356.hbs!';
+import z357                 from 'app/pages/z357.hbs!';
+import z358                 from 'app/pages/z358.hbs!';
+import z359                 from 'app/pages/z359.hbs!';
+import z360                 from 'app/pages/z360.hbs!';
+
 import primjerpocetak                 from 'app/primjer/primjerpocetak/primjerpocetak.hbs!';
 import primjerkomp                 from 'app/primjer/primjerkomp/primjerkomp.hbs!';
 import primjersint                 from 'app/primjer/primjersint/primjersint.hbs!';
@@ -2964,6 +2986,78 @@ Router.add('a21', () => {
     });
     
     
+      Router.add('z341', () => {
+        $element.html(z341());
+    //    showLink(5000);
+    });
+    Router.add('z342', () => {
+        $element.html(z342());
+    });      
+    Router.add('z343', () => {
+        $element.html(z343());
+    });
+    Router.add('z344', () => {
+        $element.html(z344());
+    //    showLink(5000);
+    });
+    Router.add('z345', () => {
+        $element.html(z345());
+    });
+        Router.add('z346', () => {
+        $element.html(z346());
+    //    showLink(5000);
+    });
+    Router.add('z347', () => {
+        $element.html(z347());
+    });      
+    Router.add('z348', () => {
+        $element.html(z348());
+    });
+    Router.add('z349', () => {
+        $element.html(z349());
+    //    showLink(5000);
+    });
+    Router.add('z350', () => {
+        $element.html(z350());
+    });
+    
+    
+          Router.add('z351', () => {
+        $element.html(z351());
+    //    showLink(5000);
+    });
+    Router.add('z352', () => {
+        $element.html(z352());
+    });      
+    Router.add('z353', () => {
+        $element.html(z353());
+    });
+    Router.add('z354', () => {
+        $element.html(z354());
+    //    showLink(5000);
+    });
+    Router.add('z355', () => {
+        $element.html(z355());
+    });
+        Router.add('z356', () => {
+        $element.html(z356());
+    //    showLink(5000);
+    });
+    Router.add('z357', () => {
+        $element.html(z357());
+    });      
+    Router.add('z358', () => {
+        $element.html(z358());
+    });
+    Router.add('z359', () => {
+        $element.html(z359());
+    //    showLink(5000);
+    });
+    Router.add('z360', () => {
+        $element.html(z360());
+    });
+    
+    
     
     
           Router.add('primjerpocetak', () => {
@@ -3018,7 +3112,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(18000, 43000,);
+    var mainTimeToClickMan = randomIntFromInterval(10000, 35000,);
 
 
     let $element = $("#spadiv");
@@ -3374,23 +3468,12 @@ function showImageOnHoldSpace(keySrc)
 
     
   
-<<<<<<< HEAD
-    });
 
-      $('body').on('click', '.teleskop-pokazan a', function(){
-            $('body').addClass('teleskop-pokazan-uvjek');
-      });
-    
-  
-     function showSvemir() {
-=======
      function showSvemir() {
 
            $('#svemir').attr('width', $('html').width());
            $('#svemir').attr('height', $('html').height());
 
-
->>>>>>> origin/latest-master
            var canvas = document.getElementById("svemir");
            var ctx = canvas.getContext("2d");
 
@@ -3413,7 +3496,7 @@ function showImageOnHoldSpace(keySrc)
                  dot = dots[j];
                  ctx.beginPath();
                  ctx.arc(dot.x, dot.y, Math.floor(Math.random() * (3 - 1 + 1)) + 1, 0, Math.PI * 2);
-                 ctx.fillStyle = "white";
+                 ctx.fillStyle = "#f0eec5";
                  ctx.fill();
            }
      }
