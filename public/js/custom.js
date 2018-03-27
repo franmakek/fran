@@ -28,7 +28,7 @@ var vc24 = 2240;
 var vc25 = 4240;
 var vc26 = 7520;
 var vc25 = 4480;
-var vc26 = 3000;
+var vc26 = 8000;
 var vc27 = 4480;
 var vc28 = 3000;
 
@@ -63,7 +63,7 @@ function changeWallImage(imageType){
 
     /*tu promjenit vrijeme kad se pokaze slika*/
 
-    var time = 3800;
+    var time = 2700;
     var image;
 
     if(imageType == undefined)
@@ -78,8 +78,7 @@ function changeWallImage(imageType){
 
     var verticalImages = [
         '/images/wall/v1.png',
-        '/images/wall/v2.png',
-         '/images/wall/v3.png'
+        '/images/wall/v2.png'
     ];
 
     /*tu dodat slike*/
@@ -87,8 +86,7 @@ function changeWallImage(imageType){
            '/images/wall/h1.png',
         '/images/wall/h2.png',  
        '/images/wall/v1.png',
-        '/images/wall/v2.png',
-       '/images/wall/v3.png'
+        '/images/wall/v2.png'
     ];
 
 
@@ -108,13 +106,13 @@ function changeWallImage(imageType){
 
     setTimeout(function(){
 
-        $('.wall-image').fadeOut(220)
+        $('.wall-image').fadeOut(500)
 
-    }, time - 2300);
+    }, time - 3000);
 
     setTimeout(function(){
 
-        $('.wall-image').attr("src", image).fadeIn(290);
+        $('.wall-image').attr("src", image).fadeIn(500);
 
     }, time);
 
