@@ -91,28 +91,14 @@ import h70                 from 'app/pages/h70.hbs!';
 import jedan                  from 'app/pages/jedan.hbs!';
 import a6                 from 'app/pages/a6.hbs!';
 import a8                 from 'app/pages/a8.hbs!';
-import y8                 from 'app/pages/y8.hbs!';
-import y10               from 'app/pages/y10.hbs!';
-import y6                 from 'app/pages/y6.hbs!';
-import y12               from 'app/pages/y12.hbs!';
-import y14                 from 'app/pages/y14.hbs!';
-import y16               from 'app/pages/y16.hbs!';
-import y18                 from 'app/pages/y18.hbs!';
-import y20              from 'app/pages/y20.hbs!';
-import ydva                 from 'app/pages/ydva.hbs!';
-import ycetiri             from 'app/pages/ycetiri.hbs!';
+
 import a7                 from 'app/pages/a7.hbs!';
 import a9                 from 'app/pages/a9.hbs!';
 import a10                 from 'app/pages/a10.hbs!';
-import b10                 from 'app/pages/b10.hbs!';
 import a11                 from 'app/pages/a11.hbs!';
 import a12                 from 'app/pages/a12.hbs!';
-import b12                 from 'app/pages/b12.hbs!';
-import bcetiri                 from 'app/pages/bcetiri.hbs!';
-import b6                 from 'app/pages/b6.hbs!';
 import a13                 from 'app/pages/a13.hbs!';
 import a14                 from 'app/pages/a14.hbs!';
-import b14                 from 'app/pages/b14.hbs!';
 import a15                 from 'app/pages/a15.hbs!';
 import a16                 from 'app/pages/a16.hbs!';
 import a18                 from 'app/pages/a18.hbs!';
@@ -136,22 +122,11 @@ import a28                 from 'app/pages/a28.hbs!';
 import a30     from
 'app/pages/a30.hbs!';
 
-import b24                 from 'app/pages/b24.hbs!';
-import b26                 from 'app/pages/b26.hbs!';
-import x22                 from 'app/pages/x22.hbs!';
-import x24                 from 'app/pages/x24.hbs!';
-import x26                 from 'app/pages/x26.hbs!';
-import x28                 from 'app/pages/x28.hbs!';
-import x30                 from 'app/pages/x30.hbs!';
-import x32                 from 'app/pages/x32.hbs!';
-import x34     from
-'app/pages/x34.hbs!';
+
 import a31     from
 'app/pages/a31.hbs!';
 
-import x36                 from 'app/pages/x36.hbs!';
-import x38                 from 'app/pages/x38.hbs!';
-import x40                 from 'app/pages/x40.hbs!';
+
 import a33                 from 'app/pages/a33.hbs!';
 import a37                 from 'app/pages/a37.hbs!';
 import a35                 from 'app/pages/a35.hbs!';
@@ -165,7 +140,7 @@ import a51                 from 'app/pages/a51.hbs!';
 
 
       import a32                 from 'app/pages/a32.hbs!';
- import b32                 from 'app/pages/b32.hbs!';
+ 
 import a34                 from 'app/pages/a34.hbs!';
 import a36                 from 'app/pages/a36.hbs!';
 import a38                 from 'app/pages/a38.hbs!';
@@ -720,7 +695,8 @@ import z359                 from 'app/pages/z359.hbs!';
 import z360                 from 'app/pages/z360.hbs!';
 
 import primjerpocetak                 from 'app/primjer/primjerpocetak/primjerpocetak.hbs!';
-import primjerkomp                 from 'app/primjer/primjerkomp/primjerkomp.hbs!';
+import primjerwikichange                 from 'app/primjer/primjerwikichange/primjerwikichange.hbs!';
+import primjerwikiread                 from 'app/primjer/primjerwikiread/primjerwikiread.hbs!';
 import primjersint                 from 'app/primjer/primjersint/primjersint.hbs!';
 import primjersunos                 from 'app/primjer/primjersunos/primjersunos.hbs!';
 import primjertunos                 from 'app/primjer/primjertunos/primjertunos.hbs!';
@@ -729,6 +705,7 @@ import primjerot                 from 'app/primjer/primjerot/primjerot.hbs!';
 import primjerzat               from 'app/primjer/primjerzat/primjerzat.hbs!';
 import primjert               from 'app/primjer/primjert/primjert.hbs!';
 import primjerskok               from 'app/primjer/primjerskok/primjerskok.hbs!';
+import primjerm5               from 'app/primjer/primjerm5/primjerm5.hbs!';
 import primjersvemiron               from 'app/primjer/primjersvemiron/primjersvemiron.hbs!';
 import primjersvemiroff              from 'app/primjer/primjersvemiroff/primjersvemiroff.hbs!';
 
@@ -1003,47 +980,7 @@ $(document).ready(() =>
         $element.html(a8());
     //    showLink(5000);
     });
-     Router.add('y8', () => {
-        $element.html(y8());
-    //    showLink(5000);
-    });
-      Router.add('y10', () => {
-        $element.html(y10());
-    //    showLink(5000);
-    });
-  Router.add('y6', () => {
-        $element.html(y6());
-    //    showLink(5000);
-    });
-      Router.add('y12', () => {
-        $element.html(y12());
-    //    showLink(5000);
-    });
-     Router.add('y14', () => {
-        $element.html(y14());
-    //    showLink(5000);
-    });
-      Router.add('y16', () => {
-        $element.html(y16());
-    //    showLink(5000);
-    });
-  Router.add('y18', () => {
-        $element.html(y18());
-    //    showLink(5000);
-    });
-      Router.add('y20', () => {
-        $element.html(y20());
-    //    showLink(5000);
-    });
-      Router.add('ydva', () => {
-        $element.html(ydva());
-    //    showLink(5000);
-    });
-      Router.add('ycetiri', () => {
-        $element.html(ycetiri());
-    //    showLink(5000);
-    });
-
+     
 
     Router.add('a9', () => {
         $element.html(a9());
@@ -1067,19 +1004,6 @@ $(document).ready(() =>
         $element.html(a12());
     //    showLink(5000);
     });
-    Router.add('b12', () => {
-        $element.html(b12());
-    //    showLink(5000);
-    });
-       Router.add('bcetiri', () => {
-        $element.html(bcetiri());
-      showLink(0);
-    });
-
-    Router.add('b6', () => {
-        $element.html(b6());
-    //    showLink(5000);
-    });
 
 
 
@@ -1092,11 +1016,7 @@ $(document).ready(() =>
     //    showLink(5000);
 
     });
-    Router.add('b14', () => {
-        $element.html(b14());
-    //    showLink(5000);
-
-    });
+  
        Router.add('a15', () => {
         $element.html(a15());
     //    showLink(5000);
@@ -1148,14 +1068,7 @@ Router.add('a21', () => {
         $element.html(a23());
     });
 
-    Router.add('b24', () => {
-        $element.html(b24());
-    });
-
-
-     Router.add('b26', () => {
-        $element.html(b26());
-    });
+   
         Router.add('a25', () => {
         $element.html(a25());
     //    showLink(5000);
@@ -1165,49 +1078,7 @@ Router.add('a21', () => {
     //    showLink(5000);
     });
 
-        Router.add('x22', () => {
-        $element.html(x22());
-    });
-
-       Router.add('x24', () => {
-        $element.html(x24());
-    });
-
-
-     Router.add('x26', () => {
-        $element.html(x26());
-    });
-
-    Router.add('x28', () => {
-        $element.html(x28());
-    });
-
-
-     Router.add('x30', () => {
-        $element.html(x30());
-    });
-        Router.add('x32', () => {
-        $element.html(x32());
-    //    showLink(5000);
-    });
-    Router.add('x34', () => {
-        $element.html(x34());
-    //    showLink(5000);
-    });
-        Router.add('x36', () => {
-        $element.html(x36());
-    //    showLink(5000);
-    });
-
-        Router.add('x38', () => {
-        $element.html(x38());
-    //    showLink(5000);
-    });
-          Router.add('x40', () => {
-        $element.html(x40());
-    //    showLink(5000);
-    });
-
+       
 
 
     Router.add('a29', () => {
@@ -1235,9 +1106,7 @@ Router.add('a21', () => {
     Router.add('a32', () => {
         $element.html(a32());
     });
-      Router.add('b32', () => {
-        $element.html(b32());
-    });
+  
 
         Router.add('a34', () => {
         $element.html(a34());
@@ -3064,8 +2933,11 @@ Router.add('a21', () => {
           Router.add('primjerpocetak', () => {
         $element.html(primjerpocetak());
     });
-       Router.add('primjerkomp', () => {
-        $element.html(primjerkomp());
+       Router.add('primjerwikichange', () => {
+        $element.html(primjerwikichange());
+    });
+        Router.add('primjerwikiread', () => {
+        $element.html(primjerwikiread());
     });
     Router.add('primjersint', () => {
         $element.html(primjersint());
@@ -3094,8 +2966,13 @@ Router.add('a21', () => {
         $element.html(primjert());
     //    showLink(5000);
  });
+    
        Router.add('primjerskok', () => {
         $element.html(primjerskok());
+    //    showLink(5000);
+ });
+      Router.add('primjerm5', () => {
+        $element.html(primjerm5());
     //    showLink(5000);
  });
             Router.add('primjersvemiron', () => {
@@ -3113,7 +2990,7 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
 
-    var mainTimeToClickMan = randomIntFromInterval(10000, 35000,);
+    var mainTimeToClickMan = randomIntFromInterval(8000, 30000,);
 
 
     let $element = $("#spadiv");
@@ -3478,7 +3355,7 @@ function showImageOnHoldSpace(keySrc)
 
            $('#svemir').attr('width', $('html').width());
            $('#svemir').attr('height', $('html').height());
-
+   
            var canvas = document.getElementById("svemir");
            var ctx = canvas.getContext("2d");
 

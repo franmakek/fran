@@ -24,6 +24,8 @@
     <img src="images/prozor.png" class="prozor-img">
     <img src="images/prozorpodloga.png" class="prozorpodloga-img">
 
+      
+    
     <audio id="sound-m0" controls>
         <source src="images/m0.mp3" type="audio/mpeg">
     </audio>
@@ -80,14 +82,13 @@
 <a href="#" data-wiki="true">WIKI</a>
 
 <div id="wiki-modal" class="modal" style="display: none;">
-    <h4 id="wiki-title"></h4>
+    
     <p  id="wiki-text"></p>
 </div>
 <!--<script src="/js/custom.js"></script>-->
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <!--<script src="/build.js"></script>-->
-<script src="/build.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
 
