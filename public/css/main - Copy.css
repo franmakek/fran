@@ -223,19 +223,16 @@ body{
 }
 
 
-.key-hold-img .govno{
-    z-index: 80001;
-    display: block !important;
+.key-hold-img.govno{
+    z-index:80001;
 }
 
-.key-hold-img .teleskopImages{
-    z-index: 80002;
-    display: block !important;
+.key-hold-img.teleskopImages{
+    z-index:80002;
 }
 
-.key-hold-img .wall-image-hold{
-    z-index: 80001;
-    display: block !important;
+.key-hold-img.wall-image-hold{
+    z-index:80001;
 }
 
 .loader__tile {
@@ -416,8 +413,7 @@ body div.container .wall-image{
     height: 14.3%;
 }
 
-
-
+ 
    
 
 
@@ -513,7 +509,7 @@ div.container img{
  html .teleskop-pokazan.teleskop-pokazan-uvjek .teleskop-img
  {
      display: block !important;
-     z-index: 80;
+     z-index: 90;
  }
 
 @-webkit-keyframes show {
@@ -557,7 +553,6 @@ a.disabled{
 .skok,
 .prozor-img{
     display: none !important;
-     z-index: 90;
 }
 
 .prozor-otvoren .zat,
@@ -566,15 +561,13 @@ a.disabled{
 }
 
 .prozor-otvoren .prozor-img{
-         display: block !important;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-name: show;
     animation-name: show;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    z-index: 90;
-
+    z-index: 900;
 }
 
 
@@ -582,7 +575,7 @@ a.disabled{
 
 .prozorpodloga-img {
     display: none;
-    z-index: 120;
+    z-index: 120000;
 }
 
 .prozorpodloga-pokazan .prozorpodloga-img {
@@ -592,28 +585,15 @@ a.disabled{
     animation-name: show;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    z-index: 120;
-    display: block;
+    z-index: 120000;
 }
 .prozorpodloga-pokazan {
-    display: block !important;
-    z-index: 120;
-}
-
-.prozor-otvoren{
-    display: block !important;
-     z-index: 90;
-}
-
-.prozor-img{
     display: none !important;
-     z-index: 90;
+    z-index: 120000;
 }
-
 
 .prozor-otvoren .ot{
     display: none !important;
-    
 }
 
 #svemir{
