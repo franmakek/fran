@@ -13,6 +13,101 @@ body{
     z-index: 11;
 }
 
+.bug0b{
+     display: block;
+    background-color: rgba(10, 15, 26, .50);
+        border-radius: 100%;
+        height: 3%;
+        top: 48%;
+        left: 16%;
+        width: 3%;
+    z-index: 1000000;
+    }
+
+.bug0{
+     display: block;
+    background-color: rgba(10, 15, 26, .50);
+        border-radius: 100%;
+        height: 3%;
+        top: 28%;
+        left: 16%;
+        width: 3%;
+    z-index: 1000000;
+    }
+.bug1{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 1%;
+        top: 60%;
+        left: 51%;
+        width: 1%;
+    z-index: 1000000;
+    }
+.bug2{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 1%;
+        top: 7%;
+        left: 26%;
+        width: 1%;
+    z-index: 1000000;
+    }
+.bug3{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 1%;
+        top: 46%;
+        left: 79%;
+        width: 1%;
+        z-index: 1000000;
+    }
+.bug4{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 1%;
+        top: 44%;
+        left: 33%;
+        width: 1%;
+        z-index: 1000000;
+    }
+
+.bug5{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 1%;
+        top: 39%;
+        left: 65%;
+        width: 1%;
+        z-index: 1000000;
+    }
+.bug6{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 1%;
+        top: 19%;
+        left: 69%;
+        width: 1%;
+        z-index: 1000000;
+    }
+.bug7{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 1%;
+        top: 55%;
+        left: 73%;
+        width: 1%;
+        z-index: 1000000;
+    }
+
+     
+
 .container .m0{
      display: none;
     background-color: rgba(10, 15, 26, .0);
