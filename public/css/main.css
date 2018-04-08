@@ -13,7 +13,7 @@ body{
     z-index: 11;
 }
 
-.bug0b{
+.lok0b{
      display: block;
     background-color: rgba(10, 15, 26, .50);
         border-radius: 100%;
@@ -21,10 +21,10 @@ body{
         top: 48%;
         left: 16%;
         width: 3%;
-    z-index: 1000000;
+    z-index: 79999;
     }
 
-.bug0{
+.lok0{
      display: block;
     background-color: rgba(10, 15, 26, .50);
         border-radius: 100%;
@@ -32,9 +32,9 @@ body{
         top: 28%;
         left: 16%;
         width: 3%;
-    z-index: 1000000;
+    z-index: 79999;
     }
-.bug1{
+.lok1{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
@@ -42,9 +42,9 @@ body{
         top: 60%;
         left: 51%;
         width: 1%;
-    z-index: 1000000;
+    z-index: 79999;
     }
-.bug2{
+.lok2{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
@@ -52,9 +52,9 @@ body{
         top: 7%;
         left: 26%;
         width: 1%;
-    z-index: 1000000;
+    z-index: 79999;
     }
-.bug3{
+.lok3{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
@@ -62,9 +62,9 @@ body{
         top: 46%;
         left: 79%;
         width: 1%;
-        z-index: 1000000;
+        z-index: 79999;
     }
-.bug4{
+.lok4{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
@@ -72,10 +72,10 @@ body{
         top: 44%;
         left: 33%;
         width: 1%;
-        z-index: 1000000;
+        z-index: 79999;
     }
 
-.bug5{
+.lok5{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
@@ -83,9 +83,9 @@ body{
         top: 39%;
         left: 65%;
         width: 1%;
-        z-index: 1000000;
+        z-index: 79999;
     }
-.bug6{
+.lok6{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
@@ -93,9 +93,9 @@ body{
         top: 19%;
         left: 69%;
         width: 1%;
-        z-index: 1000000;
+        z-index: 79999;
     }
-.bug7{
+.lok7{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
@@ -103,10 +103,16 @@ body{
         top: 55%;
         left: 73%;
         width: 1%;
-        z-index: 1000000;
+        z-index: 79999;
     }
 
-     
+[data-role="bug"]{
+    background-color: red;
+    width: 20px;
+    opacity: .5;
+    height: 20px;
+    position: absolute;
+}
 
 .container .m0{
      display: none;
@@ -116,7 +122,7 @@ body{
         top: 28%;
         left: 16%;
         width: 19%;
-    z-index: 1000000;
+    z-index: 79999;
     }
 
 .container .m1{
@@ -127,7 +133,7 @@ body{
         top: 60%;
         left: 51%;
         width: 19%;
-    z-index: 1000000;
+    z-index: 79999;
     }
 .container .m2{
      display: none;
@@ -137,7 +143,7 @@ body{
         top: 7%;
         left: 26%;
         width: 19%;
-    z-index: 1000000;
+    z-index: 79999;
     }
 .container .m3{
      display: none;
@@ -147,7 +153,7 @@ body{
         top: 46%;
         left: 79%;
         width: 19%;
-        z-index: 1000000;
+        z-index: 79999;
     }
 .container .m4{
      display: none;
@@ -157,7 +163,7 @@ body{
         top: 44%;
         left: 33%;
         width: 19%;
-        z-index: 1000000;
+        z-index: 79999;
     }
 
 .container .m5{
@@ -168,7 +174,7 @@ body{
         top: 39%;
         left: 65%;
         width: 19%;
-        z-index: 1000000;
+        z-index: 79999;
     }
 .container .m6{
      display: none;
@@ -178,7 +184,7 @@ body{
         top: 1%;
         left: 69%;
         width: 19%;
-        z-index: 1000000;
+        z-index: 79999;
     }
 .container .m7{
      display: none;
@@ -188,7 +194,7 @@ body{
         top: 55%;
         left: 73%;
         width: 19%;
-        z-index: 1000000;
+        z-index: 79999;
     }
 
       .container .c{
@@ -309,14 +315,31 @@ body{
     position: absolute;
     left: 5%;
     top:6%;
-    z-index: ;
 }
 
-.key-hold-img{
-    z-index: 80000;
+.key-hold-img,
+.key-hold-bug{
+    z-index: 80003;
     display: none;
 }
 
+.bug-buttons{
+    z-index: 80005;
+    display: none;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+}
+
+.bug-buttons button
+{
+    background-color: #585858;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 2px;
+    margin: 20px;
+}
 
 .key-hold-img .govno{
     z-index: 80001;
@@ -735,4 +758,13 @@ a.disabled{
 
 .blocker{
     z-index: 9999999999 !important;
+}
+
+body:hover{
+    cursor: url(/images/cursorlook.png), auto;
+}
+
+a:hover,
+button:hover{
+    cursor: url(/images/cursormove.png), auto;
 }

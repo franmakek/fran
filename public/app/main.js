@@ -397,7 +397,7 @@ import z90                 from 'app/pages/z90.hbs!';
 
 import pet                   from 'app/pages/pet.hbs!';
 import dva                   from 'app/pages/dva.hbs!';
-import bdva                   from 'app/pages/bdva.hbs!';
+// import bdva                   from 'app/pages/bdva.hbs!';
 import tri                   from 'app/pages/tri.hbs!';
 import cetiri                from 'app/pages/cetiri.hbs!';
 
@@ -692,7 +692,7 @@ import z356                 from 'app/pages/z356.hbs!';
 import z357                 from 'app/pages/z357.hbs!';
 import z358                 from 'app/pages/z358.hbs!';
 import z359                 from 'app/pages/z359.hbs!';
-import z360                 from 'app/pages/z360.hbs!';
+// import z360                 from 'app/pages/z360.hbs!';
 
 import primjerpocetak                 from 'app/primjer/primjerpocetak/primjerpocetak.hbs!';
 import primjerwikichange                 from 'app/primjer/primjerwikichange/primjerwikichange.hbs!';
@@ -2983,20 +2983,13 @@ Router.add('a21', () => {
         $element.html(primjersvemiroff());
     //    showLink(5000);
  });
-    
-    
-    //------------------------------------------------------------------------------------------------------------------
-    //Kraj za Frana!!!!!!!!!!!!! var mainTimeToClickMan = randomIntFromInterval(10000, 19000);
-    //------------------------------------------------------------------------------------------------------------------
 
 
     var mainTimeToClickMan = randomIntFromInterval(8000, 30000,);
 
 
     let $element = $("#spadiv");
-    //------------------------------------------------------------------------------------------------------------------
-    // Remove loader screen and "fadeIn" after the DOM is ready and everything loaded
-    //------------------------------------------------------------------------------------------------------------------
+
     $('#loader').hide();
     $('.container').show();
     Backbone.history.stop()
@@ -3195,34 +3188,124 @@ Router.add('a21', () => {
           });
 
 
-        //
-        // setTimeout(function () {
-        //     $.each($('.preload-img'), function () {
-        //         var src = $(this).attr('data-src');
-        //         console.log(src)
-        //         $(this).attr('src', src);
-        //     });
-        // }, 0);
-
         $('body').removeClass('auto-link-click-enabled');
 
         var enableClick = setTimeout(function () {
-            $('body').addClass('auto-link-click-enabled');
+           // $('body').addClass('auto-link-click-enabled');
+
+              if($('[data-lokacija]').length != 0 && $('[data-role="bug"]').hasClass('shown-bug'))
+              {
+                    let bugLocation = $('[data-lokacija]').attr('data-lokacija');
+                    if($('[data-role="bug"]').hasClass(bugLocation))
+                    {
+                          $('body').addClass('bug-key-hold-on');
+                    }
+                    else
+                    {
+                          $('body').removeClass('bug-key-hold-on');
+                    }
+              }
+              else
+              {
+                    $('body').removeClass('bug-key-hold-on');
+              }
         }, gifTime);
+
+          setInterval(function () {
+
+                var lokacijaArray = [
+                      'lok0',
+                      'lok1',
+                      'lok3',
+                      'lok4',
+                      'lok5',
+                      'lok6',
+                      'lok7'
+                ];
+
+                var randomLokacijaNum = Math.floor(Math.random()*lokacijaArray.length);
+
+                $('[data-role="bug"]').attr('class', '');
+                $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
+          }, 180000);
+          // 180000
+
+
+          $('[data-role="bug-food"]').off('click').on('click', function () {
+                document.getElementById('bug-food-sound').play();
+                // $('body').removeClass('bug-key-hold-on');
+                $(".key-hold-bug").hide();
+                $(".bug-buttons").hide();
+                // $('[data-role="bug"]').attr('class', '');
+          });
+
+          var bugMessages =
+              [
+                'Prva poruka buba',
+                'druga poruka buba',
+                'treca poruka buba'
+              ];
+
+          $('[data-role="bug-friend"]').off('click').on('click', function () {
+
+                console.log('clicked');
+
+                var lastMsg = Number(localStorage.getItem('last-bug-message'));
+                var newMessage = 0;
+
+                if (!lastMsg)
+                {
+                      lastMsg = 0;
+                }
+
+                if(lastMsg < 2)
+                {
+                      newMessage = Number(lastMsg) + 1;
+                      console.log(newMessage);
+                }
+                else
+                {
+                      newMessage = 0;
+                }
+
+
+                localStorage.setItem('last-bug-message', newMessage);
+
+                $('.bug-text').text(bugMessages[newMessage]);
+                // $('body').removeClass('bug-key-hold-on');
+                $(".key-hold-bug").hide();
+                $(".bug-buttons").hide();
+                // $('[data-role="bug"]').attr('class', '');
+          });
 
         var keyPressed = false;
         $(document).on("click", "a[data-routable='true']", (e) => {
-            clearTimeout(enableClick);
+              $('body').removeClass('bug-key-hold-on');
+              clearTimeout(enableClick);
         });
 
         $('body').off('click').on('click', function(e) {
                   var target = $(e.target);
-                  if (!target.is("a") && !target.is(".modal")) {
+                  if (!target.is("a") && !target.is(".modal")  && !target.is("button")) {
 
                         if($('body').hasClass('svemir-on'))
                         {
                               showSvemir();
                               $('#svemir').fadeToggle( 300, "linear" );
+                              return;
+                        }
+
+                        if($('body').hasClass('bug-key-hold-on'))
+                        {
+                              var bugArray = [
+                                    'key-hold-zohar',
+                                    'key-hold-buba'
+                              ];
+                              
+                              var randomBugNum = Math.floor(Math.random()*bugArray.length);
+
+                              $("." + bugArray[randomBugNum]).fadeToggle( 300, "linear" );
+                              $(".bug-buttons").fadeToggle( 300, "linear" );
                               return;
                         }
 
@@ -3261,37 +3344,6 @@ Router.add('a21', () => {
 
         });
 
-
-       /*KEY HOLD MORE GENERIC FUNCTION*/
-/*
-function showImageOnHoldSpace(keySrc)
-{
-    var keyPressed = false;
-
-    $(document).off('keydown').on('keydown', function(e) {
-        var key;
-        if (keyPressed === false) {
-            keyPressed = true;
-            key = e.keyCode;
-            console.log(key);
-
-            //this is where you map your key
-            if (key == 0 || key == 32) {
-                console.log('readiii');
-               $('<img src="'+ keySrc +'" class="key-hold-img">').appendTo('#spadiv');
-            }
-        }
-        $(this).on('keyup', function() {
-            if (keyPressed === true) {
-                keyPressed = false;
-                $('.key-hold-img').remove();
-            }
-        });
-    });
-}
-
-   showImageOnHoldSpace('images/prvi.jpg');
-*/
         showLink(2000);
           $('body').on('click', '[data-svemir="on"]', function(){
                 $('body').addClass('svemir-on');

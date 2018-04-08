@@ -24,7 +24,23 @@
     <img src="images/prozor.png" class="prozor-img">
     <img src="images/prozorpodloga.png" class="prozorpodloga-img">
 
-      
+    <div data-role="bug" class="shown-bug lok3">
+
+    </div>
+
+    <img class="key-hold-bug key-hold-zohar" src="images/zohar.jpg" >
+    <img class="key-hold-bug key-hold-buba" src="images/bubamara.jpg" >
+    <div class="bug-buttons">
+        <button type="button" data-role="bug-food" class="bug-btn">FOOD</button>
+        <button type="button" data-role="bug-friend">FRIEND</button>
+    </div>
+
+    <div class="bug-text">
+    </div>
+
+    <audio id="bug-food-sound" constrols>
+        <source src="images/hrsk.mp3" type="audio/mpeg">
+    </audio>
     
     <audio id="sound-m0" controls>
         <source src="images/m0.mp3" type="audio/mpeg">
@@ -74,6 +90,8 @@
 
 
 
+
+
     <!--ovdje se ubacuje html iz .hbs fileova-->
     <span  id="spadiv">
 
@@ -85,7 +103,7 @@
     
     <p  id="wiki-text"></p>
 </div>
-<!--<script src="/js/custom.js"></script>-->
+<script src="/js/custom.js"></script>
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
