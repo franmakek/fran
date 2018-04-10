@@ -101,7 +101,6 @@ function changeWallImage(imageType){
     else
     {
         image = horizontalImages[Math.floor(Math.random()*horizontalImages.length)];
-
     }
 
     setTimeout(function(){

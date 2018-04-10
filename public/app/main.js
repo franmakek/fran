@@ -3312,8 +3312,8 @@ Router.add('a21', () => {
                         if ($(".key-hold-img").length != 0) {
 
                               /*ako postoji dodatna slika*/
-                              if ($("[data-wall-postion]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png") {
-                                    var position = $('[data-wall-postion]').attr('data-wall-postion');
+                              if ($("[data-wall-position]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png") {
+                                    var position = $('[data-wall-position]').attr('data-wall-position');
                                     var wallImage = $('.wall-image').attr('src');
 
                                     var wallImageName = wallImage.split('.png').shift();
