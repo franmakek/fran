@@ -15,102 +15,102 @@ body{
 
 .lok0b{
      display: block;
-    background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
+ background-color: red;      
+    border-radius: 100%;
+        height: 5px;
         top: 48%;
         left: 16%;
-        width: 3%;
+        width: 5px;
     z-index: 79999;
     }
 
 .lok0{
      display: block;
-    background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
+ background-color: red;      
+    border-radius: 100%;
         height: 1%;
-        top: 28%;
-        left: 16%;
+        top: 38%;
+        left: 14%;
         width: 3%;
     z-index: 79999;
     }
 .lok1{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 60%;
-        left: 51%;
-        width: 1%;
+ background-color: red;     
+    border-radius: 100%;
+        height: 5px;
+        top: 73%;
+        left: 55%;
+        width: 5px;
     z-index: 79999;
     }
 .lok2{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
+ background-color: red;      
+    border-radius: 100%;
+        height: 5px;
         top: 7%;
-        left: 26%;
-        width: 1%;
+        left: 31%;
+        width: 5px;
     z-index: 79999;
     }
 .lok3{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 46%;
-        left: 79%;
-        width: 1%;
+ background-color: red;    
+    border-radius: 100%;
+        height: 5px;
+        top: 55%;
+        left: 85%;
+        width: 5px;
         z-index: 79999;
     }
 .lok4{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 44%;
-        left: 33%;
-        width: 1%;
+ background-color: red;    
+    border-radius: 100%;
+        height: 5px;
+        top: 54%;
+        left: 43%;
+        width: 5px;
         z-index: 79999;
     }
 
 .lok5{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
+ background-color: red;     
+    border-radius: 100%;
         height: 1%;
-        top: 39%;
-        left: 65%;
-        width: 1%;
+        top: 44%;
+        left: 72%;
+        width: 5px;
         z-index: 79999;
     }
 .lok6{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 19%;
-        left: 69%;
-        width: 1%;
+ background-color: red;      
+    border-radius: 110%;
+        height: 5px;
+        top: 7%;
+        left: 74%;
+        width: 5px;
         z-index: 79999;
     }
 .lok7{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 55%;
-        left: 73%;
-        width: 1%;
+ background-color: red;      
+    border-radius: 110%;
+        height: 5px;
+        top: 69%;
+        left: 87%;
+        width: 5px;
         z-index: 79999;
     }
 
 [data-role="bug"]{
     background-color: red;
-    width: 20px;
-    opacity: .5;
-    height: 20px;
+    width: 5px;
+    opacity: .50;
+    height: 5px;
     position: absolute;
 }
 
