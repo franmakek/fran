@@ -3109,6 +3109,9 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
     // Custom Functions
     //------------------------------------------------------------------------------------------------------------------
+
+    var izabranaBuba;
+
     function CustomStaff() {
 
         if(!$('body').hasClass('teleskop-pokazan'))
@@ -3191,7 +3194,7 @@ Router.add('a21', () => {
         $('body').removeClass('auto-link-click-enabled');
 
         var enableClick = setTimeout(function () {
-           // $('body').addClass('auto-link-click-enabled');
+           $('body').addClass('auto-link-click-enabled');
 
               if($('[data-lokacija]').length != 0 && $('[data-role="bug"]').hasClass('shown-bug'))
               {
@@ -3232,6 +3235,7 @@ Router.add('a21', () => {
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
+                izabranaBuba = "";
                 document.getElementById('bug-food-sound').play();
                 // $('body').removeClass('bug-key-hold-on');
                 $(".key-hold-bug").hide();
@@ -3247,8 +3251,6 @@ Router.add('a21', () => {
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
-
-                console.log('clicked');
 
                 var lastMsg = Number(localStorage.getItem('last-bug-message'));
                 var newMessage = 0;
@@ -3301,10 +3303,15 @@ Router.add('a21', () => {
                                     'key-hold-zohar',
                                     'key-hold-buba'
                               ];
-                              
-                              var randomBugNum = Math.floor(Math.random()*bugArray.length);
 
-                              $("." + bugArray[randomBugNum]).fadeToggle( 300, "linear" );
+
+                              if(!izabranaBuba)
+                              {
+                                    izabranaBuba = "." + bugArray[Math.floor(Math.random()*bugArray.length)];
+                              }
+
+                              $('.key-hold-bug:not('+ izabranaBuba +')').hide();
+                              $(izabranaBuba).fadeToggle( 300, "linear" );
                               $(".bug-buttons").fadeToggle( 300, "linear" );
                               return;
                         }
@@ -3328,13 +3335,27 @@ Router.add('a21', () => {
                               if($('body').hasClass('teleskop-pokazan') && $('[data-teleskop-position]').length != 0)
                               {
                                     var tunosSrc = $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";
-                                    $('<img class="key-hold-img wall-img-hold" src="' + tunosSrc + '">').insertAfter('.key-hold-img');
+                                    if($('.tele-hold-image').length == 0)
+                                    {
+                                          $('<img class="key-hold-img wall-img-hold tele-hold-image" src="' + tunosSrc + '">').insertAfter('.key-hold-img');
+                                    }
+                                    else
+                                    {
+                                          $('.tele-hold-image').attr('src', tunosSrc);
+                                    }
                               }
 
                               if($('body').hasClass('prozor-otvoren') && $('[data-govno-position]').length != 0)
                               {
-                                    var govnoSrc = $('[data-govno-position]').attr('data-govno-position') + ".png";
-                                    $('<img class="key-hold-img wall-img-hold" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
+                                    var govnoSrc = "images/" + $('[data-govno-position]').attr('data-govno-position') + ".png";
+                                    if($('.govno-image').length == 0)
+                                    {
+                                          $('<img class="key-hold-img wall-img-hold govno-image" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
+                                    }
+                                    else
+                                    {
+                                          $('.govno-image').attr('src', govnoSrc);
+                                    }
                               }
 
                               $(".key-hold-img").fadeToggle( 300, "linear" );
