@@ -2985,7 +2985,7 @@ Router.add('a21', () => {
  });
 
 
-    var mainTimeToClickMan = randomIntFromInterval(8000, 20000,);
+    var mainTimeToClickMan = randomIntFromInterval(8000, 50000,);
 
 
     let $element = $("#spadiv");
@@ -3217,7 +3217,7 @@ Router.add('a21', () => {
           setInterval(function () {
 
                 var lokacijaArray = [
-                      'lok0',
+                      'lok0b',
                       'lok1',
                       'lok3',
                       'lok4',
