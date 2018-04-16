@@ -3170,9 +3170,29 @@ Router.add('a21', () => {
         });
 
 
+          $('[data-wiki-change]').off('click').on('click', function ()
+          {
+                runRandomWiki();
+          });
 
 
           $('[data-wiki]').off('click').on('click', function () {
+                let oldText = $('#wiki-modal #wiki-text').text();
+
+                if(oldText ==  "")
+                {
+                      runRandomWiki();
+                }
+                else
+                {
+                      $('#wiki-modal').modal({
+                            fadeDuration: 100
+                      });
+                }
+          });
+
+
+          function runRandomWiki(){
                 $.ajax({
                       url: 'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&&generator=random&grnnamespace=0&rvprop=content&grnlimit=1',
                       dataType: 'jsonp',
@@ -3188,7 +3208,7 @@ Router.add('a21', () => {
                             });
                       }
                 });
-          });
+          }
 
 
         $('body').removeClass('auto-link-click-enabled');
@@ -3334,7 +3354,7 @@ Router.add('a21', () => {
 
                               if($('body').hasClass('teleskop-pokazan') && $('[data-teleskop-position]').length != 0)
                               {
-                                    var tunosSrc = $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";
+                                    var tunosSrc = "images/" + $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";
                                     if($('.tele-hold-image').length == 0)
                                     {
                                           $('<img class="key-hold-img wall-img-hold tele-hold-image" src="' + tunosSrc + '">').insertAfter('.key-hold-img');
