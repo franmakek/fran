@@ -24,7 +24,7 @@
     <img src="images/prozor.png" class="prozor-img">
     <img src="images/prozorpodloga.png" class="prozorpodloga-img">
 
-    <div data-role="bug" class="shown-bug lok3">
+    <div data-role="bug" class="shown-bug">
 
     </div>
 
@@ -107,7 +107,7 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-<!--<script src="/build.js"></script>-->
+<--<script src="/build.js"></script>-->
 
 <script>
     System.import('/app/main.js');
