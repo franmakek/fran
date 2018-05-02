@@ -41,53 +41,57 @@
     <div class="bug-text">
     </div>
 
-    <audio id="bug-food-sound" constrols>
+    <audio id="sint-sound" constrols>
+        <source src="" type="audio/mpeg">
+    </audio>
+
+    <audio id="bug-food-sound" constrols hidden>
         <source src="images/hrsk.mp3" type="audio/mpeg">
     </audio>
-    
-    <audio id="sound-m0" controls>
+
+    <audio id="sound-m0" controls hidden>
         <source src="images/m0.mp3" type="audio/mpeg">
     </audio>
-       <audio id="sound-m0b" controls>
+       <audio id="sound-m0b" controls hidden>
         <source src="images/m0b.mp3" type="audio/mpeg">
     </audio>
-       <audio id="sound-m0c" controls>
+       <audio id="sound-m0c" controls hidden>
         <source src="images/m0c.mp3" type="audio/mpeg">
     </audio>
-       <audio id="sound-m0d" controls>
+       <audio id="sound-m0d" controls hidden>
         <source src="images/m0d.mp3" type="audio/mpeg">
     </audio>
-    <audio id="sound-m1" constrols>
+    <audio id="sound-m1" constrols hidden>
         <source src="images/m1.mp3" type="audio/mpeg">
     </audio>
-      <audio id="sound-m1b" constrols>
+      <audio id="sound-m1b" constrols hidden>
         <source src="images/m1b.mp3" type="audio/mpeg">
     </audio>
-    <audio id="sound-m2" constrols>
+    <audio id="sound-m2" constrols hidden>
         <source src="images/m2.mp3" type="audio/mpeg">
     </audio>
-    <audio id="sound-m3" constrols>
+    <audio id="sound-m3" constrols hidden>
         <source src="images/m3.mp3" type="audio/mpeg">
     </audio>
-     <audio id="sound-m3b" constrols>
+     <audio id="sound-m3b" constrols hidden>
         <source src="images/m3b.mp3" type="audio/mpeg">
     </audio>
-    <audio id="sound-m4" constrols>
+    <audio id="sound-m4" constrols hidden>
         <source src="images/m4.mp3" type="audio/mpeg">
     </audio>
-      <audio id="sound-m4b" constrols>
+      <audio id="sound-m4b" constrols hidden>
         <source src="images/m4b.mp3" type="audio/mpeg">
     </audio>
-    <audio id="sound-m5" constrols>
+    <audio id="sound-m5" constrols hidden>
         <source src="images/m5.mp3" type="audio/mpeg">
     </audio>
-     <audio id="sound-m5b" constrols>
+     <audio id="sound-m5b" constrols hidden>
         <source src="images/m5b.mp3" type="audio/mpeg">
     </audio>
-    <audio id="sound-m6" constrols>
+    <audio id="sound-m6" constrols hidden>
         <source src="images/m6.mp3" type="audio/mpeg">
     </audio>
-    <audio id="sound-m7" constrols>
+    <audio id="sound-m7" constrols hidden>
         <source src="images/m7.mp3" type="audio/mpeg">
     </audio>
 
@@ -99,14 +103,25 @@
     <span  id="spadiv">
 
     </span>
-</div>
-<a href="#" data-wiki="true">WIKI</a>
 
+    <div data-role="chat-parent" class="main-chat-parent user-chat no-key-hold">
+        <span  data-role="message">
+
+        </span>
+        <form id="send-message" class="">
+            <input name="user_id" id="user_id" style="display: none"></input>
+            <input name="country" id="country" style="display: none"></input>
+            <input name="city" id="city" style="display: none"></input>
+            <textarea name="message" placeholder="Say something..." id="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</div>
 <div id="wiki-modal" class="modal" style="display: none;">
-    
+    <p  id="wiki-title" style="display: none"></p>
     <p  id="wiki-text"></p>
 </div>
-<script src="/js/custom.js"></script>
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
@@ -116,6 +131,86 @@
     System.import('/app/main.js');
     localStorage.removeItem('clicked-img');
 </script>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="/js/custom.js"></script>
+
+<script src="//js.pusher.com/3.0/pusher.min.js"></script>
+<script>
+
+    let userId = Math.random().toString(36).substring(7);
+
+    $('#user_id').val(userId);
+
+    Pusher.log = function(msg) {
+        console.log(msg);
+    };
+    var pusher = new Pusher('7a6a1f7f43e7adb7c8df', {
+        encrypted: true,
+        cluster: 'eu' // This
+    });
+
+    $.get("https://ipinfo.io", function(response) {
+        $('#country').val(response.country);
+        $('#city').val(response.city);
+
+        var imOnlineData = $('#send-message').serializeArray();
+        imOnlineData.push({name: 'wikiTitle', value: $('#wiki-title').text()})
+        $.ajax({
+            url: "/user-online",
+            method: "POST",
+            data: imOnlineData
+        });
+
+    }, "jsonp");
+
+    var channel = pusher.subscribe('main-channel');
+
+    channel.bind('message', function(data) {
+        if(data.user_id === $('#user_id').val())
+        {
+            $('[data-role="chat-parent"]').show();
+            $('[data-role="chat-parent"]').find('[data-role="message"]').append('<h3>'+ data.text +'</h3>');
+        }
+    });
+
+    channel.bind('admin-online', function(data) {
+        setTimeout(function(){
+            var imOnlineData = $('#send-message').serialize();
+            $.ajax({
+                url: "/user-online",
+                method: "POST",
+                data: imOnlineData
+            });
+        }, 1000);
+
+    });
+
+    $('#send-message').on('submit', function (e) {
+
+        e.preventDefault();
+
+        var data = $(this).serializeArray();
+        data.push({name: 'wikiTitle', value: $('#wiki-title').text()});
+        data.push({name: 'wallImg', value: String($('.wall-image').attr('src'))});
+        data.push({name: 'bug', value: $('[data-role="bug"]').attr('class')});
+
+        $.ajax({
+            url: "/send-message",
+            method: "POST",
+            data: data
+        }).done(function(response) {
+            console.log(response)
+        }).fail(function( jqXHR, textStatus ) {
+        });
+    });
+
+
+</script>
+
 
 </body>
 
