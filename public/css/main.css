@@ -7,6 +7,10 @@ body{
     background-color: #ffffff;
 }
 
+.zaklon{
+   
+    z-index: 99999999999911999999;
+}
 
 .container .m{
     display: none;
@@ -19,7 +23,7 @@ body{
     border-radius: 100%;
         height: 5px;
         top: 48%;
-        left: 16%;
+        left: 11%;
         width: 5px;
     z-index: 79999;
     }
@@ -29,8 +33,8 @@ body{
  background-color: red;      
     border-radius: 100%;
         height: 1%;
-        top: 38%;
-        left: 14%;
+        top: 35%;
+        left: 5%;
         width: 3%;
     z-index: 79999;
     }
@@ -39,8 +43,8 @@ body{
  background-color: red;     
     border-radius: 100%;
         height: 5px;
-        top: 73%;
-        left: 55%;
+        top: 74%;
+        left: 52%;
         width: 5px;
     z-index: 79999;
     }
@@ -49,8 +53,8 @@ body{
  background-color: red;      
     border-radius: 100%;
         height: 5px;
-        top: 7%;
-        left: 31%;
+        top: 13%;
+        left: 26%;
         width: 5px;
     z-index: 79999;
     }
@@ -59,8 +63,8 @@ body{
  background-color: red;    
     border-radius: 100%;
         height: 5px;
-        top: 55%;
-        left: 85%;
+        top: 57%;
+        left: 83%;
         width: 5px;
         z-index: 79999;
     }
@@ -69,7 +73,7 @@ body{
  background-color: red;    
     border-radius: 100%;
         height: 5px;
-        top: 54%;
+        top: 60%;
         left: 43%;
         width: 5px;
         z-index: 79999;
@@ -80,8 +84,8 @@ body{
  background-color: red;     
     border-radius: 100%;
         height: 1%;
-        top: 44%;
-        left: 72%;
+        top: 43%;
+        left: 76%;
         width: 5px;
         z-index: 79999;
     }
@@ -90,8 +94,8 @@ body{
  background-color: red;      
     border-radius: 110%;
         height: 5px;
-        top: 7%;
-        left: 74%;
+        top: 1%;
+        left: 69%;
         width: 5px;
         z-index: 79999;
     }
@@ -108,9 +112,9 @@ body{
 
 [data-role="bug"]{
     background-color: red;
-    width: 5px;
-    opacity: .50;
-    height: 5px;
+    width: 7px;
+    opacity: .80;
+    height: 7px;
     position: absolute;
 }
 

@@ -30,6 +30,9 @@
 
     <img class="key-hold-bug key-hold-zohar" src="images/zohar.jpg" >
     <img class="key-hold-bug key-hold-buba" src="images/bubamara.jpg" >
+    <img class="key-hold-bug key-hold-skakavac" src="images/skakavac.jpg" >
+    <img class="key-hold-bug key-hold-muha" src="images/muha.jpg" >
+    <img class="key-hold-bug key-hold-leptir" src="images/leptir.jpg" >
     <div class="bug-buttons">
         <button type="button" data-role="bug-food" class="bug-btn">FOOD</button>
         <button type="button" data-role="bug-friend">FRIEND</button>
@@ -107,7 +110,7 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-<--<script src="/build.js"></script>-->
+<!--<script src="/build.js"></script>-->
 
 <script>
     System.import('/app/main.js');
