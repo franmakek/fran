@@ -16,10 +16,12 @@
     <span  id="spadiv">
 
     </span>
-    <form id="send-message">
+    <form id="send-message" >
+        <input name="user_id" id="user_id" style="display: none"></input>
+        <input name="country" id="country" style="display: none"></input>
+        <input name="city" id="city" style="display: none"></input>
         <textarea name="message" id="message"></textarea>
         <button type="submit">Send</button>
-        {{csrf_field()}}
     </form>
 </div>
 <script
@@ -29,6 +31,11 @@
 <!--<script src="/js/custom.js"></script>-->
 <script src="//js.pusher.com/3.0/pusher.min.js"></script>
 <script>
+
+    let userId = Math.random().toString(36).substring(7);
+
+    $('#user_id').val(userId);
+
     Pusher.log = function(msg) {
         console.log(msg);
     };
@@ -37,19 +44,35 @@
         cluster: 'eu' // This
     });
 
-    var channel = pusher.subscribe('test-channel');
-    channel.bind('test-event', function(data) {
-        $('#spadiv').html('<h3>'+ data.text +'</h3>')
+    $.get("https://ipinfo.io", function(response) {
+        $('#country').val(response.country);
+        $('#city').val(response.city);
+    }, "jsonp");
+
+    var channel = pusher.subscribe('main-channel');
+
+    channel.bind('message', function(data) {
+        if(data.user_id === $('#user_id').val())
+        {
+            $('#send-message').show();
+            $('#spadiv').html('<h3>'+ data.text +'</h3>')
+        }
+    });
+
+    channel.bind('admin-online', function(data) {
+        var imOnlineData = $('#send-message').serialize();
+        $.ajax({
+            url: "/user-online",
+            method: "POST",
+            data: imOnlineData
+        });
     });
 
     $('#send-message').on('submit', function (e) {
 
         e.preventDefault();
 
-        console.log($('#message').val())
-
         var data = $(this).serialize();
-
         $.ajax({
             url: "/send-message",
             method: "POST",
@@ -58,6 +81,12 @@
             console.log(response)
         }).fail(function( jqXHR, textStatus ) {
         });
+    });
+
+    $.ajax({
+        url: "/user-online",
+        method: "POST",
+        data: imOnlineData
     });
 </script>
 

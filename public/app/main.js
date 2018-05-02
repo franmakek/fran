@@ -3077,9 +3077,6 @@ Router.add('a21', () => {
               $('a[href="'+ link +'"]').trigger('click');
         }
 
-        // setTimeout(function () {
-        //     $('a[href="'+ link +'"]').trigger('click');
-        // }, randomIntFromInterval(12, 30) * 1000);
     }
 
     function reRunUntilClickEnabled()
@@ -3159,7 +3156,6 @@ Router.add('a21', () => {
             }
         });
         
-        
           $('[data-role="random"]').on('click', function (e) {
 
             e.stopPropagation();
@@ -3191,6 +3187,25 @@ Router.add('a21', () => {
                 }
           });
 
+          var sintList = [
+                ["ljestvica34.mp3", 34000],
+                ["ljestvica36.mp3", 36000]
+          ];
+
+          $('[data-sint]').on('click', function () {
+                var melodiaObj = sintList[Math.floor(Math.random() * sintList.length)];
+                var melodia = melodiaObj[0];
+                var melodiaTime = melodiaObj[1];
+
+                $('#sint-sound').find('source').attr('src', 'images/' + melodia);
+                document.getElementById('sint-sound').load();
+
+                gifTime = melodiaTime + 5000;
+
+                setTimeout(function (){
+                      document.getElementById('sint-sound').play();
+                }, 5000);
+          });
 
           function runRandomWiki(){
                 $.ajax({
@@ -3201,10 +3216,6 @@ Router.add('a21', () => {
                             {
                                   $('#wiki-modal #wiki-title').text(value.title);
                                   $('#wiki-modal #wiki-text').text(value.extract);
-                            });
-
-                            $('#wiki-modal').modal({
-                                  fadeDuration: 100
                             });
                       }
                 });
@@ -3251,7 +3262,6 @@ Router.add('a21', () => {
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
           }, 180000);
-          // 180000
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
@@ -3308,7 +3318,7 @@ Router.add('a21', () => {
 
         $('body').off('click').on('click', function(e) {
                   var target = $(e.target);
-                  if (!target.is("a") && !target.is(".modal")  && !target.is("button")) {
+                  if (!target.is("a") && !target.is(".modal")  && !target.is("button") && !target.is(".no-key-hold *")) {
 
                         if($('body').hasClass('svemir-on'))
                         {

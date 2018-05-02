@@ -1,5 +1,3 @@
-
-
 var gifTime = 10000;
 var vc1 = 6600;
 var vc2 = 1520;
@@ -32,8 +30,6 @@ var vc26 = 8000;
 var vc27 = 4480;
 var vc28 = 3000;
 
-
-
 var vm1 = 3480;
 var vm2 = 8720;
 var vm3 = 1600;
@@ -51,16 +47,7 @@ var vm14 = 6080;
 var vm15 = 2200;
 
 
-
-
-
-
-
-
 function changeWallImage(imageType){
-
-    console.log('change image')
-
     /*tu promjenit vrijeme kad se pokaze slika*/
 
     var time = 3700;

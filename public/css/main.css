@@ -13,6 +13,10 @@ body{
     z-index: 11;
 }
 
+.blocker{
+    background-color: transparent !important;
+}
+
 .lok0b{
      display: block;
     background-color: rgba(10, 15, 26, .50);
@@ -108,10 +112,24 @@ body{
 
 [data-role="bug"]{
     background-color: red;
-    width: 20px;
-    opacity: .5;
-    height: 20px;
+    width: 5px;
+    opacity: .8;
+    height: 5px;
     position: absolute;
+    animation: bugAnim 1s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bugAnim {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(80px, 30px);
+    }
+    100% {
+        transform: translate(20px, 50px);
+    }
 }
 
 .container .m0{
@@ -778,4 +796,96 @@ body:hover{
 a:hover,
 button:hover{
     cursor: url(/images/cursormove.png), auto;
+}
+
+[data-wiki]:hover{
+    cursor: url(/images/cursorkomp.png), auto !important;
+}
+
+
+[data-role="chat-parent"]
+{
+    border:1px solid #888270;
+    border-radius: 4px;
+    padding: 20px;
+    width: 400px;
+    display: inline-block;
+    background-color: #fbfdfa;
+    float: left;
+}
+
+[data-role="location"]
+{
+    height: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    line-height: 20px;
+    text-align: center;
+    /*border-bottom:1px solid #888270;*/
+}
+
+[data-role="location"] h3{
+    margin: 0 !important;
+}
+
+.main-chat-parent{
+    display: none;
+}
+
+[data-role="chat-parent"] [data-role="message"]{
+    height: 300px;
+    overflow: auto;
+    display: block;
+}
+
+[data-role="chat-parent"] textarea{
+    width: 300px;
+    float: left;
+    height: 60px;
+    border: 1px solid #888270;
+}
+
+[data-role="chat-parent"] button{
+    width: 100px;
+    height: 60px;
+    float: left;
+    border-left: 0;
+    border: 1px solid #888270;
+    background-color: white;
+}
+
+.admin-container{
+    padding: 60px;
+    text-align: center;
+}
+
+.info h3{
+    font-weight: bold;
+}
+
+.info h3,
+.info p{
+    display: inline-block;
+    color: black;
+    font-size: 12px;
+    margin: 0;
+}
+
+.info{
+    margin-left: -20px;
+    margin-right: -20px;
+    border-bottom: 1px solid #888270;
+    padding-bottom: 5px;
+}
+
+.user-chat{
+    position: fixed;
+    width: 300px;
+    top: 20px;
+    right: 20px;
+}
+
+.user-chat[data-role="chat-parent"] textarea{
+    width: 200px;
 }
