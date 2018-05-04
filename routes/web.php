@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
 
-Route::get('{any?}', function ($any) {
+Route::get('{any}', function ($any) {
     if($any == "chat")
     {
         return view('pusher');

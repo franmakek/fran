@@ -3245,7 +3245,7 @@ Router.add('a21', () => {
               }
         }, gifTime);
 
-          setInterval(function () {
+          var bugInterval = setInterval(function () {
 
                 var lokacijaArray = [
                       'lok0b',
@@ -3261,6 +3261,9 @@ Router.add('a21', () => {
 
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
+
+                clearTimeout(bugInterval);
+
           }, 99000);
 
 
