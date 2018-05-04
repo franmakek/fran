@@ -3261,12 +3261,7 @@ Router.add('a21', () => {
 
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
-<<<<<<< HEAD
           }, 99000);
-          // 180000
-=======
-          }, 180000);
->>>>>>> origin/latest-master
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
