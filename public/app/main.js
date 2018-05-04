@@ -2985,7 +2985,7 @@ Router.add('a21', () => {
  });
 
 
-    var mainTimeToClickMan = randomIntFromInterval(8000, 20000,);
+    var mainTimeToClickMan = randomIntFromInterval(80000, 50000,);
 
 
     let $element = $("#spadiv");
@@ -3248,13 +3248,13 @@ Router.add('a21', () => {
           var bugInterval = setInterval(function () {
 
                 var lokacijaArray = [
-                      'lok0',
+                      'lok0b',
                       'lok1',
+                      'lok2',
                       'lok3',
                       'lok4',
                       'lok5',
-                      'lok6',
-                      'lok7'
+                      'lok6'
                 ];
 
                 var randomLokacijaNum = Math.floor(Math.random()*lokacijaArray.length);
@@ -3264,7 +3264,7 @@ Router.add('a21', () => {
 
                 clearTimeout(bugInterval);
 
-          }, 180000);
+          }, 99000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
@@ -3334,6 +3334,9 @@ Router.add('a21', () => {
                         {
                               var bugArray = [
                                     'key-hold-zohar',
+                                  'key-hold-muha',
+                                  'key-hold-skakavac',
+                                  'key-hold-leptir',
                                     'key-hold-buba'
                               ];
 

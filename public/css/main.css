@@ -7,6 +7,10 @@ body{
     background-color: #ffffff;
 }
 
+.zaklon{
+   
+    z-index: 99999999999911999999;
+}
 
 .container .m{
     display: none;
@@ -19,94 +23,94 @@ body{
 
 .lok0b{
      display: block;
-    background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
+ background-color: red;      
+    border-radius: 100%;
+        height: 5px;
         top: 48%;
-        left: 16%;
-        width: 3%;
+        left: 11%;
+        width: 5px;
     z-index: 79999;
     }
 
 .lok0{
      display: block;
-    background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
+ background-color: red;      
+    border-radius: 100%;
         height: 1%;
-        top: 28%;
-        left: 16%;
+        top: 35%;
+        left: 5%;
         width: 3%;
     z-index: 79999;
     }
 .lok1{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 60%;
-        left: 51%;
-        width: 1%;
+ background-color: red;     
+    border-radius: 100%;
+        height: 5px;
+        top: 74%;
+        left: 52%;
+        width: 5px;
     z-index: 79999;
     }
 .lok2{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 7%;
+ background-color: red;      
+    border-radius: 100%;
+        height: 5px;
+        top: 13%;
         left: 26%;
-        width: 1%;
+        width: 5px;
     z-index: 79999;
     }
 .lok3{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 46%;
-        left: 79%;
-        width: 1%;
+ background-color: red;    
+    border-radius: 100%;
+        height: 5px;
+        top: 57%;
+        left: 83%;
+        width: 5px;
         z-index: 79999;
     }
 .lok4{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 44%;
-        left: 33%;
-        width: 1%;
+ background-color: red;    
+    border-radius: 100%;
+        height: 5px;
+        top: 60%;
+        left: 43%;
+        width: 5px;
         z-index: 79999;
     }
 
 .lok5{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
+ background-color: red;     
+    border-radius: 100%;
         height: 1%;
-        top: 39%;
-        left: 65%;
-        width: 1%;
+        top: 43%;
+        left: 76%;
+        width: 5px;
         z-index: 79999;
     }
 .lok6{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 19%;
+ background-color: red;      
+    border-radius: 110%;
+        height: 5px;
+        top: 1%;
         left: 69%;
-        width: 1%;
+        width: 5px;
         z-index: 79999;
     }
 .lok7{
      display: block;
-     background-color: rgba(10, 15, 26, .50);
-        border-radius: 100%;
-        height: 1%;
-        top: 55%;
-        left: 73%;
-        width: 1%;
+ background-color: red;      
+    border-radius: 110%;
+        height: 5px;
+        top: 69%;
+        left: 87%;
+        width: 5px;
         z-index: 79999;
     }
 
@@ -120,12 +124,32 @@ body{
     animation-direction: alternate;
 }
 
+
+
 @keyframes bugAnim {
     0% {
         transform: translate(0, 0);
     }
     50% {
         transform: translate(80px, 30px);
+    }
+    100% {
+        transform: translate(20px, 50px);
+    }
+}
+
+[data-role="bug"].lok3{
+    animation: bugAnimLok3 1s infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes bugAnimLok3 {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(120, 30px);
     }
     100% {
         transform: translate(20px, 50px);

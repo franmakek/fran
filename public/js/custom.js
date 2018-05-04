@@ -61,6 +61,7 @@ function changeWallImage(imageType){
     var horizontalImages = [
         '/images/wall/h1.png',
         '/images/wall/h2.png'
+        
     ];
 
     var verticalImages = [
