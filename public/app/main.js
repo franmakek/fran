@@ -2985,7 +2985,7 @@ Router.add('a21', () => {
  });
 
 
-    var mainTimeToClickMan = randomIntFromInterval(80000, 50000);
+    var mainTimeToClickMan = randomIntFromInterval(18000, 40000);
 
 
     let $element = $("#spadiv");
@@ -3111,6 +3111,8 @@ Router.add('a21', () => {
 
     function CustomStaff() {
 
+        
+        
         if(!$('body').hasClass('teleskop-pokazan'))
         {
             $('.t').addClass('disabled');
@@ -3200,11 +3202,11 @@ Router.add('a21', () => {
                 $('#sint-sound').find('source').attr('src', 'images/' + melodia);
                 document.getElementById('sint-sound').load();
 
-                gifTime = melodiaTime + 5000;
+                 gifTime = melodiaTime + 4000;
 
                 setTimeout(function (){
                       document.getElementById('sint-sound').play();
-                }, 5000);
+                }, 4000);
           });
 
           function runRandomWiki(){
@@ -3264,7 +3266,7 @@ Router.add('a21', () => {
 
                 clearTimeout(bugInterval);
 
-          }, 99000);
+          }, 30000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
