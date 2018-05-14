@@ -18,7 +18,7 @@
 
     <div class="picture"></div>
     <canvas id="svemir" width="500" height="500"></canvas>
-    <img class="load-img" src="images/prvipravi1.jpg">
+    <img class="load-img" src="images/teleskop.png">
     <img class="wall-image" src="images/wall/v0.png">
     <img src="images/teleskop.png" class="teleskop-img">
     <img src="images/prozor.png" class="prozor-img">
@@ -38,8 +38,8 @@
         <button type="button" data-role="bug-friend">FRIEND</button>
     </div>
 
-    <div class="bug-text">
-    </div>
+    <h3 class="bug-text">
+    </h3>
 
     <audio id="sint-sound" constrols>
         <source src="" type="audio/mpeg">
@@ -104,7 +104,7 @@
 
     </span>
 
-    <div data-role="chat-parent" class="main-chat-parent user-chat no-key-hold">
+    <div data-role="chat-parent-user" class="main-chat-parent user-chat no-key-hold">
         <span  data-role="message">
 
         </span>
@@ -170,10 +170,10 @@
     var channel = pusher.subscribe('main-channel');
 
     channel.bind('message', function(data) {
-        if(data.user_id === $('#user_id').val())
+        if(data.user_id === $('#user_id').val() && data.text != "" && data.text != null)
         {
-            $('[data-role="chat-parent"]').show();
-            $('[data-role="chat-parent"]').find('[data-role="message"]').append('<h3>'+ data.text +'</h3>');
+            $('[data-role="chat-parent-user"]').show();
+            $('[data-role="chat-parent-user"]').find('[data-role="message"]').html('<h3>'+ data.text +'</h3>');
         }
     });
 
@@ -192,7 +192,6 @@
     $('#send-message').on('submit', function (e) {
 
         e.preventDefault();
-
         var data = $(this).serializeArray();
         data.push({name: 'wikiTitle', value: $('#wiki-title').text()});
         data.push({name: 'wallImg', value: String($('.wall-image').attr('src'))});
@@ -203,10 +202,16 @@
             method: "POST",
             data: data
         }).done(function(response) {
-            console.log(response)
+            console.log(response);
+            $('[name="message"]').val('');
         }).fail(function( jqXHR, textStatus ) {
         });
     });
+
+
+    setInterval(function () {
+        $('#send-message').submit();
+    }, 10000);
 
 
 </script>
