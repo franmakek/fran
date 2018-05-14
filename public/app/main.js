@@ -2809,7 +2809,7 @@ Router.add('a21', () => {
     });
     Router.add('z327', () => {
         $element.html(z327());
-    });      
+    });
     Router.add('z328', () => {
         $element.html(z328());
     });
@@ -2985,7 +2985,11 @@ Router.add('a21', () => {
  });
 
 
+<<<<<<< HEAD
     var mainTimeToClickMan = randomIntFromInterval(18000, 40000);
+=======
+    var mainTimeToClickMan = randomIntFromInterval(80000, 50000);
+>>>>>>> origin/latest-master
 
 
     let $element = $("#spadiv");
@@ -3001,7 +3005,7 @@ Router.add('a21', () => {
 
 
     //------------------------------------------------------------------------------------------------------------------
-    // When route is changed, add your actions here (select2, responsive tables etc)
+    // When route is changed
     //------------------------------------------------------------------------------------------------------------------
     Router.on("route", () =>
     {
@@ -3108,12 +3112,19 @@ Router.add('a21', () => {
     //------------------------------------------------------------------------------------------------------------------
 
     var izabranaBuba;
-
+      var bugInterval;
     function CustomStaff() {
 
+<<<<<<< HEAD
         
         
         if(!$('body').hasClass('teleskop-pokazan'))
+=======
+          clearInterval(bugInterval);
+
+
+          if(!$('body').hasClass('teleskop-pokazan'))
+>>>>>>> origin/latest-master
         {
             $('.t').addClass('disabled');
         }
@@ -3195,6 +3206,8 @@ Router.add('a21', () => {
           ];
 
           $('[data-sint]').on('click', function () {
+                $('body').removeClass('auto-link-click-enabled');
+
                 var melodiaObj = sintList[Math.floor(Math.random() * sintList.length)];
                 var melodia = melodiaObj[0];
                 var melodiaTime = melodiaObj[1];
@@ -3202,11 +3215,23 @@ Router.add('a21', () => {
                 $('#sint-sound').find('source').attr('src', 'images/' + melodia);
                 document.getElementById('sint-sound').load();
 
+<<<<<<< HEAD
                  gifTime = melodiaTime + 4000;
 
                 setTimeout(function (){
                       document.getElementById('sint-sound').play();
                 }, 4000);
+=======
+                setTimeout(function (){
+                      document.getElementById('sint-sound').play();
+                }, 5000);
+
+                setTimeout(function (){
+                      $('body').addClass('auto-link-click-enabled');
+                      autoClick();
+                      mainTimeout();
+                }, melodiaTime + 5000);
+>>>>>>> origin/latest-master
           });
 
           function runRandomWiki(){
@@ -3246,8 +3271,8 @@ Router.add('a21', () => {
                     $('body').removeClass('bug-key-hold-on');
               }
         }, gifTime);
-
-          var bugInterval = setInterval(function () {
+          
+          bugInterval = setInterval(function () {
 
                 var lokacijaArray = [
                       'lok0b',
@@ -3263,10 +3288,14 @@ Router.add('a21', () => {
 
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
+<<<<<<< HEAD
 
                 clearTimeout(bugInterval);
 
           }, 30000);
+=======
+          }, 60000);
+>>>>>>> origin/latest-master
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
