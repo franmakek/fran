@@ -3081,7 +3081,7 @@ Router.add('a21', () => {
 
     function reRunUntilClickEnabled()
     {
-        if($('body').hasClass('auto-link-click-enabled'))
+        if($('body').hasClass('auto-link-click-enabled') && !$('body').hasClass('auto-link-click-disabled-medlodia'))
         {
             autoClick();
             mainTimeout();
@@ -3196,7 +3196,7 @@ Router.add('a21', () => {
           ];
 
           $('[data-sint]').on('click', function () {
-                $('body').removeClass('auto-link-click-enabled');
+                $('body').addClass('auto-link-click-disabled-medlodia');
 
                 var melodiaObj = sintList[Math.floor(Math.random() * sintList.length)];
                 var melodia = melodiaObj[0];
@@ -3210,9 +3210,7 @@ Router.add('a21', () => {
                 }, 5000);
 
                 setTimeout(function (){
-                      $('body').addClass('auto-link-click-enabled');
-                      autoClick();
-                      mainTimeout();
+                      $('body').removeClass('auto-link-click-disabled-medlodia');
                 }, melodiaTime + 5000);
           });
 
@@ -3253,7 +3251,7 @@ Router.add('a21', () => {
                     $('body').removeClass('bug-key-hold-on');
               }
         }, gifTime);
-          
+
           bugInterval = setInterval(function () {
 
                 var lokacijaArray = [
