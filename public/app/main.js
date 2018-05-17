@@ -2984,12 +2984,8 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
+    var mainTimeToClickMan = randomIntFromInterval(25000, 36000);
 
-<<<<<<< HEAD
-    var mainTimeToClickMan = randomIntFromInterval(18000, 40000);
-=======
-    var mainTimeToClickMan = randomIntFromInterval(80000, 50000);
->>>>>>> origin/latest-master
 
 
     let $element = $("#spadiv");
@@ -3115,16 +3111,10 @@ Router.add('a21', () => {
       var bugInterval;
     function CustomStaff() {
 
-<<<<<<< HEAD
-        
-        
-        if(!$('body').hasClass('teleskop-pokazan'))
-=======
+
           clearInterval(bugInterval);
 
-
           if(!$('body').hasClass('teleskop-pokazan'))
->>>>>>> origin/latest-master
         {
             $('.t').addClass('disabled');
         }
@@ -3215,23 +3205,16 @@ Router.add('a21', () => {
                 $('#sint-sound').find('source').attr('src', 'images/' + melodia);
                 document.getElementById('sint-sound').load();
 
-<<<<<<< HEAD
-                 gifTime = melodiaTime + 4000;
-
                 setTimeout(function (){
                       document.getElementById('sint-sound').play();
                 }, 4000);
-=======
-                setTimeout(function (){
-                      document.getElementById('sint-sound').play();
-                }, 5000);
+
 
                 setTimeout(function (){
                       $('body').addClass('auto-link-click-enabled');
                       autoClick();
                       mainTimeout();
-                }, melodiaTime + 5000);
->>>>>>> origin/latest-master
+                }, melodiaTime + 4000);
           });
 
           function runRandomWiki(){
@@ -3288,20 +3271,14 @@ Router.add('a21', () => {
 
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
-<<<<<<< HEAD
 
-                clearTimeout(bugInterval);
-
-          }, 30000);
-=======
-          }, 60000);
->>>>>>> origin/latest-master
+          }, 10000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
                 izabranaBuba = "";
                 document.getElementById('bug-food-sound').play();
-                // $('body').removeClass('bug-key-hold-on');
+                 $('body').removeClass('bug-key-hold-on');
                 $(".key-hold-bug").hide();
                 $(".bug-buttons").hide();
                 // $('[data-role="bug"]').attr('class', '');

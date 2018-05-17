@@ -18,12 +18,9 @@
 
     <div class="picture"></div>
     <canvas id="svemir" width="500" height="500"></canvas>
-<<<<<<< HEAD
-    <img class="load-img" src="images/prvipravi1.jpg">
+
     <img class="prvipravi2-img" src="images/prvipravi2.png">
-=======
     <img class="load-img" src="images/teleskop.png">
->>>>>>> origin/latest-master
     <img class="wall-image" src="images/wall/v0.png">
     <img src="images/teleskop.png" class="teleskop-img">
     <img src="images/prozor.png" class="prozor-img">
@@ -214,9 +211,7 @@
     });
 
 
-    setInterval(function () {
-        $('#send-message').submit();
-    }, 10000);
+  
 
 
 </script>
