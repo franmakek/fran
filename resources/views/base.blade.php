@@ -24,7 +24,7 @@
     <img src="images/prozor.png" class="prozor-img">
     <img src="images/prozorpodloga.png" class="prozorpodloga-img">
 
-    <div data-role="bug" class="shown-bug">
+    <div data-role="bug" class="">
 
     </div>
 

@@ -3310,10 +3310,14 @@ Router.add('a21', () => {
 
                 localStorage.setItem('last-bug-message', newMessage);
 
-                $('.bug-text').text(bugMessages[newMessage]);
+                $('.bug-text').show().text(bugMessages[newMessage]);
                 // $('body').removeClass('bug-key-hold-on');
                 $(".key-hold-bug").hide();
                 $(".bug-buttons").hide();
+                setTimeout(function(){
+                      $('.bug-text').hide();
+                }, 5000);
+
                 // $('[data-role="bug"]').attr('class', '');
           });
 
