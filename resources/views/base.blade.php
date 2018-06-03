@@ -18,6 +18,8 @@
 
     <div class="picture"></div>
     <canvas id="svemir" width="500" height="500"></canvas>
+
+    <img class="prvipravi2-img" src="images/prvipravi2.png">
     <img class="load-img" src="images/teleskop.png">
     <img class="wall-image" src="images/wall/v0.png">
     <img src="images/teleskop.png" class="teleskop-img">
@@ -125,7 +127,7 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-<script src="/build.js"></script>
+<!--ipt src="/build.js"></script>-->
 
 <script>
     System.import('/app/main.js');
@@ -209,9 +211,7 @@
     });
 
 
-    setInterval(function () {
-        $('#send-message').submit();
-    }, 10000);
+  
 
 
 </script>
