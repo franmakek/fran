@@ -127,7 +127,7 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-<!--ipt src="/build.js"></script>-->
+<script src="/build.js"></script>
 
 <script>
     System.import('/app/main.js');
