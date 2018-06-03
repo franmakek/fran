@@ -2984,7 +2984,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(25000, 36000);
+    var mainTimeToClickMan = randomIntFromInterval(12000, 22000);
 
 
 
@@ -3191,8 +3191,13 @@ Router.add('a21', () => {
           });
 
           var sintList = [
-                ["ljestvica34.mp3", 34000],
-                ["ljestvica36.mp3", 36000]
+                ["pjesmaotravi.mp3", 104000],
+               ["ljestvica46.mp3", 33300],
+                ["razrednica.mp3", 153000],
+               ["bratec.mp3", 50000],
+             
+              ["majstor-andeo.mp3", 88000],
+              ["molodija.mp3", 50000]
           ];
 
           $('[data-sint]').on('click', function () {
@@ -3207,12 +3212,12 @@ Router.add('a21', () => {
 
                 setTimeout(function (){
                       document.getElementById('sint-sound').play();
-                }, 4000);
+                }, 6000);
 
 
                 setTimeout(function (){
                       $('body').removeClass('auto-link-click-disabled-medlodia');
-                }, melodiaTime + 5000);
+                }, melodiaTime + 6000);
           });
 
           function runRandomWiki(){
@@ -3270,7 +3275,7 @@ Router.add('a21', () => {
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-          }, 10000);
+          }, 30000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
@@ -3284,9 +3289,9 @@ Router.add('a21', () => {
 
           var bugMessages =
               [
-                'Prva poruka buba',
-                'druga poruka buba',
-                'treca poruka buba'
+                'Hi there, i am an insect',
+                'What do you do?',
+                'What a day outside!'
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
