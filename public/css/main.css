@@ -117,7 +117,7 @@ body{
     background-color: transparent;
 }
 
-[data-role="bug"].bug-shown{
+[data-role="bug"].shown-bug{
     width: 7px;
      background-color: #d13e0c;   
     opacity: 1;
