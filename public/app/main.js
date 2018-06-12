@@ -2984,7 +2984,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(12000, 22000);
+    var mainTimeToClickMan = randomIntFromInterval(15000, 40000);
 
 
 
@@ -3274,7 +3274,7 @@ Router.add('a21', () => {
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-          }, 30000);
+          }, 15000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
@@ -3283,7 +3283,7 @@ Router.add('a21', () => {
                  $('body').removeClass('bug-key-hold-on');
                 $(".key-hold-bug").hide();
                 $(".bug-buttons").hide();
-                // $('[data-role="bug"]').attr('class', '');
+                 $('[data-role="bug"]').attr('class', '');
           });
 
           var bugMessages =

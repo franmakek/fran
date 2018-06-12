@@ -31,9 +31,9 @@
     </div>
 
     <img class="key-hold-bug key-hold-zohar" src="images/zohar.jpg" >
-    <img class="key-hold-bug key-hold-buba" src="images/bubamara.jpg" >
-    <img class="key-hold-bug key-hold-skakavac" src="images/skakavac.jpg" >
-    <img class="key-hold-bug key-hold-muha" src="images/muha.jpg" >
+    <img class="key-hold-bug key-hold-buba" src="images/bubamara.gif" >
+    <img class="key-hold-bug key-hold-skakavac" src="images/skakavac.gif" >
+    <img class="key-hold-bug key-hold-muha" src="images/muha.gif" >
     <img class="key-hold-bug key-hold-leptir" src="images/leptir.jpg" >
     <div class="bug-buttons">
         <button type="button" data-role="bug-food" class="bug-btn">FOOD</button>
