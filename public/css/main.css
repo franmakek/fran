@@ -154,8 +154,8 @@ body{
     }
     
     
-    90% {
-         transform: translate(10px, -5px);
+    70% {
+         transform: translate(10px, 10px);
         opacity: 1; 
     }
     100% {
@@ -587,6 +587,13 @@ body{
     z-index: 80001;
     display: block !important;
 }
+
+.key-hold-img .zaklon{
+    z-index: 80005;
+    display: block !important;
+}
+
+
 
 .loader__tile {
     display: block;
