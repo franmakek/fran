@@ -3089,7 +3089,6 @@ Router.add('a21', () => {
         else
         {
             setTimeout(function () {
-                reRunUntilClickEnabled();
             }, 100);
         }
     }
@@ -3329,90 +3328,95 @@ Router.add('a21', () => {
           });
 
         var keyPressed = false;
+
         $(document).on("click", "a[data-routable='true']", (e) => {
               $('body').removeClass('bug-key-hold-on');
               clearTimeout(enableClick);
         });
 
         $('body').off('click').on('click', function(e) {
-                  var target = $(e.target);
-                  if (!target.is("a") && !target.is(".modal")  && !target.is("button") && !target.is(".no-key-hold *")) {
+              if($('body').hasClass('auto-link-click-disabled-medlodia') || !$('body').hasClass('auto-link-click-enabled'))
+              {
+                    return false;
+              }
+              var target = $(e.target);
+              if (!target.is("a") && !target.is(".modal")  && !target.is("button") && !target.is(".no-key-hold *")) {
 
-                        if($('body').hasClass('svemir-on'))
-                        {
-                              showSvemir();
-                              $('#svemir').fadeToggle( 300, "linear" );
-                              return;
-                        }
-
-                        if($('body').hasClass('bug-key-hold-on'))
-                        {
-                              var bugArray = [
-                                    'key-hold-zohar',
-                                  'key-hold-muha',
-                                  'key-hold-skakavac',
-                                  'key-hold-leptir',
-                                    'key-hold-buba'
-                              ];
-
-
-                              if(!izabranaBuba)
-                              {
-                                    izabranaBuba = "." + bugArray[Math.floor(Math.random()*bugArray.length)];
-                              }
-
-                              $('.key-hold-bug:not('+ izabranaBuba +')').hide();
-                              $(izabranaBuba).fadeToggle( 300, "linear" );
-                              $(".bug-buttons").fadeToggle( 300, "linear" );
-                              return;
-                        }
-
-                        if ($(".key-hold-img").length != 0) {
-
-                              /*ako postoji dodatna slika*/
-                              if ($("[data-wall-position]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png") {
-                                    var position = $('[data-wall-position]').attr('data-wall-position');
-                                    var wallImage = $('.wall-image').attr('src');
-
-                                    var wallImageName = wallImage.split('.png').shift();
-
-                                    var newImageName = wallImageName + "-" + position + ".png";
-
-                                    if ($('.wall-img-hold').length === 0) {
-                                          $('<img class="key-hold-img wall-img-hold" src="' + newImageName + '">').insertAfter('.key-hold-img');
-                                    }
-                              }
-
-                              if($('body').hasClass('teleskop-pokazan') && $('[data-teleskop-position]').length != 0)
-                              {
-                                    var tunosSrc = "images/" + $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";
-                                    if($('.tele-hold-image').length == 0)
-                                    {
-                                          $('<img class="key-hold-img wall-img-hold tele-hold-image" src="' + tunosSrc + '">').insertAfter('.key-hold-img');
-                                    }
-                                    else
-                                    {
-                                          $('.tele-hold-image').attr('src', tunosSrc);
-                                    }
-                              }
-
-                              if($('body').hasClass('prozor-otvoren') && $('[data-govno-position]').length != 0)
-                              {
-                                    var govnoSrc = "images/" + $('[data-govno-position]').attr('data-govno-position') + ".png";
-                                    if($('.govno-image').length == 0)
-                                    {
-                                          $('<img class="key-hold-img wall-img-hold govno-image" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
-                                    }
-                                    else
-                                    {
-                                          $('.govno-image').attr('src', govnoSrc);
-                                    }
-                              }
-
-                              $(".key-hold-img").fadeToggle( 300, "linear" );
-
-                        }
+                  if($('body').hasClass('svemir-on'))
+                  {
+                        showSvemir();
+                        $('#svemir').fadeToggle( 300, "linear" );
+                        return;
                   }
+
+                  if($('body').hasClass('bug-key-hold-on'))
+                  {
+                        var bugArray = [
+                              'key-hold-zohar',
+                            'key-hold-muha',
+                            'key-hold-skakavac',
+                            'key-hold-leptir',
+                              'key-hold-buba'
+                        ];
+
+
+                        if(!izabranaBuba)
+                        {
+                              izabranaBuba = "." + bugArray[Math.floor(Math.random()*bugArray.length)];
+                        }
+
+                        $('.key-hold-bug:not('+ izabranaBuba +')').hide();
+                        $(izabranaBuba).fadeToggle( 300, "linear" );
+                        $(".bug-buttons").fadeToggle( 300, "linear" );
+                        return;
+                  }
+
+                  if ($(".key-hold-img").length != 0) {
+
+                        /*ako postoji dodatna slika*/
+                        if ($("[data-wall-position]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png") {
+                              var position = $('[data-wall-position]').attr('data-wall-position');
+                              var wallImage = $('.wall-image').attr('src');
+
+                              var wallImageName = wallImage.split('.png').shift();
+
+                              var newImageName = wallImageName + "-" + position + ".png";
+
+                              if ($('.wall-img-hold').length === 0) {
+                                    $('<img class="key-hold-img wall-img-hold" src="' + newImageName + '">').insertAfter('.key-hold-img');
+                              }
+                        }
+
+                        if($('body').hasClass('teleskop-pokazan') && $('[data-teleskop-position]').length != 0)
+                        {
+                              var tunosSrc = "images/" + $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";
+                              if($('.tele-hold-image').length == 0)
+                              {
+                                    $('<img class="key-hold-img wall-img-hold tele-hold-image" src="' + tunosSrc + '">').insertAfter('.key-hold-img');
+                              }
+                              else
+                              {
+                                    $('.tele-hold-image').attr('src', tunosSrc);
+                              }
+                        }
+
+                        if($('body').hasClass('prozor-otvoren') && $('[data-govno-position]').length != 0)
+                        {
+                              var govnoSrc = "images/" + $('[data-govno-position]').attr('data-govno-position') + ".png";
+                              if($('.govno-image').length == 0)
+                              {
+                                    $('<img class="key-hold-img wall-img-hold govno-image" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
+                              }
+                              else
+                              {
+                                    $('.govno-image').attr('src', govnoSrc);
+                              }
+                        }
+
+                        $(".key-hold-img").fadeToggle( 300, "linear" );
+
+                  }
+            }
 
         });
 
@@ -3468,6 +3472,22 @@ Router.add('a21', () => {
                       if($('body').hasClass('teleskop-pokazan'))
                       {
                             $('body').addClass('teleskop-pokazan-uvjek');
+                      }
+                }
+
+                if(!$(e.currentTarget).hasClass('ot'))
+                {
+                      if($('body').hasClass('prozor-otvoren'))
+                      {
+                            $('body').addClass('prozor-otvoren-uvjek');
+                      }
+                }
+
+                if(!$(e.currentTarget).hasClass('skok'))
+                {
+                      if($('body').hasClass('prozorpodloga-pokazan'))
+                      {
+                            $('body').addClass('prozorpodloga-pokazan-uvjek');
                       }
                 }
           });

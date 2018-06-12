@@ -702,10 +702,45 @@ body{
 .container a:after{
     content: "m";
     font-size: 0;
-    display: none;
-    width: 20px;
-    height: 20px;
     -webkit-animation:colorchange 0s;
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-direction: alternate;
+    background-color: gray;
+    width: 20px;
+    height:20px;
+    display:inline-block;
+    border-radius: 100%;
+}
+
+body:not(.auto-link-click-enabled) .container a{
+    display: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+body:not(.auto-link-click-enabled) .container a:after{
+    display: none !important;
+}
+
+.c{
+    visibility: hidden;
+}
+
+.container a.c:after{
+    display: none !important;
+}
+
+
+@-webkit-keyframes blinker {
+    from {opacity: 1.0;transform: scale(0)}
+    to {opacity: 0.0;transform: scale(1)}
+}
+.blink{
+
 }
 
 .container a.shown,
@@ -914,7 +949,7 @@ a.disabled{
     display: block !important;
 }
 
-.prozor-otvoren .prozor-img{
+body .prozor-otvoren:not(.prozor-otvoren-uvjek) .prozor-img{
          display: block !important;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
@@ -926,15 +961,20 @@ a.disabled{
 
 }
 
+body .prozor-otvoren.prozor-otvoren-uvjek .prozor-img
+{
+    display: block !important;
+    z-index: 90;
+}
 
 
 
-.prozorpodloga-img {
+body .prozorpodloga-img {
     display: none;
     z-index: 80070;
 }
 
-.prozorpodloga-pokazan .prozorpodloga-img {
+body.prozorpodloga-pokazan:not(.prozorpodloga-pokazan-uvjek) .prozorpodloga-img {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-name: show;
@@ -944,7 +984,8 @@ a.disabled{
     z-index: 120;
     display: block;
 }
-.prozorpodloga-pokazan {
+
+body .prozorpodloga-pokazan.prozorpodloga-pokazan-uvjek .prozorpodloga-img {
     display: block !important;
     z-index: 120;
 }
@@ -1004,6 +1045,9 @@ button:hover{
     cursor: url(/images/cursorkomp.png), auto !important;
 }
 
+body.auto-link-click-disabled-medlodia *{
+    cursor: not-allowed !important;
+}
 
 [data-role="chat-parent"]
 {
