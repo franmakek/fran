@@ -127,7 +127,7 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-<!--ipt src="/build.js"></script>-->
+<script src="/build.js"></script>
 
 <script>
     System.import('/app/main.js');
@@ -147,9 +147,9 @@
 
     $('#user_id').val(userId);
 
-    Pusher.log = function(msg) {
-        console.log(msg);
-    };
+//    Pusher.log = function(msg) {
+//        console.log(msg);
+//    };
     var pusher = new Pusher('7a6a1f7f43e7adb7c8df', {
         encrypted: true,
         cluster: 'eu' // This
@@ -171,11 +171,23 @@
 
     var channel = pusher.subscribe('main-channel');
 
+    var hideChatBox;
+
     channel.bind('message', function(data) {
         if(data.user_id === $('#user_id').val() && data.text != "" && data.text != null)
         {
+
+            clearTimeout(hideChatBox);
+
             $('[data-role="chat-parent-user"]').show();
             $('[data-role="chat-parent-user"]').find('[data-role="message"]').html('<h3>'+ data.text +'</h3>');
+            setTimeout(function(){
+                $('[data-role="chat-parent-user"]').find('[data-role="message"]').html('');
+            }, 5000);
+
+            hideChatBox =  setTimeout(function(){
+                $('[data-role="chat-parent-user"]').hide();
+            }, 20000);
         }
     });
 
@@ -188,6 +200,10 @@
                 data: imOnlineData
             });
         }, 1000);
+
+        setInterval(function(){
+            $('#send-message').submit();
+        }, 10000);
 
     });
 
@@ -216,6 +232,15 @@
 
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120648095-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120648095-1');
+</script>
 
 </body>
 
