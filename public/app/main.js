@@ -2984,7 +2984,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(8000, 9000);
+    var mainTimeToClickMan = randomIntFromInterval(8000, 90000);
 
     let $element = $("#spadiv");
 
@@ -3127,10 +3127,10 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 5000);
+            }, 35000);
       }
 
-      bugInterval();
+      resetBugInterval();
 
       var izabranaBuba;
     function CustomStaff() {
@@ -3287,7 +3287,7 @@ Router.add('a21', () => {
                 $(".bug-buttons").hide();
                 $('[data-role="bug"]').attr('class', '');
                 clearInterval(bugInterval);
-                bugInterval();
+                resetBugInterval();
           });
 
           var bugMessages =
