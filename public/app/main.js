@@ -3133,6 +3133,8 @@ Router.add('a21', () => {
       resetBugInterval();
 
       var izabranaBuba;
+      var vrstaBube;
+
     function CustomStaff() {
 
           if(!$('body').hasClass('teleskop-pokazan'))
@@ -3292,8 +3294,8 @@ Router.add('a21', () => {
 
           var bugMessages =
               [
-                'Hi there, i am an insect',
-                'What do you do?',
+                'Hi there, i am ' + vrstaBube,
+                'What do you do?' + $('#wiki-modal #wiki-title').text(),
                 'What a day outside!'
               ];
 
@@ -3355,18 +3357,20 @@ Router.add('a21', () => {
 
                   if($('body').hasClass('bug-key-hold-on'))
                   {
+                        //nastavak na key-hold-{nastavak ispod}
                         var bugArray = [
-                              'key-hold-zohar',
-                            'key-hold-muha',
-                            'key-hold-skakavac',
-                            'key-hold-leptir',
-                              'key-hold-buba'
+                              'zohar',
+                            'muha',
+                            'skakavac',
+                            'leptir',
+                              'buba'
                         ];
 
 
                         if(!izabranaBuba)
                         {
-                              izabranaBuba = "." + bugArray[Math.floor(Math.random()*bugArray.length)];
+                              vrstaBube =  bugArray[Math.floor(Math.random()*bugArray.length)];
+                              izabranaBuba = ".key-hold-" + vrstaBube;
                         }
 
                         $('.key-hold-bug:not('+ izabranaBuba +')').hide();
