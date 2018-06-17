@@ -3130,7 +3130,7 @@ Router.add('a21', () => {
             }, 5000);
       }
 
-      bugInterval();
+      resetBugInterval();
 
       var izabranaBuba;
     function CustomStaff() {
@@ -3287,7 +3287,7 @@ Router.add('a21', () => {
                 $(".bug-buttons").hide();
                 $('[data-role="bug"]').attr('class', '');
                 clearInterval(bugInterval);
-                bugInterval();
+                resetBugInterval();
           });
 
           var bugMessages =

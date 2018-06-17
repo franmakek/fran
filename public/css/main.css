@@ -1062,6 +1062,12 @@ button:hover{
     /*cursor: not-allowed !important;*/
 /*}*/
 
+embed{
+    position: absolute;
+    top: -500px;
+    left: -500px;
+}
+
 [data-role="chat-parent"]
 {
     border:1px solid #888270;
