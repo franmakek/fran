@@ -2984,9 +2984,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(15000, 40000);
-
-
+    var mainTimeToClickMan = randomIntFromInterval(8000, 9000);
 
     let $element = $("#spadiv");
 
@@ -3274,7 +3272,7 @@ Router.add('a21', () => {
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-          }, 15000);
+          }, 5000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {

@@ -1,4 +1,4 @@
-var gifTime = 10000;
+var gifTime = 1000;
 var vc1 = 6600;
 var vc2 = 1520;
 var vc3 = 6640;
