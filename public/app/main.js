@@ -3105,11 +3105,35 @@ Router.add('a21', () => {
     // Custom Functions
     //------------------------------------------------------------------------------------------------------------------
 
-    var izabranaBuba;
       var bugInterval;
-    function CustomStaff() {
 
-          clearInterval(bugInterval);
+      function resetBugInterval() {
+            bugInterval = setInterval(function () {
+
+                  console.log('bug interval');
+
+                  var lokacijaArray = [
+                        'lok0b',
+                        'lok1',
+                        'lok2',
+                        'lok3',
+                        'lok4',
+                        'lok5',
+                        'lok6'
+                  ];
+
+                  var randomLokacijaNum = Math.floor(Math.random()*lokacijaArray.length);
+
+                  $('[data-role="bug"]').attr('class', '');
+                  $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
+
+            }, 5000);
+      }
+
+      bugInterval();
+
+      var izabranaBuba;
+    function CustomStaff() {
 
           if(!$('body').hasClass('teleskop-pokazan'))
         {
@@ -3253,26 +3277,6 @@ Router.add('a21', () => {
               }
         }, gifTime);
 
-          bugInterval = setInterval(function () {
-
-                console.log('bug interval');
-
-                var lokacijaArray = [
-                      'lok0b',
-                      'lok1',
-                      'lok2',
-                      'lok3',
-                      'lok4',
-                      'lok5',
-                      'lok6'
-                ];
-
-                var randomLokacijaNum = Math.floor(Math.random()*lokacijaArray.length);
-
-                $('[data-role="bug"]').attr('class', '');
-                $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
-
-          }, 5000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
@@ -3282,6 +3286,8 @@ Router.add('a21', () => {
                 $(".key-hold-bug").hide();
                 $(".bug-buttons").hide();
                 $('[data-role="bug"]').attr('class', '');
+                clearInterval(bugInterval);
+                bugInterval();
           });
 
           var bugMessages =
