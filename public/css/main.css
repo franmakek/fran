@@ -1052,9 +1052,9 @@ button:hover{
     cursor: url(/images/cursorkomp.png), auto !important;
 }
 
-body.auto-link-click-disabled-medlodia *{
-    cursor: not-allowed !important;
-}
+/*body.auto-link-click-disabled-medlodia *{*/
+    /*cursor: not-allowed !important;*/
+/*}*/
 
 [data-role="chat-parent"]
 {

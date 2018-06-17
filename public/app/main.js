@@ -3089,6 +3089,7 @@ Router.add('a21', () => {
         else
         {
             setTimeout(function () {
+                  reRunUntilClickEnabled();
             }, 100);
         }
     }
@@ -3109,7 +3110,6 @@ Router.add('a21', () => {
     var izabranaBuba;
       var bugInterval;
     function CustomStaff() {
-
 
           clearInterval(bugInterval);
 
@@ -3141,7 +3141,6 @@ Router.add('a21', () => {
           if($('body').hasClass('slika-pokazana'))
           {
                 $('.sunos').addClass('disabled');
-
           }
 
         
@@ -3194,7 +3193,6 @@ Router.add('a21', () => {
                ["ljestvica46.mp3", 33300],
                 ["razrednica.mp3", 153000],
                ["bratec.mp3", 50000],
-             
               ["majstor-andeo.mp3", 88000],
               ["molodija.mp3", 50000]
           ];
@@ -3259,6 +3257,8 @@ Router.add('a21', () => {
 
           bugInterval = setInterval(function () {
 
+                console.log('bug interval');
+
                 var lokacijaArray = [
                       'lok0b',
                       'lok1',
@@ -3274,7 +3274,7 @@ Router.add('a21', () => {
                 $('[data-role="bug"]').attr('class', '');
                 $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-          }, 15000);
+          }, 5000);
 
 
           $('[data-role="bug-food"]').off('click').on('click', function () {
@@ -3283,7 +3283,7 @@ Router.add('a21', () => {
                  $('body').removeClass('bug-key-hold-on');
                 $(".key-hold-bug").hide();
                 $(".bug-buttons").hide();
-                 $('[data-role="bug"]').attr('class', '');
+                $('[data-role="bug"]').attr('class', '');
           });
 
           var bugMessages =
@@ -3335,7 +3335,7 @@ Router.add('a21', () => {
         });
 
         $('body').off('click').on('click', function(e) {
-              if($('body').hasClass('auto-link-click-disabled-medlodia') || !$('body').hasClass('auto-link-click-enabled'))
+              if(!$('body').hasClass('auto-link-click-enabled'))
               {
                     return false;
               }

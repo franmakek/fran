@@ -200,11 +200,6 @@
                 data: imOnlineData
             });
         }, 1000);
-
-        setInterval(function(){
-            $('#send-message').submit();
-        }, 10000);
-
     });
 
     $('#send-message').on('submit', function (e) {
