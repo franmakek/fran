@@ -123,7 +123,7 @@ body{
     opacity: 1;
     height: 7px;
     position: absolute;
-    animation: bugAnim 5s;
+    animation: bugAnim 7s;
 }
 
 
@@ -133,7 +133,7 @@ body{
 }
 
 [data-role="bug"].lok3{
-    animation: bugAnimLok3 5s;
+    animation: bugAnimLok3 7s;
      animation-fill-mode: forwards;
 }
 
@@ -164,7 +164,7 @@ body{
     }
 }
 [data-role="bug"].lok1{
-    animation: bugAnimLok1 5s;
+    animation: bugAnimLok1 7s;
      animation-fill-mode: forwards;
 }
 
@@ -192,7 +192,7 @@ body{
 
 
 [data-role="bug"].lok2{
-    animation: bugAnimLok2 5s;
+    animation: bugAnimLok2 7s;
      animation-fill-mode: forwards;
 }
 
@@ -219,7 +219,7 @@ body{
 
 
 [data-role="bug"].lok4{
-    animation: bugAnimLok4 5s;
+    animation: bugAnimLok4 7s;
      animation-fill-mode: forwards;
 }
 
@@ -361,8 +361,8 @@ body{
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 19%;
-        top: 7%;
-        left: 26%;
+        top: 5%;
+        left: 24%;
         width: 19%;
     z-index: 80003;
     }
@@ -432,7 +432,7 @@ body{
     }
 
       .container .c{
-           display: none;
+         display: none;
            background-color: rgba(10, 15, 26, .10);
         border-radius: 100%;
         height: 2%;
@@ -595,6 +595,10 @@ body{
     display: block !important;
 }
 
+.key-hold-img .blink{
+    z-index: 1;
+    display: block !important;
+}
 
 
 .loader__tile {
@@ -739,13 +743,17 @@ body:not(.auto-link-click-enabled) .container a:after{
     display: none !important;
 }
 
+
 .c{
     visibility: hidden;
 }
 
+
+/*
 .container a.c:after{
     display: none !important;
 }
+*/
 
 
 @-webkit-keyframes blinker {
@@ -753,7 +761,7 @@ body:not(.auto-link-click-enabled) .container a:after{
     to {opacity: 0.0;transform: scale(1)}
 }
 .blink{
-
+z-index: 14;
 }
 
 .container a.shown,

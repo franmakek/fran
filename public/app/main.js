@@ -2984,7 +2984,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(8000, 90000);
+    var mainTimeToClickMan = randomIntFromInterval(10000, 29000);
 
     let $element = $("#spadiv");
 
@@ -3127,7 +3127,7 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 35000);
+            }, 60000);
       }
 
       resetBugInterval();
@@ -3166,7 +3166,7 @@ Router.add('a21', () => {
           {
                 $('.sunos').addClass('disabled');
           }
-
+       
         
         $('[data-sound]').on('click', function(e){
                     
@@ -3216,9 +3216,9 @@ Router.add('a21', () => {
                 ["pjesmaotravi.mp3", 104000],
                ["ljestvica46.mp3", 33300],
                 ["razrednica.mp3", 153000],
-               ["bratec.mp3", 50000],
+               ["bratec.mp3", 40000],
               ["majstor-andeo.mp3", 88000],
-              ["molodija.mp3", 50000]
+              ["molodija.mp3", 45000]
           ];
 
           $('[data-sint]').on('click', function () {
@@ -3294,9 +3294,9 @@ Router.add('a21', () => {
 
           var bugMessages =
               [
-                'Hi there, i am ' + vrstaBube,
-                'What do you do?' + $('#wiki-modal #wiki-title').text(),
-                'What a day outside!'
+                'Hi i am ' + vrstaBube,
+                'Did you read the article about' + $('#wiki-modal #wiki-title').text(),
+                'Dont eat me please'
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
@@ -3328,7 +3328,7 @@ Router.add('a21', () => {
                 $(".bug-buttons").hide();
                 setTimeout(function(){
                       $('.bug-text').hide();
-                }, 5000);
+                }, 15000);
 
                 // $('[data-role="bug"]').attr('class', '');
           });
