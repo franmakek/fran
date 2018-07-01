@@ -432,7 +432,7 @@ body{
     }
 
       .container .c{
-           display: none;
+           display: block !important;
            background-color: rgba(10, 15, 26, .10);
         border-radius: 100%;
         height: 2%;
@@ -742,6 +742,16 @@ body:not(.auto-link-click-enabled) .container a:after{
 .c{
     visibility: hidden;
 }
+
+.bug-text,
+.fixed-chat-parent{
+    position: fixed;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
 
 .container a.c:after{
     display: none !important;

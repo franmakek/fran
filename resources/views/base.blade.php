@@ -106,6 +106,7 @@
 
     </span>
 
+    <div class="fixed-chat-parent">
     <div data-role="chat-parent-user" class="main-chat-parent user-chat no-key-hold">
         <span  data-role="message">
 
@@ -117,6 +118,7 @@
             <textarea name="message" placeholder="Say something..." id="message"></textarea>
             <button type="submit">Send</button>
         </form>
+    </div>
     </div>
 
 </div>
