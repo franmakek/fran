@@ -2984,7 +2984,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(10000, 29000);
+    var mainTimeToClickMan = randomIntFromInterval(4000, 16000);
 
     let $element = $("#spadiv");
 
@@ -3127,7 +3127,7 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 60000);
+            }, 98000);
       }
 
       resetBugInterval();
@@ -3266,12 +3266,13 @@ Router.add('a21', () => {
           });
 
           var sintList = [
-                ["pjesmaotravi.mp3", 104000],
+                ["golub3.mp3", 109000],
                ["ljestvica46.mp3", 33300],
                 ["razrednica.mp3", 153000],
                ["bratec.mp3", 40000],
-              ["majstor-andeo.mp3", 88000],
-              ["molodija.mp3", 45000]
+              ["vrucimajstor.mp3", 95000],
+              ["molodija.mp3", 51000],
+               ["nasa2.mp3", 37000]
           ];
 
           $('[data-sint]').on('click', function () {
@@ -3348,8 +3349,14 @@ Router.add('a21', () => {
           var bugMessages =
               [
                 'Hi i am ' + vrstaBube,
-                'Did you read the article about' + $('#wiki-modal #wiki-title').text(),
-                'Dont eat me please'
+                'Did you read the article about ' + $('#wiki-modal #wiki-title').text(),
+                'Dont eat me please',
+                 'It,s a nice day in Kutina!',
+                  'check out that painting...',
+                  'My legs hurt',
+                     'You must be Mujc! I am' + vrstaBube,
+                     'you,re punching holes in the bedclothes...',
+                     'Hi cat'
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
@@ -3362,7 +3369,7 @@ Router.add('a21', () => {
                       lastMsg = 0;
                 }
 
-                if(lastMsg < 2)
+                if(lastMsg < 8)
                 {
                       newMessage = Number(lastMsg) + 1;
                       console.log(newMessage);

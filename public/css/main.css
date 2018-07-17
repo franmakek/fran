@@ -119,7 +119,7 @@ body{
 
 [data-role="bug"].shown-bug{
     width: 7px;
-     background-color: #d13e0c;   
+     background-color: #63615f;   
     opacity: 1;
     height: 7px;
     position: absolute;
@@ -749,8 +749,6 @@ body:not(.auto-link-click-enabled) .container a:after{
 }
 
 
-
-=======
 .bug-text,
 .fixed-chat-parent{
     position: fixed;
