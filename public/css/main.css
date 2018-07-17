@@ -967,8 +967,7 @@ a.disabled{
 }
 
 .zat,
-.skok,
-.prozor-img{
+.skok{
     display: none !important;
      z-index: 90;
 }
@@ -978,40 +977,43 @@ a.disabled{
     display: block !important;
 }
 
-body .prozor-otvoren:not(.prozor-otvoren-uvjek) .prozor-img{
-         display: block !important;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-name: show;
-    animation-name: show;
+.prozor-img{
+    display: block !important;
+    z-index: 90;
+    transition: opacity 0s;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    z-index: 90;
-
+    opacity: 0;
 }
 
-body .prozor-otvoren.prozor-otvoren-uvjek .prozor-img
+body.prozor-otvoren:not(.prozor-otvoren-uvjek) .prozor-img{
+    opacity: 1;
+    transition: opacity 4s;
+}
+
+body.prozor-otvoren.prozor-otvoren-uvjek .prozor-img
 {
     display: block !important;
     z-index: 90;
+    opacity: 1;
+    transition: opacity 4s;
+
 }
 
 
 
 body .prozorpodloga-img {
-    display: none;
-    z-index: 80070;
-}
-
-body.prozorpodloga-pokazan:not(.prozorpodloga-pokazan-uvjek) .prozorpodloga-img {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-name: show;
-    animation-name: show;
+    opacity: 0;
+    display: block !important;
+    transition:3s all;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     z-index: 120;
-    display: block;
+
+}
+
+body.prozorpodloga-pokazan:not(.prozorpodloga-pokazan-uvjek) .prozorpodloga-img {
+    opacity: 1;
 }
 
 body .prozorpodloga-pokazan.prozorpodloga-pokazan-uvjek .prozorpodloga-img {
@@ -1024,10 +1026,6 @@ body .prozorpodloga-pokazan.prozorpodloga-pokazan-uvjek .prozorpodloga-img {
      z-index: 90;
 }
 
-.prozor-img{
-    display: none !important;
-     z-index: 90;
-}
 
 
 .prozor-otvoren .ot{
