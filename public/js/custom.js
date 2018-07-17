@@ -60,13 +60,16 @@ function changeWallImage(imageType){
 
     var horizontalImages = [
         '/images/wall/h1.png',
-        '/images/wall/h2.png'
-        
+        '/images/wall/h2.png',
+        '/images/wall/h3.png',
+         '/images/wall/h4.png'
     ];
 
     var verticalImages = [
         '/images/wall/v1.png',
-        '/images/wall/v2.png'
+        '/images/wall/v2.png',
+        '/images/wall/v3.png',
+        '/images/wall/v4.png'
     ];
 
     /*tu dodat slike*/
@@ -74,7 +77,11 @@ function changeWallImage(imageType){
            '/images/wall/h1.png',
         '/images/wall/h2.png',  
        '/images/wall/v1.png',
-        '/images/wall/v2.png'
+        '/images/wall/v2.png',
+        '/images/wall/v3.png',
+         '/images/wall/h3.png',
+       '/images/wall/v4.png',
+         '/images/wall/h4.png'
     ];
 
 
