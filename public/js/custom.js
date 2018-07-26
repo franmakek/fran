@@ -62,7 +62,8 @@ function changeWallImage(imageType){
         '/images/wall/h1.png',
         '/images/wall/h2.png',
         '/images/wall/h3.png',
-         '/images/wall/h4.png'
+         '/images/wall/h4.png',
+         '/images/wall/h5.png'
     ];
 
     var verticalImages = [
@@ -81,7 +82,8 @@ function changeWallImage(imageType){
         '/images/wall/v3.png',
          '/images/wall/h3.png',
        '/images/wall/v4.png',
-         '/images/wall/h4.png'
+         '/images/wall/h4.png',
+        '/images/wall/h5.png'
     ];
 
 

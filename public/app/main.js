@@ -2984,7 +2984,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(4000, 16000);
+    var mainTimeToClickMan = randomIntFromInterval(8000, 21000);
 
     let $element = $("#spadiv");
 
@@ -3127,7 +3127,7 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 98000);
+            }, 128000);
       }
 
       resetBugInterval();
@@ -3271,8 +3271,14 @@ Router.add('a21', () => {
                 ["razrednica.mp3", 153000],
                ["bratec.mp3", 40000],
               ["vrucimajstor.mp3", 95000],
-              ["molodija.mp3", 51000],
-               ["nasa2.mp3", 37000]
+               ["bratecc.mp3", 40000],
+                   ["poll.mp3", 49000],
+                ["VROskica-1.mp3", 105000],
+              ["mel-5.mp3", 25000],
+               ["melo-5.mp3", 43000],
+                   ["marta-fran.mp3", 44000],
+              ["crven2.mp3", 48000],
+              ["molodija.mp3", 51000]
           ];
 
           $('[data-sint]').on('click', function () {
@@ -3352,8 +3358,13 @@ Router.add('a21', () => {
                 'Did you read the article about ' + $('#wiki-modal #wiki-title').text(),
                 'Dont eat me please',
                  'It,s a nice day in Kutina!',
-                  'check out that painting...',
+                   'Coinhabitant?',
+                  'What song was that?',
                   'My legs hurt',
+                    'Insectocide is the worst?',
+                  'My legs hurt',
+                  'Check out that painting...',
+                  'Space is the place',
                      'You must be Mujc! I am' + vrstaBube,
                      'you,re punching holes in the bedclothes...',
                      'Hi cat'
@@ -3369,7 +3380,7 @@ Router.add('a21', () => {
                       lastMsg = 0;
                 }
 
-                if(lastMsg < 8)
+                if(lastMsg < 12)
                 {
                       newMessage = Number(lastMsg) + 1;
                       console.log(newMessage);
@@ -3523,7 +3534,7 @@ Router.add('a21', () => {
 
           $('body').on('click', '.skok', function(){
                 $('body').addClass('prozorpodloga-pokazan');
-                $('.skok').addClass('disabled');
+              
           });
           
           $('body').on('click', '.m5', function(){
