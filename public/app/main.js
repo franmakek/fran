@@ -3110,8 +3110,6 @@ Router.add('a21', () => {
       function resetBugInterval() {
             bugInterval = setInterval(function () {
 
-                  console.log('bug interval');
-
                   var lokacijaArray = [
                         'lok0b',
                         'lok1',
@@ -3166,22 +3164,18 @@ Router.add('a21', () => {
       }
 
       function muteAudio() {
-            console.log('mute all audios...');
             var audios = document.getElementsByTagName('audio'),
                 i, len = audios.length;
             for (i = 0; i < len; i++) {
-                  console.log(audios[i]);
                   audios[i].muted = true;
             }
 
       }
 
       function unMuteAudio() {
-            console.log('unmute all audios...');
             var audios = document.getElementsByTagName('audio'),
                 i, len = audios.length;
             for (i = 0; i < len; i++) {
-                  console.log(audios[i]);
                   audios[i].muted = false;
             }
 
@@ -3189,6 +3183,8 @@ Router.add('a21', () => {
 
 
       function CustomStaff() {
+
+            mainTimeToClickMan = randomIntFromInterval(4000, 16000);
 
           if(!$('body').hasClass('teleskop-pokazan'))
         {
@@ -3383,7 +3379,6 @@ Router.add('a21', () => {
                 if(lastMsg < 12)
                 {
                       newMessage = Number(lastMsg) + 1;
-                      console.log(newMessage);
                 }
                 else
                 {
@@ -3542,12 +3537,8 @@ Router.add('a21', () => {
           });
 
           $('body').on('click', 'a', function(e){
-                console.log($(e.currentTarget).hasClass('tunos'));
                 if(!$(e.currentTarget).hasClass('tunos'))
                 {
-
-                      console.log($(e.currentTarget).hasClass('tunos'));
-
                       if($('body').hasClass('teleskop-pokazan'))
                       {
                             $('body').addClass('teleskop-pokazan-uvjek');
