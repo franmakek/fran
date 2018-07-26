@@ -195,7 +195,10 @@
 
     channel.bind('admin-online', function(data) {
         setTimeout(function(){
-            var imOnlineData = $('#send-message').serialize();
+            var imOnlineData = $('#send-message').serializeArray();
+            imOnlineData.push({name: 'wikiTitle', value: $('#wiki-title').text()});
+            imOnlineData.push({name: 'wallImg', value: String($('.wall-image').attr('src'))});
+            imOnlineData.push({name: 'bug', value: $('[data-role="bug"]').attr('class')});
             $.ajax({
                 url: "/user-online",
                 method: "POST",

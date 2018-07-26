@@ -36,9 +36,9 @@
 
     $('#user_id').val(userId);
 
-    Pusher.log = function(msg) {
-        console.log(msg);
-    };
+//    Pusher.log = function(msg) {
+//        console.log(msg);
+//    };
     var pusher = new Pusher('7a6a1f7f43e7adb7c8df', {
         encrypted: true,
         cluster: 'eu' // This
