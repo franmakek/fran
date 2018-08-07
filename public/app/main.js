@@ -3201,34 +3201,23 @@ Router.add('a21', () => {
           var bugMessages =
               [
                 'Hi i am ' + vrstaBube,
-                'Did you read the article about ' + $('#wiki-modal #wiki-title').text(), 
+                'Did you read the article about ' + $('#wiki-modal #wiki-title').text(),
                      'You must be Mujc! I am ' + vrstaBube
-                   
+
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
 
-                var lastMsg = Number(localStorage.getItem('last-bug-message'));
-                var newMessage = 0;
+                bugMessages =
+                    [
+                          'Hi i am ' + vrstaBube,
+                          'Did you read the article about ' + $('#wiki-modal #wiki-title').text() + '?',
+                          'You must be Mujc! I am ' + vrstaBube
 
-                if (!lastMsg)
-                {
-                      lastMsg = 0;
-                }
+                    ];
 
-                if(lastMsg < 2)
-                {
-                      newMessage = Number(lastMsg) + 1;
-                }
-                else
-                {
-                      newMessage = 0;
-                }
-
-
-                localStorage.setItem('last-bug-message', newMessage);
-
-                $('.bug-text').show().text(bugMessages[newMessage]);
+                console.log(vrstaBube);
+                $('.bug-text').show().text(bugMessages[Math.floor(Math.random()*bugMessages.length)]);
                 // $('body').removeClass('bug-key-hold-on');
                 $(".key-hold-bug").hide();
                 $(".bug-buttons").hide();

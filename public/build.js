@@ -10067,7 +10067,7 @@ System.registerDynamic("app/pages/h1.hbs!github:davis/plugin-hbs@1.2.3.js", ["gi
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/sint-sjedi.gif\">\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"preload-img\" src=\"images/zkrevet-kutsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/sjedi-otprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/sjedi-komp.gif\" />\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zkrevet-bedsjedi.gif\" />\r\n<a href=\"z341\" data-routable=\"true\"   data-sound=\"m0b\"  data-svemir=\"off\" class=\"m0\"></a>\r\n\r\n\r\n<a href=\"z61\" data-routable=\"true\"  data-svemir=\"off\"  data-sound=\"m1\" class=\"m1\"></a>\r\n\r\n\r\n\r\n<a href=\"a151\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h4\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n  <script>\r\n       \r\n         gifTime =vc6;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/sint-sjedi.gif\">\n\n<audio controls autoplay hidden>\n    <source src=\"images/sint-sjedi.mp3\" type=\"audio/mpeg\">\n</audio>\n<img class=\"preload-img\" src=\"images/zkrevet-kutsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/sjedi-otprozor.gif\" />\n<img class=\"preload-img\" src=\"images/sjedi-komp.gif\" />\n\n\n<img class=\"preload-img\" src=\"images/zkrevet-bedsjedi.gif\" />\n<a href=\"z341\" data-routable=\"true\"   data-sound=\"m0b\"  data-svemir=\"off\" class=\"m0\"></a>\n\n\n<a href=\"z61\" data-routable=\"true\"  data-svemir=\"off\"  data-sound=\"m1\" class=\"m1\"></a>\n\n\n\n<a href=\"a151\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h4\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n  <script>\n       \n         gifTime =vc6;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h2.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10219,7 +10219,7 @@ System.registerDynamic("app/pages/h20.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/z6.1prozor.gif\" data-lokacija=\"lok0b\" >\n\n\n\n<img class=\"preload-img\" src=\"images/zkrevet-kutprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-teleskop.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevet.gif\" />\n<img class=\"preload-img\" src=\"images/zkrevet-bedprozor.gif\" />\n\n<a href=\"a59\" data-routable=\"true\"  data-sound=\"m1\" class=\"m1\"  data-svemir=\"off\" ></a>\n\n<a href=\"z347\" data-routable=\"true\"   data-sound=\"m0b\"  data-svemir=\"off\" class=\"m0\"></a>\n\n<a href=\"h10\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h5\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h7\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vm7;\n    \n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/z6.1prozor.gif\" data-lokacija=\"lok0b\" >\n\n\n\n<img class=\"preload-img\" src=\"images/zkrevet-kutprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-teleskop.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevet.gif\" />\n<img class=\"preload-img\" src=\"images/zkrevet-bedprozor.gif\" />\n\n<a href=\"a59\" data-routable=\"true\"  data-sound=\"m1\" class=\"m1\"  data-svemir=\"off\" ></a>\n\n<a href=\"z347\" data-routable=\"true\"   data-sound=\"m0b\"  data-svemir=\"off\" class=\"m0\"></a>\n\n<a href=\"h10\" data-routable=\"true\" class=\"c \"></a>\n<a href=\"h5\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h7\" data-routable=\"true\" class=\"c c2 t\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vm7;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h21.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10227,7 +10227,7 @@ System.registerDynamic("app/pages/h21.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zpolica-stolicaprozor.gif\" data-lokacija=\"lok4\" >\r\n\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t4\" src=\"images/vstolicaprozor.jpg\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zstolica-kompprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskopstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-sjedistolica.gif\" />\r\n\r\n<a href=\"h17\" data-routable=\"true\"  data-sound=\"m5b\" class=\"m5\"></a>\r\n\r\n\r\n\r\n<a href=\"h54\" data-routable=\"true\" class=\"c t\"></a>\r\n<a href=\"h62\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<a href=\"h42\" data-routable=\"true\" class=\"c c2\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vm10;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zpolica-stolicaprozor.gif\" data-lokacija=\"lok4\" >\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t4\" src=\"images/vstolicaprozor.jpg\" />\n\n<img class=\"preload-img\" src=\"images/zstolica-kompprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopstolica.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedistolica.gif\" />\n\n<a href=\"h17\" data-routable=\"true\"  data-sound=\"m5b\" class=\"m5\"></a>\n\n\n\n<a href=\"h54\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h62\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h42\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vm10;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h22.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10243,7 +10243,7 @@ System.registerDynamic("app/pages/h23.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopkut.gif\" data-lokacija=\"lok1\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  src=\"images/vkutteleskop.gif\" >\r\n\r\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonkutsint.png\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zkut-vratateleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedikut.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zkut-prozorteleskop.gif\" />\r\n\r\n\r\n<a href=\"z359\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n<a href=\"z240\" data-routable=\"true\" data-sound=\"m2\"  class=\"m2\"></a>\r\n\r\n\r\n\r\n<a href=\"z225\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopkut.gif\" data-lokacija=\"lok1\" >\n\n <embed  src=\"images/vrata-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  src=\"images/vkutteleskop.gif\" >\n\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonkutsint.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zkut-vratateleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zteleskop-sjedikut.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkut-prozorteleskop.gif\" />\n\n\n<a href=\"z359\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z240\" data-routable=\"true\" data-sound=\"m2\"  class=\"m2\"></a>\n\n\n\n<a href=\"z225\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h24.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10251,7 +10251,7 @@ System.registerDynamic("app/pages/h24.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopvrata.gif\" data-lokacija=\"lok2\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"   data-teleskop-position=\"t2\"   data-govno-position=\"g2\"  src=\"images/vvratateleskop.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedivrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-bedteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-stolteleskop.gif\" />\r\n\r\n<a href=\"z241\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\r\n<a href=\"z279\" data-routable=\"true\"  data-sound=\"m0d\" class=\"m0\"></a>\r\n\r\n\r\n<a href=\"z226\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopvrata.gif\" data-lokacija=\"lok2\" >\n\n<audio controls autoplay hidden>\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\n</audio>\n<img class=\"key-hold-img\"   data-teleskop-position=\"t2\"   data-govno-position=\"g2\"  src=\"images/vvratateleskop.gif\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedivrata.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolteleskop.gif\" />\n\n<a href=\"z241\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\n<a href=\"z279\" data-routable=\"true\"  data-sound=\"m0d\" class=\"m0\"></a>\n\n\n<a href=\"z226\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h25.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10259,7 +10259,7 @@ System.registerDynamic("app/pages/h25.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopstol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstol.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedivrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutpraviteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicateleskop.gif\" />\r\n\r\n<a href=\"z242\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n<a href=\"z247\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n\r\n\r\n<a href=\"z227\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopstol.gif\" data-lokacija=\"lok3\" >\n\n <embed  src=\"images/vrata-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstol.jpg\" >\n\n<img class=\"preload-img\" src=\"images/teleskop-sjedivrata.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpraviteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicateleskop.gif\" />\n\n<a href=\"z242\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"z247\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n\n\n<a href=\"z227\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h26.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10267,7 +10267,7 @@ System.registerDynamic("app/pages/h26.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopbed.gif\" data-lokacija=\"lok0b\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t0b\"   data-govno-position=\"g0b\"   src=\"images/vbedteleskop.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedibed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stolteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetteleskop.gif\" />\r\n\r\n<a href=\"z288\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\r\n<a href=\"z297\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\r\n\r\n\r\n<a href=\"z326\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopbed.gif\" data-lokacija=\"lok0b\" >\n\n <embed  src=\"images/vrata-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t0b\"   data-govno-position=\"g0b\"   src=\"images/vbedteleskop.gif\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedibed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetteleskop.gif\" />\n\n<a href=\"z288\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z297\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n\n<a href=\"z326\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h27.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10275,7 +10275,7 @@ System.registerDynamic("app/pages/h27.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopstolica.gif\" data-lokacija=\"lok4\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"   data-teleskop-position=\"t4\"  src=\"images/vstolicateleskop.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedistolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-kompteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-prozorteleskop.gif\" />\r\n\r\n<a href=\"z243\" data-routable=\"true\"  data-sound=\"m5\" class=\"m5\"></a>\r\n<a href=\"z236\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n\r\n\r\n<a href=\"z228\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopstolica.gif\" data-lokacija=\"lok4\" >\n\n <embed  src=\"images/vrata-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   data-teleskop-position=\"t4\"  src=\"images/vstolicateleskop.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedistolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-kompteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorteleskop.gif\" />\n\n<a href=\"z243\" data-routable=\"true\"  data-sound=\"m5\" class=\"m5\"></a>\n<a href=\"z236\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n\n\n<a href=\"z228\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h28.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10283,7 +10283,7 @@ System.registerDynamic("app/pages/h28.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopkomp.gif\" data-lokacija=\"lok5\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p5\"  src=\"images/vkomp.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zkomp-policateleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/z6.1teleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedipolica.gif\" />\r\n\r\n\r\n<a href=\"z244\" data-routable=\"true\" data-sound=\"m6\"  class=\"m6\"></a>\r\n<a href=\"z245\" data-routable=\"true\" data-sound=\"m0\"  data-svemir=\"on\"  class=\"m0\"></a>\r\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\r\n\r\n<a href=\"z229\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopkomp.gif\" data-lokacija=\"lok5\" >\n\n <embed  src=\"images/vrata-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\"  src=\"images/vkomp.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zkomp-policateleskop.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1teleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zteleskop-sjedipolica.gif\" />\n\n\n<a href=\"z244\" data-routable=\"true\" data-sound=\"m6\"  class=\"m6\"></a>\n<a href=\"z245\" data-routable=\"true\" data-sound=\"m0\"  data-svemir=\"on\"  class=\"m0\"></a>\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n\n<a href=\"z229\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h29.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10291,7 +10291,7 @@ System.registerDynamic("app/pages/h29.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopprozor.gif\" data-lokacija=\"lok7\" >\r\n\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n<img class=\"key-hold-img\" data-wall-position=\"p5\"  src=\"images/vprozor.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zprozor-kompteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjediprozor.gif\" />\r\n\r\n\r\n\r\n<a href=\"z315\" data-routable=\"true\"  data-sound=\"m5b\" class=\"m5\"></a>\r\n\r\n\r\n\r\n<a href=\"z255\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskopprozor.gif\" data-lokacija=\"lok7\" >\n\n\n <embed  src=\"images/vrata-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\"  src=\"images/vprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zprozor-kompteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zteleskop-sjediprozor.gif\" />\n\n\n\n<a href=\"z315\" data-routable=\"true\"  data-sound=\"m5b\" class=\"m5\"></a>\n\n\n\n<a href=\"z255\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h30.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10299,7 +10299,7 @@ System.registerDynamic("app/pages/h30.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskoppolica.gif\"  data-lokacija=\"lok6\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-govno-position=\"g6\"  src=\"images/vpolicateleskop.gif\" >\r\n\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zpolica-stolicateleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-bedteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedipolica.gif\" />\r\n\r\n<a href=\"z246\" data-routable=\"true\" data-sound=\"m4b\"  class=\"m4\"></a>\r\n<a href=\"z306\" data-routable=\"true\" data-sound=\"m0c\"  class=\"m0\"></a>\r\n\r\n\r\n<a href=\"z230\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc26;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-teleskoppolica.gif\"  data-lokacija=\"lok6\" >\n\n <embed  src=\"images/vrata-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-govno-position=\"g6\"  src=\"images/vpolicateleskop.gif\" >\n\n\n\n<img class=\"preload-img\" src=\"images/zpolica-stolicateleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bedteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zteleskop-sjedipolica.gif\" />\n\n<a href=\"z246\" data-routable=\"true\" data-sound=\"m4b\"  class=\"m4\"></a>\n<a href=\"z306\" data-routable=\"true\" data-sound=\"m0c\"  class=\"m0\"></a>\n\n\n<a href=\"z230\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc26;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h31.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10315,7 +10315,7 @@ System.registerDynamic("app/pages/h32.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorkut.gif\" data-lokacija=\"lok1\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sjedi-otprozor.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p1\" src=\"images/vkut.jpg\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zkut-vrataprozor.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/prozor-sjedikut.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskopkut.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetkut.gif\" />\r\n\r\n\r\n\r\n\r\n\r\n<a href=\"a63\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\r\n\r\n\r\n<a href=\"h51\" data-routable=\"true\" class=\"c t\"></a>\r\n<a href=\"h59\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<a href=\"h39\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorkut.gif\" data-lokacija=\"lok1\" >\n\n <embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\" src=\"images/vkut.jpg\" />\n\n<img class=\"preload-img\" src=\"images/zkut-vrataprozor.gif\" />\n\n<img class=\"preload-img\" src=\"images/prozor-sjedikut.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetkut.gif\" />\n\n\n\n\n\n<a href=\"a63\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<a href=\"h51\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h59\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h39\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h33.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10323,7 +10323,7 @@ System.registerDynamic("app/pages/h33.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorvrata.gif\" data-lokacija=\"lok2\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sjedi-otprozor.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t2\"   data-govno-position=\"g2prozor\"  src=\"images/vvrataprozor.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zvrata-stolprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-bedprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-sjedivrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskopvrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetvrata.gif\" />\r\n\r\n<a href=\"h11\" data-routable=\"true\" data-sound=\"m3\"  class=\"m3\"></a>\r\n<a href=\"h12\" data-routable=\"true\" data-sound=\"m0d\"  class=\"m0\"></a>\r\n\r\n\r\n<a href=\"h52\" data-routable=\"true\" class=\"c t\"></a>\r\n<a href=\"h60\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<a href=\"h40\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorvrata.gif\" data-lokacija=\"lok2\" >\n\n <embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t2\"   data-govno-position=\"g2prozor\"  src=\"images/vvrataprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-stolprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedivrata.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetvrata.gif\" />\n\n<a href=\"h11\" data-routable=\"true\" data-sound=\"m3\"  class=\"m3\"></a>\n<a href=\"h12\" data-routable=\"true\" data-sound=\"m0d\"  class=\"m0\"></a>\n\n\n<a href=\"h52\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h60\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h40\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h34.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10331,7 +10331,7 @@ System.registerDynamic("app/pages/h34.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorstol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sjedi-otprozor.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstol.jpg\" />\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zstol-stolicaprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-sjedistol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskopstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetstol.gif\" />\r\n\r\n\r\n<a href=\"h16\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n<a href=\"h15\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\r\n\r\n\r\n<a href=\"h53\" data-routable=\"true\" class=\"c t\"></a>\r\n<a href=\"h61\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<a href=\"h41\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorstol.gif\" data-lokacija=\"lok3\" >\n\n <embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstol.jpg\" />\n\n\n<img class=\"preload-img\" src=\"images/zstol-stolicaprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedistol.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopstol.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetstol.gif\" />\n\n\n<a href=\"h16\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"h15\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n\n\n<a href=\"h53\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h61\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h41\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h35.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10339,7 +10339,7 @@ System.registerDynamic("app/pages/h35.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorstolica.gif\" data-lokacija=\"lok4\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sjedi-otprozor.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t4\"   src=\"images/vstolicaprozor.jpg\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zstolica-kompprozor.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/prozor-sjedistolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskopstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetstolica.gif\" />\r\n\r\n\r\n<a href=\"h17\" data-routable=\"true\"  data-sound=\"m5\" class=\"m5\"></a>\r\n\r\n\r\n<a href=\"h54\" data-routable=\"true\" class=\"c t\"></a>\r\n\r\n<a href=\"h42\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<a href=\"h62\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorstolica.gif\" data-lokacija=\"lok4\" >\n\n <embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t4\"   src=\"images/vstolicaprozor.jpg\" >\n\n\n<img class=\"preload-img\" src=\"images/zstolica-kompprozor.gif\" />\n\n<img class=\"preload-img\" src=\"images/prozor-sjedistolica.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetstolica.gif\" />\n\n\n<a href=\"h17\" data-routable=\"true\"  data-sound=\"m5\" class=\"m5\"></a>\n\n\n<a href=\"h54\" data-routable=\"true\" class=\"c t\"></a>\n\n<a href=\"h42\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"h62\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h36.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10347,7 +10347,7 @@ System.registerDynamic("app/pages/h36.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorkomp.gif\" data-lokacija=\"lok5\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sjedi-otprozor.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkomp.jpg\" />\r\n\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/z6.1prozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-policaprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-sjedikomp.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskopkomp.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetkomp.gif\" />\r\n\r\n\r\n<a href=\"h19\" data-routable=\"true\" data-sound=\"m6\"  class=\"m6\"></a>\r\n<a href=\"h20\" data-routable=\"true\"  data-sound=\"m0\" class=\"m0\"></a>\r\n\r\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\r\n<a href=\"h55\" data-routable=\"true\" class=\"c t\"></a>\r\n<a href=\"h63\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<a href=\"h43\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorkomp.gif\" data-lokacija=\"lok5\" >\n\n <embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkomp.jpg\" />\n\n\n\n<img class=\"preload-img\" src=\"images/z6.1prozor.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policaprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedikomp.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetkomp.gif\" />\n\n\n<a href=\"h19\" data-routable=\"true\" data-sound=\"m6\"  class=\"m6\"></a>\n<a href=\"h20\" data-routable=\"true\"  data-sound=\"m0\" class=\"m0\"></a>\n\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n<a href=\"h55\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h63\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h43\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h37.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10355,7 +10355,7 @@ System.registerDynamic("app/pages/h37.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorbed.gif\" data-lokacija=\"lok0\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sjedi-otprozor.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t0b\"   data-govno-position=\"g0bprozor\"  src=\"images/vbedprozor.gif\" >\r\n\r\n\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zbed-stolprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-sjedibed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskopbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetbed.gif\" />\r\n\r\n\r\n<a href=\"h14\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\r\n<a href=\"h13\" data-routable=\"true\"  data-sound=\"m0b\" class=\"m0\"></a>\r\n\r\n\r\n<a href=\"h57\" data-routable=\"true\" class=\"c t\"></a>\r\n<a href=\"h65\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<a href=\"h44\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorbed.gif\" data-lokacija=\"lok0\" >\n\n <embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t0b\"   data-govno-position=\"g0bprozor\"  src=\"images/vbedprozor.gif\" >\n\n\n\n\n<img class=\"preload-img\" src=\"images/zbed-stolprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedibed.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopbed.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetbed.gif\" />\n\n\n<a href=\"h14\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n<a href=\"h13\" data-routable=\"true\"  data-sound=\"m0b\" class=\"m0\"></a>\n\n\n<a href=\"h57\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h65\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h44\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h38.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10363,7 +10363,7 @@ System.registerDynamic("app/pages/h38.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorpolica.gif\" data-lokacija=\"lok6\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sjedi-otprozor.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t6\"   data-govno-position=\"g6\"  src=\"images/vpolicaprozor.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zpolica-bedprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-stolicaprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-sjedipolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zprozor-teleskoppolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevetpolica.gif\" />\r\n\r\n\r\n<a href=\"h21\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a>\r\n<a href=\"h22\" data-routable=\"true\" data-sound=\"m0c\"  class=\"m0\"></a>\r\n\r\n\r\n<a href=\"h56\" data-routable=\"true\" class=\"c t\"></a>\r\n<a href=\"h64\" data-routable=\"true\" class=\"c c1 zat\"></a>\r\n<a href=\"h46\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorpolica.gif\" data-lokacija=\"lok6\" >\n\n <embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t6\"   data-govno-position=\"g6\"  src=\"images/vpolicaprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zpolica-bedprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolicaprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedipolica.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskoppolica.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetpolica.gif\" />\n\n\n<a href=\"h21\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a>\n<a href=\"h22\" data-routable=\"true\" data-sound=\"m0c\"  class=\"m0\"></a>\n\n\n<a href=\"h56\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h64\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h46\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h39.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10371,7 +10371,7 @@ System.registerDynamic("app/pages/h39.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedikut.gif\" data-lokacija=\"lok1\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p1\" src=\"images/vkutsjedi.gif\" >\r\n\r\n\r\n\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkut.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompkut.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkut-vratasjedi.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zkut-prozorsjedi.gif\" />\r\n\r\n\r\n<a href=\"z351\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n<a href=\"z62\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\r\n\r\n\r\n<a href=\"z70\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h32\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedikut.gif\" data-lokacija=\"lok1\" >\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\" src=\"images/vkutsjedi.gif\" >\n\n\n\n\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkut.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratasjedi.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkut-prozorsjedi.gif\" />\n\n\n<a href=\"z351\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z62\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<a href=\"z70\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h32\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h40.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10379,7 +10379,7 @@ System.registerDynamic("app/pages/h40.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedivrata.gif\" data-lokacija=\"lok2\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t2\"   data-govno-position=\"g2sjedi\"  src=\"images/vvratasjedi.gif\" >\r\n\r\n\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorvrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompvrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-stolsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-bedsjedi.gif\" />\r\n\r\n<a href=\"z63\" data-routable=\"true\" data-sound=\"m3\"  class=\"m3\"></a>\r\n<a href=\"z276\" data-routable=\"true\" data-sound=\"m0d\"  class=\"m0\"></a>\r\n\r\n\r\n<a href=\"z71\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h33\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedivrata.gif\" data-lokacija=\"lok2\" >\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t2\"   data-govno-position=\"g2sjedi\"  src=\"images/vvratasjedi.gif\" >\n\n\n\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedsjedi.gif\" />\n\n<a href=\"z63\" data-routable=\"true\" data-sound=\"m3\"  class=\"m3\"></a>\n<a href=\"z276\" data-routable=\"true\" data-sound=\"m0d\"  class=\"m0\"></a>\n\n\n<a href=\"z71\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h33\" data-routable=\"true\" class=\"c c1 ot\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h41.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10387,7 +10387,7 @@ System.registerDynamic("app/pages/h41.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedistol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolsjedi.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicasjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutsjedi.gif\" />\r\n\r\n\r\n<a href=\"z64\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n<a href=\"z65\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n\r\n\r\n<a href=\"z72\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h34\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedistol.gif\" data-lokacija=\"lok3\" >\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolsjedi.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicasjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutsjedi.gif\" />\n\n\n<a href=\"z64\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"z65\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n\n\n<a href=\"z72\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h34\" data-routable=\"true\" class=\"c c1 ot\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h42.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10395,7 +10395,7 @@ System.registerDynamic("app/pages/h42.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedistolica.gif\" data-lokacija=\"lok4\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-wall-position=\"p4\"  src=\"images/vstolicasjedi.gif\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-kompsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-prozorsjedi.gif\" />\r\n\r\n<a href=\"z66\" data-routable=\"true\"  data-sound=\"m5\" class=\"m5\"></a>\r\n<a href=\"z232\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n\r\n\r\n<a href=\"z73\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h35\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedistolica.gif\" data-lokacija=\"lok4\" >\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p4\"  src=\"images/vstolicasjedi.gif\" >\n\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-kompsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorsjedi.gif\" />\n\n<a href=\"z66\" data-routable=\"true\"  data-sound=\"m5\" class=\"m5\"></a>\n<a href=\"z232\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n\n\n<a href=\"z73\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h35\" data-routable=\"true\" class=\"c c1 ot\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h43.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10403,7 +10403,7 @@ System.registerDynamic("app/pages/h43.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedikomp.gif\" data-lokacija=\"lok5\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompsjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkomp.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompkomp.gif\" />\r\n<img class=\"preload-img\" src=\"images/z6.1sjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-policasjedi.gif\" />\r\n\r\n<a href=\"z67\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\r\n<a href=\"z69\" data-routable=\"true\"  data-svemir=\"on\" data-sound=\"m0\" class=\"m0\"></a>\r\n\r\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\r\n<a href=\"z74\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\r\n<a href=\"h36\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedikomp.gif\" data-lokacija=\"lok5\" >\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompsjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompkomp.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1sjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policasjedi.gif\" />\n\n<a href=\"z67\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\n<a href=\"z69\" data-routable=\"true\"  data-svemir=\"on\" data-sound=\"m0\" class=\"m0\"></a>\n\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n<a href=\"z74\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\n<a href=\"h36\" data-routable=\"true\" class=\"c c1 ot\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h44.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10411,7 +10411,7 @@ System.registerDynamic("app/pages/h44.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedibed.gif\" data-lokacija=\"lok0b\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"   src=\"images/vbedsjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stolsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetsjedi.gif\" />\r\n\r\n\r\n<a href=\"z294\" data-routable=\"true\" data-sound=\"m3b\"  class=\"m3\"></a>\r\n<a href=\"z285\" data-routable=\"true\" data-svemir=\"on\"  data-sound=\"m0b\"  class=\"m0\"></a>\r\n\r\n\r\n<a href=\"z324\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h37\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedibed.gif\" data-lokacija=\"lok0b\" >\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"   src=\"images/vbedsjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorbed.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetsjedi.gif\" />\n\n\n<a href=\"z294\" data-routable=\"true\" data-sound=\"m3b\"  class=\"m3\"></a>\n<a href=\"z285\" data-routable=\"true\" data-svemir=\"on\"  data-sound=\"m0b\"  class=\"m0\"></a>\n\n\n<a href=\"z324\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h37\" data-routable=\"true\" class=\"c c1 ot\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h45.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10419,7 +10419,7 @@ System.registerDynamic("app/pages/h45.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjediprozor.gif\" data-lokacija=\"lok7\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompprozor.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zprozor-kompsjedi.gif\" />\r\n\r\n<a href=\"z312\" data-routable=\"true\"  data-sound=\"m5b\" class=\"m5\"></a>\r\n\r\n\r\n\r\n<a href=\"z252\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjediprozor.gif\" data-lokacija=\"lok7\" >\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"preload-img\" src=\"images/zsjedi-kompprozor.gif\" />\n\n<img class=\"preload-img\" src=\"images/zprozor-kompsjedi.gif\" />\n\n<a href=\"z312\" data-routable=\"true\"  data-sound=\"m5b\" class=\"m5\"></a>\n\n\n\n<a href=\"z252\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h46.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10427,7 +10427,7 @@ System.registerDynamic("app/pages/h46.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedipolica.gif\" data-lokacija=\"lok6\" >\r\n\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/prozor-sjedi.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t6\"   data-govno-position=\"g6\"  src=\"images/vpolicasjedi.gif\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorpolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-komppolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-stolicasjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-bedsjedi.gif\" />\r\n\r\n<a href=\"z68\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a>\r\n<a href=\"z303\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a>\r\n\r\n\r\n<a href=\"z75\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h38\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc28;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-sjedipolica.gif\" data-lokacija=\"lok6\" >\n\n\n <embed  src=\"images/prozor-sjedi.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t6\"   data-govno-position=\"g6\"  src=\"images/vpolicasjedi.gif\" >\n\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-komppolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolicasjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bedsjedi.gif\" />\n\n<a href=\"z68\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a>\n<a href=\"z303\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a>\n\n\n<a href=\"z75\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h38\" data-routable=\"true\" class=\"c c1 ot\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc28;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h47.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10587,7 +10587,7 @@ System.registerDynamic("app/pages/h65.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zatprozor-krevetbed.gif\" data-lokacija=\"lok0b\" >\r\n\r\n<embed  src=\"images/zatprozor-krevet.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlezi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zkrevet-sjedibed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkrevet-sjedixbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stollezi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetlezi.gif\" />\r\n\r\n<a href=\"z293\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\r\n<a href=\"z284\" data-routable=\"true\" data-svemir=\"on\"   data-sound=\"m0b\" class=\"m0\"></a>\r\n\r\n<a href=\"z321\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"z322\" data-routable=\"true\" class=\"c c1\"></a>\r\n<style>\r\n  \r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vc22;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zatprozor-krevetbed.gif\" data-lokacija=\"lok0b\" >\n\n<embed  src=\"images/zatprozor-krevet.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlezi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zkrevet-sjedibed.gif\" />\n<img class=\"preload-img\" src=\"images/zkrevet-sjedixbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stollezi.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetlezi.gif\" />\n\n<a href=\"z293\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n<a href=\"z284\" data-routable=\"true\" data-svemir=\"on\"   data-sound=\"m0b\" class=\"m0\"></a>\n\n<a href=\"z321\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z322\" data-routable=\"true\" class=\"c c1\"></a>\n<style>\n  \n</style>\n  <script>\n       \n         gifTime =vc22;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/h66.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10731,7 +10731,7 @@ System.registerDynamic("app/pages/a18.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "\nnema<img class=\"main-tpl-img\" src=\"images/polica-krevet.gif\">\n\n<img class=\"preload-img\" src=\"images/krevet-kut.gif\" />\n<img class=\"preload-img\" src=\"images/krevet-kut.gif\" />\n\n<a href=\"dva\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"jedan\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n  \n</style>";
+      return "<img class=\"main-tpl-img\" src=\"images/prvapocetna.gif\" data-lokacija=\"lok0\" >\n\n <embed  src=\"images/molodija.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"preload-img\" src=\"images/pocetna3.gif\" />\n<img class=\"preload-img\" src=\"images/pocetna.gif\" />\n\nMAIN MENU<br> \n\n<a href=\"a19\" data-routable=\"true\"  data-svemir=\"on\"  data-wiki-change=\"true\"  class=\"m11\">Start</a>\n\n<a href=\"a17\" data-routable=\"true\"    class=\"m10\">About</a>\n\n\n\n<style>\n     \n\n</style>\n  <script>\n        gifTime =vm3;\n        \n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a17.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10739,7 +10739,7 @@ System.registerDynamic("app/pages/a17.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/vrata-kompvrata.gif\">\n\n<a href=\"a12\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 23%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n         border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
+      return "<img class=\"main-tpl-img\" src=\"images/pocetna3.gif\" data-lokacija=\"lok0\" >\n\n<embed  src=\"images/bratec.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"preload-img\" src=\"images/prvapocetna.gif\" />\n\n\nhhghghghghghghghghgjkjhkjglkfgkhjlfgkjhlfkgjhlkfgjlhkhg<br> hghghgjkjhkjglkfgjlhkjfglkjhlfkgjhlkfgjlhkhghgh<br>ghghghghgkjfglkhjlfgkjhlfkgjhlkfgj\n<br>\n\n\n<a href=\"https://www.patreon.com/paketiSa\" class=\"m10\" >VISIT PATREON PAGE\n</a>\n<a href=\"a18\" data-routable=\"true\"  class=\"m11\">main menu</a>\n\n<style>\n     \n\n</style>\n  <script>\n       \n       gifTime =vm3;  \n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a19.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -10747,7 +10747,7 @@ System.registerDynamic("app/pages/a19.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/pocetna.gif\" data-lokacija=\"lok0\" >\r\n\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/krevet-kut.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-komp.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-teleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-slika.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-pipasliku.gif\" />\r\n\r\n\r\n<a href=\"dva\" data-routable=\"true\"  data-sound=\"m1\"  data-svemir=\"off\"  class=\"m1\"></a>\r\n<a href=\"z338\" data-routable=\"true\"   data-sound=\"m0b\"  data-svemir=\"off\" class=\"m0\"></a>\r\n\r\n\r\n<a href=\"jedan\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"a33\" data-routable=\"true\" class=\"c c1 sunos\"></a>\r\n<a href=\"h8\" data-routable=\"true\" class=\"c c2 tunos\"></a>\r\n<a href=\"z10\" data-routable=\"true\" class=\"c c3 pipa\"></a>\r\n\r\n data-wiki-change=\"true\" \r\n\r\n<style>\r\n     \r\n\r\n</style>\r\n  <script>\r\n       \r\n         gifTime =vm7;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/pocetna.gif\" data-lokacija=\"lok0\" >\n\n\n<img class=\"preload-img\" src=\"images/krevet-bed.gif\" />\n<img class=\"preload-img\" src=\"images/krevet-kut.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-komp.gif\" />\n\n\n\n<a href=\"dva\" data-routable=\"true\"  data-sound=\"m1\"    data-svemir=\"off\"  class=\"m1\"></a>\n<a href=\"z338\" data-routable=\"true\"   data-sound=\"m0b\"  data-svemir=\"off\"  class=\"m0\"></a>\n\n\n<a href=\"jedan\" data-routable=\"true\" class=\"c\"></a>\n\n\n\n<style>\n     \n\n</style>\n  <script>\n       \n    \n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a21.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -11099,7 +11099,7 @@ System.registerDynamic("app/pages/a63.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zkut-vrataprozor.gif\" data-lokacija=\"lok2\" >\n\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t2\"   data-govno-position=\"g2prozor\" src=\"images/vvrataprozor.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-stolprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetvrata.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedivrata.gif\" />\n\n\n<a href=\"h11\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\n<a href=\"h12\" data-routable=\"true\"  data-sound=\"m0d\" class=\"m0\"></a>\n\n<a href=\"h52\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h60\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h40\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n    \n</style>\n<script>\n  \n      gifTime =vm2;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zkut-vrataprozor.gif\" data-lokacija=\"lok2\" >\n\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t2\"   data-govno-position=\"g2prozor\" src=\"images/vvrataprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-stolprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zprozor-teleskopvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetvrata.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedivrata.gif\" />\n\n\n<a href=\"h11\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\n<a href=\"h12\" data-routable=\"true\"  data-sound=\"m0d\" class=\"m0\"></a>\n\n<a href=\"h52\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h60\" data-routable=\"true\" class=\"c c1 zat\"></a>\n<a href=\"h40\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n    \n</style>\n<script>\n  \n      gifTime =vm2;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a65.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -11395,7 +11395,7 @@ System.registerDynamic("app/pages/a101.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikastol.gif\">\n\n\n<audio controls autoplay hidden>\n    <source src=\"images/vrata-slika.mp3\" type=\"audio/mpeg\">\n</audio>\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolgledasliku.gif\" >\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonstolgledasliku.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n\n\n\n<a href=\"z206\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n  \n\n <a href=\"z186\" data-routable=\"true\" class=\"c\"></a> \n<a href=\"z199\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z186\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c c2\"></a>\n\n<style>\n\n</style>\n\n      <script>\n    changeWallImage();\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikastol.gif\">\n\n\n<embed  src=\"images/vrata-slika.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolgledasliku.gif\" >\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonstolgledasliku.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n\n\n\n<a href=\"z206\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n  \n\n <a href=\"z186\" data-routable=\"true\" class=\"c\"></a> \n<a href=\"z199\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z186\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c c2\"></a>\n\n<style>\n\n</style>\n\n      <script>\n    changeWallImage();\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a103.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -11411,7 +11411,7 @@ System.registerDynamic("app/pages/a105.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikastolica.gif\">\n\n<embed  src=\"images/vrata-slika.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p4\" src=\"images/vstolicagledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zstolica-kompgledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorgledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstolica.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstolica.gif\" />\n\n<a href=\"z208\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\n<a href=\"z234\" data-routable=\"true\" data-sound=\"m7\"  class=\"m7 skok\"></a>\n  \n\n<a href=\"z187\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\n<a href=\"z200\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"h47\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n  \n</style>\n      <script>\n    changeWallImage();\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikastolica.gif\" data-lokacija=\"lok4\" >\n\n<embed  src=\"images/vrata-slika.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p4\" src=\"images/vstolicagledasliku.gif\" >\n\n<img class=\"preload-img\" src=\"images/zstolica-kompgledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorgledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstolica.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstolica.gif\" />\n\n<a href=\"z208\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\n<a href=\"z234\" data-routable=\"true\" data-sound=\"m7\"  class=\"m7 skok\"></a>\n  \n\n<a href=\"z187\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\n<a href=\"z200\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"h47\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n  \n</style>\n      <script>\n    changeWallImage();\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a107.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -11419,7 +11419,7 @@ System.registerDynamic("app/pages/a107.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikakomp.gif\">\n\n \n<embed  src=\"images/vrata-slika.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompgledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/slika-krevetkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1gledasliku.gif\" />\n\n<a href=\"z211\" data-routable=\"true\"  data-sound=\"m0\"  data-svemir=\"on\" class=\"m0\"></a> \n<a href=\"z209\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a> \n  <a  data-wiki=\"true\" class=\"wikiread\"></a>\n\n<a href=\"z189\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\n<a href=\"z201\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"h48\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n    \n</style>\n       <script>\n    changeWallImage();\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikakomp.gif\" data-lokacija=\"lok5\" >\n\n \n<embed  src=\"images/vrata-slika.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompgledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/slika-krevetkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1gledasliku.gif\" />\n\n<a href=\"z211\" data-routable=\"true\"  data-sound=\"m0\"  data-svemir=\"on\" class=\"m0\"></a> \n<a href=\"z209\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a> \n  <a  data-wiki=\"true\" class=\"wikiread\"></a>\n\n<a href=\"z189\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\n<a href=\"z201\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"h48\" data-routable=\"true\" class=\"c c2\"></a>\n\n<style>\n    \n</style>\n       <script>\n    changeWallImage();\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a109.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -11427,119 +11427,7 @@ System.registerDynamic("app/pages/a109.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikapolica.gif\">\n\n \n<embed  src=\"images/vrata-slika.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p6\"  data-teleskop-position=\"t6b\" data-govno-position=\"g6b\" src=\"images/vpolicagledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/slika-krevetpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-komppolica.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bedgledasliku.gif\" />\n\n<a href=\"z210\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a> \n<a href=\"z307\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a> \n  \n\n <a href=\"h49\" data-routable=\"true\" class=\"c\"></a> \n<a href=\"z202\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z190\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c c2\"></a>\n<style>\n     \n</style>\n      <script>\n    changeWallImage();\n</script>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a111.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "slika-krevetkut?";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a113.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a115.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a117.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a119.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a121.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a123.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-sjedislikastolica.gif\">\n\n \n<a href=\"a148\" data-routable=\"true\" class=\"m\"></a> \n\n  \n\n<a href=\"a143\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a125.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-sjedislikakomp.gif\">\n\n \n<a href=\"a150\" data-routable=\"true\" class=\"m\"></a> \n<a href=\"a154\" data-routable=\"true\" class=\"m1\"></a> \n  \n\n<a href=\"a145\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a127.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-sjedislikapolica.gif\">\n\n \n<a href=\"a152\" data-routable=\"true\" class=\"m\"></a> \n\n  \n\n<a href=\"a147\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a129.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-sjedislikakut.gif\">\n\n \n<a href=\"a140\" data-routable=\"true\" class=\"m\"></a> \n\n  \n\n<a href=\"a137\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a131.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-sjedislikavrata.gif\">\n\n \n<a href=\"a142\" data-routable=\"true\" class=\"m\"></a> \n\n  \n\n<a href=\"a139\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a133.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-sjedislikastol.gif\">\n\n \n<a href=\"a144\" data-routable=\"true\" class=\"m\"></a> \n<a href=\"a146\" data-routable=\"true\" class=\"m1\"></a> \n  \n\n<a href=\"a132\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a135.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/sjedi-otprozor-stolkut.gif\">\n\n \n<a href=\"a138\" data-routable=\"true\" class=\"m\"></a> \n\n  \n\n<a href=\"a132\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a137.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/sjedi-otprozor-stolkut.gif\">\n\n \n<a href=\"a\" data-routable=\"true\" class=\"m\"></a> \n\n  \n\n<a href=\"x24\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n    \n         top: 23%;\n         left: 67%;\n        \n    }\n\n     .container .m{\n       \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
+      return "<img class=\"main-tpl-img\" src=\"images/vrata-slikapolica.gif\" data-lokacija=\"lok6\" >\n\n \n<embed  src=\"images/vrata-slika.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p6\"  data-teleskop-position=\"t6b\" data-govno-position=\"g6b\" src=\"images/vpolicagledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/slika-krevetpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-komppolica.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bedgledasliku.gif\" />\n\n<a href=\"z210\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a> \n<a href=\"z307\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a> \n  \n\n <a href=\"h49\" data-routable=\"true\" class=\"c\"></a> \n<a href=\"z202\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z190\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c c2\"></a>\n<style>\n     \n</style>\n      <script>\n    changeWallImage();\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a139.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -11654,132 +11542,12 @@ System.registerDynamic("app/pages/a108.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       return "<img class=\"main-tpl-img\" src=\"images/stol-kutgledasliku.gif\">\n\n<a href=\"a104\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a111\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
     }, "useData": true });
 });
-System.registerDynamic("app/pages/a110.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/stol-stolicagledasliku.gif\">\n\n<a href=\"a112\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a117\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a112.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/stolica-kompgledasliku.gif\">\n\n<a href=\"a114\" data-routable=\"true\" class=\"m\"></a>\n\n<a href=\"a118\" data-routable=\"true\" class=\"m1\"></a>\n\n\n<a href=\"a119\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a114.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/komp-policagledasliku.gif\">\n\n<a href=\"a116\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a121\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a116.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/polica-stolicagledasliku.gif\">\n\n<a href=\"a112\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a117\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a118.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/komp-krevetgledasliku.gif\">\n\n<a href=\"a102\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a35\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a120.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-kutlezislika.gif\">\n\n<a href=\"a122\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a129\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a122.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/kut-vratalezislika.gif\">\n\n<a href=\"a124\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a131\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a124.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/vrata-stollezislika.gif\">\n\n<a href=\"a126\" data-routable=\"true\" class=\"m\"></a>\n<a href=\"a128\" data-routable=\"true\" class=\"m1\"></a>\n\n\n<a href=\"a133\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a126.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/stol-kutlezislika.gif\">\n\n<a href=\"a122\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a129\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a128.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/stol-stolicalezislika.gif\">\n\n<a href=\"a130\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a123\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a130.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/stolica-komplezislika.gif\">\n\n<a href=\"a132\" data-routable=\"true\" class=\"m\"></a>\n<a href=\"a134\" data-routable=\"true\" class=\"m1\"></a>\n\n\n<a href=\"a125\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a132.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/komp-policalezislika.gif\">\n\n<a href=\"a136\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a127\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a134.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/komp-krevetlezislika.gif\">\n\n<a href=\"a120\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a31\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a136.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/polica-stolicalezislika.gif\">\n\n<a href=\"a130\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a123\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
-System.registerDynamic("app/pages/a138.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
-  var global = this || self,
-      GLOBAL = global;
-  var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
-  module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/krevet-kutsjedislika.gif\">\n\n<a href=\"a140\" data-routable=\"true\" class=\"m\"></a>\n\n\n\n<a href=\"a137\" data-routable=\"true\" class=\"c\"></a>\n\n<style>\n     .container .m1{\n        border-radius: 100%;\n         height: 16%;\n         top: 43%;\n         left: 67%;\n         width: 14%;\n    }\n\n     .container .m{\n     \n         top: 66%;\n         left: 59%;\n        \n     }\n\n    .container .m:after{\n        background-color: ;\n    }\n</style>";
-    }, "useData": true });
-});
 System.registerDynamic("app/pages/a140.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
   var global = this || self,
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorbed.gif\">\n\n<embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   data-teleskop-position=\"t0b\"   data-govno-position=\"g0bprozor\"  src=\"images/vbedprozor.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zprozor-teleskopbed.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedibed.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetprozor.gif\" />\n \n<a href=\"h13\" data-routable=\"true\" class=\"m0\"></a> \n<a href=\"h14\" data-routable=\"true\" class=\"m3\"></a> \n  \n\n<a href=\"h57\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h44\" data-routable=\"true\" class=\"c c1 \"></a>\n<a href=\"h65\" data-routable=\"true\" class=\"c c2 zat\"></a>\n\n\n<style>\n\n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-otprozorbed.gif\">\n\n<embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   data-teleskop-position=\"t0b\"   data-govno-position=\"g0bprozor\"  src=\"images/vbedprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zprozor-teleskopbed.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedibed.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevetbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolprozor.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetprozor.gif\" />\n \n<a href=\"h13\" data-routable=\"true\" class=\"m0\"></a> \n<a href=\"h14\" data-routable=\"true\" class=\"m3\"></a> \n  \n\n<a href=\"h57\" data-routable=\"true\" class=\"c t\"></a>\n<a href=\"h44\" data-routable=\"true\" class=\"c c1 \"></a>\n<a href=\"h65\" data-routable=\"true\" class=\"c c2 zat\"></a>\n\n\n<style>\n\n</style>\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/a142.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12059,7 +11827,7 @@ System.registerDynamic("app/pages/z25.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zstol-kutpravi.gif\">\n\n<img class=\"key-hold-img\" src=\"images/vkut.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-stolkut.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-pipaslikukut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vrata.gif\" />\n\n<a href=\"z112\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z121\" data-routable=\"true\" class=\"c\"></a>\n\n<a href=\"z23\" data-routable=\"true\" class=\"m2\"></a>\n\n<style>\n    \n</style>\n<script>\n gifTime =vm4;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zstol-kutpravi.gif\" data-lokacija=\"lok1\" >\n\n<img class=\"key-hold-img\" src=\"images/vkut.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-stolkut.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-pipaslikukut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vrata.gif\" />\n\n<a href=\"z112\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z121\" data-routable=\"true\" class=\"c\"></a>\n\n<a href=\"z23\" data-routable=\"true\" class=\"m2\"></a>\n\n<style>\n    \n</style>\n<script>\n gifTime =vm4;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z26.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12067,7 +11835,7 @@ System.registerDynamic("app/pages/z26.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zstol-stolica.gif\">\n<img class=\"key-hold-img\" src=\"images/vstolica.jpg\" >\n\n<img class=\"preload-img\" src=\"images/vrata-pipaslikustolica.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-komp.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozor.gif\" />\n\n<a href=\"z119\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z115\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z27\" data-routable=\"true\" class=\"m5\"></a>\n<a href=\"z273\" data-routable=\"true\" class=\"m7\"></a>\n<style>\n  \n</style>\n<script>\n gifTime =vm5;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zstol-stolica.gif\" data-lokacija=\"lok4\" >\n<img class=\"key-hold-img\" src=\"images/vstolica.jpg\" >\n\n<img class=\"preload-img\" src=\"images/vrata-pipaslikustolica.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-komp.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozor.gif\" />\n\n<a href=\"z119\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z115\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z27\" data-routable=\"true\" class=\"m5\"></a>\n<a href=\"z273\" data-routable=\"true\" class=\"m7\"></a>\n<style>\n  \n</style>\n<script>\n gifTime =vm5;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z27.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12075,7 +11843,7 @@ System.registerDynamic("app/pages/z27.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zstolica-komp.gif\">\n<img class=\"key-hold-img\" src=\"images/vkomp.jpg\" >\n<img class=\"preload-img\" src=\"images/zvarta-pipaslikukomp.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolkomp.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-polica.gif\" />\n\n<a href=\"z120\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z116\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z30\" data-routable=\"true\" class=\"m0\"></a>\n\n\n<a href=\"z28\" data-routable=\"true\" class=\"m6\"></a>\n\n<style>\n  \n</style>\n<script>\n gifTime =vm6;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zstolica-komp.gif\" data-lokacija=\"lok5\" >\n<img class=\"key-hold-img\" src=\"images/vkomp.jpg\" >\n<img class=\"preload-img\" src=\"images/zvarta-pipaslikukomp.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolkomp.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-polica.gif\" />\n\n<a href=\"z120\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z116\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z30\" data-routable=\"true\" class=\"m0\"></a>\n\n\n<a href=\"z28\" data-routable=\"true\" class=\"m6\"></a>\n\n<style>\n  \n</style>\n<script>\n gifTime =vm6;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z28.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12083,7 +11851,7 @@ System.registerDynamic("app/pages/z28.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zkomp-polica.gif\">\n\n<img class=\"key-hold-img\" src=\"images/vpolica.jpg\" >\n<img class=\"preload-img\" src=\"images/zvrata-pipaslikupolica.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bed.gif\" />\n\n<a href=\"z118\" data-routable=\"true\" class=\"c c1\"></a>\n\n<a href=\"z117\" data-routable=\"true\" class=\"c\"></a>\n\n<a href=\"z29\" data-routable=\"true\" class=\"m4\"></a>\n<a href=\"z271\" data-routable=\"true\" class=\"m0\"></a>\n<style>\n \n</style>\n<script>\n gifTime =vm8;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zkomp-polica.gif\" data-lokacija=\"lok6\" >\n\n<img class=\"key-hold-img\" src=\"images/vpolica.jpg\" >\n<img class=\"preload-img\" src=\"images/zvrata-pipaslikupolica.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bed.gif\" />\n\n<a href=\"z118\" data-routable=\"true\" class=\"c c1\"></a>\n\n<a href=\"z117\" data-routable=\"true\" class=\"c\"></a>\n\n<a href=\"z29\" data-routable=\"true\" class=\"m4\"></a>\n<a href=\"z271\" data-routable=\"true\" class=\"m0\"></a>\n<style>\n \n</style>\n<script>\n gifTime =vm8;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z29.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12091,7 +11859,7 @@ System.registerDynamic("app/pages/z29.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zpolica-stolica.gif\">\n\n<img class=\"key-hold-img\" src=\"images/vstolica.jpg\" >\n<img class=\"preload-img\" src=\"images/zvrata-pipaslikustolica.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-komp.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozor.gif\" />\n\n<a href=\"z119\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z115\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z27\" data-routable=\"true\" class=\"m5\"></a>\n<a href=\"z273\" data-routable=\"true\" class=\"m7\"></a>\n<style>\n \n</style>\n<script>\n gifTime =vm10;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zpolica-stolica.gif\" data-lokacija=\"lok4\" >\n\n<img class=\"key-hold-img\" src=\"images/vstolica.jpg\" >\n<img class=\"preload-img\" src=\"images/zvrata-pipaslikustolica.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-komp.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozor.gif\" />\n\n<a href=\"z119\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z115\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z27\" data-routable=\"true\" class=\"m5\"></a>\n<a href=\"z273\" data-routable=\"true\" class=\"m7\"></a>\n<style>\n \n</style>\n<script>\n gifTime =vm10;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z30.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12107,7 +11875,7 @@ System.registerDynamic("app/pages/z31.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-slikastol-kut.gif\">\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikuotkut.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stolkut.gif\" />\n<img class=\"preload-img\" src=\"images/kut-vratakal1.gif\" />\n\n\n<a href=\"z34\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z35\" data-routable=\"true\" class=\"c c1\"></a>\n\n\n<a href=\"z32\" data-routable=\"true\" class=\"m2\"></a>\n\n<style>\n\n</style>\n<script>\n gifTime =10000;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-slikastol-kut.gif\" data-lokacija=\"lok1\" >\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikuotkut.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stolkut.gif\" />\n<img class=\"preload-img\" src=\"images/kut-vratakal1.gif\" />\n\n\n<a href=\"z34\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z35\" data-routable=\"true\" class=\"c c1\"></a>\n\n\n<a href=\"z32\" data-routable=\"true\" class=\"m2\"></a>\n\n<style>\n\n</style>\n<script>\n gifTime =10000;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z32.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12115,7 +11883,7 @@ System.registerDynamic("app/pages/z32.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "\n<img class=\"main-tpl-img\" src=\"images/zkut-vratakal1.gif\">\n\n <embed  src=\"images/kal1.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   src=\"images/vvratalik.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zkomp-sintvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-vanvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stollik.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedlik.gif\" />\n\n\n<a href=\"z87\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1\"></a>\n<a href=\"z47\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z213\" data-routable=\"true\" class=\"c c2\"></a>\n<a href=\"z39\" data-routable=\"true\"  data-sound=\"m03\" class=\"m3\"></a>\n<a href=\"z274\" data-routable=\"true\" data-sound=\"m0d\" class=\"m0\"></a>\n\n<style>\n\n</style>\n<script>\n gifTime =24000;\n</script>";
+      return "\n<img class=\"main-tpl-img\" src=\"images/zkut-vratakal1.gif\" data-lokacija=\"lok2\" >\n\n <embed  src=\"images/kal1.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   src=\"images/vvratalik.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zkomp-sintvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-vanvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stollik.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedlik.gif\" />\n\n\n<a href=\"z87\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1\"></a>\n<a href=\"z47\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z213\" data-routable=\"true\" class=\"c c2\"></a>\n<a href=\"z39\" data-routable=\"true\"  data-sound=\"m03\" class=\"m3\"></a>\n<a href=\"z274\" data-routable=\"true\" data-sound=\"m0d\" class=\"m0\"></a>\n\n<style>\n\n</style>\n<script>\n gifTime =24000;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z33.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12131,7 +11899,7 @@ System.registerDynamic("app/pages/z34.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-gledaslikuotkut.gif\">\n\n\n <embed  src=\"images/pipasliku-gledasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutgledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zkut-vratagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetkut.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompkut.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorkut.gif\" />\n\n\n<a href=\"z204\" data-routable=\"true\" class=\"m2\"></a>\n\n\n<a href=\"z197\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z184\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"h66\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n\n</style>\n   <script>\n    changeWallImage();\n       \n gifTime =vc18;\n</script>\n";
+      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-gledaslikuotkut.gif\"  data-lokacija=\"lok1\" >\n\n\n <embed  src=\"images/pipasliku-gledasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutgledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zkut-vratagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetkut.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompkut.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorkut.gif\" />\n\n\n<a href=\"z204\" data-routable=\"true\" class=\"m2\"></a>\n\n\n<a href=\"z197\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z184\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"h66\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n\n</style>\n   <script>\n    changeWallImage();\n       \n gifTime =vc18;\n</script>\n";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z35.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12139,7 +11907,7 @@ System.registerDynamic("app/pages/z35.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-stolkut.gif\">\n\n <embed  src=\"images/pipasliku-stol.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutlik.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zkut-vratalik.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-sintkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-prozorlik.gif\" />\n\n\n<a href=\"z349\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z38\" data-routable=\"true\" class=\"m2\"></a>\n\n<a href=\"z46\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z86\" data-routable=\"true\" class=\"c c1\"></a>\n\n\n   \n   <script>\n\n       var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n       \n         gifTime =vc17;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-stolkut.gif\"  data-lokacija=\"lok1\" >\n\n <embed  src=\"images/pipasliku-stol.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutlik.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zkut-vratalik.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-sintkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-prozorlik.gif\" />\n\n\n<a href=\"z349\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z38\" data-routable=\"true\" class=\"m2\"></a>\n\n<a href=\"z46\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z86\" data-routable=\"true\" class=\"c c1\"></a>\n\n\n   \n   <script>\n\n       var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n       \n         gifTime =vc17;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z36.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12435,7 +12203,7 @@ System.registerDynamic("app/pages/z72.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-kompstol.gif\" data-lokacija=\"lok3\" >\n\n<embed  src=\"images/sjedi-komp.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstollik.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zstol-stolicalik.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutlik.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-sintstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-vanstol.gif\" />\n\n<a href=\"z40\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"z41\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z89\" data-routable=\"true\"  data-sint=\"on\" class=\"c sint\"></a>\n<a href=\"z48\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z214\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n     \n</style>\n<script>\n gifTime =vc8;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedi-kompstol.gif\" data-lokacija=\"lok3\" >\n\n<embed  src=\"images/sjedi-komp.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstollik.gif\" >\n\n<img class=\"preload-img\" src=\"images/zstol-stolicalik.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutlik.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-sintstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-vanstol.gif\" />\n\n<a href=\"z40\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"z41\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z89\" data-routable=\"true\"  data-sint=\"on\" class=\"c sint\"></a>\n<a href=\"z48\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z214\" data-routable=\"true\" class=\"c c2\"></a>\n<style>\n     \n</style>\n<script>\n gifTime =vc8;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z73.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12571,7 +12339,7 @@ System.registerDynamic("app/pages/z99.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zstol-kutsint.gif\" data-lokacija=\"lok1\" >\n\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonkutsint.png\" >\n\n<img class=\"key-hold-img\"   data-wall-position=\"p1\"  data-teleskop-position=\"t1\"  src=\"images/vkutsint.gif\" >\n\n\n\n\n\n<img class=\"preload-img\" src=\"images/zsint-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/zsint-sjedikut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratasint.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkut-prozorsint.gif\" />\n\n\n<a href=\"z353\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z90\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z219\" data-routable=\"true\" class=\"c c1 t\"></a>\n<a href=\"z97\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<style>\n  \n</style>\n<script>\n gifTime =vm4;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zstol-kutsint.gif\" data-lokacija=\"lok1\" >\n\n<img class=\"key-hold-img zaklon higher-z-index\"    src=\"images/zaklonkutsint.png\" >\n\n<img class=\"key-hold-img\"   data-wall-position=\"p1\"  data-teleskop-position=\"t1\"  src=\"images/vkutsint.gif\" >\n\n\n\n\n\n<img class=\"preload-img\" src=\"images/zsint-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/zsint-sjedikut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratasint.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkut-prozorsint.gif\" />\n\n\n<a href=\"z353\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z90\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z219\" data-routable=\"true\" class=\"c c1 t\"></a>\n<a href=\"z97\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<style>\n  \n</style>\n<script>\n gifTime =vm4;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z100.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12627,7 +12395,7 @@ System.registerDynamic("app/pages/z86.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zkomp-sintkut.gif\" data-lokacija=\"lok1\" >\n\n<embed  src=\"images/komp-sint.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutsint.gif\" >\n\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonkutsint.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zsint-sjedikut.gif\" />\n<img class=\"preload-img\" src=\"images/zsint-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratasint.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkut-prozorsint.gif\" />\n\n\n<a href=\"z353\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z90\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z219\" data-routable=\"true\" class=\"c c1 t\"></a>\n<a href=\"z97\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<style>\n\n</style>\n\n<script>\n gifTime =vc5;\n\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zkomp-sintkut.gif\" data-lokacija=\"lok1\" >\n\n<embed  src=\"images/komp-sint.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img zaklon higher-z-index\"    src=\"images/zaklonkutsint.png\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutsint.gif\" >\n\n\n\n\n<img class=\"preload-img\" src=\"images/zsint-sjedikut.gif\" />\n<img class=\"preload-img\" src=\"images/zsint-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratasint.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkut-prozorsint.gif\" />\n\n\n<a href=\"z353\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z90\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z219\" data-routable=\"true\" class=\"c c1 t\"></a>\n<a href=\"z97\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<style>\n\n</style>\n\n<script>\n gifTime =vc5;\n\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z87.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12651,7 +12419,7 @@ System.registerDynamic("app/pages/z89.hbs!github:davis/plugin-hbs@1.2.3.js", ["g
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zkomp-sintstol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/komp-sint.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstol.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsint-sjedistol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsint-teleskopstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicasint.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutsint.gif\" />\r\n\r\n<a href=\"z92\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"z221\" data-routable=\"true\" class=\"c c1 t\"></a>\r\n<a href=\"z100\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n<a href=\"z99\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n gifTime =melodiaTime;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zkomp-sintstol.gif\" data-lokacija=\"lok3\" >\n\n<audio controls autoplay hidden>\n    <source src=\"images/komp-sint.mp3\" type=\"audio/mpeg\">\n</audio>\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstol.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zsint-sjedistol.gif\" />\n<img class=\"preload-img\" src=\"images/zsint-teleskopstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicasint.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutsint.gif\" />\n\n<a href=\"z92\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z221\" data-routable=\"true\" class=\"c c1 t\"></a>\n<a href=\"z100\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"z99\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n\n<style>\n  \n</style>\n<script>\n gifTime =melodiaTime;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z90.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12739,7 +12507,7 @@ System.registerDynamic("app/pages/z106.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-vankut.gif\">\n\n<embed  src=\"images/sjedix-van.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkut.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-slikakut.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-pipaslikukut.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolkut.gif\" />\n<img class=\"preload-img\" src=\"images/kut-vrata.gif\" />\n<img class=\"preload-img\" src=\"images/kut-prozor.gif\" />\n\n\n<a href=\"z358\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"h23\" data-routable=\"true\" class=\"c tunos\"></a>\n<a href=\"a97\" data-routable=\"true\" class=\"c c1 sunos\"></a>\n<a href=\"z112\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c c2\"></a>\n<a href=\"z121\" data-routable=\"true\" class=\"c c3 pipa\"></a>\n\n<a href=\"cetiri\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<style>\n  \n</style>\n<script>\n gifTime =vc11;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-vankut.gif\" data-lokacija=\"lok1\">\n\n<embed  src=\"images/sjedix-van.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkut.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-slikakut.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-pipaslikukut.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolkut.gif\" />\n<img class=\"preload-img\" src=\"images/kut-vrata.gif\" />\n<img class=\"preload-img\" src=\"images/kut-prozor.gif\" />\n\n\n<a href=\"z358\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"h23\" data-routable=\"true\" class=\"c tunos\"></a>\n<a href=\"a97\" data-routable=\"true\" class=\"c c1 sunos\"></a>\n<a href=\"z112\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c c2\"></a>\n<a href=\"z121\" data-routable=\"true\" class=\"c c3 pipa\"></a>\n\n<a href=\"cetiri\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n<style>\n  \n</style>\n<script>\n gifTime =vc11;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z107.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12803,7 +12571,7 @@ System.registerDynamic("app/pages/z114.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-stolstol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/vrata-stol.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n<img class=\"key-hold-img\"  data-wall-position=\"p3\"   src=\"images/vstollik.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zkomp-sintstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-krevetstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-vanstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutlik.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicalik.gif\" />\r\n\r\n<a href=\"z48\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n<a href=\"z40\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n<a href=\"z89\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1 sint\"></a>\r\n<a href=\"z214\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<a href=\"z41\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n gifTime =vc1;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-stolstol.gif\" data-lokacija=\"lok3\" >\n\n<embed  src=\"images/vrata-komp.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"key-hold-img\"  data-wall-position=\"p3\"   src=\"images/vstollik.gif\" >\n\n<img class=\"preload-img\" src=\"images/zkomp-sintstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-vanstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutlik.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicalik.gif\" />\n\n<a href=\"z48\" data-routable=\"true\" class=\"c\"></a>\n\n<a href=\"z40\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"z89\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1 sint\"></a>\n<a href=\"z214\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z41\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n\n\n<style>\n  \n</style>\n<script>\n gifTime =vc1;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z115.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12843,7 +12611,7 @@ System.registerDynamic("app/pages/z119.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/vrata-pipaslikustolica.gif\" data-lokacija=\"lok4\" >\r\n\r\n <embed  src=\"images/vrata-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\"  data-wall-position=\"p4\"  src=\"images/vstolicapipaslikuot.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikuotstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/pipasliku-stolstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-komppipaslikuot.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-prozorpipaslikuot.gif\" />\r\n\r\n<a href=\"z148\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\r\n<a href=\"z153\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\r\n<a href=\"z127\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\r\n<a href=\"z235\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n gifTime =vc2;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/vrata-pipaslikustolica.gif\" data-lokacija=\"lok4\" >\n\n <embed  src=\"images/vrata-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p4\"  src=\"images/vstolicapipaslikuot.jpg\" >\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikuotstolica.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stolstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-komppipaslikuot.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorpipaslikuot.gif\" />\n\n<a href=\"z148\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\n<a href=\"z153\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\n<a href=\"z127\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\n<a href=\"z235\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n\n<style>\n  \n</style>\n<script>\n gifTime =vc2;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z120.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -12963,7 +12731,7 @@ System.registerDynamic("app/pages/z134.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-stolpipaslikuzat.gif\"  data-lokacija=\"lok3\" >\r\n\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstolpipaslikuzat.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikustol.gif\" />\r\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutpravipipaslikuzat.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicapipaslikuzat.gif\" />\r\n\r\n<a href=\"z143\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\r\n<a href=\"z158\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\r\n<a href=\"z135\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n<a href=\"z136\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n gifTime =vm3;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-stolpipaslikuzat.gif\"  data-lokacija=\"lok3\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstolpipaslikuzat.jpg\" >\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikustol.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravipipaslikuzat.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicapipaslikuzat.gif\" />\n\n<a href=\"z143\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\n<a href=\"z158\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\n<a href=\"z135\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n<a href=\"z136\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n\n<style>\n  \n</style>\n<script>\n gifTime =vm3;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z135.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13035,7 +12803,7 @@ System.registerDynamic("app/pages/z143.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-gledaslikustol.gif\">\r\n\r\n <embed  src=\"images/pipasliku-gledasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstolgledasliku.gif\" >\r\n\r\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonstolgledasliku.png\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\r\n\r\n\r\n<a href=\"h68\" data-routable=\"true\" class=\"c c1\"></a>\r\n<a href=\"z199\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<a href=\"z206\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n<a href=\"z207\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n<style>\r\n  \r\n</style>\r\n <script>\r\n        var lastClicked = localStorage.getItem('clicked-img');\r\n    changeWallImage();\r\n      gifTime =vc18;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-gledaslikustol.gif\">\n\n <embed  src=\"images/pipasliku-gledasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstolgledasliku.gif\" >\n\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonstolgledasliku.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n\n\n<a href=\"h68\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z199\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z206\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<style>\n  \n</style>\n <script>\n        var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n      gifTime =vc18;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z144.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13067,7 +12835,7 @@ System.registerDynamic("app/pages/z147.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-gledaslikuotstol.gif\">\n\n <embed  src=\"images/pipasliku-gledasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolgledasliku.gif\" />\n\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonvratagledasliku.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n\n<a href=\"h68\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z199\" data-routable=\"true\" class=\"c c2\"></a>\n<a href=\"z206\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n\n<style>\n  \n</style>\n <script>\n        var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n      gifTime =vc18;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-gledaslikuotstol.gif\">\n\n <embed  src=\"images/pipasliku-gledasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolgledasliku.gif\" />\n\n<img class=\"key-hold-img zaklon higher-z-index\"    src=\"images/zaklonstolgledasliku.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n\n<a href=\"h68\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z199\" data-routable=\"true\" class=\"c c2\"></a>\n<a href=\"z206\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n\n<style>\n  \n</style>\n <script>\n        var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n      gifTime =vc18;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z148.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13131,7 +12899,7 @@ System.registerDynamic("app/pages/z154.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-stolkomp.gif\" data-lokacija=\"lok5\" >\n\n <embed  src=\"images/pipasliku-stol.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkomplik.gif\" >\n\n <img class=\"preload-img\" src=\"images/zkomp-sintkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-krevetkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policalik.gif\" />\n\n<a href=\"z84\" data-routable=\"true\"  data-sint=\"on\" class=\"c\"></a>\n<a href=\"z50\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z45\" data-routable=\"true\"  data-sound=\"m0\" data-svemir=\"on\"  class=\"m0\"></a>\n<a href=\"z43\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n<style>\n  \n</style>\n <script>\n        var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n      gifTime =vc17;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-stolkomp.gif\" data-lokacija=\"lok5\" >\n\n <embed  src=\"images/pipasliku-stol.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkomplik.gif\" >\n\n <img class=\"preload-img\" src=\"images/zkomp-sintkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-krevetkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policalik.gif\" />\n\n<a href=\"z84\" data-routable=\"true\"  data-sint=\"on\" class=\"c sint\"></a>\n<a href=\"z50\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z45\" data-routable=\"true\"  data-sound=\"m0\" data-svemir=\"on\"  class=\"m0\"></a>\n<a href=\"z43\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n<style>\n  \n</style>\n <script>\n        var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n      gifTime =vc17;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z155.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13259,7 +13027,7 @@ System.registerDynamic("app/pages/z170.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikustol.gif\" data-lokacija=\"lok3\" >\r\n\r\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolpipaslikuzat.jpg\" />\r\n\r\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikustol.gif\" />\r\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicapipaslikuzat.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutpravipipaslikuzat.gif\" />\r\n\r\n<a href=\"z143\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\r\n<a href=\"z158\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\r\n<a href=\"z135\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\r\n<a href=\"z136\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n\r\n\r\n<style>\r\n  \r\n</style>\r\n <script>\r\n  \r\n      gifTime =vc20;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikustol.gif\" data-lokacija=\"lok3\" >\n\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolpipaslikuzat.jpg\" />\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikustol.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicapipaslikuzat.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravipipaslikuzat.gif\" />\n\n<a href=\"z143\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\n<a href=\"z158\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\n<a href=\"z135\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z136\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n\n\n<style>\n  \n</style>\n <script>\n  \n      gifTime =vc20;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z171.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13267,7 +13035,7 @@ System.registerDynamic("app/pages/z171.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikustolica.gif\" data-lokacija=\"lok4\" >\r\n\r\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\"  data-wall-position=\"p4\" src=\"images/vstolicapipaslikuzat.jpg\" />\r\n\r\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikustolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-komppipaslikuzat.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-prozorpipaslikuzat.gif\" />\r\n\r\n<a href=\"z144\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\r\n<a href=\"z159\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\r\n<a href=\"z137\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\r\n<a href=\"z235q\" data-routable=\"true\" data-sound=\"m7\"  class=\"m7 skok\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n <script>\r\n  \r\n      gifTime =vc20;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikustolica.gif\" data-lokacija=\"lok4\" >\n\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p4\" src=\"images/vstolicapipaslikuzat.jpg\" />\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikustolica.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-komppipaslikuzat.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorpipaslikuzat.gif\" />\n\n<a href=\"z144\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\n<a href=\"z159\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\n<a href=\"z137\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\n<a href=\"z235q\" data-routable=\"true\" data-sound=\"m7\"  class=\"m7 skok\"></a>\n\n<style>\n  \n</style>\n <script>\n  \n      gifTime =vc20;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z172.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13283,7 +13051,7 @@ System.registerDynamic("app/pages/z173.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikupolica.gif\" data-lokacija=\"lok6\" >\r\n\r\n\r\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\"  data-wall-position=\"p6\" data-teleskop-position=\"t6b\" data-govno-position=\"g6b\"  src=\"images/vpolicapipaslikuzat.jpg\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikupolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatpolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-stolicapipaslikuzat.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-bedpipaslikuzat.gif\" />\r\n\r\n<a href=\"z146\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\r\n<a href=\"z161\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\r\n<a href=\"z140\" data-routable=\"true\" data-sound=\"m4\"  class=\"m4\"></a>\r\n<a href=\"z309\" data-routable=\"true\" data-sound=\"m0\"  class=\"m0\"></a>\r\n\r\n\r\n<style>\r\n  \r\n</style>\r\n <script>\r\n  \r\n      gifTime =vc20;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikupolica.gif\" data-lokacija=\"lok6\" >\n\n\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p6\" data-teleskop-position=\"t6b\" data-govno-position=\"g6b\"  src=\"images/vpolicapipaslikuzat.jpg\" >\n\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikupolica.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolicapipaslikuzat.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bedpipaslikuzat.gif\" />\n\n<a href=\"z146\" data-routable=\"true\"  data-image-type=\"horizontal\" class=\"c\"></a>\n<a href=\"z161\" data-routable=\"true\"  data-image-type=\"vertical\" class=\"c c1\"></a>\n<a href=\"z140\" data-routable=\"true\" data-sound=\"m4\"  class=\"m4\"></a>\n<a href=\"z309\" data-routable=\"true\" data-sound=\"m0\"  class=\"m0\"></a>\n\n\n<style>\n  \n</style>\n <script>\n  \n      gifTime =vc20;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z174.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13539,7 +13307,7 @@ System.registerDynamic("app/pages/z205.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-stolgledasliku.gif\" data-lokacija=\"lok3\" >\n\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonvratagledasliku.png\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolgledasliku.gif\" >\n\n\n\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n\n<a href=\"z186\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h68\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z199\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z206\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\" data-sound=\"m4\"  class=\"m4\"></a>\n\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm3;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-stolgledasliku.gif\" data-lokacija=\"lok3\" >\n\n<img class=\"key-hold-img zaklon higher-z-index\"    src=\"images/zaklonstolgledasliku.png\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstolgledasliku.gif\" >\n\n \n\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n\n<a href=\"z186\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h68\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z199\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z206\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\" data-sound=\"m4\"  class=\"m4\"></a>\n\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm3;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z206.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13547,7 +13315,7 @@ System.registerDynamic("app/pages/z206.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zstol-kutpravigledasliku.gif\" data-lokacija=\"lok1\" >\n\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutgledasliku.gif\" >\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompkut.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorkut.gif\" />\n<img class=\"preload-img\" src=\"images/zslika-krevetkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-prozorgledasliku.gif\" />\n\n\n<a href=\"z354\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z184\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h66\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z197\" data-wiki=\"true\"  data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z204\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm4;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zstol-kutpravigledasliku.gif\" data-lokacija=\"lok1\" >\n\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutgledasliku.gif\" >\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompkut.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorkut.gif\" />\n<img class=\"preload-img\" src=\"images/zslika-krevetkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-prozorgledasliku.gif\" />\n\n\n<a href=\"z354\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z184\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h66\" data-routable=\"true\" class=\"c c1\"></a>\n\n<a href=\"z204\" data-routable=\"true\"  data-sound=\"m2\" class=\"m2\"></a>\n\n\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm4;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z207.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13611,7 +13379,7 @@ System.registerDynamic("app/pages/z214.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zkomp-vanstol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/komp-van.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstol.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zvrata-teleskopstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-slikastol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-stolstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-pipaslikustol.gif\" />\r\n<img class=\"preload-img\" src=\"images/stol-stolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/stol-kut.gif\" />\r\n\r\n<a href=\"z123\" data-routable=\"true\" class=\"c pipa\"></a>\r\n<a href=\"z114\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c c1 \"></a>\r\n<a href=\"h25\" data-routable=\"true\" class=\"c c2 tunos\"></a>\r\n<a href=\"a101\" data-routable=\"true\" class=\"c c3 sunos\"></a>\r\n\r\n<a href=\"a10\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n<a href=\"a8\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc3;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zkomp-vanstol.gif\" data-lokacija=\"lok3\" >\n\n<audio controls autoplay hidden>\n    <source src=\"images/komp-van.mp3\" type=\"audio/mpeg\">\n</audio>\n<img class=\"key-hold-img\" data-wall-position=\"p3\" src=\"images/vstol.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-teleskopstol.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-slikastol.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolstol.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-pipaslikustol.gif\" />\n<img class=\"preload-img\" src=\"images/stol-stolica.gif\" />\n<img class=\"preload-img\" src=\"images/stol-kut.gif\" />\n\n<a href=\"z123\" data-routable=\"true\" class=\"c pipa\"></a>\n<a href=\"z114\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c c1 \"></a>\n<a href=\"h25\" data-routable=\"true\" class=\"c c2 tunos\"></a>\n<a href=\"a101\" data-routable=\"true\" class=\"c c3 sunos\"></a>\n\n<a href=\"a10\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n<a href=\"a8\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc3;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z215.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13651,7 +13419,7 @@ System.registerDynamic("app/pages/z219.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopkut.gif\" data-lokacija=\"lok1\" >\r\n\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n\r\n\r\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutteleskop.jpg\" >\r\n\r\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonkutteleskop.png\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedikut.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkut-vratateleskop.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zkut-prozorteleskop.gif\" />\r\n\r\n\r\n<a href=\"z359\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n<a href=\"z225\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n\r\n<a href=\"z240\" data-routable=\"true\" data-sound=\"m2\"  class=\"m2\"></a>\r\n\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc7;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopkut.gif\" data-lokacija=\"lok1\" >\n\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n\n\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutteleskop.gif\" >\n\n<img class=\"key-hold-img zaklon higher-z-index \"    src=\"images/zaklonkutsint.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedikut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratateleskop.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkut-prozorteleskop.gif\" />\n\n\n<a href=\"z359\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z225\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z240\" data-routable=\"true\" data-sound=\"m2\"  class=\"m2\"></a>\n\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc7;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z220.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13659,7 +13427,7 @@ System.registerDynamic("app/pages/z220.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopvrata.gif\" data-lokacija=\"lok2\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t2\"   data-govno-position=\"g2\" src=\"images/vvratateleskop.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedivrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-stolteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-bedteleskop.gif\" />\r\n\r\n\r\n<a href=\"z226\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n\r\n<a href=\"z241\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\r\n<a href=\"z279\" data-routable=\"true\"  data-sound=\"m0d\" class=\"m0\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc7;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopvrata.gif\" data-lokacija=\"lok2\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t2\"   data-govno-position=\"g2\" src=\"images/vvratateleskop.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedivrata.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedteleskop.gif\" />\n\n\n<a href=\"z226\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z241\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\n<a href=\"z279\" data-routable=\"true\"  data-sound=\"m0d\" class=\"m0\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc7;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z221.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13667,7 +13435,7 @@ System.registerDynamic("app/pages/z221.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopstol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"   data-wall-position=\"p3\" src=\"images/vstol.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedistol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicateleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutpraviteleskop.gif\" />\r\n\r\n<a href=\"z227\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n\r\n<a href=\"z242\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n<a href=\"z247\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc7;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopstol.gif\" data-lokacija=\"lok3\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   data-wall-position=\"p3\" src=\"images/vstol.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedistol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicateleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpraviteleskop.gif\" />\n\n<a href=\"z227\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z242\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n<a href=\"z247\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc7;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z222.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13675,7 +13443,7 @@ System.registerDynamic("app/pages/z222.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopstolica.gif\" data-lokacija=\"lok4\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-teleskop-position=\"t4\"  src=\"images/vstolicateleskop.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedistolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-kompteleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-prozorteleskop.gif\" />\r\n\r\n<a href=\"z228\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n\r\n<a href=\"z243\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\r\n<a href=\"z236\" data-routable=\"true\" data-sound=\"m7\"  class=\"m7 skok\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc7;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopstolica.gif\" data-lokacija=\"lok4\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-teleskop-position=\"t4\"  src=\"images/vstolicateleskop.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedistolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-kompteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorteleskop.gif\" />\n\n<a href=\"z228\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z243\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\n<a href=\"z236\" data-routable=\"true\" data-sound=\"m7\"  class=\"m7 skok\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc7;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z223.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13683,7 +13451,7 @@ System.registerDynamic("app/pages/z223.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopkomp.gif\" data-lokacija=\"lok5\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"   data-wall-position=\"p5\" src=\"images/vkomp.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedikomp.gif\" />\r\n<img class=\"preload-img\" src=\"images/z6.1teleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-policateleskop.gif\" />\r\n\r\n<a href=\"z229\" data-routable=\"true\" class=\"c\"></a>\r\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\r\n\r\n<a href=\"z244\" data-routable=\"true\" data-sound=\"m6\"  class=\"m6\"></a>\r\n<a href=\"z245\" data-routable=\"true\" data-sound=\"m0\"  data-svemir=\"on\"  class=\"m0\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc7;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskopkomp.gif\" data-lokacija=\"lok5\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"   data-wall-position=\"p5\" src=\"images/vkomp.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedikomp.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1teleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policateleskop.gif\" />\n\n<a href=\"z229\" data-routable=\"true\" class=\"c\"></a>\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n\n<a href=\"z244\" data-routable=\"true\" data-sound=\"m6\"  class=\"m6\"></a>\n<a href=\"z245\" data-routable=\"true\" data-sound=\"m0\"  data-svemir=\"on\"  class=\"m0\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc7;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z224.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13691,7 +13459,7 @@ System.registerDynamic("app/pages/z224.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskoppolica.gif\" data-lokacija=\"lok6\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-govno-position=\"g6\"  src=\"images/vpolicateleskop.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zteleskop-sjedipolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-stolicateleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-bedteleskop.gif\" />\r\n\r\n<a href=\"z230\" data-routable=\"true\" class=\"c\"></a>\r\n\r\n\r\n<a href=\"z246\" data-routable=\"true\" data-sound=\"m4b\"  class=\"m4\"></a>\r\n<a href=\"z306\" data-routable=\"true\" data-sound=\"m0c\"  class=\"m0\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc7;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsint-teleskoppolica.gif\" data-lokacija=\"lok6\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-govno-position=\"g6\"  src=\"images/vpolicateleskop.gif\" >\n\n<img class=\"preload-img\" src=\"images/zteleskop-sjedipolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolicateleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bedteleskop.gif\" />\n\n<a href=\"z230\" data-routable=\"true\" class=\"c\"></a>\n\n\n<a href=\"z246\" data-routable=\"true\" data-sound=\"m4b\"  class=\"m4\"></a>\n<a href=\"z306\" data-routable=\"true\" data-sound=\"m0c\"  class=\"m0\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc7;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z225.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13699,7 +13467,7 @@ System.registerDynamic("app/pages/z225.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedikut.gif\" data-lokacija=\"lok1\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutsjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkut.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompkut.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkut-vratasjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkut-prozorsjedi.gif\" />\r\n\r\n\r\n<a href=\"z351\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n<a href=\"z70\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\r\n<a href=\"h32\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n<a href=\"z62\" data-routable=\"true\" data-sound=\"m2\"  class=\"m2\"></a>\r\n\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc14;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedikut.gif\" data-lokacija=\"lok1\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p1\"  data-teleskop-position=\"t1\" src=\"images/vkutsjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkut.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompkut.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-vratasjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zkut-prozorsjedi.gif\" />\n\n\n<a href=\"z351\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n<a href=\"z70\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\n<a href=\"h32\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n<a href=\"z62\" data-routable=\"true\" data-sound=\"m2\"  class=\"m2\"></a>\n\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc14;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z226.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13707,7 +13475,7 @@ System.registerDynamic("app/pages/z226.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedivrata.gif\" data-lokacija=\"lok2\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t2\"   data-govno-position=\"g2sjedi\" src=\"images/vvratasjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorvrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompvrata.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-stolsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zvrata-bedsjedi.gif\" />\r\n<a href=\"z71\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\r\n<a href=\"h33\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n<a href=\"z63\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\r\n<a href=\"z276\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc14;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedivrata.gif\" data-lokacija=\"lok2\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t2\"   data-govno-position=\"g2sjedi\" src=\"images/vvratasjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompvrata.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-bedsjedi.gif\" />\n<a href=\"z71\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\n<a href=\"h33\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n<a href=\"z63\" data-routable=\"true\"  data-sound=\"m3\" class=\"m3\"></a>\n<a href=\"z276\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc14;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z227.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13715,7 +13483,7 @@ System.registerDynamic("app/pages/z227.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedistol.gif\" data-lokacija=\"lok3\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n<img class=\"key-hold-img\"  data-wall-position=\"p3\" src=\"images/vstolsjedi.jpg\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompstol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-kutsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-stolicasjedi.gif\" />\r\n<a href=\"z72\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\r\n<a href=\"h34\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n<a href=\"z65\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\r\n<a href=\"z64\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc14;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedistol.gif\" data-lokacija=\"lok3\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"key-hold-img\"  data-wall-position=\"p3\" src=\"images/vstolsjedi.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicasjedi.gif\" />\n<a href=\"z72\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\n<a href=\"h34\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n<a href=\"z65\" data-routable=\"true\"  data-sound=\"m1b\" class=\"m1\"></a>\n<a href=\"z64\" data-routable=\"true\"  data-sound=\"m4\" class=\"m4\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc14;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z228.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13723,7 +13491,7 @@ System.registerDynamic("app/pages/z228.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedistolica.gif\" data-lokacija=\"lok4\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-wall-position=\"p4\" src=\"images/vstolicasjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompstolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-kompsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstolica-prozorsjedi.gif\" />\r\n\r\n<a href=\"z73\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\r\n<a href=\"h35\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n<a href=\"z66\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\r\n<a href=\"z232\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n    \r\n      gifTime =vc14;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedistolica.gif\" data-lokacija=\"lok4\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-wall-position=\"p4\" src=\"images/vstolicasjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompstolica.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-kompsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zstolica-prozorsjedi.gif\" />\n\n<a href=\"z73\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\n<a href=\"h35\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n<a href=\"z66\" data-routable=\"true\" data-sound=\"m5\"  class=\"m5\"></a>\n<a href=\"z232\" data-routable=\"true\"  data-sound=\"m7\" class=\"m7 skok\"></a>\n\n<style>\n  \n</style>\n<script>\n    \n      gifTime =vc14;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z229.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13731,7 +13499,7 @@ System.registerDynamic("app/pages/z229.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedikomp.gif\" data-lokacija=\"lok5\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompsjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkomp.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompkomp.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-policasjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-krevetsjedi.gif\" />\r\n\r\n<a href=\"z74\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\r\n<a href=\"h36\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\r\n<a href=\"z69\" data-routable=\"true\"  data-sound=\"m0\"  data-svemir=\"on\" class=\"m0\"></a>\r\n<a href=\"z67\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n       \r\n      gifTime =vc14;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedikomp.gif\" data-lokacija=\"lok5\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompsjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-kompkomp.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policasjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-krevetsjedi.gif\" />\n\n<a href=\"z74\" data-routable=\"true\"  data-wiki-change=\"true\" class=\"c\"></a>\n<a href=\"h36\" data-routable=\"true\" class=\"c c1 ot\"></a>\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n<a href=\"z69\" data-routable=\"true\"  data-sound=\"m0\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z67\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\n\n<style>\n  \n</style>\n<script>\n       \n      gifTime =vc14;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z230.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -13739,7 +13507,7 @@ System.registerDynamic("app/pages/z230.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedipolica.gif\" data-lokacija=\"lok6\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t6\"   data-govno-position=\"g6\" src=\"images/vpolicasjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorpolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-komppolica.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-stolicasjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zpolica-bedsjedi.gif\" />\r\n\r\n<a href=\"z75\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\r\n<a href=\"h38\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n<a href=\"z68\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a>\r\n<a href=\"z303\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc14;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedipolica.gif\" data-lokacija=\"lok6\" >\n\n <embed  src=\"images/sint-teleskop.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t6\"   data-govno-position=\"g6\" src=\"images/vpolicasjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorpolica.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-komppolica.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-stolicasjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zpolica-bedsjedi.gif\" />\n\n<a href=\"z75\" data-routable=\"true\" data-wiki-change=\"true\"  class=\"c\"></a>\n<a href=\"h38\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n<a href=\"z68\" data-routable=\"true\"  data-sound=\"m4b\" class=\"m4\"></a>\n<a href=\"z303\" data-routable=\"true\"  data-sound=\"m0c\" class=\"m0\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc14;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z231.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14099,7 +13867,7 @@ System.registerDynamic("app/pages/z274.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-bedlik.gif\" data-lokacija=\"lok0b\" >\r\n\r\n<img class=\"key-hold-img\"   data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlik.gif\" >\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/zkomp-sintbed.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zkomp-vanbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-krevetbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stollik.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetlik.gif\" />\r\n\r\n<a href=\"z323\" data-routable=\"true\"  data-sint=\"on\" class=\"c sint\"></a>\r\n<a href=\"z336\" data-routable=\"true\" class=\"c c1\"></a>\r\n<a href=\"z320\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<a href=\"z283\" data-routable=\"true\" data-svemir=\"on\"  data-sound=\"m0b\" class=\"m0\"></a>\r\n<a href=\"z292\" data-routable=\"true\" data-sound=\"m3b\"  class=\"m3\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vm11;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-bedlik.gif\" data-lokacija=\"lok0b\" >\n\n<img class=\"key-hold-img\"   data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlik.gif\" >\n\n\n<img class=\"preload-img\" src=\"images/zkomp-sintbed.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkomp-vanbed.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stollik.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetlik.gif\" />\n\n<a href=\"z323\" data-routable=\"true\"  data-sint=\"on\" class=\"c sint\"></a>\n<a href=\"z336\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z320\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z283\" data-routable=\"true\" data-svemir=\"on\"  data-sound=\"m0b\" class=\"m0\"></a>\n<a href=\"z292\" data-routable=\"true\" data-sound=\"m3b\"  class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm11;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z275.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14147,7 +13915,7 @@ System.registerDynamic("app/pages/z280.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-bedgledasliku.gif\" data-lokacija=\"lok0b\" >\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedgledasliku.jpg\" >\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompbed.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorbed.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetgledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolgledasliku.gif\" />\n\n<a href=\"z332\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z333\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z334\" data-routable=\"true\" class=\"c c2\"></a>\n<a href=\"z289\" data-routable=\"true\"  data-svemir=\"on\"   data-sound=\"m0b\" class=\"m0\"></a>\n<a href=\"z298\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm11;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-bedgledasliku.gif\" data-lokacija=\"lok0b\" >\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedgledasliku.gif\" >\n\n<img class=\"preload-img\" src=\"images/zgledasliku-kompbed.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorbed.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetgledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolgledasliku.gif\" />\n\n<a href=\"z332\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z333\" data-routable=\"true\" class=\"c c1\"></a>\n<a href=\"z334\" data-routable=\"true\" class=\"c c2\"></a>\n<a href=\"z289\" data-routable=\"true\"  data-svemir=\"on\"   data-sound=\"m0b\" class=\"m0\"></a>\n<a href=\"z298\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm11;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z281.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14291,7 +14059,7 @@ System.registerDynamic("app/pages/z298.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zbed-stolgledasliku.gif\" data-lokacija=\"lok3\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstolgledasliku.gif\" >\n\n<img class=\"key-hold-img zaklon\"    src=\"images/zaklonstolgledasliku.png\" >\n\n\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n\n<a href=\"h68\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z199\" data-routable=\"true\" class=\"c c1\"></a>\n\n\n<a href=\"z206\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\" data-sound=\"m4\"  class=\"m4\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm13;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zbed-stolgledasliku.gif\" data-lokacija=\"lok3\" >\n\n<img class=\"key-hold-img zaklon higher-z-index\"    src=\"images/zaklonstolgledasliku.png\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p3\"  src=\"images/vstolgledasliku.gif\" >\n\n\n\n<img class=\"preload-img\" src=\"images/zgledasliku-prozorstol.gif\" />\n<img class=\"preload-img\" src=\"images/zgledasliku-kompstol.gif\" />\n<img class=\"preload-img\" src=\"images/slika-krevetstol.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-stolicagledasliku.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-kutpravigledasliku.gif\" />\n\n<a href=\"h68\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z199\" data-routable=\"true\" class=\"c c1\"></a>\n\n\n<a href=\"z206\" data-routable=\"true\" data-sound=\"m1b\"  class=\"m1\"></a>\n<a href=\"z207\" data-routable=\"true\" data-sound=\"m4\"  class=\"m4\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm13;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z299.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14411,7 +14179,7 @@ System.registerDynamic("app/pages/z313.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zprozor-kompsjedix.gif\" data-lokacija=\"lok5\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompsjedix.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedix-pipaslikukomp.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1sjedix.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policasjedix.gif\" />\n\n\n<a href=\"z172\" data-routable=\"true\" class=\"c\"></a>\n\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n\n<a href=\"z181\" data-routable=\"true\"  data-sound=\"m0\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z182\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm15;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zprozor-kompsjedix.gif\" data-lokacija=\"lok5\" >\n\n<img class=\"key-hold-img\" data-wall-position=\"p5\" src=\"images/vkompsjedix.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedix-pipaslikukomp.gif\" />\n<img class=\"preload-img\" src=\"images/z6.1sjedix.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-policasjedix.gif\" />\n\n\n<a href=\"z172\" data-routable=\"true\" class=\"c pipa\"></a>\n<a href=\"z268\" data-routable=\"true\" class=\"c c1\"></a>\n<a  data-wiki=\"true\" class=\"wikiread\"></a>\n\n<a href=\"z181\" data-routable=\"true\"  data-sound=\"m0\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z182\" data-routable=\"true\"  data-sound=\"m6\" class=\"m6\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm15;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z314.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14459,7 +14227,7 @@ System.registerDynamic("app/pages/z319.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zvrata-kompbed.gif\" data-lokacija=\"lok0b\" >\r\n\r\n <embed  src=\"images/vrata-komp.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlik.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zkomp-vanbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zstol-krevetbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-sintbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetlik.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stollik.gif\" />\r\n\r\n<a href=\"z320\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"z323\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1 sint\"></a>\r\n<a href=\"z336\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<a href=\"z283\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\r\n<a href=\"z292\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vm15;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zvrata-kompbed.gif\" data-lokacija=\"lok0b\" >\n\n <embed  src=\"images/vrata-komp.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlik.gif\" >\n\n<img class=\"preload-img\" src=\"images/zkomp-vanbed.gif\" />\n<img class=\"preload-img\" src=\"images/zstol-krevetbed.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-sintbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetlik.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stollik.gif\" />\n\n<a href=\"z320\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z323\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1 sint\"></a>\n<a href=\"z336\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z283\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z292\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm15;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z320.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14515,7 +14283,7 @@ System.registerDynamic("app/pages/z326.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedibed.gif\" data-lokacija=\"lok0b\" >\r\n\r\n<audio controls autoplay hidden>\r\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\r\n</audio>\r\n\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedsjedi.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zsjedi-kompbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetsjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stolsjedi.gif\" />\r\n\r\n\r\n\r\n<a href=\"z324\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"h37\" data-routable=\"true\" class=\"c c1 ot\"></a>\r\n\r\n\r\n<a href=\"z285\" data-routable=\"true\" data-sound=\"m0b\"  data-svemir=\"on\"  class=\"m0\"></a>\r\n<a href=\"z294\" data-routable=\"true\" data-sound=\"m3b\"  class=\"m3\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc14;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zteleskop-sjedibed.gif\" data-lokacija=\"lok0b\" >\n\n<audio controls autoplay hidden>\n    <source src=\"images/sint-teleskop.mp3\" type=\"audio/mpeg\">\n</audio>\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedsjedi.gif\" >\n\n<img class=\"preload-img\" src=\"images/zsjedi-kompbed.gif\" />\n<img class=\"preload-img\" src=\"images/zsjedi-otprozorbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetsjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolsjedi.gif\" />\n\n\n\n<a href=\"z324\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h37\" data-routable=\"true\" class=\"c c1 ot\"></a>\n\n\n<a href=\"z285\" data-routable=\"true\" data-sound=\"m0b\"  data-svemir=\"on\"  class=\"m0\"></a>\n<a href=\"z294\" data-routable=\"true\" data-sound=\"m3b\"  class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc14;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z327.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14523,7 +14291,7 @@ System.registerDynamic("app/pages/z327.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikubed.gif\" data-lokacija=\"lok0b\" >\r\n\r\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedpipaslikuzat.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikubed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetpipaslikuzat.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stolpipaslikuzat.gif\" />\r\n\r\n\r\n\r\n<a href=\"z329\" data-routable=\"true\" data-image-type=\"vertical\" class=\"c\"></a>\r\n<a href=\"z331\" data-routable=\"true\" data-image-type=\"horizontal\" class=\"c c1\"></a>\r\n\r\n\r\n<a href=\"z291\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\r\n<a href=\"z300\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vc20;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zsjedix-pipaslikubed.gif\" data-lokacija=\"lok0b\" >\n\n <embed  src=\"images/sjedix-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedpipaslikuzat.gif\" >\n\n<img class=\"preload-img\" src=\"images/pipasliku-stolzatbed.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikubed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetpipaslikuzat.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolpipaslikuzat.gif\" />\n\n\n\n<a href=\"z329\" data-routable=\"true\" data-image-type=\"vertical\" class=\"c\"></a>\n<a href=\"z331\" data-routable=\"true\" data-image-type=\"horizontal\" class=\"c c1\"></a>\n\n\n<a href=\"z291\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z300\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc20;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z328.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14539,7 +14307,7 @@ System.registerDynamic("app/pages/z329.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-stolzatbed.gif\" data-lokacija=\"lok0b\" >\r\n\r\n\r\n <embed  src=\"images/pipasliku-stol.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlik.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zstol-krevetbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-sintbedbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkomp-vanbed.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-krevetlik.gif\" />\r\n<img class=\"preload-img\" src=\"images/zbed-stollik.gif\" />\r\n\r\n<a href=\"z320\" data-routable=\"true\" class=\"c\"></a>\r\n<a href=\"z323\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1\"></a>\r\n<a href=\"z336\" data-routable=\"true\" class=\"c c2\"></a>\r\n\r\n<a href=\"z283\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\r\n<a href=\"z292\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n       var lastClicked = localStorage.getItem('clicked-img');\r\n    changeWallImage();\r\n      gifTime =vc15;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/pipasliku-stolzatbed.gif\" data-lokacija=\"lok0b\" >\n\n\n <embed  src=\"images/pipasliku-stol.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0a\"   data-govno-position=\"g0a\"  src=\"images/vbedlik.gif\" >\n\n<img class=\"preload-img\" src=\"images/zstol-krevetbed.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-sintbedbed.gif\" />\n<img class=\"preload-img\" src=\"images/zkomp-vanbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetlik.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stollik.gif\" />\n\n<a href=\"z320\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"z323\" data-routable=\"true\"  data-sint=\"on\" class=\"c c1\"></a>\n<a href=\"z336\" data-routable=\"true\" class=\"c c2\"></a>\n\n<a href=\"z283\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z292\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n       var lastClicked = localStorage.getItem('clicked-img');\n    changeWallImage();\n      gifTime =vc15;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z330.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14579,7 +14347,7 @@ System.registerDynamic("app/pages/z334.hbs!github:davis/plugin-hbs@1.2.3.js", ["
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zgledasliku-prozorbed.gif\" data-lokacija=\"lok0b\" >\n\n <embed  src=\"images/gledasliku-prozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0b\"   data-govno-position=\"g0b\"  src=\"images/vbedprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zprozor-teleskopbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolteleskop.gif\" />\n\n<img class=\"preload-img\" src=\"images/prozor-sjedibed.gif\" />\n\n<img class=\"preload-img\" src=\"images/zatprozor-krevetbed.gif\" />\n\n<a href=\"h44\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h57\" data-routable=\"true\" class=\"c c1 t\"></a>\n<a href=\"h65\" data-routable=\"true\" class=\"c c2 zat\"></a>\n\n<a href=\"z288\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z297\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc4;\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zgledasliku-prozorbed.gif\" data-lokacija=\"lok0b\" >\n\n <embed  src=\"images/gledasliku-prozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"key-hold-img\"  data-teleskop-position=\"t0b\"   data-govno-position=\"g0bprozor\"  src=\"images/vbedprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zprozor-teleskopbed.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-krevetteleskop.gif\" />\n<img class=\"preload-img\" src=\"images/zbed-stolteleskop.gif\" />\n\n<img class=\"preload-img\" src=\"images/prozor-sjedibed.gif\" />\n\n<img class=\"preload-img\" src=\"images/zatprozor-krevetbed.gif\" />\n\n<a href=\"h44\" data-routable=\"true\" class=\"c\"></a>\n<a href=\"h57\" data-routable=\"true\" class=\"c c1 t\"></a>\n<a href=\"h65\" data-routable=\"true\" class=\"c c2 zat\"></a>\n\n<a href=\"h13\" data-routable=\"true\"  data-sound=\"m0b\"  data-svemir=\"on\" class=\"m0\"></a>\n<a href=\"z297\" data-routable=\"true\"  data-sound=\"m3b\" class=\"m3\"></a>\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vc4;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/pages/z335.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14843,7 +14611,7 @@ System.registerDynamic("app/primjer/primjerot/primjerot.hbs!github:davis/plugin-
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/sjedi-otprozor.gif\">\r\n\r\n<embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n\r\n<img class=\"preload-img\" src=\"images/prozor-teleskop.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-sjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/zatprozor-krevet.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkrevet-kutprozor.gif\" />\r\n\r\n\r\n<a href=\"primjerm5\" data-routable=\"true\" class=\"m5\" >m5(skok-off)</a>\r\n\r\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok\">skok</a>\r\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\r\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\r\n\r\n<style>\r\n   \r\n</style>\r\n\r\n  <script>\r\n       \r\n         gifTime =vc25;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/sjedi-otprozor.gif\">\n\n<embed  src=\"images/sjedi-otprozor.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n\n<img class=\"preload-img\" src=\"images/prozor-teleskop.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-sjedi.gif\" />\n<img class=\"preload-img\" src=\"images/zatprozor-krevet.gif\" />\n<img class=\"preload-img\" src=\"images/zkrevet-kutprozor.gif\" />\n\n\n<a href=\"primjerm5\" data-routable=\"true\" class=\"m5\" >m5(skok-off)</a>\n\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok\">skok</a>\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\n\n<style>\n   \n</style>\n\n  <script>\n       \n         gifTime =vc25;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/primjer/primjerzat/primjerzat.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14851,7 +14619,7 @@ System.registerDynamic("app/primjer/primjerzat/primjerzat.hbs!github:davis/plugi
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zatprozor-krevet.gif\">\r\n\r\n<embed  src=\"images/zatprozor-krevet.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"preload-img\" src=\"images/krevet-sjedi.gif\" />\r\n<img class=\"preload-img\" src=\"images/krevet-sjedix.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zkrevet-kutlezi.gif\" />\r\n\r\n<a href=\"primjerm5\" data-routable=\"true\" class=\"m5\" >m5(skok-off)</a>\r\n\r\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok \">skok</a>\r\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\r\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\r\n\r\n\r\n<style>\r\n\r\n</style>\r\n\r\n  <script>\r\n       \r\n         gifTime =vc22;\r\n    \r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zatprozor-krevet.gif\">\n\n<embed  src=\"images/zatprozor-krevet.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"preload-img\" src=\"images/krevet-sjedi.gif\" />\n<img class=\"preload-img\" src=\"images/krevet-sjedix.gif\" />\n\n<img class=\"preload-img\" src=\"images/zkrevet-kutlezi.gif\" />\n\n<a href=\"primjerm5\" data-routable=\"true\" class=\"m5\" >m5(skok-off)</a>\n\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok \">skok</a>\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\n\n\n<style>\n\n</style>\n\n  <script>\n       \n         gifTime =vc22;\n    \n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/primjer/primjert/primjert.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14867,7 +14635,7 @@ System.registerDynamic("app/primjer/primjerskok/primjerskok.hbs!github:davis/plu
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/zstolica-prozor.gif\">\r\n\r\n\r\n\r\n<img class=\"key-hold-img\" src=\"images/vprozor.gif\" >\r\n\r\n<img class=\"preload-img\" src=\"images/zvrata-kompprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-slikaprozor.gif\" />\r\n\r\n<img class=\"preload-img\" src=\"images/zvrata-teleskopprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/vrata-pipaslikuprozor.gif\" />\r\n<img class=\"preload-img\" src=\"images/prozor-komp.gif\" />\r\n\r\n<a href=\"primjerm5\" data-routable=\"true\" class=\"m5\" >m5(skok-off)</a>\r\n\r\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok\">skok</a>\r\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\r\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\r\n\r\n\r\n<style>\r\n  \r\n</style>\r\n<script>\r\n  \r\n      gifTime =vm9;\r\n</script>";
+      return "<img class=\"main-tpl-img\" src=\"images/zstolica-prozor.gif\">\n\n\n\n<img class=\"key-hold-img\" src=\"images/vprozor.gif\" >\n\n<img class=\"preload-img\" src=\"images/zvrata-kompprozor.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-slikaprozor.gif\" />\n\n<img class=\"preload-img\" src=\"images/zvrata-teleskopprozor.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-pipaslikuprozor.gif\" />\n<img class=\"preload-img\" src=\"images/prozor-komp.gif\" />\n\n<a href=\"primjerm5\" data-routable=\"true\" class=\"m5\" >m5(skok-off)</a>\n\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok\">skok</a>\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\n\n\n<style>\n  \n</style>\n<script>\n  \n      gifTime =vm9;\n</script>";
     }, "useData": true });
 });
 System.registerDynamic("app/primjer/primjerm5/primjerm5.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -14875,7 +14643,7 @@ System.registerDynamic("app/primjer/primjerm5/primjerm5.hbs!github:davis/plugin-
       GLOBAL = global;
   var Handlebars = $__require('github:components/handlebars.js@4.0.10/handlebars.runtime.js');
   module.exports = Handlebars.template({ "compiler": [7, ">= 4.0.0"], "main": function (container, depth0, helpers, partials, data) {
-      return "<img class=\"main-tpl-img\" src=\"images/prozor-komp.gif\">\r\n\r\n <embed  src=\"images/vrata-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\r\n\r\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikuot.gif\" />\r\n<img class=\"preload-img\" src=\"images/pipasliku-stol.gif\" />\r\n<img class=\"preload-img\" src=\"images/zkrevet-kutpipaslikuot.gif\" />\r\n\r\n\r\n<a href=\"primjerm5\" data-routable=\"true\"  class=\"m5\">m5(skok-off)</a>\r\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok\">skok</a>\r\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\r\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\r\n\r\n<script>\r\n    gifTime =vc2;\r\n</script>\r\n";
+      return "<img class=\"main-tpl-img\" src=\"images/prozor-komp.gif\">\n\n <embed  src=\"images/vrata-pipasliku.mp3\" loop=\"false\" autostart=\"true\" hidden=\"true\" />\n\n<img class=\"preload-img\" src=\"images/pipasliku-gledaslikuot.gif\" />\n<img class=\"preload-img\" src=\"images/pipasliku-stol.gif\" />\n<img class=\"preload-img\" src=\"images/zkrevet-kutpipaslikuot.gif\" />\n\n\n<a href=\"primjerm5\" data-routable=\"true\"  class=\"m5\">m5(skok-off)</a>\n<a href=\"primjerskok\" data-routable=\"true\"  class=\"m7 skok\">skok</a>\n<a href=\"primjerot\" data-routable=\"true\"   class=\"m4 ot\">ot</a>\n<a href=\"primjerzat\" data-routable=\"true\"  class=\"m6 zat\">zat</a>\n\n<script>\n    gifTime =vc2;\n</script>\n";
     }, "useData": true });
 });
 System.registerDynamic("app/primjer/primjersvemiron/primjersvemiron.hbs!github:davis/plugin-hbs@1.2.3.js", ["github:components/handlebars.js@4.0.10/handlebars.runtime.js"], true, function ($__require, exports, module) {
@@ -15921,198 +15689,3755 @@ System.registerDynamic("app/primjer/primjersvemiroff/primjersvemiroff.hbs!github
       return "\n<img class=\"main-tpl-img\" src=\"images/krevet-kut.gif\">\n\n\n<img class=\"key-hold-img\" data-wall-position=\"p1\" src=\"images/vkut.jpg\" >\n\n\n\n<img class=\"preload-img\" src=\"images/kut-vrata.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-stolkut.gif\" />\n<img class=\"preload-img\" src=\"images/zvrata-teleskopkut.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-slikakut.gif\" />\n<img class=\"preload-img\" src=\"images/vrata-pipaslikukut.gif\" />\n\n\n<a href=\"primjersvemiron\" data-routable=\"true\"  data-svemir=\"on\" class=\"c c9 \">svemiron</a>\n<a href=\"primjersvemiroff\" data-routable=\"true\" data-svemir=\"off\" class=\"c c10 \">svemiroff</a>\n  <script>\n       \n         gifTime =vm1;\n    \n</script>";
     }, "useData": true });
 });
-System.register('app/main.js',['npm:jquery@3.2.1.js','app/Router.js','npm:backbone@1.3.3.js','npm:jquery-modal@0.9.1.js','app/pages/prvi.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h1.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h2.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h3.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h4.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h5.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h6.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h7.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h8.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h9.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h10.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h11.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h12.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h13.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h14.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h15.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h16.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h17.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h18.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h19.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h20.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h21.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h22.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h23.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h24.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h25.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h26.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h27.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h28.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h29.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h30.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h31.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h32.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h33.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h34.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h35.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h36.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h37.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h38.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h39.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h40.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h41.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h42.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h43.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h44.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h45.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h46.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h47.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h48.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h49.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h50.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h50q.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h51.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h52.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h53.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h54.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h55.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h56.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h57.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h58.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h59.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h60.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h61.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h62.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h63.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h64.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h65.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h66.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h67.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h68.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h69.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/h70.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/jedan.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a6.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a8.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a7.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a9.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a10.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a11.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a12.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a13.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a14.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a15.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a16.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a18.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a17.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a19.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a21.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a23.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a25.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a27.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a29.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a20.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a22.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a24.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a26.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a28.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a30.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a31.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a33.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a37.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a35.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a39.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a41.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a43.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a47.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a45.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a49.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a51.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a32.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a34.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a36.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a38.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a40.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a42.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a44.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a46.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a48.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a50.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a52.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a54.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a56.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a58.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a60.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a62.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a53.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a55.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a57.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a59.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a61.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a63.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a65.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a67.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a69.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a71.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a73.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a75.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a77.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a79.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a81.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a83.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a85.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a87.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a89.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a91.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a64.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a66.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a68.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a70.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a72.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a74.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a76.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a78.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a80.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a82.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a84.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a86.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a88.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a90.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a92.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a93.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a94.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a95.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a96.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a98.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a97.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a99.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a101.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a103.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a105.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a107.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a109.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a111.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a113.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a115.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a117.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a119.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a121.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a123.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a125.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a127.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a129.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a131.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a133.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a135.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a137.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a139.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a141.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a143.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a145.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a147.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a149.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a151.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a153.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a155.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a100.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a102.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a104.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a106.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a108.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a110.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a112.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a114.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a116.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a118.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a120.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a122.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a124.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a126.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a128.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a130.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a132.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a134.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a136.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a138.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a140.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a142.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a144.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a146.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a148.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a150.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a152.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a154.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a156.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/a158.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z1.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z2.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z3.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z4.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z5.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z6.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z7.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z8.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z9.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z9a.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z10.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z11.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z12.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z13.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z14.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z15.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z17.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z16.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z18.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z19.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z20.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z21.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z22.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z23.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z24.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z25.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z26.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z27.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z28.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z29.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z30.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z31.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z32.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z33.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z34.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z35.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z36.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z37.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z38.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z39.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z40.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z41.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z42.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z43.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z44.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z45.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z46.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z47.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z48.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z49.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z50.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z51.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z52.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z53.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z54.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z55.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z56.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z57.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z58.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z59.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z60.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z61.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z62.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z63.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z64.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z65.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z66.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z67.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z68.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z69.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z70.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z71.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z72.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z73.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z74.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z75.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z76.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z77.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z78.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z79.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z80.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z91.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z92.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z93.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z94.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z95.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z96.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z97.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z98.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z99.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z100.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z81.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z82.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z83.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z84.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z85.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z86.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z87.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z88.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z89.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z90.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/pet.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/dva.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/tri.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/cetiri.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z101.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z102.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z103.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z104.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z105.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z106.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z107.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z108.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z109.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z110.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z111.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z112.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z113.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z114.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z115.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z116.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z117.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z118.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z119.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z120.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z121.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z122.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z123.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z124.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z125.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z126.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z127.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z128.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z129.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z130.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z131.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z132.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z133.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z134.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z135.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z136.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z137.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z138.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z139.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z140.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z141.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z142.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z143.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z144.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z145.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z146.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z147.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z148.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z149.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z150.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z150q.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z151.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z152.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z153.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z154.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z155.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z156.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z157.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z158.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z159.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z160.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z161.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z162.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z163.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z164.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z165.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z166.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z167.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z168.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z169.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z170.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z171.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z172.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z173.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z174.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z175.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z176.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z177.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z178.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z179.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z180.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z181.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z182.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z183.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z184.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z185.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z186.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z187.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z188.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z189.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z190.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z191.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z192.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z193.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z194.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z195.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z196.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z197.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z198.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z199.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z200.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z201.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z202.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z203.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z204.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z205.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z206.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z207.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z208.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z209.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z210.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z211.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z212.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z213.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z214.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z215.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z216.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z217.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z218.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z219.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z220.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z221.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z222.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z223.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z224.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z225.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z226.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z227.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z228.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z229.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z230.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z231.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z232.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z233.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z234.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z235.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z235q.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z236.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z237.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z238.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z239.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z240.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z241.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z242.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z243.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z244.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z245.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z246.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z247.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z248.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z249.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z250.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z251.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z252.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z253.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z254.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z255.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z256.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z257.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z258.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z259.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z260.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z261.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z262.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z263.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z264.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z265.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z266.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z267.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z268.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z269.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z270.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z271.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z272.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z273.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z274.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z275.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z276.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z277.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z278.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z279.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z280.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z281.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z282.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z283.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z284.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z285.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z286.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z287.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z288.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z289.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z290.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z291.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z292.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z293.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z294.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z295.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z296.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z297.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z298.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z299.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z300.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z301.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z302.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z303.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z304.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z305.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z306.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z307.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z308.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z309.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z310.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z311.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z312.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z313.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z314.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z315.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z316.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z317.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z318.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z319.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z320.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z321.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z322.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z323.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z324.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z325.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z326.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z327.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z328.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z329.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z330.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z331.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z332.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z333.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z334.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z335.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z336.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z337.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z338.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z339.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z340.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z341.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z342.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z343.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z344.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z345.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z346.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z347.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z348.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z349.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z350.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z351.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z352.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z353.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z354.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z355.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z356.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z357.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z358.hbs!github:davis/plugin-hbs@1.2.3.js','app/pages/z359.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerpocetak/primjerpocetak.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerwikichange/primjerwikichange.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerwikiread/primjerwikiread.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjersint/primjersint.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjersunos/primjersunos.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjertunos/primjertunos.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerpipa/primjerpipa.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerot/primjerot.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerzat/primjerzat.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjert/primjert.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerskok/primjerskok.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjerm5/primjerm5.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjersvemiron/primjersvemiron.hbs!github:davis/plugin-hbs@1.2.3.js','app/primjer/primjersvemiroff/primjersvemiroff.hbs!github:davis/plugin-hbs@1.2.3.js'],function(_export){ // import z360                 from 'app/pages/z360.hbs!';
-'use strict'; // import bdva                   from 'app/pages/bdva.hbs!';
-var $,Router,Backbone,modal,index,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16,h17,h18,h19,h20,h21,h22,h23,h24,h25,h26,h27,h28,h29,h30,h31,h32,h33,h34,h35,h36,h37,h38,h39,h40,h41,h42,h43,h44,h45,h46,h47,h48,h49,h50,h50q,h51,h52,h53,h54,h55,h56,h57,h58,h59,h60,h61,h62,h63,h64,h65,h66,h67,h68,h69,h70,jedan,a6,a8,a7,a9,a10,a11,a12,a13,a14,a15,a16,a18,a17,a19,a21,a23,a25,a27,a29,a20,a22,a24,a26,a28,a30,a31,a33,a37,a35,a39,a41,a43,a47,a45,a49,a51,a32,a34,a36,a38,a40,a42,a44,a46,a48,a50,a52,a54,a56,a58,a60,a62,a53,a55,a57,a59,a61,a63,a65,a67,a69,a71,a73,a75,a77,a79,a81,a83,a85,a87,a89,a91,a64,a66,a68,a70,a72,a74,a76,a78,a80,a82,a84,a86,a88,a90,a92,a93,a94,a95,a96,a98,a97,a99,a101,a103,a105,a107,a109,a111,a113,a115,a117,a119,a121,a123,a125,a127,a129,a131,a133,a135,a137,a139,a141,a143,a145,a147,a149,a151,a153,a155,a100,a102,a104,a106,a108,a110,a112,a114,a116,a118,a120,a122,a124,a126,a128,a130,a132,a134,a136,a138,a140,a142,a144,a146,a148,a150,a152,a154,a156,a158,z1,z2,z3,z4,z5,z6,z7,z8,z9,z9a,z10,z11,z12,z13,z14,z15,z17,z16,z18,z19,z20,z21,z22,z23,z24,z25,z26,z27,z28,z29,z30,z31,z32,z33,z34,z35,z36,z37,z38,z39,z40,z41,z42,z43,z44,z45,z46,z47,z48,z49,z50,z51,z52,z53,z54,z55,z56,z57,z58,z59,z60,z61,z62,z63,z64,z65,z66,z67,z68,z69,z70,z71,z72,z73,z74,z75,z76,z77,z78,z79,z80,z91,z92,z93,z94,z95,z96,z97,z98,z99,z100,z81,z82,z83,z84,z85,z86,z87,z88,z89,z90,pet,dva,tri,cetiri,z101,z102,z103,z104,z105,z106,z107,z108,z109,z110,z111,z112,z113,z114,z115,z116,z117,z118,z119,z120,z121,z122,z123,z124,z125,z126,z127,z128,z129,z130,z131,z132,z133,z134,z135,z136,z137,z138,z139,z140,z141,z142,z143,z144,z145,z146,z147,z148,z149,z150,z150q,z151,z152,z153,z154,z155,z156,z157,z158,z159,z160,z161,z162,z163,z164,z165,z166,z167,z168,z169,z170,z171,z172,z173,z174,z175,z176,z177,z178,z179,z180,z181,z182,z183,z184,z185,z186,z187,z188,z189,z190,z191,z192,z193,z194,z195,z196,z197,z198,z199,z200,z201,z202,z203,z204,z205,z206,z207,z208,z209,z210,z211,z212,z213,z214,z215,z216,z217,z218,z219,z220,z221,z222,z223,z224,z225,z226,z227,z228,z229,z230,z231,z232,z233,z234,z235,z235q,z236,z237,z238,z239,z240,z241,z242,z243,z244,z245,z246,z247,z248,z249,z250,z251,z252,z253,z254,z255,z256,z257,z258,z259,z260,z261,z262,z263,z264,z265,z266,z267,z268,z269,z270,z271,z272,z273,z274,z275,z276,z277,z278,z279,z280,z281,z282,z283,z284,z285,z286,z287,z288,z289,z290,z291,z292,z293,z294,z295,z296,z297,z298,z299,z300,z301,z302,z303,z304,z305,z306,z307,z308,z309,z310,z311,z312,z313,z314,z315,z316,z317,z318,z319,z320,z321,z322,z323,z324,z325,z326,z327,z328,z329,z330,z331,z332,z333,z334,z335,z336,z337,z338,z339,z340,z341,z342,z343,z344,z345,z346,z347,z348,z349,z350,z351,z352,z353,z354,z355,z356,z357,z358,z359,primjerpocetak,primjerwikichange,primjerwikiread,primjersint,primjersunos,primjertunos,primjerpipa,primjerot,primjerzat,primjert,primjerskok,primjerm5,primjersvemiron,primjersvemiroff;return {setters:[function(_npmJquery321Js){$ = _npmJquery321Js['default'];},function(_appRouterJs){Router = _appRouterJs.Router;},function(_npmBackbone133Js){Backbone = _npmBackbone133Js['default'];},function(_npmJqueryModal091Js){modal = _npmJqueryModal091Js['default'];},function(_appPagesPrviHbsGithubDavisPluginHbs123Js){index = _appPagesPrviHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH1HbsGithubDavisPluginHbs123Js){h1 = _appPagesH1HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH2HbsGithubDavisPluginHbs123Js){h2 = _appPagesH2HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH3HbsGithubDavisPluginHbs123Js){h3 = _appPagesH3HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH4HbsGithubDavisPluginHbs123Js){h4 = _appPagesH4HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH5HbsGithubDavisPluginHbs123Js){h5 = _appPagesH5HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH6HbsGithubDavisPluginHbs123Js){h6 = _appPagesH6HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH7HbsGithubDavisPluginHbs123Js){h7 = _appPagesH7HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH8HbsGithubDavisPluginHbs123Js){h8 = _appPagesH8HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH9HbsGithubDavisPluginHbs123Js){h9 = _appPagesH9HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH10HbsGithubDavisPluginHbs123Js){h10 = _appPagesH10HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH11HbsGithubDavisPluginHbs123Js){h11 = _appPagesH11HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH12HbsGithubDavisPluginHbs123Js){h12 = _appPagesH12HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH13HbsGithubDavisPluginHbs123Js){h13 = _appPagesH13HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH14HbsGithubDavisPluginHbs123Js){h14 = _appPagesH14HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH15HbsGithubDavisPluginHbs123Js){h15 = _appPagesH15HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH16HbsGithubDavisPluginHbs123Js){h16 = _appPagesH16HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH17HbsGithubDavisPluginHbs123Js){h17 = _appPagesH17HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH18HbsGithubDavisPluginHbs123Js){h18 = _appPagesH18HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH19HbsGithubDavisPluginHbs123Js){h19 = _appPagesH19HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH20HbsGithubDavisPluginHbs123Js){h20 = _appPagesH20HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH21HbsGithubDavisPluginHbs123Js){h21 = _appPagesH21HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH22HbsGithubDavisPluginHbs123Js){h22 = _appPagesH22HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH23HbsGithubDavisPluginHbs123Js){h23 = _appPagesH23HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH24HbsGithubDavisPluginHbs123Js){h24 = _appPagesH24HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH25HbsGithubDavisPluginHbs123Js){h25 = _appPagesH25HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH26HbsGithubDavisPluginHbs123Js){h26 = _appPagesH26HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH27HbsGithubDavisPluginHbs123Js){h27 = _appPagesH27HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH28HbsGithubDavisPluginHbs123Js){h28 = _appPagesH28HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH29HbsGithubDavisPluginHbs123Js){h29 = _appPagesH29HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH30HbsGithubDavisPluginHbs123Js){h30 = _appPagesH30HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH31HbsGithubDavisPluginHbs123Js){h31 = _appPagesH31HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH32HbsGithubDavisPluginHbs123Js){h32 = _appPagesH32HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH33HbsGithubDavisPluginHbs123Js){h33 = _appPagesH33HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH34HbsGithubDavisPluginHbs123Js){h34 = _appPagesH34HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH35HbsGithubDavisPluginHbs123Js){h35 = _appPagesH35HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH36HbsGithubDavisPluginHbs123Js){h36 = _appPagesH36HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH37HbsGithubDavisPluginHbs123Js){h37 = _appPagesH37HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH38HbsGithubDavisPluginHbs123Js){h38 = _appPagesH38HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH39HbsGithubDavisPluginHbs123Js){h39 = _appPagesH39HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH40HbsGithubDavisPluginHbs123Js){h40 = _appPagesH40HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH41HbsGithubDavisPluginHbs123Js){h41 = _appPagesH41HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH42HbsGithubDavisPluginHbs123Js){h42 = _appPagesH42HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH43HbsGithubDavisPluginHbs123Js){h43 = _appPagesH43HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH44HbsGithubDavisPluginHbs123Js){h44 = _appPagesH44HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH45HbsGithubDavisPluginHbs123Js){h45 = _appPagesH45HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH46HbsGithubDavisPluginHbs123Js){h46 = _appPagesH46HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH47HbsGithubDavisPluginHbs123Js){h47 = _appPagesH47HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH48HbsGithubDavisPluginHbs123Js){h48 = _appPagesH48HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH49HbsGithubDavisPluginHbs123Js){h49 = _appPagesH49HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH50HbsGithubDavisPluginHbs123Js){h50 = _appPagesH50HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH50qHbsGithubDavisPluginHbs123Js){h50q = _appPagesH50qHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH51HbsGithubDavisPluginHbs123Js){h51 = _appPagesH51HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH52HbsGithubDavisPluginHbs123Js){h52 = _appPagesH52HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH53HbsGithubDavisPluginHbs123Js){h53 = _appPagesH53HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH54HbsGithubDavisPluginHbs123Js){h54 = _appPagesH54HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH55HbsGithubDavisPluginHbs123Js){h55 = _appPagesH55HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH56HbsGithubDavisPluginHbs123Js){h56 = _appPagesH56HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH57HbsGithubDavisPluginHbs123Js){h57 = _appPagesH57HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH58HbsGithubDavisPluginHbs123Js){h58 = _appPagesH58HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH59HbsGithubDavisPluginHbs123Js){h59 = _appPagesH59HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH60HbsGithubDavisPluginHbs123Js){h60 = _appPagesH60HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH61HbsGithubDavisPluginHbs123Js){h61 = _appPagesH61HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH62HbsGithubDavisPluginHbs123Js){h62 = _appPagesH62HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH63HbsGithubDavisPluginHbs123Js){h63 = _appPagesH63HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH64HbsGithubDavisPluginHbs123Js){h64 = _appPagesH64HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH65HbsGithubDavisPluginHbs123Js){h65 = _appPagesH65HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH66HbsGithubDavisPluginHbs123Js){h66 = _appPagesH66HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH67HbsGithubDavisPluginHbs123Js){h67 = _appPagesH67HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH68HbsGithubDavisPluginHbs123Js){h68 = _appPagesH68HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH69HbsGithubDavisPluginHbs123Js){h69 = _appPagesH69HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesH70HbsGithubDavisPluginHbs123Js){h70 = _appPagesH70HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesJedanHbsGithubDavisPluginHbs123Js){jedan = _appPagesJedanHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA6HbsGithubDavisPluginHbs123Js){a6 = _appPagesA6HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA8HbsGithubDavisPluginHbs123Js){a8 = _appPagesA8HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA7HbsGithubDavisPluginHbs123Js){a7 = _appPagesA7HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA9HbsGithubDavisPluginHbs123Js){a9 = _appPagesA9HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA10HbsGithubDavisPluginHbs123Js){a10 = _appPagesA10HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA11HbsGithubDavisPluginHbs123Js){a11 = _appPagesA11HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA12HbsGithubDavisPluginHbs123Js){a12 = _appPagesA12HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA13HbsGithubDavisPluginHbs123Js){a13 = _appPagesA13HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA14HbsGithubDavisPluginHbs123Js){a14 = _appPagesA14HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA15HbsGithubDavisPluginHbs123Js){a15 = _appPagesA15HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA16HbsGithubDavisPluginHbs123Js){a16 = _appPagesA16HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA18HbsGithubDavisPluginHbs123Js){a18 = _appPagesA18HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA17HbsGithubDavisPluginHbs123Js){a17 = _appPagesA17HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA19HbsGithubDavisPluginHbs123Js){a19 = _appPagesA19HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA21HbsGithubDavisPluginHbs123Js){a21 = _appPagesA21HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA23HbsGithubDavisPluginHbs123Js){a23 = _appPagesA23HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA25HbsGithubDavisPluginHbs123Js){a25 = _appPagesA25HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA27HbsGithubDavisPluginHbs123Js){a27 = _appPagesA27HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA29HbsGithubDavisPluginHbs123Js){a29 = _appPagesA29HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA20HbsGithubDavisPluginHbs123Js){a20 = _appPagesA20HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA22HbsGithubDavisPluginHbs123Js){a22 = _appPagesA22HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA24HbsGithubDavisPluginHbs123Js){a24 = _appPagesA24HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA26HbsGithubDavisPluginHbs123Js){a26 = _appPagesA26HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA28HbsGithubDavisPluginHbs123Js){a28 = _appPagesA28HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA30HbsGithubDavisPluginHbs123Js){a30 = _appPagesA30HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA31HbsGithubDavisPluginHbs123Js){a31 = _appPagesA31HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA33HbsGithubDavisPluginHbs123Js){a33 = _appPagesA33HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA37HbsGithubDavisPluginHbs123Js){a37 = _appPagesA37HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA35HbsGithubDavisPluginHbs123Js){a35 = _appPagesA35HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA39HbsGithubDavisPluginHbs123Js){a39 = _appPagesA39HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA41HbsGithubDavisPluginHbs123Js){a41 = _appPagesA41HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA43HbsGithubDavisPluginHbs123Js){a43 = _appPagesA43HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA47HbsGithubDavisPluginHbs123Js){a47 = _appPagesA47HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA45HbsGithubDavisPluginHbs123Js){a45 = _appPagesA45HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA49HbsGithubDavisPluginHbs123Js){a49 = _appPagesA49HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA51HbsGithubDavisPluginHbs123Js){a51 = _appPagesA51HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA32HbsGithubDavisPluginHbs123Js){a32 = _appPagesA32HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA34HbsGithubDavisPluginHbs123Js){a34 = _appPagesA34HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA36HbsGithubDavisPluginHbs123Js){a36 = _appPagesA36HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA38HbsGithubDavisPluginHbs123Js){a38 = _appPagesA38HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA40HbsGithubDavisPluginHbs123Js){a40 = _appPagesA40HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA42HbsGithubDavisPluginHbs123Js){a42 = _appPagesA42HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA44HbsGithubDavisPluginHbs123Js){a44 = _appPagesA44HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA46HbsGithubDavisPluginHbs123Js){a46 = _appPagesA46HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA48HbsGithubDavisPluginHbs123Js){a48 = _appPagesA48HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA50HbsGithubDavisPluginHbs123Js){a50 = _appPagesA50HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA52HbsGithubDavisPluginHbs123Js){a52 = _appPagesA52HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA54HbsGithubDavisPluginHbs123Js){a54 = _appPagesA54HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA56HbsGithubDavisPluginHbs123Js){a56 = _appPagesA56HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA58HbsGithubDavisPluginHbs123Js){a58 = _appPagesA58HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA60HbsGithubDavisPluginHbs123Js){a60 = _appPagesA60HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA62HbsGithubDavisPluginHbs123Js){a62 = _appPagesA62HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA53HbsGithubDavisPluginHbs123Js){a53 = _appPagesA53HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA55HbsGithubDavisPluginHbs123Js){a55 = _appPagesA55HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA57HbsGithubDavisPluginHbs123Js){a57 = _appPagesA57HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA59HbsGithubDavisPluginHbs123Js){a59 = _appPagesA59HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA61HbsGithubDavisPluginHbs123Js){a61 = _appPagesA61HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA63HbsGithubDavisPluginHbs123Js){a63 = _appPagesA63HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA65HbsGithubDavisPluginHbs123Js){a65 = _appPagesA65HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA67HbsGithubDavisPluginHbs123Js){a67 = _appPagesA67HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA69HbsGithubDavisPluginHbs123Js){a69 = _appPagesA69HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA71HbsGithubDavisPluginHbs123Js){a71 = _appPagesA71HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA73HbsGithubDavisPluginHbs123Js){a73 = _appPagesA73HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA75HbsGithubDavisPluginHbs123Js){a75 = _appPagesA75HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA77HbsGithubDavisPluginHbs123Js){a77 = _appPagesA77HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA79HbsGithubDavisPluginHbs123Js){a79 = _appPagesA79HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA81HbsGithubDavisPluginHbs123Js){a81 = _appPagesA81HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA83HbsGithubDavisPluginHbs123Js){a83 = _appPagesA83HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA85HbsGithubDavisPluginHbs123Js){a85 = _appPagesA85HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA87HbsGithubDavisPluginHbs123Js){a87 = _appPagesA87HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA89HbsGithubDavisPluginHbs123Js){a89 = _appPagesA89HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA91HbsGithubDavisPluginHbs123Js){a91 = _appPagesA91HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA64HbsGithubDavisPluginHbs123Js){a64 = _appPagesA64HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA66HbsGithubDavisPluginHbs123Js){a66 = _appPagesA66HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA68HbsGithubDavisPluginHbs123Js){a68 = _appPagesA68HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA70HbsGithubDavisPluginHbs123Js){a70 = _appPagesA70HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA72HbsGithubDavisPluginHbs123Js){a72 = _appPagesA72HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA74HbsGithubDavisPluginHbs123Js){a74 = _appPagesA74HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA76HbsGithubDavisPluginHbs123Js){a76 = _appPagesA76HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA78HbsGithubDavisPluginHbs123Js){a78 = _appPagesA78HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA80HbsGithubDavisPluginHbs123Js){a80 = _appPagesA80HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA82HbsGithubDavisPluginHbs123Js){a82 = _appPagesA82HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA84HbsGithubDavisPluginHbs123Js){a84 = _appPagesA84HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA86HbsGithubDavisPluginHbs123Js){a86 = _appPagesA86HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA88HbsGithubDavisPluginHbs123Js){a88 = _appPagesA88HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA90HbsGithubDavisPluginHbs123Js){a90 = _appPagesA90HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA92HbsGithubDavisPluginHbs123Js){a92 = _appPagesA92HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA93HbsGithubDavisPluginHbs123Js){a93 = _appPagesA93HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA94HbsGithubDavisPluginHbs123Js){a94 = _appPagesA94HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA95HbsGithubDavisPluginHbs123Js){a95 = _appPagesA95HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA96HbsGithubDavisPluginHbs123Js){a96 = _appPagesA96HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA98HbsGithubDavisPluginHbs123Js){a98 = _appPagesA98HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA97HbsGithubDavisPluginHbs123Js){a97 = _appPagesA97HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA99HbsGithubDavisPluginHbs123Js){a99 = _appPagesA99HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA101HbsGithubDavisPluginHbs123Js){a101 = _appPagesA101HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA103HbsGithubDavisPluginHbs123Js){a103 = _appPagesA103HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA105HbsGithubDavisPluginHbs123Js){a105 = _appPagesA105HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA107HbsGithubDavisPluginHbs123Js){a107 = _appPagesA107HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA109HbsGithubDavisPluginHbs123Js){a109 = _appPagesA109HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA111HbsGithubDavisPluginHbs123Js){a111 = _appPagesA111HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA113HbsGithubDavisPluginHbs123Js){a113 = _appPagesA113HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA115HbsGithubDavisPluginHbs123Js){a115 = _appPagesA115HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA117HbsGithubDavisPluginHbs123Js){a117 = _appPagesA117HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA119HbsGithubDavisPluginHbs123Js){a119 = _appPagesA119HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA121HbsGithubDavisPluginHbs123Js){a121 = _appPagesA121HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA123HbsGithubDavisPluginHbs123Js){a123 = _appPagesA123HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA125HbsGithubDavisPluginHbs123Js){a125 = _appPagesA125HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA127HbsGithubDavisPluginHbs123Js){a127 = _appPagesA127HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA129HbsGithubDavisPluginHbs123Js){a129 = _appPagesA129HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA131HbsGithubDavisPluginHbs123Js){a131 = _appPagesA131HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA133HbsGithubDavisPluginHbs123Js){a133 = _appPagesA133HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA135HbsGithubDavisPluginHbs123Js){a135 = _appPagesA135HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA137HbsGithubDavisPluginHbs123Js){a137 = _appPagesA137HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA139HbsGithubDavisPluginHbs123Js){a139 = _appPagesA139HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA141HbsGithubDavisPluginHbs123Js){a141 = _appPagesA141HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA143HbsGithubDavisPluginHbs123Js){a143 = _appPagesA143HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA145HbsGithubDavisPluginHbs123Js){a145 = _appPagesA145HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA147HbsGithubDavisPluginHbs123Js){a147 = _appPagesA147HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA149HbsGithubDavisPluginHbs123Js){a149 = _appPagesA149HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA151HbsGithubDavisPluginHbs123Js){a151 = _appPagesA151HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA153HbsGithubDavisPluginHbs123Js){a153 = _appPagesA153HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA155HbsGithubDavisPluginHbs123Js){a155 = _appPagesA155HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA100HbsGithubDavisPluginHbs123Js){a100 = _appPagesA100HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA102HbsGithubDavisPluginHbs123Js){a102 = _appPagesA102HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA104HbsGithubDavisPluginHbs123Js){a104 = _appPagesA104HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA106HbsGithubDavisPluginHbs123Js){a106 = _appPagesA106HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA108HbsGithubDavisPluginHbs123Js){a108 = _appPagesA108HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA110HbsGithubDavisPluginHbs123Js){a110 = _appPagesA110HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA112HbsGithubDavisPluginHbs123Js){a112 = _appPagesA112HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA114HbsGithubDavisPluginHbs123Js){a114 = _appPagesA114HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA116HbsGithubDavisPluginHbs123Js){a116 = _appPagesA116HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA118HbsGithubDavisPluginHbs123Js){a118 = _appPagesA118HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA120HbsGithubDavisPluginHbs123Js){a120 = _appPagesA120HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA122HbsGithubDavisPluginHbs123Js){a122 = _appPagesA122HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA124HbsGithubDavisPluginHbs123Js){a124 = _appPagesA124HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA126HbsGithubDavisPluginHbs123Js){a126 = _appPagesA126HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA128HbsGithubDavisPluginHbs123Js){a128 = _appPagesA128HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA130HbsGithubDavisPluginHbs123Js){a130 = _appPagesA130HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA132HbsGithubDavisPluginHbs123Js){a132 = _appPagesA132HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA134HbsGithubDavisPluginHbs123Js){a134 = _appPagesA134HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA136HbsGithubDavisPluginHbs123Js){a136 = _appPagesA136HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA138HbsGithubDavisPluginHbs123Js){a138 = _appPagesA138HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA140HbsGithubDavisPluginHbs123Js){a140 = _appPagesA140HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA142HbsGithubDavisPluginHbs123Js){a142 = _appPagesA142HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA144HbsGithubDavisPluginHbs123Js){a144 = _appPagesA144HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA146HbsGithubDavisPluginHbs123Js){a146 = _appPagesA146HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA148HbsGithubDavisPluginHbs123Js){a148 = _appPagesA148HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA150HbsGithubDavisPluginHbs123Js){a150 = _appPagesA150HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA152HbsGithubDavisPluginHbs123Js){a152 = _appPagesA152HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA154HbsGithubDavisPluginHbs123Js){a154 = _appPagesA154HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA156HbsGithubDavisPluginHbs123Js){a156 = _appPagesA156HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesA158HbsGithubDavisPluginHbs123Js){a158 = _appPagesA158HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ1HbsGithubDavisPluginHbs123Js){z1 = _appPagesZ1HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ2HbsGithubDavisPluginHbs123Js){z2 = _appPagesZ2HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ3HbsGithubDavisPluginHbs123Js){z3 = _appPagesZ3HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ4HbsGithubDavisPluginHbs123Js){z4 = _appPagesZ4HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ5HbsGithubDavisPluginHbs123Js){z5 = _appPagesZ5HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ6HbsGithubDavisPluginHbs123Js){z6 = _appPagesZ6HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ7HbsGithubDavisPluginHbs123Js){z7 = _appPagesZ7HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ8HbsGithubDavisPluginHbs123Js){z8 = _appPagesZ8HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ9HbsGithubDavisPluginHbs123Js){z9 = _appPagesZ9HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ9aHbsGithubDavisPluginHbs123Js){z9a = _appPagesZ9aHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ10HbsGithubDavisPluginHbs123Js){z10 = _appPagesZ10HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ11HbsGithubDavisPluginHbs123Js){z11 = _appPagesZ11HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ12HbsGithubDavisPluginHbs123Js){z12 = _appPagesZ12HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ13HbsGithubDavisPluginHbs123Js){z13 = _appPagesZ13HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ14HbsGithubDavisPluginHbs123Js){z14 = _appPagesZ14HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ15HbsGithubDavisPluginHbs123Js){z15 = _appPagesZ15HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ17HbsGithubDavisPluginHbs123Js){z17 = _appPagesZ17HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ16HbsGithubDavisPluginHbs123Js){z16 = _appPagesZ16HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ18HbsGithubDavisPluginHbs123Js){z18 = _appPagesZ18HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ19HbsGithubDavisPluginHbs123Js){z19 = _appPagesZ19HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ20HbsGithubDavisPluginHbs123Js){z20 = _appPagesZ20HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ21HbsGithubDavisPluginHbs123Js){z21 = _appPagesZ21HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ22HbsGithubDavisPluginHbs123Js){z22 = _appPagesZ22HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ23HbsGithubDavisPluginHbs123Js){z23 = _appPagesZ23HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ24HbsGithubDavisPluginHbs123Js){z24 = _appPagesZ24HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ25HbsGithubDavisPluginHbs123Js){z25 = _appPagesZ25HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ26HbsGithubDavisPluginHbs123Js){z26 = _appPagesZ26HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ27HbsGithubDavisPluginHbs123Js){z27 = _appPagesZ27HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ28HbsGithubDavisPluginHbs123Js){z28 = _appPagesZ28HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ29HbsGithubDavisPluginHbs123Js){z29 = _appPagesZ29HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ30HbsGithubDavisPluginHbs123Js){z30 = _appPagesZ30HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ31HbsGithubDavisPluginHbs123Js){z31 = _appPagesZ31HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ32HbsGithubDavisPluginHbs123Js){z32 = _appPagesZ32HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ33HbsGithubDavisPluginHbs123Js){z33 = _appPagesZ33HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ34HbsGithubDavisPluginHbs123Js){z34 = _appPagesZ34HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ35HbsGithubDavisPluginHbs123Js){z35 = _appPagesZ35HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ36HbsGithubDavisPluginHbs123Js){z36 = _appPagesZ36HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ37HbsGithubDavisPluginHbs123Js){z37 = _appPagesZ37HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ38HbsGithubDavisPluginHbs123Js){z38 = _appPagesZ38HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ39HbsGithubDavisPluginHbs123Js){z39 = _appPagesZ39HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ40HbsGithubDavisPluginHbs123Js){z40 = _appPagesZ40HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ41HbsGithubDavisPluginHbs123Js){z41 = _appPagesZ41HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ42HbsGithubDavisPluginHbs123Js){z42 = _appPagesZ42HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ43HbsGithubDavisPluginHbs123Js){z43 = _appPagesZ43HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ44HbsGithubDavisPluginHbs123Js){z44 = _appPagesZ44HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ45HbsGithubDavisPluginHbs123Js){z45 = _appPagesZ45HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ46HbsGithubDavisPluginHbs123Js){z46 = _appPagesZ46HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ47HbsGithubDavisPluginHbs123Js){z47 = _appPagesZ47HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ48HbsGithubDavisPluginHbs123Js){z48 = _appPagesZ48HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ49HbsGithubDavisPluginHbs123Js){z49 = _appPagesZ49HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ50HbsGithubDavisPluginHbs123Js){z50 = _appPagesZ50HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ51HbsGithubDavisPluginHbs123Js){z51 = _appPagesZ51HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ52HbsGithubDavisPluginHbs123Js){z52 = _appPagesZ52HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ53HbsGithubDavisPluginHbs123Js){z53 = _appPagesZ53HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ54HbsGithubDavisPluginHbs123Js){z54 = _appPagesZ54HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ55HbsGithubDavisPluginHbs123Js){z55 = _appPagesZ55HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ56HbsGithubDavisPluginHbs123Js){z56 = _appPagesZ56HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ57HbsGithubDavisPluginHbs123Js){z57 = _appPagesZ57HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ58HbsGithubDavisPluginHbs123Js){z58 = _appPagesZ58HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ59HbsGithubDavisPluginHbs123Js){z59 = _appPagesZ59HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ60HbsGithubDavisPluginHbs123Js){z60 = _appPagesZ60HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ61HbsGithubDavisPluginHbs123Js){z61 = _appPagesZ61HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ62HbsGithubDavisPluginHbs123Js){z62 = _appPagesZ62HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ63HbsGithubDavisPluginHbs123Js){z63 = _appPagesZ63HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ64HbsGithubDavisPluginHbs123Js){z64 = _appPagesZ64HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ65HbsGithubDavisPluginHbs123Js){z65 = _appPagesZ65HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ66HbsGithubDavisPluginHbs123Js){z66 = _appPagesZ66HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ67HbsGithubDavisPluginHbs123Js){z67 = _appPagesZ67HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ68HbsGithubDavisPluginHbs123Js){z68 = _appPagesZ68HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ69HbsGithubDavisPluginHbs123Js){z69 = _appPagesZ69HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ70HbsGithubDavisPluginHbs123Js){z70 = _appPagesZ70HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ71HbsGithubDavisPluginHbs123Js){z71 = _appPagesZ71HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ72HbsGithubDavisPluginHbs123Js){z72 = _appPagesZ72HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ73HbsGithubDavisPluginHbs123Js){z73 = _appPagesZ73HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ74HbsGithubDavisPluginHbs123Js){z74 = _appPagesZ74HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ75HbsGithubDavisPluginHbs123Js){z75 = _appPagesZ75HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ76HbsGithubDavisPluginHbs123Js){z76 = _appPagesZ76HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ77HbsGithubDavisPluginHbs123Js){z77 = _appPagesZ77HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ78HbsGithubDavisPluginHbs123Js){z78 = _appPagesZ78HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ79HbsGithubDavisPluginHbs123Js){z79 = _appPagesZ79HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ80HbsGithubDavisPluginHbs123Js){z80 = _appPagesZ80HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ91HbsGithubDavisPluginHbs123Js){z91 = _appPagesZ91HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ92HbsGithubDavisPluginHbs123Js){z92 = _appPagesZ92HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ93HbsGithubDavisPluginHbs123Js){z93 = _appPagesZ93HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ94HbsGithubDavisPluginHbs123Js){z94 = _appPagesZ94HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ95HbsGithubDavisPluginHbs123Js){z95 = _appPagesZ95HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ96HbsGithubDavisPluginHbs123Js){z96 = _appPagesZ96HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ97HbsGithubDavisPluginHbs123Js){z97 = _appPagesZ97HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ98HbsGithubDavisPluginHbs123Js){z98 = _appPagesZ98HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ99HbsGithubDavisPluginHbs123Js){z99 = _appPagesZ99HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ100HbsGithubDavisPluginHbs123Js){z100 = _appPagesZ100HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ81HbsGithubDavisPluginHbs123Js){z81 = _appPagesZ81HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ82HbsGithubDavisPluginHbs123Js){z82 = _appPagesZ82HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ83HbsGithubDavisPluginHbs123Js){z83 = _appPagesZ83HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ84HbsGithubDavisPluginHbs123Js){z84 = _appPagesZ84HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ85HbsGithubDavisPluginHbs123Js){z85 = _appPagesZ85HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ86HbsGithubDavisPluginHbs123Js){z86 = _appPagesZ86HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ87HbsGithubDavisPluginHbs123Js){z87 = _appPagesZ87HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ88HbsGithubDavisPluginHbs123Js){z88 = _appPagesZ88HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ89HbsGithubDavisPluginHbs123Js){z89 = _appPagesZ89HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ90HbsGithubDavisPluginHbs123Js){z90 = _appPagesZ90HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesPetHbsGithubDavisPluginHbs123Js){pet = _appPagesPetHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesDvaHbsGithubDavisPluginHbs123Js){dva = _appPagesDvaHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesTriHbsGithubDavisPluginHbs123Js){tri = _appPagesTriHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesCetiriHbsGithubDavisPluginHbs123Js){cetiri = _appPagesCetiriHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ101HbsGithubDavisPluginHbs123Js){z101 = _appPagesZ101HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ102HbsGithubDavisPluginHbs123Js){z102 = _appPagesZ102HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ103HbsGithubDavisPluginHbs123Js){z103 = _appPagesZ103HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ104HbsGithubDavisPluginHbs123Js){z104 = _appPagesZ104HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ105HbsGithubDavisPluginHbs123Js){z105 = _appPagesZ105HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ106HbsGithubDavisPluginHbs123Js){z106 = _appPagesZ106HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ107HbsGithubDavisPluginHbs123Js){z107 = _appPagesZ107HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ108HbsGithubDavisPluginHbs123Js){z108 = _appPagesZ108HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ109HbsGithubDavisPluginHbs123Js){z109 = _appPagesZ109HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ110HbsGithubDavisPluginHbs123Js){z110 = _appPagesZ110HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ111HbsGithubDavisPluginHbs123Js){z111 = _appPagesZ111HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ112HbsGithubDavisPluginHbs123Js){z112 = _appPagesZ112HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ113HbsGithubDavisPluginHbs123Js){z113 = _appPagesZ113HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ114HbsGithubDavisPluginHbs123Js){z114 = _appPagesZ114HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ115HbsGithubDavisPluginHbs123Js){z115 = _appPagesZ115HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ116HbsGithubDavisPluginHbs123Js){z116 = _appPagesZ116HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ117HbsGithubDavisPluginHbs123Js){z117 = _appPagesZ117HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ118HbsGithubDavisPluginHbs123Js){z118 = _appPagesZ118HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ119HbsGithubDavisPluginHbs123Js){z119 = _appPagesZ119HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ120HbsGithubDavisPluginHbs123Js){z120 = _appPagesZ120HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ121HbsGithubDavisPluginHbs123Js){z121 = _appPagesZ121HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ122HbsGithubDavisPluginHbs123Js){z122 = _appPagesZ122HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ123HbsGithubDavisPluginHbs123Js){z123 = _appPagesZ123HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ124HbsGithubDavisPluginHbs123Js){z124 = _appPagesZ124HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ125HbsGithubDavisPluginHbs123Js){z125 = _appPagesZ125HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ126HbsGithubDavisPluginHbs123Js){z126 = _appPagesZ126HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ127HbsGithubDavisPluginHbs123Js){z127 = _appPagesZ127HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ128HbsGithubDavisPluginHbs123Js){z128 = _appPagesZ128HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ129HbsGithubDavisPluginHbs123Js){z129 = _appPagesZ129HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ130HbsGithubDavisPluginHbs123Js){z130 = _appPagesZ130HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ131HbsGithubDavisPluginHbs123Js){z131 = _appPagesZ131HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ132HbsGithubDavisPluginHbs123Js){z132 = _appPagesZ132HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ133HbsGithubDavisPluginHbs123Js){z133 = _appPagesZ133HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ134HbsGithubDavisPluginHbs123Js){z134 = _appPagesZ134HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ135HbsGithubDavisPluginHbs123Js){z135 = _appPagesZ135HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ136HbsGithubDavisPluginHbs123Js){z136 = _appPagesZ136HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ137HbsGithubDavisPluginHbs123Js){z137 = _appPagesZ137HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ138HbsGithubDavisPluginHbs123Js){z138 = _appPagesZ138HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ139HbsGithubDavisPluginHbs123Js){z139 = _appPagesZ139HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ140HbsGithubDavisPluginHbs123Js){z140 = _appPagesZ140HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ141HbsGithubDavisPluginHbs123Js){z141 = _appPagesZ141HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ142HbsGithubDavisPluginHbs123Js){z142 = _appPagesZ142HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ143HbsGithubDavisPluginHbs123Js){z143 = _appPagesZ143HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ144HbsGithubDavisPluginHbs123Js){z144 = _appPagesZ144HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ145HbsGithubDavisPluginHbs123Js){z145 = _appPagesZ145HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ146HbsGithubDavisPluginHbs123Js){z146 = _appPagesZ146HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ147HbsGithubDavisPluginHbs123Js){z147 = _appPagesZ147HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ148HbsGithubDavisPluginHbs123Js){z148 = _appPagesZ148HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ149HbsGithubDavisPluginHbs123Js){z149 = _appPagesZ149HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ150HbsGithubDavisPluginHbs123Js){z150 = _appPagesZ150HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ150qHbsGithubDavisPluginHbs123Js){z150q = _appPagesZ150qHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ151HbsGithubDavisPluginHbs123Js){z151 = _appPagesZ151HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ152HbsGithubDavisPluginHbs123Js){z152 = _appPagesZ152HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ153HbsGithubDavisPluginHbs123Js){z153 = _appPagesZ153HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ154HbsGithubDavisPluginHbs123Js){z154 = _appPagesZ154HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ155HbsGithubDavisPluginHbs123Js){z155 = _appPagesZ155HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ156HbsGithubDavisPluginHbs123Js){z156 = _appPagesZ156HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ157HbsGithubDavisPluginHbs123Js){z157 = _appPagesZ157HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ158HbsGithubDavisPluginHbs123Js){z158 = _appPagesZ158HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ159HbsGithubDavisPluginHbs123Js){z159 = _appPagesZ159HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ160HbsGithubDavisPluginHbs123Js){z160 = _appPagesZ160HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ161HbsGithubDavisPluginHbs123Js){z161 = _appPagesZ161HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ162HbsGithubDavisPluginHbs123Js){z162 = _appPagesZ162HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ163HbsGithubDavisPluginHbs123Js){z163 = _appPagesZ163HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ164HbsGithubDavisPluginHbs123Js){z164 = _appPagesZ164HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ165HbsGithubDavisPluginHbs123Js){z165 = _appPagesZ165HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ166HbsGithubDavisPluginHbs123Js){z166 = _appPagesZ166HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ167HbsGithubDavisPluginHbs123Js){z167 = _appPagesZ167HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ168HbsGithubDavisPluginHbs123Js){z168 = _appPagesZ168HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ169HbsGithubDavisPluginHbs123Js){z169 = _appPagesZ169HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ170HbsGithubDavisPluginHbs123Js){z170 = _appPagesZ170HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ171HbsGithubDavisPluginHbs123Js){z171 = _appPagesZ171HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ172HbsGithubDavisPluginHbs123Js){z172 = _appPagesZ172HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ173HbsGithubDavisPluginHbs123Js){z173 = _appPagesZ173HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ174HbsGithubDavisPluginHbs123Js){z174 = _appPagesZ174HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ175HbsGithubDavisPluginHbs123Js){z175 = _appPagesZ175HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ176HbsGithubDavisPluginHbs123Js){z176 = _appPagesZ176HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ177HbsGithubDavisPluginHbs123Js){z177 = _appPagesZ177HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ178HbsGithubDavisPluginHbs123Js){z178 = _appPagesZ178HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ179HbsGithubDavisPluginHbs123Js){z179 = _appPagesZ179HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ180HbsGithubDavisPluginHbs123Js){z180 = _appPagesZ180HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ181HbsGithubDavisPluginHbs123Js){z181 = _appPagesZ181HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ182HbsGithubDavisPluginHbs123Js){z182 = _appPagesZ182HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ183HbsGithubDavisPluginHbs123Js){z183 = _appPagesZ183HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ184HbsGithubDavisPluginHbs123Js){z184 = _appPagesZ184HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ185HbsGithubDavisPluginHbs123Js){z185 = _appPagesZ185HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ186HbsGithubDavisPluginHbs123Js){z186 = _appPagesZ186HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ187HbsGithubDavisPluginHbs123Js){z187 = _appPagesZ187HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ188HbsGithubDavisPluginHbs123Js){z188 = _appPagesZ188HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ189HbsGithubDavisPluginHbs123Js){z189 = _appPagesZ189HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ190HbsGithubDavisPluginHbs123Js){z190 = _appPagesZ190HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ191HbsGithubDavisPluginHbs123Js){z191 = _appPagesZ191HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ192HbsGithubDavisPluginHbs123Js){z192 = _appPagesZ192HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ193HbsGithubDavisPluginHbs123Js){z193 = _appPagesZ193HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ194HbsGithubDavisPluginHbs123Js){z194 = _appPagesZ194HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ195HbsGithubDavisPluginHbs123Js){z195 = _appPagesZ195HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ196HbsGithubDavisPluginHbs123Js){z196 = _appPagesZ196HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ197HbsGithubDavisPluginHbs123Js){z197 = _appPagesZ197HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ198HbsGithubDavisPluginHbs123Js){z198 = _appPagesZ198HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ199HbsGithubDavisPluginHbs123Js){z199 = _appPagesZ199HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ200HbsGithubDavisPluginHbs123Js){z200 = _appPagesZ200HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ201HbsGithubDavisPluginHbs123Js){z201 = _appPagesZ201HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ202HbsGithubDavisPluginHbs123Js){z202 = _appPagesZ202HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ203HbsGithubDavisPluginHbs123Js){z203 = _appPagesZ203HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ204HbsGithubDavisPluginHbs123Js){z204 = _appPagesZ204HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ205HbsGithubDavisPluginHbs123Js){z205 = _appPagesZ205HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ206HbsGithubDavisPluginHbs123Js){z206 = _appPagesZ206HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ207HbsGithubDavisPluginHbs123Js){z207 = _appPagesZ207HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ208HbsGithubDavisPluginHbs123Js){z208 = _appPagesZ208HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ209HbsGithubDavisPluginHbs123Js){z209 = _appPagesZ209HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ210HbsGithubDavisPluginHbs123Js){z210 = _appPagesZ210HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ211HbsGithubDavisPluginHbs123Js){z211 = _appPagesZ211HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ212HbsGithubDavisPluginHbs123Js){z212 = _appPagesZ212HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ213HbsGithubDavisPluginHbs123Js){z213 = _appPagesZ213HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ214HbsGithubDavisPluginHbs123Js){z214 = _appPagesZ214HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ215HbsGithubDavisPluginHbs123Js){z215 = _appPagesZ215HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ216HbsGithubDavisPluginHbs123Js){z216 = _appPagesZ216HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ217HbsGithubDavisPluginHbs123Js){z217 = _appPagesZ217HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ218HbsGithubDavisPluginHbs123Js){z218 = _appPagesZ218HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ219HbsGithubDavisPluginHbs123Js){z219 = _appPagesZ219HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ220HbsGithubDavisPluginHbs123Js){z220 = _appPagesZ220HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ221HbsGithubDavisPluginHbs123Js){z221 = _appPagesZ221HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ222HbsGithubDavisPluginHbs123Js){z222 = _appPagesZ222HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ223HbsGithubDavisPluginHbs123Js){z223 = _appPagesZ223HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ224HbsGithubDavisPluginHbs123Js){z224 = _appPagesZ224HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ225HbsGithubDavisPluginHbs123Js){z225 = _appPagesZ225HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ226HbsGithubDavisPluginHbs123Js){z226 = _appPagesZ226HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ227HbsGithubDavisPluginHbs123Js){z227 = _appPagesZ227HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ228HbsGithubDavisPluginHbs123Js){z228 = _appPagesZ228HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ229HbsGithubDavisPluginHbs123Js){z229 = _appPagesZ229HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ230HbsGithubDavisPluginHbs123Js){z230 = _appPagesZ230HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ231HbsGithubDavisPluginHbs123Js){z231 = _appPagesZ231HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ232HbsGithubDavisPluginHbs123Js){z232 = _appPagesZ232HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ233HbsGithubDavisPluginHbs123Js){z233 = _appPagesZ233HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ234HbsGithubDavisPluginHbs123Js){z234 = _appPagesZ234HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ235HbsGithubDavisPluginHbs123Js){z235 = _appPagesZ235HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ235qHbsGithubDavisPluginHbs123Js){z235q = _appPagesZ235qHbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ236HbsGithubDavisPluginHbs123Js){z236 = _appPagesZ236HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ237HbsGithubDavisPluginHbs123Js){z237 = _appPagesZ237HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ238HbsGithubDavisPluginHbs123Js){z238 = _appPagesZ238HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ239HbsGithubDavisPluginHbs123Js){z239 = _appPagesZ239HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ240HbsGithubDavisPluginHbs123Js){z240 = _appPagesZ240HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ241HbsGithubDavisPluginHbs123Js){z241 = _appPagesZ241HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ242HbsGithubDavisPluginHbs123Js){z242 = _appPagesZ242HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ243HbsGithubDavisPluginHbs123Js){z243 = _appPagesZ243HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ244HbsGithubDavisPluginHbs123Js){z244 = _appPagesZ244HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ245HbsGithubDavisPluginHbs123Js){z245 = _appPagesZ245HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ246HbsGithubDavisPluginHbs123Js){z246 = _appPagesZ246HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ247HbsGithubDavisPluginHbs123Js){z247 = _appPagesZ247HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ248HbsGithubDavisPluginHbs123Js){z248 = _appPagesZ248HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ249HbsGithubDavisPluginHbs123Js){z249 = _appPagesZ249HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ250HbsGithubDavisPluginHbs123Js){z250 = _appPagesZ250HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ251HbsGithubDavisPluginHbs123Js){z251 = _appPagesZ251HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ252HbsGithubDavisPluginHbs123Js){z252 = _appPagesZ252HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ253HbsGithubDavisPluginHbs123Js){z253 = _appPagesZ253HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ254HbsGithubDavisPluginHbs123Js){z254 = _appPagesZ254HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ255HbsGithubDavisPluginHbs123Js){z255 = _appPagesZ255HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ256HbsGithubDavisPluginHbs123Js){z256 = _appPagesZ256HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ257HbsGithubDavisPluginHbs123Js){z257 = _appPagesZ257HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ258HbsGithubDavisPluginHbs123Js){z258 = _appPagesZ258HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ259HbsGithubDavisPluginHbs123Js){z259 = _appPagesZ259HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ260HbsGithubDavisPluginHbs123Js){z260 = _appPagesZ260HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ261HbsGithubDavisPluginHbs123Js){z261 = _appPagesZ261HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ262HbsGithubDavisPluginHbs123Js){z262 = _appPagesZ262HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ263HbsGithubDavisPluginHbs123Js){z263 = _appPagesZ263HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ264HbsGithubDavisPluginHbs123Js){z264 = _appPagesZ264HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ265HbsGithubDavisPluginHbs123Js){z265 = _appPagesZ265HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ266HbsGithubDavisPluginHbs123Js){z266 = _appPagesZ266HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ267HbsGithubDavisPluginHbs123Js){z267 = _appPagesZ267HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ268HbsGithubDavisPluginHbs123Js){z268 = _appPagesZ268HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ269HbsGithubDavisPluginHbs123Js){z269 = _appPagesZ269HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ270HbsGithubDavisPluginHbs123Js){z270 = _appPagesZ270HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ271HbsGithubDavisPluginHbs123Js){z271 = _appPagesZ271HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ272HbsGithubDavisPluginHbs123Js){z272 = _appPagesZ272HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ273HbsGithubDavisPluginHbs123Js){z273 = _appPagesZ273HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ274HbsGithubDavisPluginHbs123Js){z274 = _appPagesZ274HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ275HbsGithubDavisPluginHbs123Js){z275 = _appPagesZ275HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ276HbsGithubDavisPluginHbs123Js){z276 = _appPagesZ276HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ277HbsGithubDavisPluginHbs123Js){z277 = _appPagesZ277HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ278HbsGithubDavisPluginHbs123Js){z278 = _appPagesZ278HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ279HbsGithubDavisPluginHbs123Js){z279 = _appPagesZ279HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ280HbsGithubDavisPluginHbs123Js){z280 = _appPagesZ280HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ281HbsGithubDavisPluginHbs123Js){z281 = _appPagesZ281HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ282HbsGithubDavisPluginHbs123Js){z282 = _appPagesZ282HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ283HbsGithubDavisPluginHbs123Js){z283 = _appPagesZ283HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ284HbsGithubDavisPluginHbs123Js){z284 = _appPagesZ284HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ285HbsGithubDavisPluginHbs123Js){z285 = _appPagesZ285HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ286HbsGithubDavisPluginHbs123Js){z286 = _appPagesZ286HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ287HbsGithubDavisPluginHbs123Js){z287 = _appPagesZ287HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ288HbsGithubDavisPluginHbs123Js){z288 = _appPagesZ288HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ289HbsGithubDavisPluginHbs123Js){z289 = _appPagesZ289HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ290HbsGithubDavisPluginHbs123Js){z290 = _appPagesZ290HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ291HbsGithubDavisPluginHbs123Js){z291 = _appPagesZ291HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ292HbsGithubDavisPluginHbs123Js){z292 = _appPagesZ292HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ293HbsGithubDavisPluginHbs123Js){z293 = _appPagesZ293HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ294HbsGithubDavisPluginHbs123Js){z294 = _appPagesZ294HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ295HbsGithubDavisPluginHbs123Js){z295 = _appPagesZ295HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ296HbsGithubDavisPluginHbs123Js){z296 = _appPagesZ296HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ297HbsGithubDavisPluginHbs123Js){z297 = _appPagesZ297HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ298HbsGithubDavisPluginHbs123Js){z298 = _appPagesZ298HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ299HbsGithubDavisPluginHbs123Js){z299 = _appPagesZ299HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ300HbsGithubDavisPluginHbs123Js){z300 = _appPagesZ300HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ301HbsGithubDavisPluginHbs123Js){z301 = _appPagesZ301HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ302HbsGithubDavisPluginHbs123Js){z302 = _appPagesZ302HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ303HbsGithubDavisPluginHbs123Js){z303 = _appPagesZ303HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ304HbsGithubDavisPluginHbs123Js){z304 = _appPagesZ304HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ305HbsGithubDavisPluginHbs123Js){z305 = _appPagesZ305HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ306HbsGithubDavisPluginHbs123Js){z306 = _appPagesZ306HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ307HbsGithubDavisPluginHbs123Js){z307 = _appPagesZ307HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ308HbsGithubDavisPluginHbs123Js){z308 = _appPagesZ308HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ309HbsGithubDavisPluginHbs123Js){z309 = _appPagesZ309HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ310HbsGithubDavisPluginHbs123Js){z310 = _appPagesZ310HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ311HbsGithubDavisPluginHbs123Js){z311 = _appPagesZ311HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ312HbsGithubDavisPluginHbs123Js){z312 = _appPagesZ312HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ313HbsGithubDavisPluginHbs123Js){z313 = _appPagesZ313HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ314HbsGithubDavisPluginHbs123Js){z314 = _appPagesZ314HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ315HbsGithubDavisPluginHbs123Js){z315 = _appPagesZ315HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ316HbsGithubDavisPluginHbs123Js){z316 = _appPagesZ316HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ317HbsGithubDavisPluginHbs123Js){z317 = _appPagesZ317HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ318HbsGithubDavisPluginHbs123Js){z318 = _appPagesZ318HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ319HbsGithubDavisPluginHbs123Js){z319 = _appPagesZ319HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ320HbsGithubDavisPluginHbs123Js){z320 = _appPagesZ320HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ321HbsGithubDavisPluginHbs123Js){z321 = _appPagesZ321HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ322HbsGithubDavisPluginHbs123Js){z322 = _appPagesZ322HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ323HbsGithubDavisPluginHbs123Js){z323 = _appPagesZ323HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ324HbsGithubDavisPluginHbs123Js){z324 = _appPagesZ324HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ325HbsGithubDavisPluginHbs123Js){z325 = _appPagesZ325HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ326HbsGithubDavisPluginHbs123Js){z326 = _appPagesZ326HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ327HbsGithubDavisPluginHbs123Js){z327 = _appPagesZ327HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ328HbsGithubDavisPluginHbs123Js){z328 = _appPagesZ328HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ329HbsGithubDavisPluginHbs123Js){z329 = _appPagesZ329HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ330HbsGithubDavisPluginHbs123Js){z330 = _appPagesZ330HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ331HbsGithubDavisPluginHbs123Js){z331 = _appPagesZ331HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ332HbsGithubDavisPluginHbs123Js){z332 = _appPagesZ332HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ333HbsGithubDavisPluginHbs123Js){z333 = _appPagesZ333HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ334HbsGithubDavisPluginHbs123Js){z334 = _appPagesZ334HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ335HbsGithubDavisPluginHbs123Js){z335 = _appPagesZ335HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ336HbsGithubDavisPluginHbs123Js){z336 = _appPagesZ336HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ337HbsGithubDavisPluginHbs123Js){z337 = _appPagesZ337HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ338HbsGithubDavisPluginHbs123Js){z338 = _appPagesZ338HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ339HbsGithubDavisPluginHbs123Js){z339 = _appPagesZ339HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ340HbsGithubDavisPluginHbs123Js){z340 = _appPagesZ340HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ341HbsGithubDavisPluginHbs123Js){z341 = _appPagesZ341HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ342HbsGithubDavisPluginHbs123Js){z342 = _appPagesZ342HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ343HbsGithubDavisPluginHbs123Js){z343 = _appPagesZ343HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ344HbsGithubDavisPluginHbs123Js){z344 = _appPagesZ344HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ345HbsGithubDavisPluginHbs123Js){z345 = _appPagesZ345HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ346HbsGithubDavisPluginHbs123Js){z346 = _appPagesZ346HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ347HbsGithubDavisPluginHbs123Js){z347 = _appPagesZ347HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ348HbsGithubDavisPluginHbs123Js){z348 = _appPagesZ348HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ349HbsGithubDavisPluginHbs123Js){z349 = _appPagesZ349HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ350HbsGithubDavisPluginHbs123Js){z350 = _appPagesZ350HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ351HbsGithubDavisPluginHbs123Js){z351 = _appPagesZ351HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ352HbsGithubDavisPluginHbs123Js){z352 = _appPagesZ352HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ353HbsGithubDavisPluginHbs123Js){z353 = _appPagesZ353HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ354HbsGithubDavisPluginHbs123Js){z354 = _appPagesZ354HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ355HbsGithubDavisPluginHbs123Js){z355 = _appPagesZ355HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ356HbsGithubDavisPluginHbs123Js){z356 = _appPagesZ356HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ357HbsGithubDavisPluginHbs123Js){z357 = _appPagesZ357HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ358HbsGithubDavisPluginHbs123Js){z358 = _appPagesZ358HbsGithubDavisPluginHbs123Js['default'];},function(_appPagesZ359HbsGithubDavisPluginHbs123Js){z359 = _appPagesZ359HbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerpocetakPrimjerpocetakHbsGithubDavisPluginHbs123Js){primjerpocetak = _appPrimjerPrimjerpocetakPrimjerpocetakHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerwikichangePrimjerwikichangeHbsGithubDavisPluginHbs123Js){primjerwikichange = _appPrimjerPrimjerwikichangePrimjerwikichangeHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerwikireadPrimjerwikireadHbsGithubDavisPluginHbs123Js){primjerwikiread = _appPrimjerPrimjerwikireadPrimjerwikireadHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjersintPrimjersintHbsGithubDavisPluginHbs123Js){primjersint = _appPrimjerPrimjersintPrimjersintHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjersunosPrimjersunosHbsGithubDavisPluginHbs123Js){primjersunos = _appPrimjerPrimjersunosPrimjersunosHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjertunosPrimjertunosHbsGithubDavisPluginHbs123Js){primjertunos = _appPrimjerPrimjertunosPrimjertunosHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerpipaPrimjerpipaHbsGithubDavisPluginHbs123Js){primjerpipa = _appPrimjerPrimjerpipaPrimjerpipaHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerotPrimjerotHbsGithubDavisPluginHbs123Js){primjerot = _appPrimjerPrimjerotPrimjerotHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerzatPrimjerzatHbsGithubDavisPluginHbs123Js){primjerzat = _appPrimjerPrimjerzatPrimjerzatHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjertPrimjertHbsGithubDavisPluginHbs123Js){primjert = _appPrimjerPrimjertPrimjertHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerskokPrimjerskokHbsGithubDavisPluginHbs123Js){primjerskok = _appPrimjerPrimjerskokPrimjerskokHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjerm5Primjerm5HbsGithubDavisPluginHbs123Js){primjerm5 = _appPrimjerPrimjerm5Primjerm5HbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjersvemironPrimjersvemironHbsGithubDavisPluginHbs123Js){primjersvemiron = _appPrimjerPrimjersvemironPrimjersvemironHbsGithubDavisPluginHbs123Js['default'];},function(_appPrimjerPrimjersvemiroffPrimjersvemiroffHbsGithubDavisPluginHbs123Js){primjersvemiroff = _appPrimjerPrimjersvemiroffPrimjersvemiroffHbsGithubDavisPluginHbs123Js['default'];}],execute:function(){$(document).ready(function(){ //------------------------------------------------------------------------------------------------------------------
-// Za Frana!!!!!!!!!!!!!
-//------------------------------------------------------------------------------------------------------------------ž
-Router.add('h1',function(){$element.html(h1());});Router.add('h2',function(){$element.html(h2());});Router.add('h3',function(){$element.html(h3());});Router.add('h4',function(){$element.html(h4());});Router.add('h5',function(){$element.html(h5());});Router.add('h6',function(){$element.html(h6());});Router.add('h7',function(){$element.html(h7());});Router.add('h8',function(){$element.html(h8());});Router.add('h9',function(){$element.html(h9());});Router.add('h10',function(){$element.html(h10());});Router.add('h11',function(){$element.html(h11());});Router.add('h12',function(){$element.html(h12());});Router.add('h13',function(){$element.html(h13());});Router.add('h14',function(){$element.html(h14());});Router.add('h15',function(){$element.html(h15());});Router.add('h16',function(){$element.html(h16());});Router.add('h17',function(){$element.html(h17());});Router.add('h18',function(){$element.html(h18());});Router.add('h19',function(){$element.html(h19());});Router.add('h20',function(){$element.html(h20());});Router.add('h21',function(){$element.html(h21());});Router.add('h22',function(){$element.html(h22());});Router.add('h23',function(){$element.html(h23());});Router.add('h24',function(){$element.html(h24());});Router.add('h25',function(){$element.html(h25());});Router.add('h26',function(){$element.html(h26());});Router.add('h27',function(){$element.html(h27());});Router.add('h28',function(){$element.html(h28());});Router.add('h29',function(){$element.html(h29());});Router.add('h30',function(){$element.html(h30());});Router.add('h31',function(){$element.html(h31());});Router.add('h32',function(){$element.html(h32());});Router.add('h33',function(){$element.html(h33());});Router.add('h34',function(){$element.html(h34());});Router.add('h35',function(){$element.html(h35());});Router.add('h36',function(){$element.html(h36());});Router.add('h37',function(){$element.html(h37());});Router.add('h38',function(){$element.html(h38());});Router.add('h39',function(){$element.html(h39());});Router.add('h40',function(){$element.html(h40());});Router.add('h41',function(){$element.html(h41());});Router.add('h42',function(){$element.html(h42());});Router.add('h43',function(){$element.html(h43());});Router.add('h44',function(){$element.html(h44());});Router.add('h45',function(){$element.html(h45());});Router.add('h46',function(){$element.html(h46());});Router.add('h47',function(){$element.html(h47());});Router.add('h48',function(){$element.html(h48());});Router.add('h49',function(){$element.html(h49());});Router.add('h50',function(){$element.html(h50());});Router.add('h50q',function(){$element.html(h50q());});Router.add('h51',function(){$element.html(h51());});Router.add('h52',function(){$element.html(h52());});Router.add('h53',function(){$element.html(h53());});Router.add('h54',function(){$element.html(h54());});Router.add('h55',function(){$element.html(h55());});Router.add('h56',function(){$element.html(h56());});Router.add('h57',function(){$element.html(h57());});Router.add('h58',function(){$element.html(h58());});Router.add('h59',function(){$element.html(h59());});Router.add('h60',function(){$element.html(h60());});Router.add('h61',function(){$element.html(h61());});Router.add('h62',function(){$element.html(h62());});Router.add('h63',function(){$element.html(h63());});Router.add('h64',function(){$element.html(h64());});Router.add('h65',function(){$element.html(h65());});Router.add('h66',function(){$element.html(h66());});Router.add('h67',function(){$element.html(h67());});Router.add('h68',function(){$element.html(h68());});Router.add('h69',function(){$element.html(h69());});Router.add('h70',function(){$element.html(h70());});Router.add('sedamnaest',function(){$element.html(sest());showLink(0);});Router.add('dva',function(){$element.html(dva());showLink(5000);});Router.add('bdva',function(){$element.html(bdva()); //    showLink(5000);
-});Router.add('tri',function(){$element.html(tri());});Router.add('jedan',function(){$element.html(jedan()); //    showLink(5000);
-});Router.add('a7',function(){$element.html(a7());showLink(0);});Router.add('a8',function(){$element.html(a8()); //    showLink(5000);
-});Router.add('a9',function(){$element.html(a9());});Router.add('a10',function(){$element.html(a10()); //    showLink(5000);
-});Router.add('b10',function(){$element.html(b10()); //    showLink(5000);
-});Router.add('a11',function(){$element.html(a11());showLink(0);});Router.add('a12',function(){$element.html(a12()); //    showLink(5000);
-});Router.add('a13',function(){$element.html(a13());});Router.add('a14',function(){$element.html(a14()); //    showLink(5000);
-});Router.add('a15',function(){$element.html(a15()); //    showLink(5000);
-});Router.add('a16',function(){$element.html(a16()); //    showLink(5000);
-});Router.add('a18',function(){$element.html(a18());});Router.add('a19',function(){$element.html(a19()); //    showLink(5000);
-});Router.add('a21',function(){$element.html(a21()); //    showLink(5000);
-});Router.add('a17',function(){$element.html(a17());});Router.add('a20',function(){$element.html(a20()); //    showLink(5000);
-});Router.add('a22',function(){$element.html(a22()); //    showLink(5000);
-});Router.add('a24',function(){$element.html(a24());});Router.add('a23',function(){$element.html(a23());});Router.add('a25',function(){$element.html(a25()); //    showLink(5000);
-});Router.add('a27',function(){$element.html(a27()); //    showLink(5000);
-});Router.add('a29',function(){$element.html(a29());});Router.add('a26',function(){$element.html(a26()); //    showLink(5000);
-});Router.add('a28',function(){$element.html(a28());});Router.add('a30',function(){$element.html(a30()); //    showLink(5000);
-});Router.add('a31',function(){$element.html(a31()); //    showLink(5000);
-});Router.add('a32',function(){$element.html(a32());});Router.add('a34',function(){$element.html(a34()); //    showLink(5000);
-});Router.add('a36',function(){$element.html(a36());});Router.add('a33',function(){$element.html(a33()); //    showLink(5000);
-});Router.add('a35',function(){$element.html(a35()); //    showLink(5000);
-});Router.add('a37',function(){$element.html(a37());});Router.add('a39',function(){$element.html(a39()); //    showLink(5000);
-});Router.add('a41',function(){$element.html(a41());});Router.add('a43',function(){$element.html(a43()); //    showLink(5000);
-});Router.add('a45',function(){$element.html(a45()); //    showLink(5000);
-});Router.add('a47',function(){$element.html(a47());});Router.add('a49',function(){$element.html(a49()); //    showLink(5000);
-});Router.add('a51',function(){$element.html(a51());});Router.add('a53',function(){$element.html(a53()); //    showLink(5000);
-});Router.add('a55',function(){$element.html(a55()); //    showLink(5000);
-});Router.add('a57',function(){$element.html(a57());});Router.add('a59',function(){$element.html(a59()); //    showLink(5000);
-});Router.add('a61',function(){$element.html(a61());});Router.add('a63',function(){$element.html(a63()); //    showLink(5000);
-});Router.add('a65',function(){$element.html(a65()); //    showLink(5000);
-});Router.add('a67',function(){$element.html(a67());});Router.add('a69',function(){$element.html(a69()); //    showLink(5000);
-});Router.add('a71',function(){$element.html(a71());});Router.add('a73',function(){$element.html(a73()); //    showLink(5000);
-});Router.add('a75',function(){$element.html(a75()); //    showLink(5000);
-});Router.add('a77',function(){$element.html(a77());});Router.add('a79',function(){$element.html(a79()); //    showLink(5000);
-});Router.add('a81',function(){$element.html(a81());});Router.add('a83',function(){$element.html(a83()); //    showLink(5000);
-});Router.add('a85',function(){$element.html(a85()); //    showLink(5000);
-});Router.add('a87',function(){$element.html(a87());});Router.add('a89',function(){$element.html(a89()); //    showLink(5000);
-});Router.add('a91',function(){$element.html(a91());});Router.add('a38',function(){$element.html(a38()); //    showLink(5000);
-});Router.add('a40',function(){$element.html(a40()); //    showLink(5000);
-});Router.add('a42',function(){$element.html(a42());});Router.add('a44',function(){$element.html(a44()); //    showLink(5000);
-});Router.add('a46',function(){$element.html(a46());});Router.add('a48',function(){$element.html(a48());showLink(5000);});Router.add('a50',function(){$element.html(a50()); //    showLink(5000);
-});Router.add('a52',function(){$element.html(a52());});Router.add('a54',function(){$element.html(a54()); //    showLink(5000);
-});Router.add('a56',function(){$element.html(a56());});Router.add('a58',function(){$element.html(a58());showLink(5000);});Router.add('a60',function(){$element.html(a60()); //    showLink(5000);
-});Router.add('a62',function(){$element.html(a62());});Router.add('a64',function(){$element.html(a64()); //    showLink(5000);
-});Router.add('a66',function(){$element.html(a66());});Router.add('a68',function(){$element.html(a68());showLink(5000);});Router.add('a70',function(){$element.html(a70()); //    showLink(5000);
-});Router.add('a72',function(){$element.html(a72());});Router.add('a74',function(){$element.html(a74()); //    showLink(5000);
-});Router.add('a76',function(){$element.html(a76());});Router.add('a78',function(){$element.html(a78());showLink(5000);});Router.add('a80',function(){$element.html(a80()); //    showLink(5000);
-});Router.add('a82',function(){$element.html(a82());});Router.add('a84',function(){$element.html(a84()); //    showLink(5000);
-});Router.add('a86',function(){$element.html(a86());});Router.add('a88',function(){$element.html(a88());showLink(5000);});Router.add('a89',function(){$element.html(a89());showLink(5000);});Router.add('a90',function(){$element.html(a90()); //    showLink(5000);
-});Router.add('a92',function(){$element.html(a92());});Router.add('a93',function(){$element.html(a93()); //    showLink(5000);
-});Router.add('a94',function(){$element.html(a94()); //    showLink(5000);
-});Router.add('a95',function(){$element.html(a95()); //    showLink(5000);
-});Router.add('a96',function(){$element.html(a96());});Router.add('a97',function(){$element.html(a97()); //    showLink(5000);
-});Router.add('a98',function(){$element.html(a98());showLink(5000);});Router.add('a99',function(){$element.html(a99()); // showLink(5000);
-});Router.add('a100',function(){$element.html(a100()); //    showLink(5000);
-});Router.add('a101',function(){$element.html(a101()); //    showLink(5000);
-});Router.add('a103',function(){$element.html(a103()); //    showLink(5000);
-});Router.add('a105',function(){$element.html(a105()); //    showLink(5000);
-});Router.add('a107',function(){$element.html(a107()); //    showLink(5000);
-});Router.add('a109',function(){$element.html(a109()); //    showLink(5000);
-});Router.add('a111',function(){$element.html(a111()); //    showLink(5000);
-});Router.add('a113',function(){$element.html(a113()); //    showLink(5000);
-});Router.add('a115',function(){$element.html(a115()); //    showLink(5000);
-});Router.add('a117',function(){$element.html(a117()); //    showLink(5000);
-});Router.add('a119',function(){$element.html(a119()); //    showLink(5000);
-});Router.add('a121',function(){$element.html(a121()); //    showLink(5000);
-});Router.add('a123',function(){$element.html(a123()); //    showLink(5000);
-});Router.add('a125',function(){$element.html(a125()); //    showLink(5000);
-});Router.add('a127',function(){$element.html(a127()); //    showLink(5000);
-});Router.add('a129',function(){$element.html(a129()); //    showLink(5000);
-});Router.add('a131',function(){$element.html(a131()); //    showLink(5000);
-});Router.add('a133',function(){$element.html(a133()); //    showLink(5000);
-});Router.add('a135',function(){$element.html(a135()); //    showLink(5000);
-});Router.add('a137',function(){$element.html(a137()); //    showLink(5000);
-});Router.add('a139',function(){$element.html(a139()); //    showLink(5000);
-});Router.add('a141',function(){$element.html(a141()); //    showLink(5000);
-});Router.add('a143',function(){$element.html(a143()); //    showLink(5000);
-});Router.add('a145',function(){$element.html(a145()); //    showLink(5000);
-});Router.add('a147',function(){$element.html(a147()); //    showLink(5000);
-});Router.add('a149',function(){$element.html(a149()); //    showLink(5000);
-});Router.add('a151',function(){$element.html(a151()); //    showLink(5000);
-});Router.add('a153',function(){$element.html(a153()); //    showLink(5000);
-});Router.add('a155',function(){$element.html(a155()); //    showLink(5000);
-});Router.add('a102',function(){$element.html(a102());showLink(5000);});Router.add('a104',function(){$element.html(a104());});Router.add('a106',function(){$element.html(a106()); //    showLink(5000);
-});Router.add('a108',function(){$element.html(a108());});Router.add('a110',function(){$element.html(a110());showLink(5000);});Router.add('a112',function(){$element.html(a112());showLink(5000);});Router.add('a114',function(){$element.html(a114());});Router.add('a116',function(){$element.html(a116()); //    showLink(5000);
-});Router.add('a118',function(){$element.html(a118());});Router.add('a120',function(){$element.html(a120());showLink(5000);});Router.add('a122',function(){$element.html(a122());showLink(5000);});Router.add('a124',function(){$element.html(a124());});Router.add('a126',function(){$element.html(a126()); //    showLink(5000);
-});Router.add('a128',function(){$element.html(a128());});Router.add('a130',function(){$element.html(a130());showLink(5000);});Router.add('a132',function(){$element.html(a132());showLink(5000);});Router.add('a134',function(){$element.html(a134());});Router.add('a136',function(){$element.html(a136()); //    showLink(5000);
-});Router.add('a138',function(){$element.html(a138());});Router.add('a140',function(){$element.html(a140());showLink(5000);});Router.add('a142',function(){$element.html(a142());showLink(5000);});Router.add('a144',function(){$element.html(a144());});Router.add('a146',function(){$element.html(a146()); //    showLink(5000);
-});Router.add('a148',function(){$element.html(a148());});Router.add('a150',function(){$element.html(a150());showLink(5000);});Router.add('a152',function(){$element.html(a152());showLink(5000);});Router.add('a154',function(){$element.html(a154());});Router.add('a156',function(){$element.html(a156()); //    showLink(5000);
-});Router.add('a158',function(){$element.html(a158());});Router.add('cetiri',function(){$element.html(cetiri());});Router.add('pet',function(){$element.html(pet());});Router.add('a6',function(){$element.html(a6());});Router.add('z1',function(){$element.html(z1());showLink(5000);});Router.add('z2',function(){$element.html(z2());showLink(5000);});Router.add('z3',function(){$element.html(z3());});Router.add('z4',function(){$element.html(z4()); //    showLink(5000);
-});Router.add('z5',function(){$element.html(z5());});Router.add('z6',function(){$element.html(z6());showLink(5000);});Router.add('z7',function(){$element.html(z7());showLink(5000);});Router.add('z8',function(){$element.html(z8());});Router.add('z9',function(){$element.html(z9()); //    showLink(5000);
-});Router.add('z9a',function(){$element.html(z9a()); //    showLink(5000);
-});Router.add('z10',function(){$element.html(z10());});Router.add('z11',function(){$element.html(z11());showLink(5000);});Router.add('z12',function(){$element.html(z12());showLink(5000);});Router.add('z13',function(){$element.html(z13());});Router.add('z14',function(){$element.html(z14()); //    showLink(5000);
-});Router.add('z15',function(){$element.html(z15());});Router.add('z17',function(){$element.html(z17()); //    showLink(5000);
-});Router.add('z16',function(){$element.html(z16());});Router.add('z18',function(){$element.html(z18()); //    showLink(5000);
-});Router.add('z19',function(){$element.html(z19());});Router.add('z20',function(){$element.html(z20());});Router.add('z21',function(){$element.html(z21());});Router.add('z22',function(){$element.html(z22()); //    showLink(5000);
-});Router.add('z23',function(){$element.html(z23());});Router.add('z24',function(){$element.html(z24());});Router.add('z25',function(){$element.html(z25());});Router.add('z26',function(){$element.html(z26()); //    showLink(5000);
-});Router.add('z27',function(){$element.html(z27());});Router.add('z28',function(){$element.html(z28());});Router.add('z29',function(){$element.html(z29());});Router.add('z30',function(){$element.html(z30());});Router.add('z31',function(){$element.html(z31()); //    showLink(5000);
-});Router.add('z32',function(){$element.html(z32());});Router.add('z33',function(){$element.html(z33());});Router.add('z34',function(){$element.html(z34());});Router.add('z35',function(){$element.html(z35());});Router.add('z36',function(){$element.html(z36()); //    showLink(5000);
-});Router.add('z37',function(){$element.html(z37());});Router.add('z38',function(){$element.html(z38());});Router.add('z39',function(){$element.html(z39());});Router.add('z40',function(){$element.html(z40());});Router.add('z41',function(){$element.html(z41()); //    showLink(5000);
-});Router.add('z42',function(){$element.html(z42());});Router.add('z43',function(){$element.html(z43());});Router.add('z44',function(){$element.html(z44());});Router.add('z45',function(){$element.html(z45());});Router.add('z46',function(){$element.html(z46()); //    showLink(5000);
-});Router.add('z47',function(){$element.html(z47());});Router.add('z48',function(){$element.html(z48());});Router.add('z49',function(){$element.html(z49());});Router.add('z50',function(){$element.html(z50());});Router.add('z51',function(){$element.html(z51()); //    showLink(5000);
-});Router.add('z52',function(){$element.html(z52());});Router.add('z53',function(){$element.html(z53());});Router.add('z54',function(){$element.html(z54());});Router.add('z55',function(){$element.html(z55());});Router.add('z56',function(){$element.html(z56()); //    showLink(5000);
-});Router.add('z57',function(){$element.html(z57());});Router.add('z58',function(){$element.html(z58());});Router.add('z59',function(){$element.html(z59());});Router.add('z60',function(){$element.html(z60());});Router.add('z61',function(){$element.html(z61()); //    showLink(5000);
-});Router.add('z62',function(){$element.html(z62());});Router.add('z63',function(){$element.html(z63());});Router.add('z64',function(){$element.html(z64());});Router.add('z65',function(){$element.html(z65());});Router.add('z66',function(){$element.html(z66()); //    showLink(5000);
-});Router.add('z67',function(){$element.html(z67());});Router.add('z68',function(){$element.html(z68());});Router.add('z69',function(){$element.html(z69());});Router.add('z70',function(){$element.html(z70());});Router.add('z71',function(){$element.html(z71()); //    showLink(5000);
-});Router.add('z72',function(){$element.html(z72());});Router.add('z73',function(){$element.html(z73());});Router.add('z74',function(){$element.html(z74());});Router.add('z75',function(){$element.html(z75());});Router.add('z76',function(){$element.html(z76()); //    showLink(5000);
-});Router.add('z77',function(){$element.html(z77());});Router.add('z78',function(){$element.html(z78());});Router.add('z79',function(){$element.html(z79());});Router.add('z80',function(){$element.html(z80());});Router.add('z81',function(){$element.html(z81()); //    showLink(5000);
-});Router.add('z82',function(){$element.html(z82());});Router.add('z83',function(){$element.html(z83());});Router.add('z84',function(){$element.html(z84());});Router.add('z85',function(){$element.html(z85());});Router.add('z86',function(){$element.html(z86()); //    showLink(5000);
-});Router.add('z87',function(){$element.html(z87());});Router.add('z88',function(){$element.html(z88());});Router.add('z89',function(){$element.html(z89());});Router.add('z90',function(){$element.html(z90());});Router.add('z91',function(){$element.html(z91()); //    showLink(5000);
-});Router.add('z92',function(){$element.html(z92());});Router.add('z93',function(){$element.html(z93());});Router.add('z94',function(){$element.html(z94());});Router.add('z95',function(){$element.html(z95());});Router.add('z96',function(){$element.html(z96()); //    showLink(5000);
-});Router.add('z97',function(){$element.html(z97());});Router.add('z98',function(){$element.html(z98());});Router.add('z99',function(){$element.html(z99());});Router.add('z100',function(){$element.html(z100());});Router.add('z101',function(){$element.html(z101());});Router.add('z102',function(){$element.html(z102());});Router.add('z103',function(){$element.html(z103());});Router.add('z104',function(){$element.html(z104());});Router.add('z105',function(){$element.html(z105());});Router.add('z106',function(){$element.html(z106()); //    showLink(5000);
-});Router.add('z107',function(){$element.html(z107());});Router.add('z108',function(){$element.html(z108());});Router.add('z109',function(){$element.html(z109());});Router.add('z110',function(){$element.html(z110());});Router.add('z111',function(){$element.html(z111()); //    showLink(5000);
-});Router.add('z112',function(){$element.html(z112());});Router.add('z113',function(){$element.html(z113());});Router.add('z114',function(){$element.html(z114());});Router.add('z115',function(){$element.html(z115());});Router.add('z116',function(){$element.html(z116()); //    showLink(5000);
-});Router.add('z117',function(){$element.html(z117());});Router.add('z118',function(){$element.html(z118());});Router.add('z119',function(){$element.html(z119());});Router.add('z120',function(){$element.html(z120());});Router.add('z121',function(){$element.html(z121()); //    showLink(5000);
-});Router.add('z122',function(){$element.html(z122());});Router.add('z123',function(){$element.html(z123());});Router.add('z124',function(){$element.html(z124());});Router.add('z125',function(){$element.html(z125());});Router.add('z126',function(){$element.html(z126()); //    showLink(5000);
-});Router.add('z127',function(){$element.html(z127());});Router.add('z128',function(){$element.html(z128());});Router.add('z129',function(){$element.html(z129());});Router.add('z130',function(){$element.html(z130());});Router.add('z131',function(){$element.html(z131()); //    showLink(5000);
-});Router.add('z132',function(){$element.html(z132());});Router.add('z133',function(){$element.html(z133());});Router.add('z134',function(){$element.html(z134());});Router.add('z135',function(){$element.html(z135());});Router.add('z136',function(){$element.html(z136()); //    showLink(5000);
-});Router.add('z137',function(){$element.html(z137());});Router.add('z138',function(){$element.html(z138());});Router.add('z139',function(){$element.html(z139());});Router.add('z140',function(){$element.html(z140());});Router.add('z141',function(){$element.html(z141()); //    showLink(5000);
-});Router.add('z142',function(){$element.html(z142());});Router.add('z143',function(){$element.html(z143());});Router.add('z144',function(){$element.html(z144());});Router.add('z145',function(){$element.html(z145());});Router.add('z146',function(){$element.html(z146()); //    showLink(5000);
-});Router.add('z147',function(){$element.html(z147());});Router.add('z148',function(){$element.html(z148());});Router.add('z149',function(){$element.html(z149());});Router.add('z150',function(){$element.html(z150());});Router.add('z150q',function(){$element.html(z150q());});Router.add('z151',function(){$element.html(z151()); //    showLink(5000);
-});Router.add('z152',function(){$element.html(z152());});Router.add('z153',function(){$element.html(z153());});Router.add('z154',function(){$element.html(z154());});Router.add('z155',function(){$element.html(z155());});Router.add('z156',function(){$element.html(z156()); //    showLink(5000);
-});Router.add('z157',function(){$element.html(z157());});Router.add('z158',function(){$element.html(z158());});Router.add('z159',function(){$element.html(z159());});Router.add('z160',function(){$element.html(z160());});Router.add('z161',function(){$element.html(z161()); //    showLink(5000);
-});Router.add('z162',function(){$element.html(z162());});Router.add('z163',function(){$element.html(z163());});Router.add('z164',function(){$element.html(z164());});Router.add('z165',function(){$element.html(z165());});Router.add('z166',function(){$element.html(z166()); //    showLink(5000);
-});Router.add('z167',function(){$element.html(z167());});Router.add('z168',function(){$element.html(z168());});Router.add('z169',function(){$element.html(z169());});Router.add('z170',function(){$element.html(z170());});Router.add('z171',function(){$element.html(z171()); //    showLink(5000);
-});Router.add('z172',function(){$element.html(z172());});Router.add('z173',function(){$element.html(z173());});Router.add('z174',function(){$element.html(z174());});Router.add('z175',function(){$element.html(z175());});Router.add('z176',function(){$element.html(z176()); //    showLink(5000);
-});Router.add('z177',function(){$element.html(z177());});Router.add('z178',function(){$element.html(z178());});Router.add('z179',function(){$element.html(z179());});Router.add('z180',function(){$element.html(z180());});Router.add('z181',function(){$element.html(z181()); //    showLink(5000);
-});Router.add('z182',function(){$element.html(z182());});Router.add('z183',function(){$element.html(z183());});Router.add('z184',function(){$element.html(z184());});Router.add('z185',function(){$element.html(z185());});Router.add('z186',function(){$element.html(z186()); //    showLink(5000);
-});Router.add('z187',function(){$element.html(z187());});Router.add('z188',function(){$element.html(z188());});Router.add('z189',function(){$element.html(z189());});Router.add('z190',function(){$element.html(z190());});Router.add('z191',function(){$element.html(z191()); //    showLink(5000);
-});Router.add('z192',function(){$element.html(z192());});Router.add('z193',function(){$element.html(z193());});Router.add('z194',function(){$element.html(z194());});Router.add('z195',function(){$element.html(z195());});Router.add('z196',function(){$element.html(z196()); //    showLink(5000);
-});Router.add('z197',function(){$element.html(z197());});Router.add('z198',function(){$element.html(z198());});Router.add('z199',function(){$element.html(z199());});Router.add('z200',function(){$element.html(z200());});Router.add('z201',function(){$element.html(z201()); //    showLink(5000);
-});Router.add('z202',function(){$element.html(z202());});Router.add('z203',function(){$element.html(z203());});Router.add('z204',function(){$element.html(z204());});Router.add('z205',function(){$element.html(z205());});Router.add('z206',function(){$element.html(z206()); //    showLink(5000);
-});Router.add('z207',function(){$element.html(z207());});Router.add('z208',function(){$element.html(z208());});Router.add('z209',function(){$element.html(z209());});Router.add('z210',function(){$element.html(z210());});Router.add('z211',function(){$element.html(z211());});Router.add('z212',function(){$element.html(z212());});Router.add('z213',function(){$element.html(z213());});Router.add('z214',function(){$element.html(z214());});Router.add('z215',function(){$element.html(z215());});Router.add('z216',function(){$element.html(z216()); //    showLink(5000);
-});Router.add('z217',function(){$element.html(z217());});Router.add('z218',function(){$element.html(z218());});Router.add('z219',function(){$element.html(z219());});Router.add('z220',function(){$element.html(z220());});Router.add('z221',function(){$element.html(z221());});Router.add('z222',function(){$element.html(z222());});Router.add('z223',function(){$element.html(z223());});Router.add('z224',function(){$element.html(z224());});Router.add('z225',function(){$element.html(z225());});Router.add('z226',function(){$element.html(z226()); //    showLink(5000);
-});Router.add('z227',function(){$element.html(z227());});Router.add('z228',function(){$element.html(z228());});Router.add('z229',function(){$element.html(z229());});Router.add('z230',function(){$element.html(z230());});Router.add('z231',function(){$element.html(z231());});Router.add('z232',function(){$element.html(z232());});Router.add('z233',function(){$element.html(z233());});Router.add('z234',function(){$element.html(z234());});Router.add('z235',function(){$element.html(z235());});Router.add('z235q',function(){$element.html(z235q());});Router.add('z236',function(){$element.html(z236()); //    showLink(5000);
-});Router.add('z237',function(){$element.html(z237());});Router.add('z238',function(){$element.html(z238());});Router.add('z239',function(){$element.html(z239()); //    showLink(5000);
-});Router.add('z240',function(){$element.html(z240());});Router.add('z241',function(){$element.html(z241());});Router.add('z242',function(){$element.html(z242());});Router.add('z243',function(){$element.html(z243());});Router.add('z244',function(){$element.html(z244());});Router.add('z245',function(){$element.html(z245());});Router.add('z246',function(){$element.html(z246()); //    showLink(5000);
-});Router.add('z247',function(){$element.html(z247());});Router.add('z248',function(){$element.html(z248());});Router.add('z249',function(){$element.html(z249()); //    showLink(5000);
-});Router.add('z250',function(){$element.html(z250());});Router.add('z251',function(){$element.html(z251());});Router.add('z252',function(){$element.html(z252());});Router.add('z253',function(){$element.html(z253());});Router.add('z254',function(){$element.html(z254());});Router.add('z255',function(){$element.html(z255());});Router.add('z256',function(){$element.html(z256()); //    showLink(5000);
-});Router.add('z257',function(){$element.html(z257());});Router.add('z258',function(){$element.html(z258());});Router.add('z259',function(){$element.html(z259()); //    showLink(5000);
-});Router.add('z260',function(){$element.html(z260());});Router.add('z261',function(){$element.html(z261());});Router.add('z262',function(){$element.html(z262());});Router.add('z263',function(){$element.html(z263());});Router.add('z264',function(){$element.html(z264());});Router.add('z265',function(){$element.html(z265());});Router.add('z266',function(){$element.html(z266()); //    showLink(5000);
-});Router.add('z267',function(){$element.html(z267());});Router.add('z268',function(){$element.html(z268());});Router.add('z269',function(){$element.html(z269()); //    showLink(5000);
-});Router.add('z270',function(){$element.html(z270());});Router.add('z271',function(){$element.html(z271());});Router.add('z272',function(){$element.html(z272());});Router.add('z273',function(){$element.html(z273());});Router.add('z274',function(){$element.html(z274());});Router.add('z275',function(){$element.html(z275());});Router.add('z276',function(){$element.html(z276()); //    showLink(5000);
-});Router.add('z277',function(){$element.html(z277());});Router.add('z278',function(){$element.html(z278());});Router.add('z279',function(){$element.html(z279()); //    showLink(5000);
-});Router.add('z280',function(){$element.html(z280());});Router.add('z281',function(){$element.html(z281());});Router.add('z282',function(){$element.html(z282());});Router.add('z283',function(){$element.html(z283());});Router.add('z284',function(){$element.html(z284());});Router.add('z285',function(){$element.html(z285());});Router.add('z286',function(){$element.html(z286()); //    showLink(5000);
-});Router.add('z287',function(){$element.html(z287());});Router.add('z288',function(){$element.html(z288());});Router.add('z289',function(){$element.html(z289()); //    showLink(5000);
-});Router.add('z290',function(){$element.html(z290());});Router.add('z291',function(){$element.html(z291());});Router.add('z292',function(){$element.html(z292());});Router.add('z293',function(){$element.html(z293());});Router.add('z294',function(){$element.html(z294());});Router.add('z295',function(){$element.html(z295());});Router.add('z296',function(){$element.html(z296()); //    showLink(5000);
-});Router.add('z297',function(){$element.html(z297());});Router.add('z298',function(){$element.html(z298());});Router.add('z299',function(){$element.html(z299()); //    showLink(5000);
-});Router.add('z300',function(){$element.html(z300());});Router.add('z301',function(){$element.html(z301());});Router.add('z302',function(){$element.html(z302());});Router.add('z303',function(){$element.html(z303());});Router.add('z304',function(){$element.html(z304());});Router.add('z305',function(){$element.html(z305());});Router.add('z306',function(){$element.html(z306()); //    showLink(5000);
-});Router.add('z307',function(){$element.html(z307());});Router.add('z308',function(){$element.html(z308());});Router.add('z309',function(){$element.html(z309()); //    showLink(5000);
-});Router.add('z310',function(){$element.html(z310());});Router.add('z311',function(){$element.html(z311());});Router.add('z312',function(){$element.html(z312());});Router.add('z313',function(){$element.html(z313());});Router.add('z314',function(){$element.html(z314());});Router.add('z315',function(){$element.html(z315());});Router.add('z316',function(){$element.html(z316()); //    showLink(5000);
-});Router.add('z317',function(){$element.html(z317());});Router.add('z318',function(){$element.html(z318());});Router.add('z319',function(){$element.html(z319()); //    showLink(5000);
-});Router.add('z320',function(){$element.html(z320());});Router.add('z321',function(){$element.html(z321());});Router.add('z322',function(){$element.html(z322());});Router.add('z323',function(){$element.html(z323());});Router.add('z324',function(){$element.html(z324());});Router.add('z325',function(){$element.html(z325());});Router.add('z326',function(){$element.html(z326()); //    showLink(5000);
-});Router.add('z327',function(){$element.html(z327());});Router.add('z328',function(){$element.html(z328());});Router.add('z329',function(){$element.html(z329()); //    showLink(5000);
-});Router.add('z330',function(){$element.html(z330());});Router.add('z331',function(){$element.html(z331());});Router.add('z332',function(){$element.html(z332());});Router.add('z333',function(){$element.html(z333());});Router.add('z334',function(){$element.html(z334());});Router.add('z335',function(){$element.html(z335());});Router.add('z336',function(){$element.html(z336()); //    showLink(5000);
-});Router.add('z337',function(){$element.html(z337());});Router.add('z338',function(){$element.html(z338());});Router.add('z339',function(){$element.html(z339()); //    showLink(5000);
-});Router.add('z340',function(){$element.html(z340());});Router.add('z341',function(){$element.html(z341()); //    showLink(5000);
-});Router.add('z342',function(){$element.html(z342());});Router.add('z343',function(){$element.html(z343());});Router.add('z344',function(){$element.html(z344()); //    showLink(5000);
-});Router.add('z345',function(){$element.html(z345());});Router.add('z346',function(){$element.html(z346()); //    showLink(5000);
-});Router.add('z347',function(){$element.html(z347());});Router.add('z348',function(){$element.html(z348());});Router.add('z349',function(){$element.html(z349()); //    showLink(5000);
-});Router.add('z350',function(){$element.html(z350());});Router.add('z351',function(){$element.html(z351()); //    showLink(5000);
-});Router.add('z352',function(){$element.html(z352());});Router.add('z353',function(){$element.html(z353());});Router.add('z354',function(){$element.html(z354()); //    showLink(5000);
-});Router.add('z355',function(){$element.html(z355());});Router.add('z356',function(){$element.html(z356()); //    showLink(5000);
-});Router.add('z357',function(){$element.html(z357());});Router.add('z358',function(){$element.html(z358());});Router.add('z359',function(){$element.html(z359()); //    showLink(5000);
-});Router.add('z360',function(){$element.html(z360());});Router.add('primjerpocetak',function(){$element.html(primjerpocetak());});Router.add('primjerwikichange',function(){$element.html(primjerwikichange());});Router.add('primjerwikiread',function(){$element.html(primjerwikiread());});Router.add('primjersint',function(){$element.html(primjersint()); //    showLink(5000);
-});Router.add('primjersunos',function(){$element.html(primjersunos());});Router.add('primjertunos',function(){$element.html(primjertunos());});Router.add('primjerot',function(){$element.html(primjerot()); //    showLink(5000);
-});Router.add('primjerzat',function(){$element.html(primjerzat()); //    showLink(5000);
-});Router.add('primjerpipa',function(){$element.html(primjerpipa()); //    showLink(5000);
-});Router.add('primjert',function(){$element.html(primjert()); //    showLink(5000);
-});Router.add('primjerskok',function(){$element.html(primjerskok()); //    showLink(5000);
-});Router.add('primjerm5',function(){$element.html(primjerm5()); //    showLink(5000);
-});Router.add('primjersvemiron',function(){$element.html(primjersvemiron()); //    showLink(5000);
-});Router.add('primjersvemiroff',function(){$element.html(primjersvemiroff()); //    showLink(5000);
-});var mainTimeToClickMan=randomIntFromInterval(4000,16000);var $element=$("#spadiv");$('#loader').hide();$('.container').show();Backbone.history.stop();$element.html(index()).fadeIn(1000);$(window).on('resize',function(){$('.container').height($('img').outerHeight());}); //------------------------------------------------------------------------------------------------------------------
-// When route is changed
-//------------------------------------------------------------------------------------------------------------------
-Router.on("route",function(){var href=window.location.pathname;CustomStaff();}); //------------------------------------------------------------------------------------------------------------------
-// Initiate the client side router
-//------------------------------------------------------------------------------------------------------------------
-Router.setElement($element).start(); // localStorage.removeItem('clicked-img');
-function randomIntFromInterval(min,max){return Math.floor(Math.random() * (max - min + 1) + min);}function showLink(time){var delay=1000;if(time != null){delay = time;}$('a').show();setTimeout(function(){$('a').addClass('shown');},time);}function autoClick(){var links=[];$.each($('a'),function(){if($(this).hasClass('c') && !$(this).hasClass('disabled')){$(this).hide();var value=$(this).attr('href');links.push(value);}});var link=links[Math.floor(Math.random() * links.length)];if($('a[href="' + link + '"][data-image-type]').length != 0){var imageType=$('a[href="' + link + '"]').attr('data-image-type');var lastClicked=localStorage.getItem('clicked-img');localStorage.setItem('clicked-img',imageType);if(imageType == lastClicked){autoClick();}else {$('a[href="' + link + '"]').trigger('click');localStorage.setItem('clicked-img',imageType);}}else {if($('a[href="' + link + '"]').hasClass('zat') && !$('body').hasClass('prozor-otvoren')){return false;}$('a[href="' + link + '"]').trigger('click');}}function reRunUntilClickEnabled(){if($('body').hasClass('auto-link-click-enabled') && !$('body').hasClass('auto-link-click-disabled-medlodia')){autoClick();mainTimeout();}else {setTimeout(function(){reRunUntilClickEnabled();},100);}}function mainTimeout(){console.log(mainTimeToClickMan);setTimeout(function(){reRunUntilClickEnabled();},mainTimeToClickMan);}mainTimeout(); //------------------------------------------------------------------------------------------------------------------
-// Custom Functions
-//------------------------------------------------------------------------------------------------------------------
-var bugInterval;function resetBugInterval(){bugInterval = setInterval(function(){var lokacijaArray=['lok0b','lok1','lok2','lok3','lok4','lok5','lok6'];var randomLokacijaNum=Math.floor(Math.random() * lokacijaArray.length);$('[data-role="bug"]').attr('class','');$('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);},98000);}resetBugInterval();var izabranaBuba;var vrstaBube;function addOnBlurListener(onBlurCallback,onFocusCallback){var hidden,visibilityState,visibilityChange; // check the visiblility of the page
-if(typeof document.hidden !== "undefined"){hidden = "hidden";visibilityChange = "visibilitychange";visibilityState = "visibilityState";}else if(typeof document.mozHidden !== "undefined"){hidden = "mozHidden";visibilityChange = "mozvisibilitychange";visibilityState = "mozVisibilityState";}else if(typeof document.msHidden !== "undefined"){hidden = "msHidden";visibilityChange = "msvisibilitychange";visibilityState = "msVisibilityState";}else if(typeof document.webkitHidden !== "undefined"){hidden = "webkitHidden";visibilityChange = "webkitvisibilitychange";visibilityState = "webkitVisibilityState";}if(typeof document.addEventListener === "undefined" || typeof hidden === "undefined"){ // not supported
-}else {document.addEventListener(visibilityChange,function(){switch(document[visibilityState]){case "visible":if(onFocusCallback)onFocusCallback();break;case "hidden":if(onBlurCallback)onBlurCallback();break;}},false);}}function muteAudio(){var audios=document.getElementsByTagName('audio'),i,len=audios.length;for(i = 0;i < len;i++) {audios[i].muted = true;}}function unMuteAudio(){var audios=document.getElementsByTagName('audio'),i,len=audios.length;for(i = 0;i < len;i++) {audios[i].muted = false;}}function CustomStaff(){mainTimeToClickMan = randomIntFromInterval(4000,16000);if(!$('body').hasClass('teleskop-pokazan')){$('.t').addClass('disabled');}if($('body').hasClass('teleskop-pokazan')){$('.tunos').addClass('disabled');}if($('body').hasClass('prozor-otvoren')){$('.ot').addClass('disabled');}if(!$('body').hasClass('prozor-otvoren')){$('.skok').addClass('disabled');}if(!$('body').hasClass('slika-pokazana')){$('.pipa').addClass('disabled');}if($('body').hasClass('slika-pokazana')){$('.sunos').addClass('disabled');}$('[data-sound]').on('click',function(e){if(e.originalEvent !== undefined){var name=$(this).attr('data-sound');if($('#sound-' + name).length != 0){document.getElementById('sound-' + name).play();}}});$('[data-role="random"]').on('click',function(e){e.stopPropagation();var links=["dva","tri"];var link=links[Math.floor(Math.random() * links.length)];window.location.href = link;});$('[data-wiki-change]').off('click').on('click',function(){runRandomWiki();});$('[data-wiki]').off('click').on('click',function(){var oldText=$('#wiki-modal #wiki-text').text();if(oldText == ""){runRandomWiki();}else {$('#wiki-modal').modal({fadeDuration:100});}});var sintList=[["golub3.mp3",109000],["ljestvica46.mp3",33300],["razrednica.mp3",153000],["bratec.mp3",40000],["vrucimajstor.mp3",95000],["molodija.mp3",51000],["nasa2.mp3",37000]];$('[data-sint]').on('click',function(){$('body').addClass('auto-link-click-disabled-medlodia');var melodiaObj=sintList[Math.floor(Math.random() * sintList.length)];var melodia=melodiaObj[0];var melodiaTime=melodiaObj[1];$('#sint-sound').find('source').attr('src','images/' + melodia);document.getElementById('sint-sound').load();setTimeout(function(){document.getElementById('sint-sound').play();},6000);setTimeout(function(){$('body').removeClass('auto-link-click-disabled-medlodia');},melodiaTime + 6000);});function runRandomWiki(){$.ajax({url:'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&&generator=random&grnnamespace=0&rvprop=content&grnlimit=1',dataType:'jsonp',success:function success(data){$.each(data.query.pages,function(key,value){$('#wiki-modal #wiki-title').text(value.title);$('#wiki-modal #wiki-text').text(value.extract);});}});}$('body').removeClass('auto-link-click-enabled');var enableClick=setTimeout(function(){$('body').addClass('auto-link-click-enabled');if($('[data-lokacija]').length != 0 && $('[data-role="bug"]').hasClass('shown-bug')){var bugLocation=$('[data-lokacija]').attr('data-lokacija');if($('[data-role="bug"]').hasClass(bugLocation)){$('body').addClass('bug-key-hold-on');}else {$('body').removeClass('bug-key-hold-on');}}else {$('body').removeClass('bug-key-hold-on');}},gifTime);$('[data-role="bug-food"]').off('click').on('click',function(){izabranaBuba = "";document.getElementById('bug-food-sound').play();$('body').removeClass('bug-key-hold-on');$(".key-hold-bug").hide();$(".bug-buttons").hide();$('[data-role="bug"]').attr('class','');clearInterval(bugInterval);resetBugInterval();});var bugMessages=['Hi i am ' + vrstaBube,'Did you read the article about ' + $('#wiki-modal #wiki-title').text(),'Dont eat me please','It,s a nice day in Kutina!','check out that painting...','My legs hurt','You must be Mujc! I am' + vrstaBube,'you,re punching holes in the bedclothes...','Hi cat'];$('[data-role="bug-friend"]').off('click').on('click',function(){var lastMsg=Number(localStorage.getItem('last-bug-message'));var newMessage=0;if(!lastMsg){lastMsg = 0;}if(lastMsg < 8){newMessage = Number(lastMsg) + 1;}else {newMessage = 0;}localStorage.setItem('last-bug-message',newMessage);$('.bug-text').show().text(bugMessages[newMessage]); // $('body').removeClass('bug-key-hold-on');
-$(".key-hold-bug").hide();$(".bug-buttons").hide();setTimeout(function(){$('.bug-text').hide();},15000); // $('[data-role="bug"]').attr('class', '');
-});var keyPressed=false;$(document).on("click","a[data-routable='true']",function(e){$('body').removeClass('bug-key-hold-on');clearTimeout(enableClick);});$('body').off('click').on('click',function(e){if(!$('body').hasClass('auto-link-click-enabled')){return false;}var target=$(e.target);if(!target.is("a") && !target.is(".modal") && !target.is("button") && !target.is(".no-key-hold *")){if($('body').hasClass('svemir-on')){showSvemir();$('#svemir').fadeToggle(300,"linear");return;}if($('body').hasClass('bug-key-hold-on')){ //nastavak na key-hold-{nastavak ispod}
-var bugArray=['zohar','muha','skakavac','leptir','buba'];if(!izabranaBuba){vrstaBube = bugArray[Math.floor(Math.random() * bugArray.length)];izabranaBuba = ".key-hold-" + vrstaBube;}$('.key-hold-bug:not(' + izabranaBuba + ')').hide();$(izabranaBuba).fadeToggle(300,"linear");$(".bug-buttons").fadeToggle(300,"linear");return;}if($(".key-hold-img").length != 0){ /*ako postoji dodatna slika*/if($("[data-wall-position]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png"){var position=$('[data-wall-position]').attr('data-wall-position');var wallImage=$('.wall-image').attr('src');var wallImageName=wallImage.split('.png').shift();var newImageName=wallImageName + "-" + position + ".png";if($('.wall-img-hold').length === 0){$('<img class="key-hold-img wall-img-hold" src="' + newImageName + '">').insertAfter('.key-hold-img');}}if($('body').hasClass('teleskop-pokazan') && $('[data-teleskop-position]').length != 0){var tunosSrc="images/" + $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";if($('.tele-hold-image').length == 0){$('<img class="key-hold-img wall-img-hold tele-hold-image" src="' + tunosSrc + '">').insertAfter('.key-hold-img');}else {$('.tele-hold-image').attr('src',tunosSrc);}}if($('body').hasClass('prozor-otvoren') && $('[data-govno-position]').length != 0){var govnoSrc="images/" + $('[data-govno-position]').attr('data-govno-position') + ".png";if($('.govno-image').length == 0){$('<img class="key-hold-img wall-img-hold govno-image" src="' + govnoSrc + '">').insertAfter('.key-hold-img');}else {$('.govno-image').attr('src',govnoSrc);}}$(".key-hold-img").fadeToggle(300,"linear");}}});showLink(2000);$('body').on('click','[data-svemir="on"]',function(){$('body').addClass('svemir-on');});$('body').on('click','[data-svemir="off"]',function(){$('body').removeClass('svemir-on');});$('body').on('click','.tunos',function(){$('body').addClass('teleskop-pokazan');$('.tunos').addClass('disabled');$('.t').removeClass('disabled');});$('body').on('click','.ot',function(){$('body').addClass('prozor-otvoren');$('.ot').addClass('disabled');$('.zat').add('.skok').removeClass('disabled');});$('body').on('click','.zat',function(){$('body').removeClass('prozor-otvoren');$('.zat').add('.skok').addClass('disabled');$('.zat').removeClass('disabled');});$('body').on('click','.sunos',function(){$('body').addClass('slika-pokazana');$('.sunos').addClass('disabled');$('.pipa').removeClass('disabled');});$('body').on('click','.skok',function(){$('body').addClass('prozorpodloga-pokazan');$('.skok').addClass('disabled');});$('body').on('click','.m5',function(){$('body').removeClass('prozorpodloga-pokazan');});$('body').on('click','a',function(e){if(!$(e.currentTarget).hasClass('tunos')){if($('body').hasClass('teleskop-pokazan')){$('body').addClass('teleskop-pokazan-uvjek');}}if(!$(e.currentTarget).hasClass('ot')){if($('body').hasClass('prozor-otvoren')){$('body').addClass('prozor-otvoren-uvjek');}}if(!$(e.currentTarget).hasClass('skok')){if($('body').hasClass('prozorpodloga-pokazan')){$('body').addClass('prozorpodloga-pokazan-uvjek');}}});}CustomStaff();addOnBlurListener(muteAudio,unMuteAudio);function showSvemir(){$('#svemir').attr('width',$('html').width());$('#svemir').attr('height',$('html').height());var canvas=document.getElementById("svemir");var ctx=canvas.getContext("2d");var dots=[];var numDots=20;var width=canvas.width;var height=canvas.height;for(var i=0;i < numDots;i++) {dots.push({x:Math.random() * width,y:Math.random() * height,vx:Math.random() * 10 - 5,vy:Math.random() * 10 - 5});}ctx.clearRect(0,0,width,height);var j,dot;for(j = 0;j < numDots;j++) {dot = dots[j];ctx.beginPath();ctx.arc(dot.x,dot.y,Math.floor(Math.random() * (3 - 1 + 1)) + 1,0,Math.PI * 2);ctx.fillStyle = "#f0eec5";ctx.fill();}}});}};});
+System.register('app/main.js', ['npm:jquery@3.2.1.js', 'app/Router.js', 'npm:backbone@1.3.3.js', 'npm:jquery-modal@0.9.1.js', 'app/pages/prvi.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h1.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h2.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h3.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h4.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h5.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h50q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/h70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/jedan.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a71.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a73.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a75.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a77.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a79.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a81.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a83.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a85.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a87.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a89.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a91.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a72.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a74.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a76.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a78.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a80.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a82.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a84.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a86.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a88.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a90.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a92.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a93.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a94.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a95.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a96.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a98.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a97.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a99.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a101.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a103.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a105.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a107.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a109.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a139.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a141.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a143.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a145.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a147.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a149.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a151.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a153.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a155.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a100.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a102.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a104.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a106.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a108.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a140.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a142.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a144.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a146.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a148.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a150.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a152.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a154.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a156.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/a158.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z1.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z2.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z3.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z4.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z5.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z6.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z7.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z8.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z9.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z9a.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z10.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z11.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z12.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z13.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z14.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z15.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z17.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z16.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z18.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z19.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z20.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z21.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z22.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z23.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z24.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z25.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z26.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z27.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z28.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z29.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z30.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z31.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z32.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z33.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z34.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z35.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z36.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z37.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z38.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z39.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z40.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z41.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z42.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z43.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z44.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z45.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z46.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z47.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z48.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z49.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z50.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z51.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z52.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z53.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z54.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z55.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z56.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z57.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z58.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z59.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z60.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z61.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z62.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z63.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z64.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z65.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z66.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z67.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z68.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z69.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z70.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z71.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z72.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z73.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z74.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z75.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z76.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z77.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z78.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z79.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z80.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z91.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z92.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z93.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z94.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z95.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z96.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z97.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z98.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z99.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z100.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z81.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z82.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z83.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z84.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z85.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z86.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z87.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z88.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z89.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z90.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/pet.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/dva.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/tri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/cetiri.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z101.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z102.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z103.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z104.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z105.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z106.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z107.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z108.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z109.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z110.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z111.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z112.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z113.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z114.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z115.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z116.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z117.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z118.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z119.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z120.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z121.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z122.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z123.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z124.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z125.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z126.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z127.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z128.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z129.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z130.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z131.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z132.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z133.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z134.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z135.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z136.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z137.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z138.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z139.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z140.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z141.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z142.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z143.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z144.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z145.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z146.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z147.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z148.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z149.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z150.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z150q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z151.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z152.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z153.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z154.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z155.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z156.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z157.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z158.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z159.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z160.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z161.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z162.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z163.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z164.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z165.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z166.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z167.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z168.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z169.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z170.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z171.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z172.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z173.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z174.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z175.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z176.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z177.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z178.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z179.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z180.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z181.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z182.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z183.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z184.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z185.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z186.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z187.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z188.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z189.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z190.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z191.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z192.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z193.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z194.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z195.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z196.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z197.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z198.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z199.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z200.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z201.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z202.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z203.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z204.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z205.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z206.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z207.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z208.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z209.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z210.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z211.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z212.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z213.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z214.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z215.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z216.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z217.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z218.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z219.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z220.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z221.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z222.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z223.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z224.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z225.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z226.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z227.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z228.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z229.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z230.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z231.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z232.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z233.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z234.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z235.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z235q.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z236.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z237.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z238.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z239.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z240.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z241.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z242.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z243.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z244.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z245.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z246.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z247.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z248.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z249.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z250.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z251.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z252.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z253.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z254.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z255.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z256.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z257.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z258.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z259.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z260.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z261.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z262.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z263.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z264.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z265.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z266.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z267.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z268.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z269.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z270.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z271.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z272.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z273.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z274.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z275.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z276.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z277.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z278.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z279.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z280.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z281.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z282.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z283.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z284.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z285.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z286.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z287.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z288.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z289.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z290.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z291.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z292.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z293.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z294.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z295.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z296.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z297.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z298.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z299.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z300.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z301.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z302.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z303.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z304.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z305.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z306.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z307.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z308.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z309.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z310.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z311.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z312.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z313.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z314.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z315.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z316.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z317.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z318.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z319.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z320.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z321.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z322.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z323.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z324.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z325.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z326.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z327.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z328.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z329.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z330.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z331.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z332.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z333.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z334.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z335.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z336.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z337.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z338.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z339.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z340.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z341.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z342.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z343.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z344.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z345.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z346.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z347.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z348.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z349.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z350.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z351.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z352.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z353.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z354.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z355.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z356.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z357.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z358.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/pages/z359.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerpocetak/primjerpocetak.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerwikichange/primjerwikichange.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerwikiread/primjerwikiread.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjersint/primjersint.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjersunos/primjersunos.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjertunos/primjertunos.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerpipa/primjerpipa.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerot/primjerot.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerzat/primjerzat.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjert/primjert.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerskok/primjerskok.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjerm5/primjerm5.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjersvemiron/primjersvemiron.hbs!github:davis/plugin-hbs@1.2.3.js', 'app/primjer/primjersvemiroff/primjersvemiroff.hbs!github:davis/plugin-hbs@1.2.3.js'], function (_export) {
+    // import z360                 from 'app/pages/z360.hbs!';
+
+    'use strict';
+
+    // import bdva                   from 'app/pages/bdva.hbs!';
+    var $, Router, Backbone, modal, index, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15, h16, h17, h18, h19, h20, h21, h22, h23, h24, h25, h26, h27, h28, h29, h30, h31, h32, h33, h34, h35, h36, h37, h38, h39, h40, h41, h42, h43, h44, h45, h46, h47, h48, h49, h50, h50q, h51, h52, h53, h54, h55, h56, h57, h58, h59, h60, h61, h62, h63, h64, h65, h66, h67, h68, h69, h70, jedan, a6, a8, a7, a9, a10, a11, a12, a13, a14, a15, a16, a18, a17, a19, a21, a23, a25, a27, a29, a20, a22, a24, a26, a28, a30, a31, a33, a37, a35, a39, a41, a43, a47, a45, a49, a51, a32, a34, a36, a38, a40, a42, a44, a46, a48, a50, a52, a54, a56, a58, a60, a62, a53, a55, a57, a59, a61, a63, a65, a67, a69, a71, a73, a75, a77, a79, a81, a83, a85, a87, a89, a91, a64, a66, a68, a70, a72, a74, a76, a78, a80, a82, a84, a86, a88, a90, a92, a93, a94, a95, a96, a98, a97, a99, a101, a103, a105, a107, a109, a139, a141, a143, a145, a147, a149, a151, a153, a155, a100, a102, a104, a106, a108, a140, a142, a144, a146, a148, a150, a152, a154, a156, a158, z1, z2, z3, z4, z5, z6, z7, z8, z9, z9a, z10, z11, z12, z13, z14, z15, z17, z16, z18, z19, z20, z21, z22, z23, z24, z25, z26, z27, z28, z29, z30, z31, z32, z33, z34, z35, z36, z37, z38, z39, z40, z41, z42, z43, z44, z45, z46, z47, z48, z49, z50, z51, z52, z53, z54, z55, z56, z57, z58, z59, z60, z61, z62, z63, z64, z65, z66, z67, z68, z69, z70, z71, z72, z73, z74, z75, z76, z77, z78, z79, z80, z91, z92, z93, z94, z95, z96, z97, z98, z99, z100, z81, z82, z83, z84, z85, z86, z87, z88, z89, z90, pet, dva, tri, cetiri, z101, z102, z103, z104, z105, z106, z107, z108, z109, z110, z111, z112, z113, z114, z115, z116, z117, z118, z119, z120, z121, z122, z123, z124, z125, z126, z127, z128, z129, z130, z131, z132, z133, z134, z135, z136, z137, z138, z139, z140, z141, z142, z143, z144, z145, z146, z147, z148, z149, z150, z150q, z151, z152, z153, z154, z155, z156, z157, z158, z159, z160, z161, z162, z163, z164, z165, z166, z167, z168, z169, z170, z171, z172, z173, z174, z175, z176, z177, z178, z179, z180, z181, z182, z183, z184, z185, z186, z187, z188, z189, z190, z191, z192, z193, z194, z195, z196, z197, z198, z199, z200, z201, z202, z203, z204, z205, z206, z207, z208, z209, z210, z211, z212, z213, z214, z215, z216, z217, z218, z219, z220, z221, z222, z223, z224, z225, z226, z227, z228, z229, z230, z231, z232, z233, z234, z235, z235q, z236, z237, z238, z239, z240, z241, z242, z243, z244, z245, z246, z247, z248, z249, z250, z251, z252, z253, z254, z255, z256, z257, z258, z259, z260, z261, z262, z263, z264, z265, z266, z267, z268, z269, z270, z271, z272, z273, z274, z275, z276, z277, z278, z279, z280, z281, z282, z283, z284, z285, z286, z287, z288, z289, z290, z291, z292, z293, z294, z295, z296, z297, z298, z299, z300, z301, z302, z303, z304, z305, z306, z307, z308, z309, z310, z311, z312, z313, z314, z315, z316, z317, z318, z319, z320, z321, z322, z323, z324, z325, z326, z327, z328, z329, z330, z331, z332, z333, z334, z335, z336, z337, z338, z339, z340, z341, z342, z343, z344, z345, z346, z347, z348, z349, z350, z351, z352, z353, z354, z355, z356, z357, z358, z359, primjerpocetak, primjerwikichange, primjerwikiread, primjersint, primjersunos, primjertunos, primjerpipa, primjerot, primjerzat, primjert, primjerskok, primjerm5, primjersvemiron, primjersvemiroff;
+    return {
+        setters: [function (_npmJquery321Js) {
+            $ = _npmJquery321Js['default'];
+        }, function (_appRouterJs) {
+            Router = _appRouterJs.Router;
+        }, function (_npmBackbone133Js) {
+            Backbone = _npmBackbone133Js['default'];
+        }, function (_npmJqueryModal091Js) {
+            modal = _npmJqueryModal091Js['default'];
+        }, function (_appPagesPrviHbsGithubDavisPluginHbs123Js) {
+            index = _appPagesPrviHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH1HbsGithubDavisPluginHbs123Js) {
+            h1 = _appPagesH1HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH2HbsGithubDavisPluginHbs123Js) {
+            h2 = _appPagesH2HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH3HbsGithubDavisPluginHbs123Js) {
+            h3 = _appPagesH3HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH4HbsGithubDavisPluginHbs123Js) {
+            h4 = _appPagesH4HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH5HbsGithubDavisPluginHbs123Js) {
+            h5 = _appPagesH5HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH6HbsGithubDavisPluginHbs123Js) {
+            h6 = _appPagesH6HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH7HbsGithubDavisPluginHbs123Js) {
+            h7 = _appPagesH7HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH8HbsGithubDavisPluginHbs123Js) {
+            h8 = _appPagesH8HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH9HbsGithubDavisPluginHbs123Js) {
+            h9 = _appPagesH9HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH10HbsGithubDavisPluginHbs123Js) {
+            h10 = _appPagesH10HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH11HbsGithubDavisPluginHbs123Js) {
+            h11 = _appPagesH11HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH12HbsGithubDavisPluginHbs123Js) {
+            h12 = _appPagesH12HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH13HbsGithubDavisPluginHbs123Js) {
+            h13 = _appPagesH13HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH14HbsGithubDavisPluginHbs123Js) {
+            h14 = _appPagesH14HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH15HbsGithubDavisPluginHbs123Js) {
+            h15 = _appPagesH15HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH16HbsGithubDavisPluginHbs123Js) {
+            h16 = _appPagesH16HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH17HbsGithubDavisPluginHbs123Js) {
+            h17 = _appPagesH17HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH18HbsGithubDavisPluginHbs123Js) {
+            h18 = _appPagesH18HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH19HbsGithubDavisPluginHbs123Js) {
+            h19 = _appPagesH19HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH20HbsGithubDavisPluginHbs123Js) {
+            h20 = _appPagesH20HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH21HbsGithubDavisPluginHbs123Js) {
+            h21 = _appPagesH21HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH22HbsGithubDavisPluginHbs123Js) {
+            h22 = _appPagesH22HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH23HbsGithubDavisPluginHbs123Js) {
+            h23 = _appPagesH23HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH24HbsGithubDavisPluginHbs123Js) {
+            h24 = _appPagesH24HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH25HbsGithubDavisPluginHbs123Js) {
+            h25 = _appPagesH25HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH26HbsGithubDavisPluginHbs123Js) {
+            h26 = _appPagesH26HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH27HbsGithubDavisPluginHbs123Js) {
+            h27 = _appPagesH27HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH28HbsGithubDavisPluginHbs123Js) {
+            h28 = _appPagesH28HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH29HbsGithubDavisPluginHbs123Js) {
+            h29 = _appPagesH29HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH30HbsGithubDavisPluginHbs123Js) {
+            h30 = _appPagesH30HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH31HbsGithubDavisPluginHbs123Js) {
+            h31 = _appPagesH31HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH32HbsGithubDavisPluginHbs123Js) {
+            h32 = _appPagesH32HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH33HbsGithubDavisPluginHbs123Js) {
+            h33 = _appPagesH33HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH34HbsGithubDavisPluginHbs123Js) {
+            h34 = _appPagesH34HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH35HbsGithubDavisPluginHbs123Js) {
+            h35 = _appPagesH35HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH36HbsGithubDavisPluginHbs123Js) {
+            h36 = _appPagesH36HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH37HbsGithubDavisPluginHbs123Js) {
+            h37 = _appPagesH37HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH38HbsGithubDavisPluginHbs123Js) {
+            h38 = _appPagesH38HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH39HbsGithubDavisPluginHbs123Js) {
+            h39 = _appPagesH39HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH40HbsGithubDavisPluginHbs123Js) {
+            h40 = _appPagesH40HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH41HbsGithubDavisPluginHbs123Js) {
+            h41 = _appPagesH41HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH42HbsGithubDavisPluginHbs123Js) {
+            h42 = _appPagesH42HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH43HbsGithubDavisPluginHbs123Js) {
+            h43 = _appPagesH43HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH44HbsGithubDavisPluginHbs123Js) {
+            h44 = _appPagesH44HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH45HbsGithubDavisPluginHbs123Js) {
+            h45 = _appPagesH45HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH46HbsGithubDavisPluginHbs123Js) {
+            h46 = _appPagesH46HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH47HbsGithubDavisPluginHbs123Js) {
+            h47 = _appPagesH47HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH48HbsGithubDavisPluginHbs123Js) {
+            h48 = _appPagesH48HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH49HbsGithubDavisPluginHbs123Js) {
+            h49 = _appPagesH49HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH50HbsGithubDavisPluginHbs123Js) {
+            h50 = _appPagesH50HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH50qHbsGithubDavisPluginHbs123Js) {
+            h50q = _appPagesH50qHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH51HbsGithubDavisPluginHbs123Js) {
+            h51 = _appPagesH51HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH52HbsGithubDavisPluginHbs123Js) {
+            h52 = _appPagesH52HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH53HbsGithubDavisPluginHbs123Js) {
+            h53 = _appPagesH53HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH54HbsGithubDavisPluginHbs123Js) {
+            h54 = _appPagesH54HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH55HbsGithubDavisPluginHbs123Js) {
+            h55 = _appPagesH55HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH56HbsGithubDavisPluginHbs123Js) {
+            h56 = _appPagesH56HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH57HbsGithubDavisPluginHbs123Js) {
+            h57 = _appPagesH57HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH58HbsGithubDavisPluginHbs123Js) {
+            h58 = _appPagesH58HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH59HbsGithubDavisPluginHbs123Js) {
+            h59 = _appPagesH59HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH60HbsGithubDavisPluginHbs123Js) {
+            h60 = _appPagesH60HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH61HbsGithubDavisPluginHbs123Js) {
+            h61 = _appPagesH61HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH62HbsGithubDavisPluginHbs123Js) {
+            h62 = _appPagesH62HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH63HbsGithubDavisPluginHbs123Js) {
+            h63 = _appPagesH63HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH64HbsGithubDavisPluginHbs123Js) {
+            h64 = _appPagesH64HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH65HbsGithubDavisPluginHbs123Js) {
+            h65 = _appPagesH65HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH66HbsGithubDavisPluginHbs123Js) {
+            h66 = _appPagesH66HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH67HbsGithubDavisPluginHbs123Js) {
+            h67 = _appPagesH67HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH68HbsGithubDavisPluginHbs123Js) {
+            h68 = _appPagesH68HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH69HbsGithubDavisPluginHbs123Js) {
+            h69 = _appPagesH69HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesH70HbsGithubDavisPluginHbs123Js) {
+            h70 = _appPagesH70HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesJedanHbsGithubDavisPluginHbs123Js) {
+            jedan = _appPagesJedanHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA6HbsGithubDavisPluginHbs123Js) {
+            a6 = _appPagesA6HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA8HbsGithubDavisPluginHbs123Js) {
+            a8 = _appPagesA8HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA7HbsGithubDavisPluginHbs123Js) {
+            a7 = _appPagesA7HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA9HbsGithubDavisPluginHbs123Js) {
+            a9 = _appPagesA9HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA10HbsGithubDavisPluginHbs123Js) {
+            a10 = _appPagesA10HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA11HbsGithubDavisPluginHbs123Js) {
+            a11 = _appPagesA11HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA12HbsGithubDavisPluginHbs123Js) {
+            a12 = _appPagesA12HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA13HbsGithubDavisPluginHbs123Js) {
+            a13 = _appPagesA13HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA14HbsGithubDavisPluginHbs123Js) {
+            a14 = _appPagesA14HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA15HbsGithubDavisPluginHbs123Js) {
+            a15 = _appPagesA15HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA16HbsGithubDavisPluginHbs123Js) {
+            a16 = _appPagesA16HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA18HbsGithubDavisPluginHbs123Js) {
+            a18 = _appPagesA18HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA17HbsGithubDavisPluginHbs123Js) {
+            a17 = _appPagesA17HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA19HbsGithubDavisPluginHbs123Js) {
+            a19 = _appPagesA19HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA21HbsGithubDavisPluginHbs123Js) {
+            a21 = _appPagesA21HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA23HbsGithubDavisPluginHbs123Js) {
+            a23 = _appPagesA23HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA25HbsGithubDavisPluginHbs123Js) {
+            a25 = _appPagesA25HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA27HbsGithubDavisPluginHbs123Js) {
+            a27 = _appPagesA27HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA29HbsGithubDavisPluginHbs123Js) {
+            a29 = _appPagesA29HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA20HbsGithubDavisPluginHbs123Js) {
+            a20 = _appPagesA20HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA22HbsGithubDavisPluginHbs123Js) {
+            a22 = _appPagesA22HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA24HbsGithubDavisPluginHbs123Js) {
+            a24 = _appPagesA24HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA26HbsGithubDavisPluginHbs123Js) {
+            a26 = _appPagesA26HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA28HbsGithubDavisPluginHbs123Js) {
+            a28 = _appPagesA28HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA30HbsGithubDavisPluginHbs123Js) {
+            a30 = _appPagesA30HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA31HbsGithubDavisPluginHbs123Js) {
+            a31 = _appPagesA31HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA33HbsGithubDavisPluginHbs123Js) {
+            a33 = _appPagesA33HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA37HbsGithubDavisPluginHbs123Js) {
+            a37 = _appPagesA37HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA35HbsGithubDavisPluginHbs123Js) {
+            a35 = _appPagesA35HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA39HbsGithubDavisPluginHbs123Js) {
+            a39 = _appPagesA39HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA41HbsGithubDavisPluginHbs123Js) {
+            a41 = _appPagesA41HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA43HbsGithubDavisPluginHbs123Js) {
+            a43 = _appPagesA43HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA47HbsGithubDavisPluginHbs123Js) {
+            a47 = _appPagesA47HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA45HbsGithubDavisPluginHbs123Js) {
+            a45 = _appPagesA45HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA49HbsGithubDavisPluginHbs123Js) {
+            a49 = _appPagesA49HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA51HbsGithubDavisPluginHbs123Js) {
+            a51 = _appPagesA51HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA32HbsGithubDavisPluginHbs123Js) {
+            a32 = _appPagesA32HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA34HbsGithubDavisPluginHbs123Js) {
+            a34 = _appPagesA34HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA36HbsGithubDavisPluginHbs123Js) {
+            a36 = _appPagesA36HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA38HbsGithubDavisPluginHbs123Js) {
+            a38 = _appPagesA38HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA40HbsGithubDavisPluginHbs123Js) {
+            a40 = _appPagesA40HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA42HbsGithubDavisPluginHbs123Js) {
+            a42 = _appPagesA42HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA44HbsGithubDavisPluginHbs123Js) {
+            a44 = _appPagesA44HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA46HbsGithubDavisPluginHbs123Js) {
+            a46 = _appPagesA46HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA48HbsGithubDavisPluginHbs123Js) {
+            a48 = _appPagesA48HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA50HbsGithubDavisPluginHbs123Js) {
+            a50 = _appPagesA50HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA52HbsGithubDavisPluginHbs123Js) {
+            a52 = _appPagesA52HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA54HbsGithubDavisPluginHbs123Js) {
+            a54 = _appPagesA54HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA56HbsGithubDavisPluginHbs123Js) {
+            a56 = _appPagesA56HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA58HbsGithubDavisPluginHbs123Js) {
+            a58 = _appPagesA58HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA60HbsGithubDavisPluginHbs123Js) {
+            a60 = _appPagesA60HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA62HbsGithubDavisPluginHbs123Js) {
+            a62 = _appPagesA62HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA53HbsGithubDavisPluginHbs123Js) {
+            a53 = _appPagesA53HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA55HbsGithubDavisPluginHbs123Js) {
+            a55 = _appPagesA55HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA57HbsGithubDavisPluginHbs123Js) {
+            a57 = _appPagesA57HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA59HbsGithubDavisPluginHbs123Js) {
+            a59 = _appPagesA59HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA61HbsGithubDavisPluginHbs123Js) {
+            a61 = _appPagesA61HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA63HbsGithubDavisPluginHbs123Js) {
+            a63 = _appPagesA63HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA65HbsGithubDavisPluginHbs123Js) {
+            a65 = _appPagesA65HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA67HbsGithubDavisPluginHbs123Js) {
+            a67 = _appPagesA67HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA69HbsGithubDavisPluginHbs123Js) {
+            a69 = _appPagesA69HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA71HbsGithubDavisPluginHbs123Js) {
+            a71 = _appPagesA71HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA73HbsGithubDavisPluginHbs123Js) {
+            a73 = _appPagesA73HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA75HbsGithubDavisPluginHbs123Js) {
+            a75 = _appPagesA75HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA77HbsGithubDavisPluginHbs123Js) {
+            a77 = _appPagesA77HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA79HbsGithubDavisPluginHbs123Js) {
+            a79 = _appPagesA79HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA81HbsGithubDavisPluginHbs123Js) {
+            a81 = _appPagesA81HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA83HbsGithubDavisPluginHbs123Js) {
+            a83 = _appPagesA83HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA85HbsGithubDavisPluginHbs123Js) {
+            a85 = _appPagesA85HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA87HbsGithubDavisPluginHbs123Js) {
+            a87 = _appPagesA87HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA89HbsGithubDavisPluginHbs123Js) {
+            a89 = _appPagesA89HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA91HbsGithubDavisPluginHbs123Js) {
+            a91 = _appPagesA91HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA64HbsGithubDavisPluginHbs123Js) {
+            a64 = _appPagesA64HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA66HbsGithubDavisPluginHbs123Js) {
+            a66 = _appPagesA66HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA68HbsGithubDavisPluginHbs123Js) {
+            a68 = _appPagesA68HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA70HbsGithubDavisPluginHbs123Js) {
+            a70 = _appPagesA70HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA72HbsGithubDavisPluginHbs123Js) {
+            a72 = _appPagesA72HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA74HbsGithubDavisPluginHbs123Js) {
+            a74 = _appPagesA74HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA76HbsGithubDavisPluginHbs123Js) {
+            a76 = _appPagesA76HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA78HbsGithubDavisPluginHbs123Js) {
+            a78 = _appPagesA78HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA80HbsGithubDavisPluginHbs123Js) {
+            a80 = _appPagesA80HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA82HbsGithubDavisPluginHbs123Js) {
+            a82 = _appPagesA82HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA84HbsGithubDavisPluginHbs123Js) {
+            a84 = _appPagesA84HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA86HbsGithubDavisPluginHbs123Js) {
+            a86 = _appPagesA86HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA88HbsGithubDavisPluginHbs123Js) {
+            a88 = _appPagesA88HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA90HbsGithubDavisPluginHbs123Js) {
+            a90 = _appPagesA90HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA92HbsGithubDavisPluginHbs123Js) {
+            a92 = _appPagesA92HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA93HbsGithubDavisPluginHbs123Js) {
+            a93 = _appPagesA93HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA94HbsGithubDavisPluginHbs123Js) {
+            a94 = _appPagesA94HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA95HbsGithubDavisPluginHbs123Js) {
+            a95 = _appPagesA95HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA96HbsGithubDavisPluginHbs123Js) {
+            a96 = _appPagesA96HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA98HbsGithubDavisPluginHbs123Js) {
+            a98 = _appPagesA98HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA97HbsGithubDavisPluginHbs123Js) {
+            a97 = _appPagesA97HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA99HbsGithubDavisPluginHbs123Js) {
+            a99 = _appPagesA99HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA101HbsGithubDavisPluginHbs123Js) {
+            a101 = _appPagesA101HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA103HbsGithubDavisPluginHbs123Js) {
+            a103 = _appPagesA103HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA105HbsGithubDavisPluginHbs123Js) {
+            a105 = _appPagesA105HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA107HbsGithubDavisPluginHbs123Js) {
+            a107 = _appPagesA107HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA109HbsGithubDavisPluginHbs123Js) {
+            a109 = _appPagesA109HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA139HbsGithubDavisPluginHbs123Js) {
+            a139 = _appPagesA139HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA141HbsGithubDavisPluginHbs123Js) {
+            a141 = _appPagesA141HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA143HbsGithubDavisPluginHbs123Js) {
+            a143 = _appPagesA143HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA145HbsGithubDavisPluginHbs123Js) {
+            a145 = _appPagesA145HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA147HbsGithubDavisPluginHbs123Js) {
+            a147 = _appPagesA147HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA149HbsGithubDavisPluginHbs123Js) {
+            a149 = _appPagesA149HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA151HbsGithubDavisPluginHbs123Js) {
+            a151 = _appPagesA151HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA153HbsGithubDavisPluginHbs123Js) {
+            a153 = _appPagesA153HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA155HbsGithubDavisPluginHbs123Js) {
+            a155 = _appPagesA155HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA100HbsGithubDavisPluginHbs123Js) {
+            a100 = _appPagesA100HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA102HbsGithubDavisPluginHbs123Js) {
+            a102 = _appPagesA102HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA104HbsGithubDavisPluginHbs123Js) {
+            a104 = _appPagesA104HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA106HbsGithubDavisPluginHbs123Js) {
+            a106 = _appPagesA106HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA108HbsGithubDavisPluginHbs123Js) {
+            a108 = _appPagesA108HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA140HbsGithubDavisPluginHbs123Js) {
+            a140 = _appPagesA140HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA142HbsGithubDavisPluginHbs123Js) {
+            a142 = _appPagesA142HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA144HbsGithubDavisPluginHbs123Js) {
+            a144 = _appPagesA144HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA146HbsGithubDavisPluginHbs123Js) {
+            a146 = _appPagesA146HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA148HbsGithubDavisPluginHbs123Js) {
+            a148 = _appPagesA148HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA150HbsGithubDavisPluginHbs123Js) {
+            a150 = _appPagesA150HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA152HbsGithubDavisPluginHbs123Js) {
+            a152 = _appPagesA152HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA154HbsGithubDavisPluginHbs123Js) {
+            a154 = _appPagesA154HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA156HbsGithubDavisPluginHbs123Js) {
+            a156 = _appPagesA156HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesA158HbsGithubDavisPluginHbs123Js) {
+            a158 = _appPagesA158HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ1HbsGithubDavisPluginHbs123Js) {
+            z1 = _appPagesZ1HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ2HbsGithubDavisPluginHbs123Js) {
+            z2 = _appPagesZ2HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ3HbsGithubDavisPluginHbs123Js) {
+            z3 = _appPagesZ3HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ4HbsGithubDavisPluginHbs123Js) {
+            z4 = _appPagesZ4HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ5HbsGithubDavisPluginHbs123Js) {
+            z5 = _appPagesZ5HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ6HbsGithubDavisPluginHbs123Js) {
+            z6 = _appPagesZ6HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ7HbsGithubDavisPluginHbs123Js) {
+            z7 = _appPagesZ7HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ8HbsGithubDavisPluginHbs123Js) {
+            z8 = _appPagesZ8HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ9HbsGithubDavisPluginHbs123Js) {
+            z9 = _appPagesZ9HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ9aHbsGithubDavisPluginHbs123Js) {
+            z9a = _appPagesZ9aHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ10HbsGithubDavisPluginHbs123Js) {
+            z10 = _appPagesZ10HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ11HbsGithubDavisPluginHbs123Js) {
+            z11 = _appPagesZ11HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ12HbsGithubDavisPluginHbs123Js) {
+            z12 = _appPagesZ12HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ13HbsGithubDavisPluginHbs123Js) {
+            z13 = _appPagesZ13HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ14HbsGithubDavisPluginHbs123Js) {
+            z14 = _appPagesZ14HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ15HbsGithubDavisPluginHbs123Js) {
+            z15 = _appPagesZ15HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ17HbsGithubDavisPluginHbs123Js) {
+            z17 = _appPagesZ17HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ16HbsGithubDavisPluginHbs123Js) {
+            z16 = _appPagesZ16HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ18HbsGithubDavisPluginHbs123Js) {
+            z18 = _appPagesZ18HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ19HbsGithubDavisPluginHbs123Js) {
+            z19 = _appPagesZ19HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ20HbsGithubDavisPluginHbs123Js) {
+            z20 = _appPagesZ20HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ21HbsGithubDavisPluginHbs123Js) {
+            z21 = _appPagesZ21HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ22HbsGithubDavisPluginHbs123Js) {
+            z22 = _appPagesZ22HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ23HbsGithubDavisPluginHbs123Js) {
+            z23 = _appPagesZ23HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ24HbsGithubDavisPluginHbs123Js) {
+            z24 = _appPagesZ24HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ25HbsGithubDavisPluginHbs123Js) {
+            z25 = _appPagesZ25HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ26HbsGithubDavisPluginHbs123Js) {
+            z26 = _appPagesZ26HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ27HbsGithubDavisPluginHbs123Js) {
+            z27 = _appPagesZ27HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ28HbsGithubDavisPluginHbs123Js) {
+            z28 = _appPagesZ28HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ29HbsGithubDavisPluginHbs123Js) {
+            z29 = _appPagesZ29HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ30HbsGithubDavisPluginHbs123Js) {
+            z30 = _appPagesZ30HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ31HbsGithubDavisPluginHbs123Js) {
+            z31 = _appPagesZ31HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ32HbsGithubDavisPluginHbs123Js) {
+            z32 = _appPagesZ32HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ33HbsGithubDavisPluginHbs123Js) {
+            z33 = _appPagesZ33HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ34HbsGithubDavisPluginHbs123Js) {
+            z34 = _appPagesZ34HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ35HbsGithubDavisPluginHbs123Js) {
+            z35 = _appPagesZ35HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ36HbsGithubDavisPluginHbs123Js) {
+            z36 = _appPagesZ36HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ37HbsGithubDavisPluginHbs123Js) {
+            z37 = _appPagesZ37HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ38HbsGithubDavisPluginHbs123Js) {
+            z38 = _appPagesZ38HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ39HbsGithubDavisPluginHbs123Js) {
+            z39 = _appPagesZ39HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ40HbsGithubDavisPluginHbs123Js) {
+            z40 = _appPagesZ40HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ41HbsGithubDavisPluginHbs123Js) {
+            z41 = _appPagesZ41HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ42HbsGithubDavisPluginHbs123Js) {
+            z42 = _appPagesZ42HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ43HbsGithubDavisPluginHbs123Js) {
+            z43 = _appPagesZ43HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ44HbsGithubDavisPluginHbs123Js) {
+            z44 = _appPagesZ44HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ45HbsGithubDavisPluginHbs123Js) {
+            z45 = _appPagesZ45HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ46HbsGithubDavisPluginHbs123Js) {
+            z46 = _appPagesZ46HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ47HbsGithubDavisPluginHbs123Js) {
+            z47 = _appPagesZ47HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ48HbsGithubDavisPluginHbs123Js) {
+            z48 = _appPagesZ48HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ49HbsGithubDavisPluginHbs123Js) {
+            z49 = _appPagesZ49HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ50HbsGithubDavisPluginHbs123Js) {
+            z50 = _appPagesZ50HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ51HbsGithubDavisPluginHbs123Js) {
+            z51 = _appPagesZ51HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ52HbsGithubDavisPluginHbs123Js) {
+            z52 = _appPagesZ52HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ53HbsGithubDavisPluginHbs123Js) {
+            z53 = _appPagesZ53HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ54HbsGithubDavisPluginHbs123Js) {
+            z54 = _appPagesZ54HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ55HbsGithubDavisPluginHbs123Js) {
+            z55 = _appPagesZ55HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ56HbsGithubDavisPluginHbs123Js) {
+            z56 = _appPagesZ56HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ57HbsGithubDavisPluginHbs123Js) {
+            z57 = _appPagesZ57HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ58HbsGithubDavisPluginHbs123Js) {
+            z58 = _appPagesZ58HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ59HbsGithubDavisPluginHbs123Js) {
+            z59 = _appPagesZ59HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ60HbsGithubDavisPluginHbs123Js) {
+            z60 = _appPagesZ60HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ61HbsGithubDavisPluginHbs123Js) {
+            z61 = _appPagesZ61HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ62HbsGithubDavisPluginHbs123Js) {
+            z62 = _appPagesZ62HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ63HbsGithubDavisPluginHbs123Js) {
+            z63 = _appPagesZ63HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ64HbsGithubDavisPluginHbs123Js) {
+            z64 = _appPagesZ64HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ65HbsGithubDavisPluginHbs123Js) {
+            z65 = _appPagesZ65HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ66HbsGithubDavisPluginHbs123Js) {
+            z66 = _appPagesZ66HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ67HbsGithubDavisPluginHbs123Js) {
+            z67 = _appPagesZ67HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ68HbsGithubDavisPluginHbs123Js) {
+            z68 = _appPagesZ68HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ69HbsGithubDavisPluginHbs123Js) {
+            z69 = _appPagesZ69HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ70HbsGithubDavisPluginHbs123Js) {
+            z70 = _appPagesZ70HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ71HbsGithubDavisPluginHbs123Js) {
+            z71 = _appPagesZ71HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ72HbsGithubDavisPluginHbs123Js) {
+            z72 = _appPagesZ72HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ73HbsGithubDavisPluginHbs123Js) {
+            z73 = _appPagesZ73HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ74HbsGithubDavisPluginHbs123Js) {
+            z74 = _appPagesZ74HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ75HbsGithubDavisPluginHbs123Js) {
+            z75 = _appPagesZ75HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ76HbsGithubDavisPluginHbs123Js) {
+            z76 = _appPagesZ76HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ77HbsGithubDavisPluginHbs123Js) {
+            z77 = _appPagesZ77HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ78HbsGithubDavisPluginHbs123Js) {
+            z78 = _appPagesZ78HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ79HbsGithubDavisPluginHbs123Js) {
+            z79 = _appPagesZ79HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ80HbsGithubDavisPluginHbs123Js) {
+            z80 = _appPagesZ80HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ91HbsGithubDavisPluginHbs123Js) {
+            z91 = _appPagesZ91HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ92HbsGithubDavisPluginHbs123Js) {
+            z92 = _appPagesZ92HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ93HbsGithubDavisPluginHbs123Js) {
+            z93 = _appPagesZ93HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ94HbsGithubDavisPluginHbs123Js) {
+            z94 = _appPagesZ94HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ95HbsGithubDavisPluginHbs123Js) {
+            z95 = _appPagesZ95HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ96HbsGithubDavisPluginHbs123Js) {
+            z96 = _appPagesZ96HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ97HbsGithubDavisPluginHbs123Js) {
+            z97 = _appPagesZ97HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ98HbsGithubDavisPluginHbs123Js) {
+            z98 = _appPagesZ98HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ99HbsGithubDavisPluginHbs123Js) {
+            z99 = _appPagesZ99HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ100HbsGithubDavisPluginHbs123Js) {
+            z100 = _appPagesZ100HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ81HbsGithubDavisPluginHbs123Js) {
+            z81 = _appPagesZ81HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ82HbsGithubDavisPluginHbs123Js) {
+            z82 = _appPagesZ82HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ83HbsGithubDavisPluginHbs123Js) {
+            z83 = _appPagesZ83HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ84HbsGithubDavisPluginHbs123Js) {
+            z84 = _appPagesZ84HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ85HbsGithubDavisPluginHbs123Js) {
+            z85 = _appPagesZ85HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ86HbsGithubDavisPluginHbs123Js) {
+            z86 = _appPagesZ86HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ87HbsGithubDavisPluginHbs123Js) {
+            z87 = _appPagesZ87HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ88HbsGithubDavisPluginHbs123Js) {
+            z88 = _appPagesZ88HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ89HbsGithubDavisPluginHbs123Js) {
+            z89 = _appPagesZ89HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ90HbsGithubDavisPluginHbs123Js) {
+            z90 = _appPagesZ90HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesPetHbsGithubDavisPluginHbs123Js) {
+            pet = _appPagesPetHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesDvaHbsGithubDavisPluginHbs123Js) {
+            dva = _appPagesDvaHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesTriHbsGithubDavisPluginHbs123Js) {
+            tri = _appPagesTriHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesCetiriHbsGithubDavisPluginHbs123Js) {
+            cetiri = _appPagesCetiriHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ101HbsGithubDavisPluginHbs123Js) {
+            z101 = _appPagesZ101HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ102HbsGithubDavisPluginHbs123Js) {
+            z102 = _appPagesZ102HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ103HbsGithubDavisPluginHbs123Js) {
+            z103 = _appPagesZ103HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ104HbsGithubDavisPluginHbs123Js) {
+            z104 = _appPagesZ104HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ105HbsGithubDavisPluginHbs123Js) {
+            z105 = _appPagesZ105HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ106HbsGithubDavisPluginHbs123Js) {
+            z106 = _appPagesZ106HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ107HbsGithubDavisPluginHbs123Js) {
+            z107 = _appPagesZ107HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ108HbsGithubDavisPluginHbs123Js) {
+            z108 = _appPagesZ108HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ109HbsGithubDavisPluginHbs123Js) {
+            z109 = _appPagesZ109HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ110HbsGithubDavisPluginHbs123Js) {
+            z110 = _appPagesZ110HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ111HbsGithubDavisPluginHbs123Js) {
+            z111 = _appPagesZ111HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ112HbsGithubDavisPluginHbs123Js) {
+            z112 = _appPagesZ112HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ113HbsGithubDavisPluginHbs123Js) {
+            z113 = _appPagesZ113HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ114HbsGithubDavisPluginHbs123Js) {
+            z114 = _appPagesZ114HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ115HbsGithubDavisPluginHbs123Js) {
+            z115 = _appPagesZ115HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ116HbsGithubDavisPluginHbs123Js) {
+            z116 = _appPagesZ116HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ117HbsGithubDavisPluginHbs123Js) {
+            z117 = _appPagesZ117HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ118HbsGithubDavisPluginHbs123Js) {
+            z118 = _appPagesZ118HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ119HbsGithubDavisPluginHbs123Js) {
+            z119 = _appPagesZ119HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ120HbsGithubDavisPluginHbs123Js) {
+            z120 = _appPagesZ120HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ121HbsGithubDavisPluginHbs123Js) {
+            z121 = _appPagesZ121HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ122HbsGithubDavisPluginHbs123Js) {
+            z122 = _appPagesZ122HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ123HbsGithubDavisPluginHbs123Js) {
+            z123 = _appPagesZ123HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ124HbsGithubDavisPluginHbs123Js) {
+            z124 = _appPagesZ124HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ125HbsGithubDavisPluginHbs123Js) {
+            z125 = _appPagesZ125HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ126HbsGithubDavisPluginHbs123Js) {
+            z126 = _appPagesZ126HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ127HbsGithubDavisPluginHbs123Js) {
+            z127 = _appPagesZ127HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ128HbsGithubDavisPluginHbs123Js) {
+            z128 = _appPagesZ128HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ129HbsGithubDavisPluginHbs123Js) {
+            z129 = _appPagesZ129HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ130HbsGithubDavisPluginHbs123Js) {
+            z130 = _appPagesZ130HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ131HbsGithubDavisPluginHbs123Js) {
+            z131 = _appPagesZ131HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ132HbsGithubDavisPluginHbs123Js) {
+            z132 = _appPagesZ132HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ133HbsGithubDavisPluginHbs123Js) {
+            z133 = _appPagesZ133HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ134HbsGithubDavisPluginHbs123Js) {
+            z134 = _appPagesZ134HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ135HbsGithubDavisPluginHbs123Js) {
+            z135 = _appPagesZ135HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ136HbsGithubDavisPluginHbs123Js) {
+            z136 = _appPagesZ136HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ137HbsGithubDavisPluginHbs123Js) {
+            z137 = _appPagesZ137HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ138HbsGithubDavisPluginHbs123Js) {
+            z138 = _appPagesZ138HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ139HbsGithubDavisPluginHbs123Js) {
+            z139 = _appPagesZ139HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ140HbsGithubDavisPluginHbs123Js) {
+            z140 = _appPagesZ140HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ141HbsGithubDavisPluginHbs123Js) {
+            z141 = _appPagesZ141HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ142HbsGithubDavisPluginHbs123Js) {
+            z142 = _appPagesZ142HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ143HbsGithubDavisPluginHbs123Js) {
+            z143 = _appPagesZ143HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ144HbsGithubDavisPluginHbs123Js) {
+            z144 = _appPagesZ144HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ145HbsGithubDavisPluginHbs123Js) {
+            z145 = _appPagesZ145HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ146HbsGithubDavisPluginHbs123Js) {
+            z146 = _appPagesZ146HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ147HbsGithubDavisPluginHbs123Js) {
+            z147 = _appPagesZ147HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ148HbsGithubDavisPluginHbs123Js) {
+            z148 = _appPagesZ148HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ149HbsGithubDavisPluginHbs123Js) {
+            z149 = _appPagesZ149HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ150HbsGithubDavisPluginHbs123Js) {
+            z150 = _appPagesZ150HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ150qHbsGithubDavisPluginHbs123Js) {
+            z150q = _appPagesZ150qHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ151HbsGithubDavisPluginHbs123Js) {
+            z151 = _appPagesZ151HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ152HbsGithubDavisPluginHbs123Js) {
+            z152 = _appPagesZ152HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ153HbsGithubDavisPluginHbs123Js) {
+            z153 = _appPagesZ153HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ154HbsGithubDavisPluginHbs123Js) {
+            z154 = _appPagesZ154HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ155HbsGithubDavisPluginHbs123Js) {
+            z155 = _appPagesZ155HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ156HbsGithubDavisPluginHbs123Js) {
+            z156 = _appPagesZ156HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ157HbsGithubDavisPluginHbs123Js) {
+            z157 = _appPagesZ157HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ158HbsGithubDavisPluginHbs123Js) {
+            z158 = _appPagesZ158HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ159HbsGithubDavisPluginHbs123Js) {
+            z159 = _appPagesZ159HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ160HbsGithubDavisPluginHbs123Js) {
+            z160 = _appPagesZ160HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ161HbsGithubDavisPluginHbs123Js) {
+            z161 = _appPagesZ161HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ162HbsGithubDavisPluginHbs123Js) {
+            z162 = _appPagesZ162HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ163HbsGithubDavisPluginHbs123Js) {
+            z163 = _appPagesZ163HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ164HbsGithubDavisPluginHbs123Js) {
+            z164 = _appPagesZ164HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ165HbsGithubDavisPluginHbs123Js) {
+            z165 = _appPagesZ165HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ166HbsGithubDavisPluginHbs123Js) {
+            z166 = _appPagesZ166HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ167HbsGithubDavisPluginHbs123Js) {
+            z167 = _appPagesZ167HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ168HbsGithubDavisPluginHbs123Js) {
+            z168 = _appPagesZ168HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ169HbsGithubDavisPluginHbs123Js) {
+            z169 = _appPagesZ169HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ170HbsGithubDavisPluginHbs123Js) {
+            z170 = _appPagesZ170HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ171HbsGithubDavisPluginHbs123Js) {
+            z171 = _appPagesZ171HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ172HbsGithubDavisPluginHbs123Js) {
+            z172 = _appPagesZ172HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ173HbsGithubDavisPluginHbs123Js) {
+            z173 = _appPagesZ173HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ174HbsGithubDavisPluginHbs123Js) {
+            z174 = _appPagesZ174HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ175HbsGithubDavisPluginHbs123Js) {
+            z175 = _appPagesZ175HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ176HbsGithubDavisPluginHbs123Js) {
+            z176 = _appPagesZ176HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ177HbsGithubDavisPluginHbs123Js) {
+            z177 = _appPagesZ177HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ178HbsGithubDavisPluginHbs123Js) {
+            z178 = _appPagesZ178HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ179HbsGithubDavisPluginHbs123Js) {
+            z179 = _appPagesZ179HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ180HbsGithubDavisPluginHbs123Js) {
+            z180 = _appPagesZ180HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ181HbsGithubDavisPluginHbs123Js) {
+            z181 = _appPagesZ181HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ182HbsGithubDavisPluginHbs123Js) {
+            z182 = _appPagesZ182HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ183HbsGithubDavisPluginHbs123Js) {
+            z183 = _appPagesZ183HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ184HbsGithubDavisPluginHbs123Js) {
+            z184 = _appPagesZ184HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ185HbsGithubDavisPluginHbs123Js) {
+            z185 = _appPagesZ185HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ186HbsGithubDavisPluginHbs123Js) {
+            z186 = _appPagesZ186HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ187HbsGithubDavisPluginHbs123Js) {
+            z187 = _appPagesZ187HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ188HbsGithubDavisPluginHbs123Js) {
+            z188 = _appPagesZ188HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ189HbsGithubDavisPluginHbs123Js) {
+            z189 = _appPagesZ189HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ190HbsGithubDavisPluginHbs123Js) {
+            z190 = _appPagesZ190HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ191HbsGithubDavisPluginHbs123Js) {
+            z191 = _appPagesZ191HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ192HbsGithubDavisPluginHbs123Js) {
+            z192 = _appPagesZ192HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ193HbsGithubDavisPluginHbs123Js) {
+            z193 = _appPagesZ193HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ194HbsGithubDavisPluginHbs123Js) {
+            z194 = _appPagesZ194HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ195HbsGithubDavisPluginHbs123Js) {
+            z195 = _appPagesZ195HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ196HbsGithubDavisPluginHbs123Js) {
+            z196 = _appPagesZ196HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ197HbsGithubDavisPluginHbs123Js) {
+            z197 = _appPagesZ197HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ198HbsGithubDavisPluginHbs123Js) {
+            z198 = _appPagesZ198HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ199HbsGithubDavisPluginHbs123Js) {
+            z199 = _appPagesZ199HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ200HbsGithubDavisPluginHbs123Js) {
+            z200 = _appPagesZ200HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ201HbsGithubDavisPluginHbs123Js) {
+            z201 = _appPagesZ201HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ202HbsGithubDavisPluginHbs123Js) {
+            z202 = _appPagesZ202HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ203HbsGithubDavisPluginHbs123Js) {
+            z203 = _appPagesZ203HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ204HbsGithubDavisPluginHbs123Js) {
+            z204 = _appPagesZ204HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ205HbsGithubDavisPluginHbs123Js) {
+            z205 = _appPagesZ205HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ206HbsGithubDavisPluginHbs123Js) {
+            z206 = _appPagesZ206HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ207HbsGithubDavisPluginHbs123Js) {
+            z207 = _appPagesZ207HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ208HbsGithubDavisPluginHbs123Js) {
+            z208 = _appPagesZ208HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ209HbsGithubDavisPluginHbs123Js) {
+            z209 = _appPagesZ209HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ210HbsGithubDavisPluginHbs123Js) {
+            z210 = _appPagesZ210HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ211HbsGithubDavisPluginHbs123Js) {
+            z211 = _appPagesZ211HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ212HbsGithubDavisPluginHbs123Js) {
+            z212 = _appPagesZ212HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ213HbsGithubDavisPluginHbs123Js) {
+            z213 = _appPagesZ213HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ214HbsGithubDavisPluginHbs123Js) {
+            z214 = _appPagesZ214HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ215HbsGithubDavisPluginHbs123Js) {
+            z215 = _appPagesZ215HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ216HbsGithubDavisPluginHbs123Js) {
+            z216 = _appPagesZ216HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ217HbsGithubDavisPluginHbs123Js) {
+            z217 = _appPagesZ217HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ218HbsGithubDavisPluginHbs123Js) {
+            z218 = _appPagesZ218HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ219HbsGithubDavisPluginHbs123Js) {
+            z219 = _appPagesZ219HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ220HbsGithubDavisPluginHbs123Js) {
+            z220 = _appPagesZ220HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ221HbsGithubDavisPluginHbs123Js) {
+            z221 = _appPagesZ221HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ222HbsGithubDavisPluginHbs123Js) {
+            z222 = _appPagesZ222HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ223HbsGithubDavisPluginHbs123Js) {
+            z223 = _appPagesZ223HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ224HbsGithubDavisPluginHbs123Js) {
+            z224 = _appPagesZ224HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ225HbsGithubDavisPluginHbs123Js) {
+            z225 = _appPagesZ225HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ226HbsGithubDavisPluginHbs123Js) {
+            z226 = _appPagesZ226HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ227HbsGithubDavisPluginHbs123Js) {
+            z227 = _appPagesZ227HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ228HbsGithubDavisPluginHbs123Js) {
+            z228 = _appPagesZ228HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ229HbsGithubDavisPluginHbs123Js) {
+            z229 = _appPagesZ229HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ230HbsGithubDavisPluginHbs123Js) {
+            z230 = _appPagesZ230HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ231HbsGithubDavisPluginHbs123Js) {
+            z231 = _appPagesZ231HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ232HbsGithubDavisPluginHbs123Js) {
+            z232 = _appPagesZ232HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ233HbsGithubDavisPluginHbs123Js) {
+            z233 = _appPagesZ233HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ234HbsGithubDavisPluginHbs123Js) {
+            z234 = _appPagesZ234HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ235HbsGithubDavisPluginHbs123Js) {
+            z235 = _appPagesZ235HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ235qHbsGithubDavisPluginHbs123Js) {
+            z235q = _appPagesZ235qHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ236HbsGithubDavisPluginHbs123Js) {
+            z236 = _appPagesZ236HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ237HbsGithubDavisPluginHbs123Js) {
+            z237 = _appPagesZ237HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ238HbsGithubDavisPluginHbs123Js) {
+            z238 = _appPagesZ238HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ239HbsGithubDavisPluginHbs123Js) {
+            z239 = _appPagesZ239HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ240HbsGithubDavisPluginHbs123Js) {
+            z240 = _appPagesZ240HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ241HbsGithubDavisPluginHbs123Js) {
+            z241 = _appPagesZ241HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ242HbsGithubDavisPluginHbs123Js) {
+            z242 = _appPagesZ242HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ243HbsGithubDavisPluginHbs123Js) {
+            z243 = _appPagesZ243HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ244HbsGithubDavisPluginHbs123Js) {
+            z244 = _appPagesZ244HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ245HbsGithubDavisPluginHbs123Js) {
+            z245 = _appPagesZ245HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ246HbsGithubDavisPluginHbs123Js) {
+            z246 = _appPagesZ246HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ247HbsGithubDavisPluginHbs123Js) {
+            z247 = _appPagesZ247HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ248HbsGithubDavisPluginHbs123Js) {
+            z248 = _appPagesZ248HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ249HbsGithubDavisPluginHbs123Js) {
+            z249 = _appPagesZ249HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ250HbsGithubDavisPluginHbs123Js) {
+            z250 = _appPagesZ250HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ251HbsGithubDavisPluginHbs123Js) {
+            z251 = _appPagesZ251HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ252HbsGithubDavisPluginHbs123Js) {
+            z252 = _appPagesZ252HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ253HbsGithubDavisPluginHbs123Js) {
+            z253 = _appPagesZ253HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ254HbsGithubDavisPluginHbs123Js) {
+            z254 = _appPagesZ254HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ255HbsGithubDavisPluginHbs123Js) {
+            z255 = _appPagesZ255HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ256HbsGithubDavisPluginHbs123Js) {
+            z256 = _appPagesZ256HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ257HbsGithubDavisPluginHbs123Js) {
+            z257 = _appPagesZ257HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ258HbsGithubDavisPluginHbs123Js) {
+            z258 = _appPagesZ258HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ259HbsGithubDavisPluginHbs123Js) {
+            z259 = _appPagesZ259HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ260HbsGithubDavisPluginHbs123Js) {
+            z260 = _appPagesZ260HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ261HbsGithubDavisPluginHbs123Js) {
+            z261 = _appPagesZ261HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ262HbsGithubDavisPluginHbs123Js) {
+            z262 = _appPagesZ262HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ263HbsGithubDavisPluginHbs123Js) {
+            z263 = _appPagesZ263HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ264HbsGithubDavisPluginHbs123Js) {
+            z264 = _appPagesZ264HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ265HbsGithubDavisPluginHbs123Js) {
+            z265 = _appPagesZ265HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ266HbsGithubDavisPluginHbs123Js) {
+            z266 = _appPagesZ266HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ267HbsGithubDavisPluginHbs123Js) {
+            z267 = _appPagesZ267HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ268HbsGithubDavisPluginHbs123Js) {
+            z268 = _appPagesZ268HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ269HbsGithubDavisPluginHbs123Js) {
+            z269 = _appPagesZ269HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ270HbsGithubDavisPluginHbs123Js) {
+            z270 = _appPagesZ270HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ271HbsGithubDavisPluginHbs123Js) {
+            z271 = _appPagesZ271HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ272HbsGithubDavisPluginHbs123Js) {
+            z272 = _appPagesZ272HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ273HbsGithubDavisPluginHbs123Js) {
+            z273 = _appPagesZ273HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ274HbsGithubDavisPluginHbs123Js) {
+            z274 = _appPagesZ274HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ275HbsGithubDavisPluginHbs123Js) {
+            z275 = _appPagesZ275HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ276HbsGithubDavisPluginHbs123Js) {
+            z276 = _appPagesZ276HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ277HbsGithubDavisPluginHbs123Js) {
+            z277 = _appPagesZ277HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ278HbsGithubDavisPluginHbs123Js) {
+            z278 = _appPagesZ278HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ279HbsGithubDavisPluginHbs123Js) {
+            z279 = _appPagesZ279HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ280HbsGithubDavisPluginHbs123Js) {
+            z280 = _appPagesZ280HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ281HbsGithubDavisPluginHbs123Js) {
+            z281 = _appPagesZ281HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ282HbsGithubDavisPluginHbs123Js) {
+            z282 = _appPagesZ282HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ283HbsGithubDavisPluginHbs123Js) {
+            z283 = _appPagesZ283HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ284HbsGithubDavisPluginHbs123Js) {
+            z284 = _appPagesZ284HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ285HbsGithubDavisPluginHbs123Js) {
+            z285 = _appPagesZ285HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ286HbsGithubDavisPluginHbs123Js) {
+            z286 = _appPagesZ286HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ287HbsGithubDavisPluginHbs123Js) {
+            z287 = _appPagesZ287HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ288HbsGithubDavisPluginHbs123Js) {
+            z288 = _appPagesZ288HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ289HbsGithubDavisPluginHbs123Js) {
+            z289 = _appPagesZ289HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ290HbsGithubDavisPluginHbs123Js) {
+            z290 = _appPagesZ290HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ291HbsGithubDavisPluginHbs123Js) {
+            z291 = _appPagesZ291HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ292HbsGithubDavisPluginHbs123Js) {
+            z292 = _appPagesZ292HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ293HbsGithubDavisPluginHbs123Js) {
+            z293 = _appPagesZ293HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ294HbsGithubDavisPluginHbs123Js) {
+            z294 = _appPagesZ294HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ295HbsGithubDavisPluginHbs123Js) {
+            z295 = _appPagesZ295HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ296HbsGithubDavisPluginHbs123Js) {
+            z296 = _appPagesZ296HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ297HbsGithubDavisPluginHbs123Js) {
+            z297 = _appPagesZ297HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ298HbsGithubDavisPluginHbs123Js) {
+            z298 = _appPagesZ298HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ299HbsGithubDavisPluginHbs123Js) {
+            z299 = _appPagesZ299HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ300HbsGithubDavisPluginHbs123Js) {
+            z300 = _appPagesZ300HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ301HbsGithubDavisPluginHbs123Js) {
+            z301 = _appPagesZ301HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ302HbsGithubDavisPluginHbs123Js) {
+            z302 = _appPagesZ302HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ303HbsGithubDavisPluginHbs123Js) {
+            z303 = _appPagesZ303HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ304HbsGithubDavisPluginHbs123Js) {
+            z304 = _appPagesZ304HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ305HbsGithubDavisPluginHbs123Js) {
+            z305 = _appPagesZ305HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ306HbsGithubDavisPluginHbs123Js) {
+            z306 = _appPagesZ306HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ307HbsGithubDavisPluginHbs123Js) {
+            z307 = _appPagesZ307HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ308HbsGithubDavisPluginHbs123Js) {
+            z308 = _appPagesZ308HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ309HbsGithubDavisPluginHbs123Js) {
+            z309 = _appPagesZ309HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ310HbsGithubDavisPluginHbs123Js) {
+            z310 = _appPagesZ310HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ311HbsGithubDavisPluginHbs123Js) {
+            z311 = _appPagesZ311HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ312HbsGithubDavisPluginHbs123Js) {
+            z312 = _appPagesZ312HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ313HbsGithubDavisPluginHbs123Js) {
+            z313 = _appPagesZ313HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ314HbsGithubDavisPluginHbs123Js) {
+            z314 = _appPagesZ314HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ315HbsGithubDavisPluginHbs123Js) {
+            z315 = _appPagesZ315HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ316HbsGithubDavisPluginHbs123Js) {
+            z316 = _appPagesZ316HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ317HbsGithubDavisPluginHbs123Js) {
+            z317 = _appPagesZ317HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ318HbsGithubDavisPluginHbs123Js) {
+            z318 = _appPagesZ318HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ319HbsGithubDavisPluginHbs123Js) {
+            z319 = _appPagesZ319HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ320HbsGithubDavisPluginHbs123Js) {
+            z320 = _appPagesZ320HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ321HbsGithubDavisPluginHbs123Js) {
+            z321 = _appPagesZ321HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ322HbsGithubDavisPluginHbs123Js) {
+            z322 = _appPagesZ322HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ323HbsGithubDavisPluginHbs123Js) {
+            z323 = _appPagesZ323HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ324HbsGithubDavisPluginHbs123Js) {
+            z324 = _appPagesZ324HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ325HbsGithubDavisPluginHbs123Js) {
+            z325 = _appPagesZ325HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ326HbsGithubDavisPluginHbs123Js) {
+            z326 = _appPagesZ326HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ327HbsGithubDavisPluginHbs123Js) {
+            z327 = _appPagesZ327HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ328HbsGithubDavisPluginHbs123Js) {
+            z328 = _appPagesZ328HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ329HbsGithubDavisPluginHbs123Js) {
+            z329 = _appPagesZ329HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ330HbsGithubDavisPluginHbs123Js) {
+            z330 = _appPagesZ330HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ331HbsGithubDavisPluginHbs123Js) {
+            z331 = _appPagesZ331HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ332HbsGithubDavisPluginHbs123Js) {
+            z332 = _appPagesZ332HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ333HbsGithubDavisPluginHbs123Js) {
+            z333 = _appPagesZ333HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ334HbsGithubDavisPluginHbs123Js) {
+            z334 = _appPagesZ334HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ335HbsGithubDavisPluginHbs123Js) {
+            z335 = _appPagesZ335HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ336HbsGithubDavisPluginHbs123Js) {
+            z336 = _appPagesZ336HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ337HbsGithubDavisPluginHbs123Js) {
+            z337 = _appPagesZ337HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ338HbsGithubDavisPluginHbs123Js) {
+            z338 = _appPagesZ338HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ339HbsGithubDavisPluginHbs123Js) {
+            z339 = _appPagesZ339HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ340HbsGithubDavisPluginHbs123Js) {
+            z340 = _appPagesZ340HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ341HbsGithubDavisPluginHbs123Js) {
+            z341 = _appPagesZ341HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ342HbsGithubDavisPluginHbs123Js) {
+            z342 = _appPagesZ342HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ343HbsGithubDavisPluginHbs123Js) {
+            z343 = _appPagesZ343HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ344HbsGithubDavisPluginHbs123Js) {
+            z344 = _appPagesZ344HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ345HbsGithubDavisPluginHbs123Js) {
+            z345 = _appPagesZ345HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ346HbsGithubDavisPluginHbs123Js) {
+            z346 = _appPagesZ346HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ347HbsGithubDavisPluginHbs123Js) {
+            z347 = _appPagesZ347HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ348HbsGithubDavisPluginHbs123Js) {
+            z348 = _appPagesZ348HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ349HbsGithubDavisPluginHbs123Js) {
+            z349 = _appPagesZ349HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ350HbsGithubDavisPluginHbs123Js) {
+            z350 = _appPagesZ350HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ351HbsGithubDavisPluginHbs123Js) {
+            z351 = _appPagesZ351HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ352HbsGithubDavisPluginHbs123Js) {
+            z352 = _appPagesZ352HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ353HbsGithubDavisPluginHbs123Js) {
+            z353 = _appPagesZ353HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ354HbsGithubDavisPluginHbs123Js) {
+            z354 = _appPagesZ354HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ355HbsGithubDavisPluginHbs123Js) {
+            z355 = _appPagesZ355HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ356HbsGithubDavisPluginHbs123Js) {
+            z356 = _appPagesZ356HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ357HbsGithubDavisPluginHbs123Js) {
+            z357 = _appPagesZ357HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ358HbsGithubDavisPluginHbs123Js) {
+            z358 = _appPagesZ358HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPagesZ359HbsGithubDavisPluginHbs123Js) {
+            z359 = _appPagesZ359HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerpocetakPrimjerpocetakHbsGithubDavisPluginHbs123Js) {
+            primjerpocetak = _appPrimjerPrimjerpocetakPrimjerpocetakHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerwikichangePrimjerwikichangeHbsGithubDavisPluginHbs123Js) {
+            primjerwikichange = _appPrimjerPrimjerwikichangePrimjerwikichangeHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerwikireadPrimjerwikireadHbsGithubDavisPluginHbs123Js) {
+            primjerwikiread = _appPrimjerPrimjerwikireadPrimjerwikireadHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjersintPrimjersintHbsGithubDavisPluginHbs123Js) {
+            primjersint = _appPrimjerPrimjersintPrimjersintHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjersunosPrimjersunosHbsGithubDavisPluginHbs123Js) {
+            primjersunos = _appPrimjerPrimjersunosPrimjersunosHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjertunosPrimjertunosHbsGithubDavisPluginHbs123Js) {
+            primjertunos = _appPrimjerPrimjertunosPrimjertunosHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerpipaPrimjerpipaHbsGithubDavisPluginHbs123Js) {
+            primjerpipa = _appPrimjerPrimjerpipaPrimjerpipaHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerotPrimjerotHbsGithubDavisPluginHbs123Js) {
+            primjerot = _appPrimjerPrimjerotPrimjerotHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerzatPrimjerzatHbsGithubDavisPluginHbs123Js) {
+            primjerzat = _appPrimjerPrimjerzatPrimjerzatHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjertPrimjertHbsGithubDavisPluginHbs123Js) {
+            primjert = _appPrimjerPrimjertPrimjertHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerskokPrimjerskokHbsGithubDavisPluginHbs123Js) {
+            primjerskok = _appPrimjerPrimjerskokPrimjerskokHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjerm5Primjerm5HbsGithubDavisPluginHbs123Js) {
+            primjerm5 = _appPrimjerPrimjerm5Primjerm5HbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjersvemironPrimjersvemironHbsGithubDavisPluginHbs123Js) {
+            primjersvemiron = _appPrimjerPrimjersvemironPrimjersvemironHbsGithubDavisPluginHbs123Js['default'];
+        }, function (_appPrimjerPrimjersvemiroffPrimjersvemiroffHbsGithubDavisPluginHbs123Js) {
+            primjersvemiroff = _appPrimjerPrimjersvemiroffPrimjersvemiroffHbsGithubDavisPluginHbs123Js['default'];
+        }],
+        execute: function () {
+
+            $(document).ready(function () {
+
+                //------------------------------------------------------------------------------------------------------------------
+                // Za Frana!!!!!!!!!!!!!
+                //------------------------------------------------------------------------------------------------------------------ž
+
+                Router.add('h1', function () {
+                    $element.html(h1());
+                });
+                Router.add('h2', function () {
+                    $element.html(h2());
+                });
+                Router.add('h3', function () {
+                    $element.html(h3());
+                });
+                Router.add('h4', function () {
+                    $element.html(h4());
+                });
+                Router.add('h5', function () {
+                    $element.html(h5());
+                });
+                Router.add('h6', function () {
+                    $element.html(h6());
+                });
+                Router.add('h7', function () {
+                    $element.html(h7());
+                });
+                Router.add('h8', function () {
+                    $element.html(h8());
+                });
+                Router.add('h9', function () {
+                    $element.html(h9());
+                });
+                Router.add('h10', function () {
+                    $element.html(h10());
+                });
+
+                Router.add('h11', function () {
+                    $element.html(h11());
+                });
+                Router.add('h12', function () {
+                    $element.html(h12());
+                });
+                Router.add('h13', function () {
+                    $element.html(h13());
+                });
+                Router.add('h14', function () {
+                    $element.html(h14());
+                });
+                Router.add('h15', function () {
+                    $element.html(h15());
+                });
+                Router.add('h16', function () {
+                    $element.html(h16());
+                });
+                Router.add('h17', function () {
+                    $element.html(h17());
+                });
+                Router.add('h18', function () {
+                    $element.html(h18());
+                });
+                Router.add('h19', function () {
+                    $element.html(h19());
+                });
+                Router.add('h20', function () {
+                    $element.html(h20());
+                });
+
+                Router.add('h21', function () {
+                    $element.html(h21());
+                });
+                Router.add('h22', function () {
+                    $element.html(h22());
+                });
+                Router.add('h23', function () {
+                    $element.html(h23());
+                });
+                Router.add('h24', function () {
+                    $element.html(h24());
+                });
+                Router.add('h25', function () {
+                    $element.html(h25());
+                });
+                Router.add('h26', function () {
+                    $element.html(h26());
+                });
+                Router.add('h27', function () {
+                    $element.html(h27());
+                });
+                Router.add('h28', function () {
+                    $element.html(h28());
+                });
+                Router.add('h29', function () {
+                    $element.html(h29());
+                });
+                Router.add('h30', function () {
+                    $element.html(h30());
+                });
+
+                Router.add('h31', function () {
+                    $element.html(h31());
+                });
+                Router.add('h32', function () {
+                    $element.html(h32());
+                });
+                Router.add('h33', function () {
+                    $element.html(h33());
+                });
+                Router.add('h34', function () {
+                    $element.html(h34());
+                });
+                Router.add('h35', function () {
+                    $element.html(h35());
+                });
+                Router.add('h36', function () {
+                    $element.html(h36());
+                });
+                Router.add('h37', function () {
+                    $element.html(h37());
+                });
+                Router.add('h38', function () {
+                    $element.html(h38());
+                });
+                Router.add('h39', function () {
+                    $element.html(h39());
+                });
+                Router.add('h40', function () {
+                    $element.html(h40());
+                });
+
+                Router.add('h41', function () {
+                    $element.html(h41());
+                });
+                Router.add('h42', function () {
+                    $element.html(h42());
+                });
+                Router.add('h43', function () {
+                    $element.html(h43());
+                });
+                Router.add('h44', function () {
+                    $element.html(h44());
+                });
+                Router.add('h45', function () {
+                    $element.html(h45());
+                });
+                Router.add('h46', function () {
+                    $element.html(h46());
+                });
+                Router.add('h47', function () {
+                    $element.html(h47());
+                });
+                Router.add('h48', function () {
+                    $element.html(h48());
+                });
+                Router.add('h49', function () {
+                    $element.html(h49());
+                });
+                Router.add('h50', function () {
+                    $element.html(h50());
+                });
+
+                Router.add('h50q', function () {
+                    $element.html(h50q());
+                });
+
+                Router.add('h51', function () {
+                    $element.html(h51());
+                });
+                Router.add('h52', function () {
+                    $element.html(h52());
+                });
+                Router.add('h53', function () {
+                    $element.html(h53());
+                });
+                Router.add('h54', function () {
+                    $element.html(h54());
+                });
+                Router.add('h55', function () {
+                    $element.html(h55());
+                });
+                Router.add('h56', function () {
+                    $element.html(h56());
+                });
+                Router.add('h57', function () {
+                    $element.html(h57());
+                });
+                Router.add('h58', function () {
+                    $element.html(h58());
+                });
+                Router.add('h59', function () {
+                    $element.html(h59());
+                });
+                Router.add('h60', function () {
+                    $element.html(h60());
+                });
+
+                Router.add('h61', function () {
+                    $element.html(h61());
+                });
+                Router.add('h62', function () {
+                    $element.html(h62());
+                });
+                Router.add('h63', function () {
+                    $element.html(h63());
+                });
+                Router.add('h64', function () {
+                    $element.html(h64());
+                });
+                Router.add('h65', function () {
+                    $element.html(h65());
+                });
+                Router.add('h66', function () {
+                    $element.html(h66());
+                });
+                Router.add('h67', function () {
+                    $element.html(h67());
+                });
+                Router.add('h68', function () {
+                    $element.html(h68());
+                });
+                Router.add('h69', function () {
+                    $element.html(h69());
+                });
+                Router.add('h70', function () {
+                    $element.html(h70());
+                });
+
+                Router.add('sedamnaest', function () {
+                    $element.html(sest());
+                    showLink(0);
+                });
+
+                Router.add('dva', function () {
+                    $element.html(dva());
+                    showLink(5000);
+                });
+
+                Router.add('bdva', function () {
+                    $element.html(bdva());
+                    //    showLink(5000);
+                });
+
+                Router.add('tri', function () {
+                    $element.html(tri());
+                });
+
+                Router.add('jedan', function () {
+                    $element.html(jedan());
+                    //    showLink(5000);
+                });
+
+                Router.add('a7', function () {
+                    $element.html(a7());
+                    showLink(0);
+                });
+
+                Router.add('a8', function () {
+                    $element.html(a8());
+                    //    showLink(5000);
+                });
+
+                Router.add('a9', function () {
+                    $element.html(a9());
+                });
+
+                Router.add('a10', function () {
+                    $element.html(a10());
+                    //    showLink(5000);
+                });
+                Router.add('b10', function () {
+                    $element.html(b10());
+                    //    showLink(5000);
+                });
+
+                Router.add('a11', function () {
+                    $element.html(a11());
+                    showLink(0);
+                });
+
+                Router.add('a12', function () {
+                    $element.html(a12());
+                    //    showLink(5000);
+                });
+
+                Router.add('a13', function () {
+                    $element.html(a13());
+                });
+
+                Router.add('a14', function () {
+                    $element.html(a14());
+                    //    showLink(5000);
+                });
+
+                Router.add('a15', function () {
+                    $element.html(a15());
+                    //    showLink(5000);
+                });
+                Router.add('a16', function () {
+                    $element.html(a16());
+                    //    showLink(5000);
+                });
+
+                Router.add('a18', function () {
+                    $element.html(a18());
+                });
+
+                Router.add('a19', function () {
+                    $element.html(a19());
+                    //    showLink(5000);
+                });
+                Router.add('a21', function () {
+                    $element.html(a21());
+                    //    showLink(5000);
+                });
+
+                Router.add('a17', function () {
+                    $element.html(a17());
+                });
+
+                Router.add('a20', function () {
+                    $element.html(a20());
+                    //    showLink(5000);
+                });
+                Router.add('a22', function () {
+                    $element.html(a22());
+                    //    showLink(5000);
+                });
+
+                Router.add('a24', function () {
+                    $element.html(a24());
+                });
+
+                Router.add('a23', function () {
+                    $element.html(a23());
+                });
+
+                Router.add('a25', function () {
+                    $element.html(a25());
+                    //    showLink(5000);
+                });
+                Router.add('a27', function () {
+                    $element.html(a27());
+                    //    showLink(5000);
+                });
+
+                Router.add('a29', function () {
+                    $element.html(a29());
+                });
+
+                Router.add('a26', function () {
+                    $element.html(a26());
+                    //    showLink(5000);
+                });
+                Router.add('a28', function () {
+                    $element.html(a28());
+                });
+
+                Router.add('a30', function () {
+                    $element.html(a30());
+                    //    showLink(5000);
+                });
+
+                Router.add('a31', function () {
+                    $element.html(a31());
+                    //    showLink(5000);
+                });
+
+                Router.add('a32', function () {
+                    $element.html(a32());
+                });
+
+                Router.add('a34', function () {
+                    $element.html(a34());
+                    //    showLink(5000);
+                });
+                Router.add('a36', function () {
+                    $element.html(a36());
+                });
+
+                Router.add('a33', function () {
+                    $element.html(a33());
+                    //    showLink(5000);
+                });
+                Router.add('a35', function () {
+                    $element.html(a35());
+                    //    showLink(5000);
+                });
+
+                Router.add('a37', function () {
+                    $element.html(a37());
+                });
+
+                Router.add('a39', function () {
+                    $element.html(a39());
+                    //    showLink(5000);
+                });
+                Router.add('a41', function () {
+                    $element.html(a41());
+                });
+                Router.add('a43', function () {
+                    $element.html(a43());
+                    //    showLink(5000);
+                });
+                Router.add('a45', function () {
+                    $element.html(a45());
+                    //    showLink(5000);
+                });
+
+                Router.add('a47', function () {
+                    $element.html(a47());
+                });
+
+                Router.add('a49', function () {
+                    $element.html(a49());
+                    //    showLink(5000);
+                });
+
+                Router.add('a51', function () {
+                    $element.html(a51());
+                });
+
+                Router.add('a53', function () {
+                    $element.html(a53());
+                    //    showLink(5000);
+                });
+                Router.add('a55', function () {
+                    $element.html(a55());
+                    //    showLink(5000);
+                });
+
+                Router.add('a57', function () {
+                    $element.html(a57());
+                });
+
+                Router.add('a59', function () {
+                    $element.html(a59());
+                    //    showLink(5000);
+                });
+                Router.add('a61', function () {
+                    $element.html(a61());
+                });
+
+                Router.add('a63', function () {
+                    $element.html(a63());
+                    //    showLink(5000);
+                });
+                Router.add('a65', function () {
+                    $element.html(a65());
+                    //    showLink(5000);
+                });
+
+                Router.add('a67', function () {
+                    $element.html(a67());
+                });
+
+                Router.add('a69', function () {
+                    $element.html(a69());
+                    //    showLink(5000);
+                });
+                Router.add('a71', function () {
+                    $element.html(a71());
+                });
+
+                Router.add('a73', function () {
+                    $element.html(a73());
+                    //    showLink(5000);
+                });
+                Router.add('a75', function () {
+                    $element.html(a75());
+                    //    showLink(5000);
+                });
+
+                Router.add('a77', function () {
+                    $element.html(a77());
+                });
+
+                Router.add('a79', function () {
+                    $element.html(a79());
+                    //    showLink(5000);
+                });
+                Router.add('a81', function () {
+                    $element.html(a81());
+                });
+
+                Router.add('a83', function () {
+                    $element.html(a83());
+                    //    showLink(5000);
+                });
+                Router.add('a85', function () {
+                    $element.html(a85());
+                    //    showLink(5000);
+                });
+
+                Router.add('a87', function () {
+                    $element.html(a87());
+                });
+
+                Router.add('a89', function () {
+                    $element.html(a89());
+                    //    showLink(5000);
+                });
+                Router.add('a91', function () {
+                    $element.html(a91());
+                });
+
+                Router.add('a38', function () {
+                    $element.html(a38());
+                    //    showLink(5000);
+                });
+                Router.add('a40', function () {
+                    $element.html(a40());
+                    //    showLink(5000);
+                });
+
+                Router.add('a42', function () {
+                    $element.html(a42());
+                });
+
+                Router.add('a44', function () {
+                    $element.html(a44());
+                    //    showLink(5000);
+                });
+                Router.add('a46', function () {
+                    $element.html(a46());
+                });
+
+                Router.add('a48', function () {
+                    $element.html(a48());
+                    showLink(5000);
+                });
+
+                Router.add('a50', function () {
+                    $element.html(a50());
+                    //    showLink(5000);
+                });
+
+                Router.add('a52', function () {
+                    $element.html(a52());
+                });
+
+                Router.add('a54', function () {
+                    $element.html(a54());
+                    //    showLink(5000);
+                });
+                Router.add('a56', function () {
+                    $element.html(a56());
+                });
+
+                Router.add('a58', function () {
+                    $element.html(a58());
+                    showLink(5000);
+                });
+                Router.add('a60', function () {
+                    $element.html(a60());
+                    //    showLink(5000);
+                });
+
+                Router.add('a62', function () {
+                    $element.html(a62());
+                });
+
+                Router.add('a64', function () {
+                    $element.html(a64());
+                    //    showLink(5000);
+                });
+                Router.add('a66', function () {
+                    $element.html(a66());
+                });
+
+                Router.add('a68', function () {
+                    $element.html(a68());
+                    showLink(5000);
+                });
+                Router.add('a70', function () {
+                    $element.html(a70());
+                    //    showLink(5000);
+                });
+
+                Router.add('a72', function () {
+                    $element.html(a72());
+                });
+
+                Router.add('a74', function () {
+                    $element.html(a74());
+                    //    showLink(5000);
+                });
+                Router.add('a76', function () {
+                    $element.html(a76());
+                });
+
+                Router.add('a78', function () {
+                    $element.html(a78());
+                    showLink(5000);
+                });
+
+                Router.add('a80', function () {
+                    $element.html(a80());
+                    //    showLink(5000);
+                });
+
+                Router.add('a82', function () {
+                    $element.html(a82());
+                });
+
+                Router.add('a84', function () {
+                    $element.html(a84());
+                    //    showLink(5000);
+                });
+                Router.add('a86', function () {
+                    $element.html(a86());
+                });
+
+                Router.add('a88', function () {
+                    $element.html(a88());
+                    showLink(5000);
+                });
+                Router.add('a89', function () {
+                    $element.html(a89());
+                    showLink(5000);
+                });
+
+                Router.add('a90', function () {
+                    $element.html(a90());
+                    //    showLink(5000);
+                });
+
+                Router.add('a92', function () {
+                    $element.html(a92());
+                });
+                Router.add('a93', function () {
+                    $element.html(a93());
+                    //    showLink(5000);
+                });
+
+                Router.add('a94', function () {
+                    $element.html(a94());
+                    //    showLink(5000);
+                });
+                Router.add('a95', function () {
+                    $element.html(a95());
+                    //    showLink(5000);
+                });
+                Router.add('a96', function () {
+                    $element.html(a96());
+                });
+                Router.add('a97', function () {
+                    $element.html(a97());
+                    //    showLink(5000);
+                });
+                Router.add('a98', function () {
+                    $element.html(a98());
+                    showLink(5000);
+                });
+                Router.add('a99', function () {
+                    $element.html(a99());
+                    // showLink(5000);
+                });
+
+                Router.add('a100', function () {
+                    $element.html(a100());
+                    //    showLink(5000);
+                });
+
+                Router.add('a101', function () {
+                    $element.html(a101());
+                    //    showLink(5000);
+                });
+                Router.add('a103', function () {
+                    $element.html(a103());
+                    //    showLink(5000);
+                });
+                Router.add('a105', function () {
+                    $element.html(a105());
+                    //    showLink(5000);
+                });
+
+                Router.add('a107', function () {
+                    $element.html(a107());
+                    //    showLink(5000);
+                });
+                Router.add('a109', function () {
+                    $element.html(a109());
+                    //    showLink(5000);
+                });
+
+                Router.add('a139', function () {
+                    $element.html(a139());
+                    //    showLink(5000);
+                });
+                Router.add('a141', function () {
+                    $element.html(a141());
+                    //    showLink(5000);
+                });
+                Router.add('a143', function () {
+                    $element.html(a143());
+                    //    showLink(5000);
+                });
+                Router.add('a145', function () {
+                    $element.html(a145());
+                    //    showLink(5000);
+                });
+
+                Router.add('a147', function () {
+                    $element.html(a147());
+                    //    showLink(5000);
+                });
+                Router.add('a149', function () {
+                    $element.html(a149());
+                    //    showLink(5000);
+                });
+                Router.add('a151', function () {
+                    $element.html(a151());
+                    //    showLink(5000);
+                });
+                Router.add('a153', function () {
+                    $element.html(a153());
+                    //    showLink(5000);
+                });
+                Router.add('a155', function () {
+                    $element.html(a155());
+                    //    showLink(5000);
+                });
+
+                Router.add('a102', function () {
+                    $element.html(a102());
+                    showLink(5000);
+                });
+                Router.add('a104', function () {
+                    $element.html(a104());
+                });
+
+                Router.add('a106', function () {
+                    $element.html(a106());
+                    //    showLink(5000);
+                });
+                Router.add('a108', function () {
+                    $element.html(a108());
+                });
+
+                Router.add('a140', function () {
+                    $element.html(a140());
+                    showLink(5000);
+                });
+                Router.add('a142', function () {
+                    $element.html(a142());
+                    showLink(5000);
+                });
+                Router.add('a144', function () {
+                    $element.html(a144());
+                });
+                Router.add('a146', function () {
+                    $element.html(a146());
+                    //    showLink(5000);
+                });
+                Router.add('a148', function () {
+                    $element.html(a148());
+                });
+
+                Router.add('a150', function () {
+                    $element.html(a150());
+                    showLink(5000);
+                });
+                Router.add('a152', function () {
+                    $element.html(a152());
+                    showLink(5000);
+                });
+                Router.add('a154', function () {
+                    $element.html(a154());
+                });
+                Router.add('a156', function () {
+                    $element.html(a156());
+                    //    showLink(5000);
+                });
+                Router.add('a158', function () {
+                    $element.html(a158());
+                });
+
+                Router.add('cetiri', function () {
+                    $element.html(cetiri());
+                });
+
+                Router.add('pet', function () {
+                    $element.html(pet());
+                });
+                Router.add('a6', function () {
+                    $element.html(a6());
+                });
+
+                Router.add('z1', function () {
+                    $element.html(z1());
+                    showLink(5000);
+                });
+                Router.add('z2', function () {
+                    $element.html(z2());
+                    showLink(5000);
+                });
+                Router.add('z3', function () {
+                    $element.html(z3());
+                });
+                Router.add('z4', function () {
+                    $element.html(z4());
+                    //    showLink(5000);
+                });
+                Router.add('z5', function () {
+                    $element.html(z5());
+                });
+                Router.add('z6', function () {
+                    $element.html(z6());
+                    showLink(5000);
+                });
+                Router.add('z7', function () {
+                    $element.html(z7());
+                    showLink(5000);
+                });
+                Router.add('z8', function () {
+                    $element.html(z8());
+                });
+                Router.add('z9', function () {
+                    $element.html(z9());
+                    //    showLink(5000);
+                });
+                Router.add('z9a', function () {
+                    $element.html(z9a());
+                    //    showLink(5000);
+                });
+                Router.add('z10', function () {
+                    $element.html(z10());
+                });
+                Router.add('z11', function () {
+                    $element.html(z11());
+                    showLink(5000);
+                });
+                Router.add('z12', function () {
+                    $element.html(z12());
+                    showLink(5000);
+                });
+                Router.add('z13', function () {
+                    $element.html(z13());
+                });
+                Router.add('z14', function () {
+                    $element.html(z14());
+                    //    showLink(5000);
+                });
+                Router.add('z15', function () {
+                    $element.html(z15());
+                });
+                Router.add('z17', function () {
+                    $element.html(z17());
+                    //    showLink(5000);
+                });
+                Router.add('z16', function () {
+                    $element.html(z16());
+                });
+                Router.add('z18', function () {
+                    $element.html(z18());
+                    //    showLink(5000);
+                });
+                Router.add('z19', function () {
+                    $element.html(z19());
+                });
+                Router.add('z20', function () {
+                    $element.html(z20());
+                });
+
+                Router.add('z21', function () {
+                    $element.html(z21());
+                });
+                Router.add('z22', function () {
+                    $element.html(z22());
+                    //    showLink(5000);
+                });
+                Router.add('z23', function () {
+                    $element.html(z23());
+                });
+                Router.add('z24', function () {
+                    $element.html(z24());
+                });
+
+                Router.add('z25', function () {
+                    $element.html(z25());
+                });
+                Router.add('z26', function () {
+                    $element.html(z26());
+                    //    showLink(5000);
+                });
+                Router.add('z27', function () {
+                    $element.html(z27());
+                });
+                Router.add('z28', function () {
+                    $element.html(z28());
+                });
+
+                Router.add('z29', function () {
+                    $element.html(z29());
+                });
+                Router.add('z30', function () {
+                    $element.html(z30());
+                });
+                Router.add('z31', function () {
+                    $element.html(z31());
+                    //    showLink(5000);
+                });
+                Router.add('z32', function () {
+                    $element.html(z32());
+                });
+                Router.add('z33', function () {
+                    $element.html(z33());
+                });
+
+                Router.add('z34', function () {
+                    $element.html(z34());
+                });
+                Router.add('z35', function () {
+                    $element.html(z35());
+                });
+                Router.add('z36', function () {
+                    $element.html(z36());
+                    //    showLink(5000);
+                });
+                Router.add('z37', function () {
+                    $element.html(z37());
+                });
+                Router.add('z38', function () {
+                    $element.html(z38());
+                });
+
+                Router.add('z39', function () {
+                    $element.html(z39());
+                });
+                Router.add('z40', function () {
+                    $element.html(z40());
+                });
+
+                Router.add('z41', function () {
+                    $element.html(z41());
+                    //    showLink(5000);
+                });
+                Router.add('z42', function () {
+                    $element.html(z42());
+                });
+                Router.add('z43', function () {
+                    $element.html(z43());
+                });
+
+                Router.add('z44', function () {
+                    $element.html(z44());
+                });
+                Router.add('z45', function () {
+                    $element.html(z45());
+                });
+                Router.add('z46', function () {
+                    $element.html(z46());
+                    //    showLink(5000);
+                });
+                Router.add('z47', function () {
+                    $element.html(z47());
+                });
+                Router.add('z48', function () {
+                    $element.html(z48());
+                });
+
+                Router.add('z49', function () {
+                    $element.html(z49());
+                });
+                Router.add('z50', function () {
+                    $element.html(z50());
+                });
+
+                Router.add('z51', function () {
+                    $element.html(z51());
+                    //    showLink(5000);
+                });
+                Router.add('z52', function () {
+                    $element.html(z52());
+                });
+                Router.add('z53', function () {
+                    $element.html(z53());
+                });
+
+                Router.add('z54', function () {
+                    $element.html(z54());
+                });
+                Router.add('z55', function () {
+                    $element.html(z55());
+                });
+                Router.add('z56', function () {
+                    $element.html(z56());
+                    //    showLink(5000);
+                });
+                Router.add('z57', function () {
+                    $element.html(z57());
+                });
+                Router.add('z58', function () {
+                    $element.html(z58());
+                });
+
+                Router.add('z59', function () {
+                    $element.html(z59());
+                });
+                Router.add('z60', function () {
+                    $element.html(z60());
+                });
+
+                Router.add('z61', function () {
+                    $element.html(z61());
+                    //    showLink(5000);
+                });
+                Router.add('z62', function () {
+                    $element.html(z62());
+                });
+                Router.add('z63', function () {
+                    $element.html(z63());
+                });
+
+                Router.add('z64', function () {
+                    $element.html(z64());
+                });
+                Router.add('z65', function () {
+                    $element.html(z65());
+                });
+                Router.add('z66', function () {
+                    $element.html(z66());
+                    //    showLink(5000);
+                });
+                Router.add('z67', function () {
+                    $element.html(z67());
+                });
+                Router.add('z68', function () {
+                    $element.html(z68());
+                });
+
+                Router.add('z69', function () {
+                    $element.html(z69());
+                });
+                Router.add('z70', function () {
+                    $element.html(z70());
+                });
+                Router.add('z71', function () {
+                    $element.html(z71());
+                    //    showLink(5000);
+                });
+                Router.add('z72', function () {
+                    $element.html(z72());
+                });
+                Router.add('z73', function () {
+                    $element.html(z73());
+                });
+
+                Router.add('z74', function () {
+                    $element.html(z74());
+                });
+                Router.add('z75', function () {
+                    $element.html(z75());
+                });
+                Router.add('z76', function () {
+                    $element.html(z76());
+                    //    showLink(5000);
+                });
+                Router.add('z77', function () {
+                    $element.html(z77());
+                });
+                Router.add('z78', function () {
+                    $element.html(z78());
+                });
+
+                Router.add('z79', function () {
+                    $element.html(z79());
+                });
+                Router.add('z80', function () {
+                    $element.html(z80());
+                });
+
+                Router.add('z81', function () {
+                    $element.html(z81());
+                    //    showLink(5000);
+                });
+                Router.add('z82', function () {
+                    $element.html(z82());
+                });
+                Router.add('z83', function () {
+                    $element.html(z83());
+                });
+
+                Router.add('z84', function () {
+                    $element.html(z84());
+                });
+                Router.add('z85', function () {
+                    $element.html(z85());
+                });
+                Router.add('z86', function () {
+                    $element.html(z86());
+                    //    showLink(5000);
+                });
+                Router.add('z87', function () {
+                    $element.html(z87());
+                });
+                Router.add('z88', function () {
+                    $element.html(z88());
+                });
+
+                Router.add('z89', function () {
+                    $element.html(z89());
+                });
+                Router.add('z90', function () {
+                    $element.html(z90());
+                });
+
+                Router.add('z91', function () {
+                    $element.html(z91());
+                    //    showLink(5000);
+                });
+                Router.add('z92', function () {
+                    $element.html(z92());
+                });
+                Router.add('z93', function () {
+                    $element.html(z93());
+                });
+
+                Router.add('z94', function () {
+                    $element.html(z94());
+                });
+                Router.add('z95', function () {
+                    $element.html(z95());
+                });
+                Router.add('z96', function () {
+                    $element.html(z96());
+                    //    showLink(5000);
+                });
+                Router.add('z97', function () {
+                    $element.html(z97());
+                });
+                Router.add('z98', function () {
+                    $element.html(z98());
+                });
+
+                Router.add('z99', function () {
+                    $element.html(z99());
+                });
+                Router.add('z100', function () {
+                    $element.html(z100());
+                });
+                Router.add('z101', function () {
+                    $element.html(z101());
+                });
+                Router.add('z102', function () {
+                    $element.html(z102());
+                });
+                Router.add('z103', function () {
+                    $element.html(z103());
+                });
+
+                Router.add('z104', function () {
+                    $element.html(z104());
+                });
+                Router.add('z105', function () {
+                    $element.html(z105());
+                });
+                Router.add('z106', function () {
+                    $element.html(z106());
+                    //    showLink(5000);
+                });
+                Router.add('z107', function () {
+                    $element.html(z107());
+                });
+                Router.add('z108', function () {
+                    $element.html(z108());
+                });
+
+                Router.add('z109', function () {
+                    $element.html(z109());
+                });
+                Router.add('z110', function () {
+                    $element.html(z110());
+                });
+
+                Router.add('z111', function () {
+                    $element.html(z111());
+                    //    showLink(5000);
+                });
+                Router.add('z112', function () {
+                    $element.html(z112());
+                });
+                Router.add('z113', function () {
+                    $element.html(z113());
+                });
+
+                Router.add('z114', function () {
+                    $element.html(z114());
+                });
+                Router.add('z115', function () {
+                    $element.html(z115());
+                });
+                Router.add('z116', function () {
+                    $element.html(z116());
+                    //    showLink(5000);
+                });
+                Router.add('z117', function () {
+                    $element.html(z117());
+                });
+                Router.add('z118', function () {
+                    $element.html(z118());
+                });
+
+                Router.add('z119', function () {
+                    $element.html(z119());
+                });
+                Router.add('z120', function () {
+                    $element.html(z120());
+                });
+                Router.add('z121', function () {
+                    $element.html(z121());
+                    //    showLink(5000);
+                });
+                Router.add('z122', function () {
+                    $element.html(z122());
+                });
+                Router.add('z123', function () {
+                    $element.html(z123());
+                });
+
+                Router.add('z124', function () {
+                    $element.html(z124());
+                });
+                Router.add('z125', function () {
+                    $element.html(z125());
+                });
+                Router.add('z126', function () {
+                    $element.html(z126());
+                    //    showLink(5000);
+                });
+                Router.add('z127', function () {
+                    $element.html(z127());
+                });
+                Router.add('z128', function () {
+                    $element.html(z128());
+                });
+
+                Router.add('z129', function () {
+                    $element.html(z129());
+                });
+                Router.add('z130', function () {
+                    $element.html(z130());
+                });
+
+                Router.add('z131', function () {
+                    $element.html(z131());
+                    //    showLink(5000);
+                });
+                Router.add('z132', function () {
+                    $element.html(z132());
+                });
+                Router.add('z133', function () {
+                    $element.html(z133());
+                });
+
+                Router.add('z134', function () {
+                    $element.html(z134());
+                });
+                Router.add('z135', function () {
+                    $element.html(z135());
+                });
+                Router.add('z136', function () {
+                    $element.html(z136());
+                    //    showLink(5000);
+                });
+                Router.add('z137', function () {
+                    $element.html(z137());
+                });
+                Router.add('z138', function () {
+                    $element.html(z138());
+                });
+
+                Router.add('z139', function () {
+                    $element.html(z139());
+                });
+                Router.add('z140', function () {
+                    $element.html(z140());
+                });
+
+                Router.add('z141', function () {
+                    $element.html(z141());
+                    //    showLink(5000);
+                });
+                Router.add('z142', function () {
+                    $element.html(z142());
+                });
+                Router.add('z143', function () {
+                    $element.html(z143());
+                });
+
+                Router.add('z144', function () {
+                    $element.html(z144());
+                });
+                Router.add('z145', function () {
+                    $element.html(z145());
+                });
+                Router.add('z146', function () {
+                    $element.html(z146());
+                    //    showLink(5000);
+                });
+                Router.add('z147', function () {
+                    $element.html(z147());
+                });
+                Router.add('z148', function () {
+                    $element.html(z148());
+                });
+
+                Router.add('z149', function () {
+                    $element.html(z149());
+                });
+                Router.add('z150', function () {
+                    $element.html(z150());
+                });
+                Router.add('z150q', function () {
+                    $element.html(z150q());
+                });
+
+                Router.add('z151', function () {
+                    $element.html(z151());
+                    //    showLink(5000);
+                });
+                Router.add('z152', function () {
+                    $element.html(z152());
+                });
+                Router.add('z153', function () {
+                    $element.html(z153());
+                });
+
+                Router.add('z154', function () {
+                    $element.html(z154());
+                });
+                Router.add('z155', function () {
+                    $element.html(z155());
+                });
+                Router.add('z156', function () {
+                    $element.html(z156());
+                    //    showLink(5000);
+                });
+                Router.add('z157', function () {
+                    $element.html(z157());
+                });
+                Router.add('z158', function () {
+                    $element.html(z158());
+                });
+
+                Router.add('z159', function () {
+                    $element.html(z159());
+                });
+                Router.add('z160', function () {
+                    $element.html(z160());
+                });
+
+                Router.add('z161', function () {
+                    $element.html(z161());
+                    //    showLink(5000);
+                });
+                Router.add('z162', function () {
+                    $element.html(z162());
+                });
+                Router.add('z163', function () {
+                    $element.html(z163());
+                });
+
+                Router.add('z164', function () {
+                    $element.html(z164());
+                });
+                Router.add('z165', function () {
+                    $element.html(z165());
+                });
+                Router.add('z166', function () {
+                    $element.html(z166());
+                    //    showLink(5000);
+                });
+                Router.add('z167', function () {
+                    $element.html(z167());
+                });
+                Router.add('z168', function () {
+                    $element.html(z168());
+                });
+
+                Router.add('z169', function () {
+                    $element.html(z169());
+                });
+                Router.add('z170', function () {
+                    $element.html(z170());
+                });
+
+                Router.add('z171', function () {
+                    $element.html(z171());
+                    //    showLink(5000);
+                });
+                Router.add('z172', function () {
+                    $element.html(z172());
+                });
+                Router.add('z173', function () {
+                    $element.html(z173());
+                });
+
+                Router.add('z174', function () {
+                    $element.html(z174());
+                });
+                Router.add('z175', function () {
+                    $element.html(z175());
+                });
+                Router.add('z176', function () {
+                    $element.html(z176());
+                    //    showLink(5000);
+                });
+                Router.add('z177', function () {
+                    $element.html(z177());
+                });
+                Router.add('z178', function () {
+                    $element.html(z178());
+                });
+
+                Router.add('z179', function () {
+                    $element.html(z179());
+                });
+                Router.add('z180', function () {
+                    $element.html(z180());
+                });
+                Router.add('z181', function () {
+                    $element.html(z181());
+                    //    showLink(5000);
+                });
+                Router.add('z182', function () {
+                    $element.html(z182());
+                });
+                Router.add('z183', function () {
+                    $element.html(z183());
+                });
+
+                Router.add('z184', function () {
+                    $element.html(z184());
+                });
+                Router.add('z185', function () {
+                    $element.html(z185());
+                });
+
+                Router.add('z186', function () {
+                    $element.html(z186());
+                    //    showLink(5000);
+                });
+                Router.add('z187', function () {
+                    $element.html(z187());
+                });
+                Router.add('z188', function () {
+                    $element.html(z188());
+                });
+
+                Router.add('z189', function () {
+                    $element.html(z189());
+                });
+                Router.add('z190', function () {
+                    $element.html(z190());
+                });
+                Router.add('z191', function () {
+                    $element.html(z191());
+                    //    showLink(5000);
+                });
+                Router.add('z192', function () {
+                    $element.html(z192());
+                });
+                Router.add('z193', function () {
+                    $element.html(z193());
+                });
+
+                Router.add('z194', function () {
+                    $element.html(z194());
+                });
+                Router.add('z195', function () {
+                    $element.html(z195());
+                });
+
+                Router.add('z196', function () {
+                    $element.html(z196());
+                    //    showLink(5000);
+                });
+                Router.add('z197', function () {
+                    $element.html(z197());
+                });
+                Router.add('z198', function () {
+                    $element.html(z198());
+                });
+
+                Router.add('z199', function () {
+                    $element.html(z199());
+                });
+                Router.add('z200', function () {
+                    $element.html(z200());
+                });
+                Router.add('z201', function () {
+                    $element.html(z201());
+                    //    showLink(5000);
+                });
+                Router.add('z202', function () {
+                    $element.html(z202());
+                });
+                Router.add('z203', function () {
+                    $element.html(z203());
+                });
+
+                Router.add('z204', function () {
+                    $element.html(z204());
+                });
+                Router.add('z205', function () {
+                    $element.html(z205());
+                });
+
+                Router.add('z206', function () {
+                    $element.html(z206());
+                    //    showLink(5000);
+                });
+                Router.add('z207', function () {
+                    $element.html(z207());
+                });
+                Router.add('z208', function () {
+                    $element.html(z208());
+                });
+                Router.add('z209', function () {
+                    $element.html(z209());
+                });
+                Router.add('z210', function () {
+                    $element.html(z210());
+                });
+                Router.add('z211', function () {
+                    $element.html(z211());
+                });
+                Router.add('z212', function () {
+                    $element.html(z212());
+                });
+                Router.add('z213', function () {
+                    $element.html(z213());
+                });
+                Router.add('z214', function () {
+                    $element.html(z214());
+                });
+                Router.add('z215', function () {
+                    $element.html(z215());
+                });
+                Router.add('z216', function () {
+                    $element.html(z216());
+                    //    showLink(5000);
+                });
+                Router.add('z217', function () {
+                    $element.html(z217());
+                });
+
+                Router.add('z218', function () {
+                    $element.html(z218());
+                });
+
+                Router.add('z219', function () {
+                    $element.html(z219());
+                });
+                Router.add('z220', function () {
+                    $element.html(z220());
+                });
+                Router.add('z221', function () {
+                    $element.html(z221());
+                });
+                Router.add('z222', function () {
+                    $element.html(z222());
+                });
+                Router.add('z223', function () {
+                    $element.html(z223());
+                });
+
+                Router.add('z224', function () {
+                    $element.html(z224());
+                });
+                Router.add('z225', function () {
+                    $element.html(z225());
+                });
+                Router.add('z226', function () {
+                    $element.html(z226());
+                    //    showLink(5000);
+                });
+                Router.add('z227', function () {
+                    $element.html(z227());
+                });
+                Router.add('z228', function () {
+                    $element.html(z228());
+                });
+
+                Router.add('z229', function () {
+                    $element.html(z229());
+                });
+                Router.add('z230', function () {
+                    $element.html(z230());
+                });
+                Router.add('z231', function () {
+                    $element.html(z231());
+                });
+                Router.add('z232', function () {
+                    $element.html(z232());
+                });
+                Router.add('z233', function () {
+                    $element.html(z233());
+                });
+
+                Router.add('z234', function () {
+                    $element.html(z234());
+                });
+                Router.add('z235', function () {
+                    $element.html(z235());
+                });
+                Router.add('z235q', function () {
+                    $element.html(z235q());
+                });
+                Router.add('z236', function () {
+                    $element.html(z236());
+                    //    showLink(5000);
+                });
+                Router.add('z237', function () {
+                    $element.html(z237());
+                });
+                Router.add('z238', function () {
+                    $element.html(z238());
+                });
+                Router.add('z239', function () {
+                    $element.html(z239());
+                    //    showLink(5000);
+                });
+                Router.add('z240', function () {
+                    $element.html(z240());
+                });
+
+                Router.add('z241', function () {
+                    $element.html(z241());
+                });
+                Router.add('z242', function () {
+                    $element.html(z242());
+                });
+                Router.add('z243', function () {
+                    $element.html(z243());
+                });
+
+                Router.add('z244', function () {
+                    $element.html(z244());
+                });
+                Router.add('z245', function () {
+                    $element.html(z245());
+                });
+                Router.add('z246', function () {
+                    $element.html(z246());
+                    //    showLink(5000);
+                });
+                Router.add('z247', function () {
+                    $element.html(z247());
+                });
+                Router.add('z248', function () {
+                    $element.html(z248());
+                });
+                Router.add('z249', function () {
+                    $element.html(z249());
+                    //    showLink(5000);
+                });
+                Router.add('z250', function () {
+                    $element.html(z250());
+                });
+
+                Router.add('z251', function () {
+                    $element.html(z251());
+                });
+                Router.add('z252', function () {
+                    $element.html(z252());
+                });
+                Router.add('z253', function () {
+                    $element.html(z253());
+                });
+
+                Router.add('z254', function () {
+                    $element.html(z254());
+                });
+                Router.add('z255', function () {
+                    $element.html(z255());
+                });
+                Router.add('z256', function () {
+                    $element.html(z256());
+                    //    showLink(5000);
+                });
+                Router.add('z257', function () {
+                    $element.html(z257());
+                });
+                Router.add('z258', function () {
+                    $element.html(z258());
+                });
+                Router.add('z259', function () {
+                    $element.html(z259());
+                    //    showLink(5000);
+                });
+                Router.add('z260', function () {
+                    $element.html(z260());
+                });
+
+                Router.add('z261', function () {
+                    $element.html(z261());
+                });
+                Router.add('z262', function () {
+                    $element.html(z262());
+                });
+                Router.add('z263', function () {
+                    $element.html(z263());
+                });
+
+                Router.add('z264', function () {
+                    $element.html(z264());
+                });
+                Router.add('z265', function () {
+                    $element.html(z265());
+                });
+                Router.add('z266', function () {
+                    $element.html(z266());
+                    //    showLink(5000);
+                });
+                Router.add('z267', function () {
+                    $element.html(z267());
+                });
+                Router.add('z268', function () {
+                    $element.html(z268());
+                });
+                Router.add('z269', function () {
+                    $element.html(z269());
+                    //    showLink(5000);
+                });
+                Router.add('z270', function () {
+                    $element.html(z270());
+                });
+
+                Router.add('z271', function () {
+                    $element.html(z271());
+                });
+                Router.add('z272', function () {
+                    $element.html(z272());
+                });
+                Router.add('z273', function () {
+                    $element.html(z273());
+                });
+
+                Router.add('z274', function () {
+                    $element.html(z274());
+                });
+                Router.add('z275', function () {
+                    $element.html(z275());
+                });
+                Router.add('z276', function () {
+                    $element.html(z276());
+                    //    showLink(5000);
+                });
+                Router.add('z277', function () {
+                    $element.html(z277());
+                });
+                Router.add('z278', function () {
+                    $element.html(z278());
+                });
+                Router.add('z279', function () {
+                    $element.html(z279());
+                    //    showLink(5000);
+                });
+                Router.add('z280', function () {
+                    $element.html(z280());
+                });
+
+                Router.add('z281', function () {
+                    $element.html(z281());
+                });
+                Router.add('z282', function () {
+                    $element.html(z282());
+                });
+                Router.add('z283', function () {
+                    $element.html(z283());
+                });
+
+                Router.add('z284', function () {
+                    $element.html(z284());
+                });
+                Router.add('z285', function () {
+                    $element.html(z285());
+                });
+                Router.add('z286', function () {
+                    $element.html(z286());
+                    //    showLink(5000);
+                });
+                Router.add('z287', function () {
+                    $element.html(z287());
+                });
+                Router.add('z288', function () {
+                    $element.html(z288());
+                });
+                Router.add('z289', function () {
+                    $element.html(z289());
+                    //    showLink(5000);
+                });
+                Router.add('z290', function () {
+                    $element.html(z290());
+                });
+
+                Router.add('z291', function () {
+                    $element.html(z291());
+                });
+                Router.add('z292', function () {
+                    $element.html(z292());
+                });
+                Router.add('z293', function () {
+                    $element.html(z293());
+                });
+
+                Router.add('z294', function () {
+                    $element.html(z294());
+                });
+                Router.add('z295', function () {
+                    $element.html(z295());
+                });
+                Router.add('z296', function () {
+                    $element.html(z296());
+                    //    showLink(5000);
+                });
+                Router.add('z297', function () {
+                    $element.html(z297());
+                });
+                Router.add('z298', function () {
+                    $element.html(z298());
+                });
+                Router.add('z299', function () {
+                    $element.html(z299());
+                    //    showLink(5000);
+                });
+                Router.add('z300', function () {
+                    $element.html(z300());
+                });
+
+                Router.add('z301', function () {
+                    $element.html(z301());
+                });
+                Router.add('z302', function () {
+                    $element.html(z302());
+                });
+                Router.add('z303', function () {
+                    $element.html(z303());
+                });
+
+                Router.add('z304', function () {
+                    $element.html(z304());
+                });
+                Router.add('z305', function () {
+                    $element.html(z305());
+                });
+                Router.add('z306', function () {
+                    $element.html(z306());
+                    //    showLink(5000);
+                });
+                Router.add('z307', function () {
+                    $element.html(z307());
+                });
+                Router.add('z308', function () {
+                    $element.html(z308());
+                });
+                Router.add('z309', function () {
+                    $element.html(z309());
+                    //    showLink(5000);
+                });
+                Router.add('z310', function () {
+                    $element.html(z310());
+                });
+
+                Router.add('z311', function () {
+                    $element.html(z311());
+                });
+                Router.add('z312', function () {
+                    $element.html(z312());
+                });
+                Router.add('z313', function () {
+                    $element.html(z313());
+                });
+
+                Router.add('z314', function () {
+                    $element.html(z314());
+                });
+                Router.add('z315', function () {
+                    $element.html(z315());
+                });
+                Router.add('z316', function () {
+                    $element.html(z316());
+                    //    showLink(5000);
+                });
+                Router.add('z317', function () {
+                    $element.html(z317());
+                });
+                Router.add('z318', function () {
+                    $element.html(z318());
+                });
+                Router.add('z319', function () {
+                    $element.html(z319());
+                    //    showLink(5000);
+                });
+                Router.add('z320', function () {
+                    $element.html(z320());
+                });
+
+                Router.add('z321', function () {
+                    $element.html(z321());
+                });
+                Router.add('z322', function () {
+                    $element.html(z322());
+                });
+                Router.add('z323', function () {
+                    $element.html(z323());
+                });
+
+                Router.add('z324', function () {
+                    $element.html(z324());
+                });
+                Router.add('z325', function () {
+                    $element.html(z325());
+                });
+                Router.add('z326', function () {
+                    $element.html(z326());
+                    //    showLink(5000);
+                });
+                Router.add('z327', function () {
+                    $element.html(z327());
+                });
+                Router.add('z328', function () {
+                    $element.html(z328());
+                });
+                Router.add('z329', function () {
+                    $element.html(z329());
+                    //    showLink(5000);
+                });
+                Router.add('z330', function () {
+                    $element.html(z330());
+                });
+
+                Router.add('z331', function () {
+                    $element.html(z331());
+                });
+                Router.add('z332', function () {
+                    $element.html(z332());
+                });
+                Router.add('z333', function () {
+                    $element.html(z333());
+                });
+
+                Router.add('z334', function () {
+                    $element.html(z334());
+                });
+                Router.add('z335', function () {
+                    $element.html(z335());
+                });
+                Router.add('z336', function () {
+                    $element.html(z336());
+                    //    showLink(5000);
+                });
+                Router.add('z337', function () {
+                    $element.html(z337());
+                });
+                Router.add('z338', function () {
+                    $element.html(z338());
+                });
+                Router.add('z339', function () {
+                    $element.html(z339());
+                    //    showLink(5000);
+                });
+                Router.add('z340', function () {
+                    $element.html(z340());
+                });
+
+                Router.add('z341', function () {
+                    $element.html(z341());
+                    //    showLink(5000);
+                });
+                Router.add('z342', function () {
+                    $element.html(z342());
+                });
+                Router.add('z343', function () {
+                    $element.html(z343());
+                });
+                Router.add('z344', function () {
+                    $element.html(z344());
+                    //    showLink(5000);
+                });
+                Router.add('z345', function () {
+                    $element.html(z345());
+                });
+                Router.add('z346', function () {
+                    $element.html(z346());
+                    //    showLink(5000);
+                });
+                Router.add('z347', function () {
+                    $element.html(z347());
+                });
+                Router.add('z348', function () {
+                    $element.html(z348());
+                });
+                Router.add('z349', function () {
+                    $element.html(z349());
+                    //    showLink(5000);
+                });
+                Router.add('z350', function () {
+                    $element.html(z350());
+                });
+
+                Router.add('z351', function () {
+                    $element.html(z351());
+                    //    showLink(5000);
+                });
+                Router.add('z352', function () {
+                    $element.html(z352());
+                });
+                Router.add('z353', function () {
+                    $element.html(z353());
+                });
+                Router.add('z354', function () {
+                    $element.html(z354());
+                    //    showLink(5000);
+                });
+                Router.add('z355', function () {
+                    $element.html(z355());
+                });
+                Router.add('z356', function () {
+                    $element.html(z356());
+                    //    showLink(5000);
+                });
+                Router.add('z357', function () {
+                    $element.html(z357());
+                });
+                Router.add('z358', function () {
+                    $element.html(z358());
+                });
+                Router.add('z359', function () {
+                    $element.html(z359());
+                    //    showLink(5000);
+                });
+                Router.add('z360', function () {
+                    $element.html(z360());
+                });
+
+                Router.add('primjerpocetak', function () {
+                    $element.html(primjerpocetak());
+                });
+                Router.add('primjerwikichange', function () {
+                    $element.html(primjerwikichange());
+                });
+                Router.add('primjerwikiread', function () {
+                    $element.html(primjerwikiread());
+                });
+                Router.add('primjersint', function () {
+                    $element.html(primjersint());
+                    //    showLink(5000);
+                });
+
+                Router.add('primjersunos', function () {
+                    $element.html(primjersunos());
+                });
+                Router.add('primjertunos', function () {
+                    $element.html(primjertunos());
+                });
+                Router.add('primjerot', function () {
+                    $element.html(primjerot());
+                    //    showLink(5000);
+                });
+                Router.add('primjerzat', function () {
+                    $element.html(primjerzat());
+                    //    showLink(5000);
+                });
+                Router.add('primjerpipa', function () {
+                    $element.html(primjerpipa());
+                    //    showLink(5000);
+                });
+                Router.add('primjert', function () {
+                    $element.html(primjert());
+                    //    showLink(5000);
+                });
+
+                Router.add('primjerskok', function () {
+                    $element.html(primjerskok());
+                    //    showLink(5000);
+                });
+                Router.add('primjerm5', function () {
+                    $element.html(primjerm5());
+                    //    showLink(5000);
+                });
+                Router.add('primjersvemiron', function () {
+                    $element.html(primjersvemiron());
+                    //    showLink(5000);
+                });
+                Router.add('primjersvemiroff', function () {
+                    $element.html(primjersvemiroff());
+                    //    showLink(5000);
+                });
+
+                var mainTimeToClickMan = randomIntFromInterval(10000, 60000);
+
+                var $element = $("#spadiv");
+
+                $('#loader').hide();
+                $('.container').show();
+                Backbone.history.stop();
+                $element.html(index()).fadeIn(1000);
+
+                $(window).on('resize', function () {
+                    $('.container').height($('img').outerHeight());
+                });
+
+                //------------------------------------------------------------------------------------------------------------------
+                // When route is changed
+                //------------------------------------------------------------------------------------------------------------------
+                Router.on("route", function () {
+                    var href = window.location.pathname;
+                    CustomStaff();
+                });
+
+                //------------------------------------------------------------------------------------------------------------------
+                // Initiate the client side router
+                //------------------------------------------------------------------------------------------------------------------
+                Router.setElement($element).start();
+
+                // localStorage.removeItem('clicked-img');
+
+                function randomIntFromInterval(min, max) {
+                    return Math.floor(Math.random() * (max - min + 1) + min);
+                }
+
+                function showLink(time) {
+                    var delay = 1000;
+
+                    if (time != null) {
+                        delay = time;
+                    }
+
+                    $('a').show();
+
+                    setTimeout(function () {
+                        $('a').addClass('shown');
+                    }, time);
+                }
+
+                function autoClick() {
+                    var links = [];
+                    $.each($('a'), function () {
+
+                        if ($(this).hasClass('c') && !$(this).hasClass('disabled')) {
+                            $(this).hide();
+                            var value = $(this).attr('href');
+                            links.push(value);
+                        }
+                    });
+
+                    var link = links[Math.floor(Math.random() * links.length)];
+
+                    if ($('a[href="' + link + '"][data-image-type]').length != 0) {
+                        var imageType = $('a[href="' + link + '"]').attr('data-image-type');
+
+                        var lastClicked = localStorage.getItem('clicked-img');
+
+                        localStorage.setItem('clicked-img', imageType);
+
+                        if (imageType == lastClicked) {
+                            autoClick();
+                        } else {
+                            $('a[href="' + link + '"]').trigger('click');
+                            localStorage.setItem('clicked-img', imageType);
+                        }
+                    } else {
+                        if ($('a[href="' + link + '"]').hasClass('zat') && !$('body').hasClass('prozor-otvoren')) {
+                            return false;
+                        }
+
+                        $('a[href="' + link + '"]').trigger('click');
+                    }
+                }
+
+                function reRunUntilClickEnabled() {
+                    if ($('body').hasClass('auto-link-click-enabled') && !$('body').hasClass('auto-link-click-disabled-medlodia')) {
+                        autoClick();
+                        mainTimeout();
+                    } else {
+                        setTimeout(function () {
+                            reRunUntilClickEnabled();
+                        }, 100);
+                    }
+                }
+
+                function mainTimeout() {
+                    setTimeout(function () {
+                        reRunUntilClickEnabled();
+                    }, mainTimeToClickMan);
+                }
+
+                mainTimeout();
+
+                //------------------------------------------------------------------------------------------------------------------
+                // Custom Functions
+                //------------------------------------------------------------------------------------------------------------------
+
+                var bugInterval;
+
+                function resetBugInterval() {
+                    bugInterval = setInterval(function () {
+
+                        var lokacijaArray = ['lok1'];
+
+                        var randomLokacijaNum = Math.floor(Math.random() * lokacijaArray.length);
+
+                        $('[data-role="bug"]').attr('class', '');
+                        $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
+                    }, 8000);
+                }
+
+                resetBugInterval();
+
+                var izabranaBuba;
+                var vrstaBube;
+
+                function addOnBlurListener(onBlurCallback, onFocusCallback) {
+                    var hidden, visibilityState, visibilityChange; // check the visiblility of the page
+
+                    if (typeof document.hidden !== "undefined") {
+                        hidden = "hidden";visibilityChange = "visibilitychange";visibilityState = "visibilityState";
+                    } else if (typeof document.mozHidden !== "undefined") {
+                        hidden = "mozHidden";visibilityChange = "mozvisibilitychange";visibilityState = "mozVisibilityState";
+                    } else if (typeof document.msHidden !== "undefined") {
+                        hidden = "msHidden";visibilityChange = "msvisibilitychange";visibilityState = "msVisibilityState";
+                    } else if (typeof document.webkitHidden !== "undefined") {
+                        hidden = "webkitHidden";visibilityChange = "webkitvisibilitychange";visibilityState = "webkitVisibilityState";
+                    }
+
+                    if (typeof document.addEventListener === "undefined" || typeof hidden === "undefined") {
+                        // not supported
+                    } else {
+                            document.addEventListener(visibilityChange, function () {
+                                switch (document[visibilityState]) {
+                                    case "visible":
+                                        if (onFocusCallback) onFocusCallback();
+                                        break;
+                                    case "hidden":
+                                        if (onBlurCallback) onBlurCallback();
+                                        break;
+                                }
+                            }, false);
+                        }
+                }
+
+                function muteAudio() {
+                    var audios = document.getElementsByTagName('audio'),
+                        i,
+                        len = audios.length;
+                    for (i = 0; i < len; i++) {
+                        audios[i].muted = true;
+                    }
+                }
+
+                function unMuteAudio() {
+                    var audios = document.getElementsByTagName('audio'),
+                        i,
+                        len = audios.length;
+                    for (i = 0; i < len; i++) {
+                        audios[i].muted = false;
+                    }
+                }
+
+                function CustomStaff() {
+
+                    mainTimeToClickMan = randomIntFromInterval(10000, 60000);
+
+                    if (!$('body').hasClass('teleskop-pokazan')) {
+                        $('.t').addClass('disabled');
+                    }
+
+                    if ($('body').hasClass('teleskop-pokazan')) {
+                        $('.tunos').addClass('disabled');
+                    }
+
+                    if ($('body').hasClass('prozor-otvoren')) {
+                        $('.ot').addClass('disabled');
+                    }
+
+                    if (!$('body').hasClass('prozor-otvoren')) {
+                        $('.skok').addClass('disabled');
+                    }
+
+                    if (!$('body').hasClass('slika-pokazana')) {
+                        $('.pipa').addClass('disabled');
+                    }
+                    if ($('body').hasClass('slika-pokazana')) {
+                        $('.sunos').addClass('disabled');
+                    }
+
+                    $('[data-sound]').on('click', function (e) {
+
+                        if (e.originalEvent !== undefined) {
+                            var name = $(this).attr('data-sound');
+                            if ($('#sound-' + name).length != 0) {
+                                document.getElementById('sound-' + name).play();
+                            }
+                        }
+                    });
+
+                    $('[data-role="random"]').on('click', function (e) {
+
+                        e.stopPropagation();
+                        var links = ["dva", "tri"];
+                        var link = links[Math.floor(Math.random() * links.length)];
+
+                        window.location.href = link;
+                    });
+
+                    $('[data-wiki-change]').off('click').on('click', function () {
+                        runRandomWiki();
+                    });
+
+                    $('[data-wiki]').off('click').on('click', function () {
+                        var oldText = $('#wiki-modal #wiki-text').text();
+
+                        if (oldText == "") {
+                            runRandomWiki();
+                        } else {
+                            $('#wiki-modal').modal({
+                                fadeDuration: 100
+                            });
+                        }
+                    });
+
+                    var sintList = [["golub3.mp3", 109000], ["ljestvica46.mp3", 33300], ["razrednica.mp3", 153000], ["bratec.mp3", 40000], ["vrucimajstor.mp3", 95000], ["bratecc.mp3", 40000], ["poll.mp3", 49000], ["VROskica-1.mp3", 105000], ["mel-5.mp3", 25000], ["melo-5.mp3", 43000], ["marta-fran.mp3", 44000], ["crven2.mp3", 48000], ["molodija.mp3", 51000]];
+
+                    $('[data-sint]').on('click', function () {
+                        $('body').addClass('auto-link-click-disabled-medlodia');
+
+                        var melodiaObj = sintList[Math.floor(Math.random() * sintList.length)];
+                        var melodia = melodiaObj[0];
+                        var melodiaTime = melodiaObj[1];
+
+                        $('#sint-sound').find('source').attr('src', 'images/' + melodia);
+                        document.getElementById('sint-sound').load();
+
+                        setTimeout(function () {
+                            document.getElementById('sint-sound').play();
+                        }, 6000);
+
+                        setTimeout(function () {
+                            $('body').removeClass('auto-link-click-disabled-medlodia');
+                        }, melodiaTime + 6000);
+                    });
+
+                    function runRandomWiki() {
+                        $.ajax({
+                            url: 'https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&&generator=random&grnnamespace=0&rvprop=content&grnlimit=1',
+                            dataType: 'jsonp',
+                            success: function success(data) {
+                                $.each(data.query.pages, function (key, value) {
+                                    $('#wiki-modal #wiki-title').text(value.title);
+                                    $('#wiki-modal #wiki-text').text(value.extract);
+                                });
+                            }
+                        });
+                    }
+
+                    $('body').removeClass('auto-link-click-enabled');
+
+                    var enableClick = setTimeout(function () {
+                        $('body').addClass('auto-link-click-enabled');
+
+                        if ($('[data-lokacija]').length != 0 && $('[data-role="bug"]').hasClass('shown-bug')) {
+                            var bugLocation = $('[data-lokacija]').attr('data-lokacija');
+                            if ($('[data-role="bug"]').hasClass(bugLocation)) {
+                                $('body').addClass('bug-key-hold-on');
+                            } else {
+                                $('body').removeClass('bug-key-hold-on');
+                            }
+                        } else {
+                            $('body').removeClass('bug-key-hold-on');
+                        }
+                    }, gifTime);
+
+                    $('[data-role="bug-food"]').off('click').on('click', function () {
+                        izabranaBuba = "";
+                        document.getElementById('bug-food-sound').play();
+                        $('body').removeClass('bug-key-hold-on');
+                        $(".key-hold-bug").hide();
+                        $(".bug-buttons").hide();
+                        $('[data-role="bug"]').attr('class', '');
+                        clearInterval(bugInterval);
+                        resetBugInterval();
+                    });
+
+                    var bugMessages = ['Hi i am ' + vrstaBube, 'Did you read the article about ' + $('#wiki-modal #wiki-title').text(), 'You must be Mujc! I am ' + vrstaBube];
+
+                    $('[data-role="bug-friend"]').off('click').on('click', function () {
+
+                        bugMessages = ['Hi i am ' + vrstaBube, 'Did you read the article about ' + $('#wiki-modal #wiki-title').text(), 'You must be Mujc! I am ' + vrstaBube];
+
+                        console.log(vrstaBube);
+                        $('.bug-text').show().text(bugMessages[Math.floor(Math.random() * bugMessages.length)]);
+                        // $('body').removeClass('bug-key-hold-on');
+                        $(".key-hold-bug").hide();
+                        $(".bug-buttons").hide();
+                        setTimeout(function () {
+                            $('.bug-text').hide();
+                        }, 15000);
+
+                        // $('[data-role="bug"]').attr('class', '');
+                    });
+
+                    var keyPressed = false;
+
+                    $(document).on("click", "a[data-routable='true']", function (e) {
+                        $('body').removeClass('bug-key-hold-on');
+                        clearTimeout(enableClick);
+                    });
+
+                    $('body').off('click').on('click', function (e) {
+                        if (!$('body').hasClass('auto-link-click-enabled')) {
+                            return false;
+                        }
+                        var target = $(e.target);
+                        if (!target.is("a") && !target.is(".modal") && !target.is("button") && !target.is(".no-key-hold *")) {
+
+                            if ($('body').hasClass('svemir-on')) {
+                                showSvemir();
+                                $('#svemir').fadeToggle(300, "linear");
+                                return;
+                            }
+
+                            if ($('body').hasClass('bug-key-hold-on')) {
+                                //nastavak na key-hold-{nastavak ispod}
+                                var bugArray = ['zohar', 'muha', 'skakavac', 'leptir', 'bubamara'];
+
+                                if (!izabranaBuba) {
+                                    vrstaBube = bugArray[Math.floor(Math.random() * bugArray.length)];
+                                    izabranaBuba = ".key-hold-" + vrstaBube;
+                                }
+
+                                $('.key-hold-bug:not(' + izabranaBuba + ')').hide();
+                                $(izabranaBuba).fadeToggle(300, "linear");
+                                $(".bug-buttons").fadeToggle(300, "linear");
+                                return;
+                            }
+
+                            if ($(".key-hold-img").length != 0) {
+
+                                /*ako postoji dodatna slika*/
+                                if ($("[data-wall-position]").length != 0 && $(".wall-image").attr('src') != "images/wall/v0.png") {
+                                    var position = $('[data-wall-position]').attr('data-wall-position');
+                                    var wallImage = $('.wall-image').attr('src');
+
+                                    var wallImageName = wallImage.split('.png').shift();
+
+                                    var newImageName = wallImageName + "-" + position + ".png";
+
+                                    if ($('.wall-img-hold').length === 0) {
+                                        $('<img class="key-hold-img wall-img-hold" src="' + newImageName + '">').insertAfter('.key-hold-img');
+                                    }
+                                }
+
+                                if ($('body').hasClass('teleskop-pokazan') && $('[data-teleskop-position]').length != 0) {
+                                    var tunosSrc = "images/" + $('[data-teleskop-position]').attr('data-teleskop-position') + ".png";
+                                    if ($('.tele-hold-image').length == 0) {
+                                        $('<img class="key-hold-img wall-img-hold tele-hold-image" src="' + tunosSrc + '">').insertAfter('.key-hold-img');
+                                    } else {
+                                        $('.tele-hold-image').attr('src', tunosSrc);
+                                    }
+                                }
+
+                                if ($('body').hasClass('prozor-otvoren') && $('[data-govno-position]').length != 0) {
+                                    var govnoSrc = "images/" + $('[data-govno-position]').attr('data-govno-position') + ".png";
+                                    if ($('.govno-image').length == 0) {
+                                        $('<img class="key-hold-img wall-img-hold govno-image" src="' + govnoSrc + '">').insertAfter('.key-hold-img');
+                                    } else {
+                                        $('.govno-image').attr('src', govnoSrc);
+                                    }
+                                }
+
+                                $(".key-hold-img").fadeToggle(300, "linear");
+                            }
+                        }
+                    });
+
+                    showLink(2000);
+                    $('body').on('click', '[data-svemir="on"]', function () {
+                        $('body').addClass('svemir-on');
+                    });
+
+                    $('body').on('click', '[data-svemir="off"]', function () {
+                        $('body').removeClass('svemir-on');
+                    });
+
+                    $('body').on('click', '.tunos', function () {
+                        $('body').addClass('teleskop-pokazan');
+                        $('.tunos').addClass('disabled');
+                        $('.t').removeClass('disabled');
+                    });
+
+                    $('body').on('click', '.ot', function () {
+                        $('body').addClass('prozor-otvoren');
+                        $('.ot').addClass('disabled');
+                        $('.zat').add('.skok').removeClass('disabled');
+                    });
+
+                    $('body').on('click', '.zat', function () {
+                        $('body').removeClass('prozor-otvoren');
+                        $('.zat').add('.skok').addClass('disabled');
+                        $('.zat').removeClass('disabled');
+                    });
+
+                    $('body').on('click', '.sunos', function () {
+                        $('body').addClass('slika-pokazana');
+                        $('.sunos').addClass('disabled');
+                        $('.pipa').removeClass('disabled');
+                    });
+
+                    $('body').on('click', '.skok', function () {
+                        $('body').addClass('prozorpodloga-pokazan');
+                    });
+
+                    $('body').on('click', '.m5', function () {
+                        console.log('m5 clicked');
+                        $('body').removeClass('prozorpodloga-pokazan');
+                    });
+
+                    $('body').on('click', 'a', function (e) {
+                        if (!$(e.currentTarget).hasClass('tunos')) {
+                            if ($('body').hasClass('teleskop-pokazan')) {
+                                $('body').addClass('teleskop-pokazan-uvjek');
+                            }
+                        }
+
+                        if (!$(e.currentTarget).hasClass('ot')) {
+                            if ($('body').hasClass('prozor-otvoren')) {
+                                $('body').addClass('prozor-otvoren-uvjek');
+                            }
+                        }
+
+                        if (!$(e.currentTarget).hasClass('skok')) {
+                            if ($('body').hasClass('prozorpodloga-pokazan')) {
+                                $('body').addClass('prozorpodloga-pokazan-uvjek');
+                            }
+                        }
+                    });
+                }
+
+                CustomStaff();
+
+                addOnBlurListener(muteAudio, unMuteAudio);
+
+                function showSvemir() {
+
+                    $('#svemir').attr('width', $('html').width());
+                    $('#svemir').attr('height', $('html').height());
+
+                    var canvas = document.getElementById("svemir");
+                    var ctx = canvas.getContext("2d");
+
+                    var dots = [];
+                    var numDots = 20;
+                    var width = canvas.width;
+                    var height = canvas.height;
+                    for (var i = 0; i < numDots; i++) {
+                        dots.push({
+                            x: Math.random() * width,
+                            y: Math.random() * height,
+                            vx: Math.random() * 10 - 5,
+                            vy: Math.random() * 10 - 5
+                        });
+                    }
+
+                    ctx.clearRect(0, 0, width, height);
+                    var j, dot;
+                    for (j = 0; j < numDots; j++) {
+                        dot = dots[j];
+                        ctx.beginPath();
+                        ctx.arc(dot.x, dot.y, Math.floor(Math.random() * (3 - 1 + 1)) + 1, 0, Math.PI * 2);
+                        ctx.fillStyle = "#f0eec5";
+                        ctx.fill();
+                    }
+                }
+            });
+        }
+    };
+});
 //# sourceMappingURL=build.js.map

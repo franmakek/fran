@@ -1045,6 +1045,7 @@ body.prozorpodloga-pokazan:not(.prozorpodloga-pokazan-uvjek) .prozorpodloga-img 
 body.prozorpodloga-pokazan.prozorpodloga-pokazan-uvjek .prozorpodloga-img {
     display: block !important;
     z-index: 120;
+    opacity: 1;
 }
 
 .prozor-otvoren{
