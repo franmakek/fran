@@ -3201,7 +3201,7 @@ Router.add('a21', () => {
           var bugMessages =
               [
                 'Hi i am ' + vrstaBube,
-                'Did you read the article about ' + $('#wiki-modal #wiki-title').text(), 
+                'Did you read the article about that ' + $('#wiki-modal #wiki-title').text(), 
                      'You must be Mujc! I am ' + vrstaBube
                    
               ];
