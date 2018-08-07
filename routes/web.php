@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
 
-Route::get('{any}', function ($any = "/a6") {
+Route::get('{any}', function ($any = "/empty") {
     if($any == "chat")
     {
         return view('pusher');
@@ -24,6 +24,11 @@ Route::get('{any}', function ($any = "/a6") {
     elseif($any == "admin-chat")
     {
         return view('admin-chat');
+
+    }
+    elseif($any == "/empty")
+    {
+        return redirect('/a18');
 
     }
     else
