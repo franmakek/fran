@@ -31,7 +31,7 @@
     </div>
 
     <img class="key-hold-bug key-hold-zohar" src="images/zohar.jpg" >
-    <img class="key-hold-bug key-hold-buba" src="images/bubamara.gif" >
+    <img class="key-hold-bug key-hold-bubamara" src="images/bubamara.gif" >
     <img class="key-hold-bug key-hold-skakavac" src="images/skakavac.gif" >
     <img class="key-hold-bug key-hold-muha" src="images/muha.gif" >
     <img class="key-hold-bug key-hold-leptir" src="images/leptir.gif" >

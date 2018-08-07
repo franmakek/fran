@@ -219,23 +219,8 @@ import a103                 from 'app/pages/a103.hbs!';
 import a105                 from 'app/pages/a105.hbs!';
 import a107                 from 'app/pages/a107.hbs!';
 import a109                 from 'app/pages/a109.hbs!';
-import a111                 from 'app/pages/a111.hbs!';
-import a113                 from 'app/pages/a113.hbs!';
-import a115                 from 'app/pages/a115.hbs!';
 
-import a117                 from 'app/pages/a117.hbs!';
-import a119                 from 'app/pages/a119.hbs!';
-import a121                 from 'app/pages/a121.hbs!';
-import a123                 from 'app/pages/a123.hbs!';
-import a125                 from 'app/pages/a125.hbs!';
 
-import a127                 from 'app/pages/a127.hbs!';
-import a129                 from 'app/pages/a129.hbs!';
-import a131                 from 'app/pages/a131.hbs!';
-import a133                 from 'app/pages/a133.hbs!';
-import a135                 from 'app/pages/a135.hbs!';
-
-import a137                 from 'app/pages/a137.hbs!';
 import a139                 from 'app/pages/a139.hbs!';
 import a141                 from 'app/pages/a141.hbs!';
 import a143                 from 'app/pages/a143.hbs!';
@@ -254,24 +239,10 @@ import a106                 from 'app/pages/a106.hbs!';
 import a108                 from 'app/pages/a108.hbs!';
 
 
-import a110                 from 'app/pages/a110.hbs!';
-import a112                 from 'app/pages/a112.hbs!';
-import a114                 from 'app/pages/a114.hbs!';
-import a116                 from 'app/pages/a116.hbs!';
-import a118                 from 'app/pages/a118.hbs!';
 
 
-import a120                 from 'app/pages/a120.hbs!';
-import a122                 from 'app/pages/a122.hbs!';
-import a124                 from 'app/pages/a124.hbs!';
-import a126                 from 'app/pages/a126.hbs!';
-import a128                 from 'app/pages/a128.hbs!';
 
-import a130                 from 'app/pages/a130.hbs!';
-import a132                 from 'app/pages/a132.hbs!';
-import a134                 from 'app/pages/a134.hbs!';
-import a136                 from 'app/pages/a136.hbs!';
-import a138                 from 'app/pages/a138.hbs!';
+
 
 import a140                 from 'app/pages/a140.hbs!';
 import a142                 from 'app/pages/a142.hbs!';
@@ -1432,68 +1403,8 @@ Router.add('a21', () => {
         $element.html(a109());
     //    showLink(5000);
     });
-       Router.add('a111', () => {
-        $element.html(a111());
-    //    showLink(5000);
-    });
-     Router.add('a113', () => {
-        $element.html(a113());
-    //    showLink(5000);
-    });
-      Router.add('a115', () => {
-        $element.html(a115());
-    //    showLink(5000);
-    });
-
-
-    Router.add('a117', () => {
-        $element.html(a117());
-    //    showLink(5000);
-    });
-       Router.add('a119', () => {
-        $element.html(a119());
-    //    showLink(5000);
-    });
-       Router.add('a121', () => {
-        $element.html(a121());
-    //    showLink(5000);
-    });
-     Router.add('a123', () => {
-        $element.html(a123());
-    //    showLink(5000);
-    });
-      Router.add('a125', () => {
-        $element.html(a125());
-    //    showLink(5000);
-    });
-
-
-        Router.add('a127', () => {
-        $element.html(a127());
-    //    showLink(5000);
-    });
-       Router.add('a129', () => {
-        $element.html(a129());
-    //    showLink(5000);
-    });
-       Router.add('a131', () => {
-        $element.html(a131());
-    //    showLink(5000);
-    });
-     Router.add('a133', () => {
-        $element.html(a133());
-    //    showLink(5000);
-    });
-      Router.add('a135', () => {
-        $element.html(a135());
-    //    showLink(5000);
-    });
-
-
-     Router.add('a137', () => {
-        $element.html(a137());
-    //    showLink(5000);
-    });
+      
+      
        Router.add('a139', () => {
         $element.html(a139());
     //    showLink(5000);
@@ -1552,65 +1463,8 @@ Router.add('a21', () => {
 
 
 
-      Router.add('a110', () => {
-        $element.html(a110());
-        showLink(5000);
-    });
-         Router.add('a112', () => {
-        $element.html(a112());
-        showLink(5000);
-    });
-    Router.add('a114', () => {
-        $element.html(a114());
-    });
-
-        Router.add('a116', () => {
-        $element.html(a116());
-    //    showLink(5000);
-    });
-    Router.add('a118', () => {
-        $element.html(a118());
-    });
-
-
-      Router.add('a120', () => {
-        $element.html(a120());
-        showLink(5000);
-    });
-         Router.add('a122', () => {
-        $element.html(a122());
-        showLink(5000);
-    });
-    Router.add('a124', () => {
-        $element.html(a124());
-    });
-
-        Router.add('a126', () => {
-        $element.html(a126());
-    //    showLink(5000);
-    });
-    Router.add('a128', () => {
-        $element.html(a128());
-    });
-         Router.add('a130', () => {
-        $element.html(a130());
-        showLink(5000);
-    });
-         Router.add('a132', () => {
-        $element.html(a132());
-        showLink(5000);
-    });
-    Router.add('a134', () => {
-        $element.html(a134());
-    });
-
-        Router.add('a136', () => {
-        $element.html(a136());
-    //    showLink(5000);
-    });
-    Router.add('a138', () => {
-        $element.html(a138());
-    });
+     
+     
 
     Router.add('a140', () => {
         $element.html(a140());
@@ -2984,7 +2838,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(8000, 21000);
+    var mainTimeToClickMan = randomIntFromInterval(10000, 60000);
 
     let $element = $("#spadiv");
 
@@ -3111,13 +2965,9 @@ Router.add('a21', () => {
             bugInterval = setInterval(function () {
 
                   var lokacijaArray = [
-                        'lok0b',
-                        'lok1',
-                        'lok2',
-                        'lok3',
-                        'lok4',
-                        'lok5',
-                        'lok6'
+                        
+                        'lok1'
+                      
                   ];
 
                   var randomLokacijaNum = Math.floor(Math.random()*lokacijaArray.length);
@@ -3125,7 +2975,7 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 128000);
+            }, 8000);
       }
 
       resetBugInterval();
@@ -3184,7 +3034,7 @@ Router.add('a21', () => {
 
       function CustomStaff() {
 
-            mainTimeToClickMan = randomIntFromInterval(4000, 16000);
+            mainTimeToClickMan = randomIntFromInterval(10000, 60000);
 
           if(!$('body').hasClass('teleskop-pokazan'))
         {
@@ -3351,19 +3201,9 @@ Router.add('a21', () => {
           var bugMessages =
               [
                 'Hi i am ' + vrstaBube,
-                'Did you read the article about ' + $('#wiki-modal #wiki-title').text(),
-                'Dont eat me please',
-                 'It,s a nice day in Kutina!',
-                   'Coinhabitant?',
-                  'What song was that?',
-                  'My legs hurt',
-                    'Insectocide is the worst?',
-                  'My legs hurt',
-                  'Check out that painting...',
-                  'Space is the place',
-                     'You must be Mujc! I am' + vrstaBube,
-                     'you,re punching holes in the bedclothes...',
-                     'Hi cat'
+                'Did you read the article about ' + $('#wiki-modal #wiki-title').text(), 
+                     'You must be Mujc! I am ' + vrstaBube
+                   
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
@@ -3376,7 +3216,7 @@ Router.add('a21', () => {
                       lastMsg = 0;
                 }
 
-                if(lastMsg < 12)
+                if(lastMsg < 2)
                 {
                       newMessage = Number(lastMsg) + 1;
                 }
@@ -3429,9 +3269,13 @@ Router.add('a21', () => {
                             'muha',
                             'skakavac',
                             'leptir',
-                              'buba'
+                              'bubamara'
                         ];
 
+                       
+           
+                      
+                      
 
                         if(!izabranaBuba)
                         {
@@ -3533,6 +3377,7 @@ Router.add('a21', () => {
           });
           
           $('body').on('click', '.m5', function(){
+              console.log('m5 clicked')
                 $('body').removeClass('prozorpodloga-pokazan');
           });
 

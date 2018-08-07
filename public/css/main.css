@@ -345,7 +345,7 @@ body{
         top: 28%;
         left: 10%;
         width: 19%;
-    z-index: 80003;
+    z-index: 80004;
     }
 
 .container .m1{
@@ -356,7 +356,7 @@ body{
         top: 60%;
         left: 51%;
         width: 19%;
-    z-index: 80003;
+    z-index: 80004;
     }
 .container .m2{
      display: none;
@@ -366,7 +366,7 @@ body{
         top: 5%;
         left: 24%;
         width: 19%;
-    z-index: 80003;
+    z-index: 80004;
     }
 .container .m3{
      display: none;
@@ -376,7 +376,7 @@ body{
         top: 46%;
         left: 75%;
         width: 19%;
-        z-index: 80003;
+        z-index: 80004;
     }
 
 
@@ -388,7 +388,7 @@ body{
         top: 45%;
         left: 33%;
         width: 19%;
-        z-index: 80003;
+        z-index: 80004;
     }
 
 .container .m5{
@@ -399,7 +399,7 @@ body{
         top: 39%;
         left: 65%;
         width: 19%;
-        z-index: 80003;
+        z-index: 80004;
     }
 
 .container .wikiread{
@@ -420,7 +420,7 @@ body{
         top: 0%;
         left: 69%;
         width: 19%;
-        z-index: 80003;
+        z-index: 80004;
     }
 .container .m7{
      display: none;
@@ -430,7 +430,7 @@ body{
         top: 59%;
         left: 67%;
         width: 19%;
-        z-index: 80003;
+        z-index: 80004;
     }
 
 .container .m11{
@@ -441,7 +441,7 @@ body{
         top: 79%;
         left: 7%;
         width: 19%;
-        z-index: 80003;
+        z-index: 80004;
     }
 
 .container .m10{
@@ -452,7 +452,7 @@ body{
         top: 79%;
         left: 82%;
         width: 19%;
-        z-index: 80003;
+        z-index: 80004;
     }
 
       .container .c{
@@ -577,7 +577,7 @@ body{
 
 .key-hold-img,
 .key-hold-bug{
-    z-index: 80003;
+    z-index: 80005;
     display: none;
 }
 
@@ -600,17 +600,17 @@ body{
 }
 
 .key-hold-img .govno{
-    z-index: 80001;
+    z-index: 80005;
     display: block !important;
 }
 
 .key-hold-img .teleskopImages{
-    z-index: 80002;
+    z-index: 80005;
     display: block !important;
 }
 
 .key-hold-img .wall-image-hold{
-    z-index: 80001;
+    z-index: 80005;
     display: block !important;
 }
 
@@ -624,7 +624,9 @@ body{
     display: block !important;
 }
 
-
+ .higher-z-index{
+       z-index: 80006; 
+}
 .loader__tile {
     display: block;
     float: left;
