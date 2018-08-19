@@ -18,6 +18,8 @@
 
     <div class="picture"></div>
     <canvas id="svemir" width="500" height="500"></canvas>
+    
+    
 
     <img class="prvipravi2-img" src="images/prvipravi2.png">
     <img class="load-img" src="images/teleskop.png">
@@ -30,11 +32,11 @@
 
     </div>
 
-    <img class="key-hold-bug key-hold-zohar" src="images/zohar.jpg" >
-    <img class="key-hold-bug key-hold-bubamara" src="images/bubamara.gif" >
-    <img class="key-hold-bug key-hold-skakavac" src="images/skakavac.gif" >
-    <img class="key-hold-bug key-hold-muha" src="images/muha.gif" >
-    <img class="key-hold-bug key-hold-leptir" src="images/leptir.gif" >
+    <img class="key-hold-bug key-hold-a_cockroach_of_the_order_blattodea" src="images/zohar.gif" >
+    <img class="key-hold-bug key-hold-a_lady_bug_of_the_order_coccinellids" src="images/bubamara.gif" >
+    <img class="key-hold-bug key-hold-a_grasshoppers_of_the suborder_caelifera" src="images/skakavac.gif" >
+    <img class="key-hold-bug key-hold-a_fly_of_the_order_diptera_linnaeus" src="images/muha.gif" >
+    <img class="key-hold-bug key-hold-a_butterfly_of_the_order_lepidoptera" src="images/leptir.gif" >
     <div class="bug-buttons">
         <button type="button" data-role="bug-food" class="bug-btn">FOOD</button>
         <button type="button" data-role="bug-friend">FRIEND</button>
@@ -129,8 +131,8 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-<script src="/build.js"></script>
-
+  <!-- <script src="/build.js"></script>
+  -->
 <script>
     System.import('/app/main.js');
     localStorage.removeItem('clicked-img');
@@ -142,8 +144,8 @@
         crossorigin="anonymous"></script>
 <script src="/js/custom.js"></script>
 
-<script src="//js.pusher.com/3.0/pusher.min.js"></script>
-<script>
+ <script src="//js.pusher.com/3.0/pusher.min.js"></script>
+ <script>
 
     let userId = Math.random().toString(36).substring(7);
 
@@ -152,8 +154,8 @@
 //    Pusher.log = function(msg) {
 //        console.log(msg);
 //    };
-    var pusher = new Pusher('7a6a1f7f43e7adb7c8df', {
-        encrypted: true,
+    var pusher = new Pusher('7a6a1f7f43e7adb7c8df', 
+    encrypted: true,
         cluster: 'eu' // This
     });
 
@@ -185,11 +187,11 @@
             $('[data-role="chat-parent-user"]').find('[data-role="message"]').html('<h3>'+ data.text +'</h3>');
             setTimeout(function(){
                 $('[data-role="chat-parent-user"]').find('[data-role="message"]').html('');
-            }, 5000);
+            }, 10000);
 
             hideChatBox =  setTimeout(function(){
                 $('[data-role="chat-parent-user"]').hide();
-            }, 20000);
+            }, 25000);
         }
     });
 

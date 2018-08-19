@@ -2838,7 +2838,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(10000, 60000);
+    var mainTimeToClickMan = randomIntFromInterval(6000, 30000);
 
     let $element = $("#spadiv");
 
@@ -2966,8 +2966,13 @@ Router.add('a21', () => {
 
                   var lokacijaArray = [
                         
-                        'lok1'
-                      
+                        'lok1',
+                      'lok2',
+                      'lok3',
+                      'lok4',
+                      'lok5',
+                      'lok6',
+                      'lok0b'
                   ];
 
                   var randomLokacijaNum = Math.floor(Math.random()*lokacijaArray.length);
@@ -2975,7 +2980,7 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 8000);
+            }, 60000);
       }
 
       resetBugInterval();
@@ -3034,7 +3039,7 @@ Router.add('a21', () => {
 
       function CustomStaff() {
 
-            mainTimeToClickMan = randomIntFromInterval(10000, 60000);
+            mainTimeToClickMan = randomIntFromInterval(6000, 30000);
 
           if(!$('body').hasClass('teleskop-pokazan'))
         {
@@ -3200,9 +3205,10 @@ Router.add('a21', () => {
 
           var bugMessages =
               [
-                'Hi i am ' + vrstaBube,
-                'Did you read the article about that ' + $('#wiki-modal #wiki-title').text(), 
-                     'You must be Mujc! I am ' + vrstaBube
+                    'Hi i am ' + vrstaBube + '.',
+                          'Did you read the thing about that ' + $('#wiki-modal #wiki-title').text() + '?',
+                     'Go read the article about that ' + $('#wiki-modal #wiki-title').text()  + ' before he googles something else!', 
+                          'You must be Mujc! I am ' + vrstaBube + '.'
 
               ];
 
@@ -3210,9 +3216,10 @@ Router.add('a21', () => {
 
                 bugMessages =
                     [
-                          'Hi i am ' + vrstaBube,
-                          'Did you read the article about ' + $('#wiki-modal #wiki-title').text() + '?',
-                          'You must be Mujc! I am ' + vrstaBube
+                          'Hi i am ' + vrstaBube + '.',
+                          'Did you read the thing about that ' + $('#wiki-modal #wiki-title').text() + '?',
+                     'Go read the article about that ' + $('#wiki-modal #wiki-title').text()  + ' before he googles something else!', 
+                          'You must be Mujc! I am ' + vrstaBube + '.'
 
                     ];
 
@@ -3254,14 +3261,15 @@ Router.add('a21', () => {
                   {
                         //nastavak na key-hold-{nastavak ispod}
                         var bugArray = [
-                              'zohar',
-                            'muha',
-                            'skakavac',
-                            'leptir',
-                              'bubamara'
+                              'a_cockroach_of_the_order_blattodea',
+                             'a_lady_bug_of_the_order_coccinellids',
+                              'a_grasshoppers_of_the suborder_caelifera',
+                            'a_fly_of_the_order_diptera_linnaeus',
+                            'a_butterfly_of_the_order_lepidoptera'
+                             
                         ];
 
-                       
+                        
            
                       
                       
