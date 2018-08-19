@@ -28,7 +28,9 @@ Route::get('{any}', function ($any = "/empty") {
     }
     elseif($any == "/empty")
     {
-        return redirect('/a18');
+        return view('base');
+
+        //return redirect('/a18');
 
     }
     else

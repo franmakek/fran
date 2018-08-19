@@ -52,6 +52,10 @@ function changeWallImage(imageType){
 
     var time = 3700;
     var image;
+    var imageText;
+
+    var randomNum;
+
 
     if(imageType == undefined)
     {
@@ -59,46 +63,55 @@ function changeWallImage(imageType){
     }
 
     var horizontalImages = [
-        '/images/wall/h1.png',
-        '/images/wall/h2.png',
-        '/images/wall/h3.png',
-         '/images/wall/h4.png',
-         '/images/wall/h5.png'
+        {href:'/images/wall/h1.png', text: "horizontal tekst1" } ,
+        {href:'/images/wall/h2.png', text: "horizontal tekst2" } ,
+        {href:'/images/wall/h3.png', text: "horizontal tekst3" } ,
+        {href:'/images/wall/h4.png', text: "horizontal tekst4" } ,
+        {href:'/images/wall/h5.png', text: "horizontal tekst5" } ,
     ];
 
     var verticalImages = [
-        '/images/wall/v1.png',
-        '/images/wall/v2.png',
-        '/images/wall/v3.png',
-        '/images/wall/v4.png'
+        {href:'/images/wall/v1.png', text: "vertical tekst1" } ,
+        {href:'/images/wall/v2.png', text: "vertical tekst2" } ,
+        {href:'/images/wall/v3.png', text: "vertical tekst3" } ,
+        {href:'/images/wall/v4.png', text: "vertical tekst4" } ,
     ];
 
     /*tu dodat slike*/
    var allImages = [
-           '/images/wall/h1.png',
-        '/images/wall/h2.png',  
-       '/images/wall/v1.png',
-        '/images/wall/v2.png',
-        '/images/wall/v3.png',
-         '/images/wall/h3.png',
-       '/images/wall/v4.png',
-         '/images/wall/h4.png',
-        '/images/wall/h5.png'
+       {href:'/images/wall/v1.png', text: "vertical tekst1" } ,
+       {href:'/images/wall/v2.png', text: "vertical tekst2" } ,
+       {href:'/images/wall/v3.png', text: "vertical tekst3" } ,
+       {href:'/images/wall/v4.png', text: "vertical tekst4" } ,
+       {href:'/images/wall/h1.png', text: "horizontal tekst1" } ,
+       {href:'/images/wall/h2.png', text: "horizontal tekst2" } ,
+       {href:'/images/wall/h3.png', text: "horizontal tekst3" } ,
+       {href:'/images/wall/h4.png', text: "horizontal tekst4" } ,
+       {href:'/images/wall/h5.png', text: "horizontal tekst5" } ,
     ];
 
 
     if(imageType == "vertical")
     {
-        image = verticalImages[Math.floor(Math.random()*verticalImages.length)];
+        randomNum = Math.floor(Math.random()*verticalImages.length)
+        image = verticalImages[randomNum].href;
+        imageText = verticalImages[randomNum].text;
     }
     else if(imageType == "horizontal")
     {
-        image = horizontalImages[Math.floor(Math.random()*horizontalImages.length)];
+        randomNum = Math.floor(Math.random()*horizontalImages.length)
+        image = horizontalImages[randomNum].href;
+        imageText = horizontalImages[randomNum].text;
+
     }
     else
     {
-        image = horizontalImages[Math.floor(Math.random()*horizontalImages.length)];
+        randomNum = Math.floor(Math.random()*horizontalImages.length)
+        image = horizontalImages[randomNum].href;
+        imageText = horizontalImages[randomNum].text;
     }
+
+    $('#image-text').text(imageText);
 
     setTimeout(function(){
 

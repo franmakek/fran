@@ -27,9 +27,7 @@ class AppRouter extends Backbone.Router
     {
 
         this._bindRoutes();
-
-
-        console.log('start');
+        
 
         Backbone.history.start({pushState: true});
 
@@ -42,9 +40,9 @@ class AppRouter extends Backbone.Router
             let href = $a.attr("href");
             let fragment = Backbone.history.fragment;
 
-            this.navigate(href, true);
+            //this.navigate(href, true);
 
-            // Backbone.history.loadUrl(href, true);
+             Backbone.history.loadUrl(href, true);
             $('#spadiv img.main-tpl-img').attr('src', $('#spadiv img.main-tpl-img').attr('src'));
             
         });

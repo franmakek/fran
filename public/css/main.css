@@ -759,7 +759,7 @@ body{
     z-index: 10;
 }
 
-body:not(.auto-link-click-enabled) .container a{
+body:not(.auto-link-click-enabled) .container a:not(.first-links){
     display: none;
     pointer-events: none;
     cursor: default;

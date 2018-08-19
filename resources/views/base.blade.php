@@ -126,10 +126,12 @@
     <p  id="wiki-title" style="display: none"></p>
     <p  id="wiki-text"></p>
 </div>
+<span id="image-text" style="display: none;"></span>
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 <script src="/build.js"></script>
+
 
 <script>
     System.import('/app/main.js');
@@ -227,7 +229,6 @@
     });
 
 
-  
 
 
 </script>

@@ -5,7 +5,7 @@ import {Router}              from 'app/Router.js';
 import Backbone               from 'backbone';
 import modal                  from 'jquery-modal';
 
-import index                 from 'app/pages/prvi.hbs!';
+import index                 from 'app/pages/a18.hbs!';
 
 
 import h1                 from 'app/pages/h1.hbs!';
@@ -3202,7 +3202,8 @@ Router.add('a21', () => {
               [
                 'Hi i am ' + vrstaBube,
                 'Did you read the article about ' + $('#wiki-modal #wiki-title').text(),
-                     'You must be Mujc! I am ' + vrstaBube
+                     'You must be Mujc! I am ' + vrstaBube,
+                     'wall image is ' + $('#image-text').text()
 
               ];
 
@@ -3212,7 +3213,9 @@ Router.add('a21', () => {
                     [
                           'Hi i am ' + vrstaBube,
                           'Did you read the article about ' + $('#wiki-modal #wiki-title').text() + '?',
-                          'You must be Mujc! I am ' + vrstaBube
+                          'You must be Mujc! I am ' + vrstaBube,
+                          'wall image is ' + $('#image-text').text()
+
 
                     ];
 
