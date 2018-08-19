@@ -433,23 +433,45 @@ body{
         z-index: 80004;
     }
 
-.container .m11{
+.container .d11{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 19%;
-        top: 79%;
+        top: 69%;
         left: 7%;
         width: 19%;
         z-index: 80004;
     }
 
-.container .m10{
+.container .d12{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 82%;
+        top: 69%;
+        left: 48%;
+        width: 19%;
+        z-index: 80004;
+    }
+
+.container .d13{
+     display: block;
+     background-color: rgba(10, 15, 26, .0);
+        border-radius: 100%;
+        height: 82%;
+        top: -66%;
+        left: 1%;
+        width: 100%;
+        z-index: 80004;
+    }
+
+.container .d10{
      display: block;
      background-color: rgba(10, 15, 26, .0);
         border-radius: 100%;
         height: 19%;
-        top: 79%;
+        top: 69%;
         left: 82%;
         width: 19%;
         z-index: 80004;

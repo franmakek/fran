@@ -45,6 +45,7 @@ var vm12 = 3240;
 var vm13 = 6080;
 var vm14 = 6080;
 var vm15 = 2200;
+var vm16 = 24000;
 
 
 function changeWallImage(imageType){
