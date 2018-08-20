@@ -64,31 +64,31 @@ function changeWallImage(imageType){
     }
 
     var horizontalImages = [
-        {href:'/images/wall/h1.png', text: "horizontal tekst1" } ,
-        {href:'/images/wall/h2.png', text: "horizontal tekst2" } ,
-        {href:'/images/wall/h3.png', text: "horizontal tekst3" } ,
-        {href:'/images/wall/h4.png', text: "horizontal tekst4" } ,
-        {href:'/images/wall/h5.png', text: "horizontal tekst5" } ,
+        {href:'/images/wall/h1.png', text: "diagonal yellow line" } ,
+        {href:'/images/wall/h2.png', text: "red splur" } ,
+        {href:'/images/wall/h3.png', text: "interesting composition" } ,
+        {href:'/images/wall/h4.png', text: "portrait of a cowboy" } ,
+        {href:'/images/wall/h5.png', text: "gunman" } ,
     ];
 
     var verticalImages = [
-        {href:'/images/wall/v1.png', text: "vertical tekst1" } ,
-        {href:'/images/wall/v2.png', text: "vertical tekst2" } ,
-        {href:'/images/wall/v3.png', text: "vertical tekst3" } ,
-        {href:'/images/wall/v4.png', text: "vertical tekst4" } ,
+        {href:'/images/wall/v1.png', text: "awful curl on green background" } ,
+        {href:'/images/wall/v2.png', text: "ugly spot" } ,
+        {href:'/images/wall/v3.png', text: "blue boat" } ,
+        {href:'/images/wall/v4.png', text: "spacey image with triangle" } ,
     ];
 
     /*tu dodat slike*/
    var allImages = [
-       {href:'/images/wall/v1.png', text: "vertical tekst1" } ,
-       {href:'/images/wall/v2.png', text: "vertical tekst2" } ,
-       {href:'/images/wall/v3.png', text: "vertical tekst3" } ,
-       {href:'/images/wall/v4.png', text: "vertical tekst4" } ,
-       {href:'/images/wall/h1.png', text: "horizontal tekst1" } ,
-       {href:'/images/wall/h2.png', text: "horizontal tekst2" } ,
-       {href:'/images/wall/h3.png', text: "horizontal tekst3" } ,
+       {href:'/images/wall/v1.png', text: "awful curl on green background" } ,
+       {href:'/images/wall/v2.png', text: "ugly spot" } ,
+       {href:'/images/wall/v3.png', text: "blue boat" } ,
+       {href:'/images/wall/v4.png', text: "spacey image with triangle" } ,
+       {href:'/images/wall/h1.png', text: "diagonal yellow line" } ,
+       {href:'/images/wall/h2.png', text: "red splur" } ,
+       {href:'/images/wall/h3.png', text: "interesting composition" } ,
        {href:'/images/wall/h4.png', text: "horizontal tekst4" } ,
-       {href:'/images/wall/h5.png', text: "horizontal tekst5" } ,
+       {href:'/images/wall/h5.png', text: "spacey image with triangle" } ,
     ];
 
 

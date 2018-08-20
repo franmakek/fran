@@ -2967,12 +2967,13 @@ Router.add('a21', () => {
                   var lokacijaArray = [
                         
                         'lok1',
-                      'lok2',
-                      'lok3',
-                      'lok4',
-                      'lok5',
-                      'lok6',
-                      'lok0b'
+                       'lok2',
+                       'lok3',
+                       'lok4',
+                       'lok5',
+                       'lok6',
+                       'lok0b'
+                     
                   ];
 
                   var randomLokacijaNum = Math.floor(Math.random()*lokacijaArray.length);
@@ -2980,7 +2981,7 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 60000);
+            }, 45000);
       }
 
       resetBugInterval();
@@ -3205,22 +3206,102 @@ Router.add('a21', () => {
 
           var bugMessages =
               [
+                                      
+'Who is president?',
+'Can you explain any of this?',
+'Did you know you can jump on the window board when the window is open!',
+'What is it with the factory outside?',
+'Dont eat me now, please!',
+'When you go on top of the computor, click on it again to see what he is reading about or writhing down.',
+'Nice day in Kutina, a?',
+'You are punching holes in the bedclothes, you know...',
+'Did you notice that telescope he brought in?',
+'My leg hurts',
+'The beaatles!',
+'If you look closely, you can actually see the humanoid breathing.',
+'Wait, wait, wait...',
+'The refugee crisis.',
+'There seems to be a pattern in the change of horisontal vs vertical paintings...',
+'Free love!',
+'Space is the place.',
+'Beautiful cat, thats what you are.',
+'But why?',
+'Hiperactive lump of dark grey son of a b...',
+'What do you make of the fact ?',
+'This is not fiction',
+'U la la la u uuu la la la',
+'The silence is awful',
+'Kate Bush?',
+'Dont mind me...',
+'How do stars work?',
+'Space is the place',
+'Door to the cosmos',
+'I was born yesterday.',
+'Who is he aiming that thing at?',
+'You are not gonna eat me, are you?',
+'Promote Croatia',
+'Ima tko domaći?',
+'What`s da Vinci up to?',
+'He should get a job in the factory outside',
+'100 bugs - 100 hugs',
+'Whats the capitol of Poland?',
+'Did the James webb lounch?',
                     'Hi i am ' + vrstaBube + '.',
                           'Did you read the thing about that ' + $('#wiki-modal #wiki-title').text() + '?',
                      'Go read the article about that ' + $('#wiki-modal #wiki-title').text()  + ' before he googles something else!', 
                           'You must be Mujc! I am ' + vrstaBube + '.',
-                'wall image is ' + $('#image-text').text()
+                'I think that this ' + $('#image-text').text() + ' is very beautiful, but i`m just a ' + vrstaBube + '.'
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
 
                 bugMessages =
                     [
+                    
+'Who is president?',
+'Can you explain any of this?',
+'Did you know you can jump on the window board when the window is open!',
+'What is it with the factory outside?',
+'Dont eat me now, please!',
+'When you go on top of the computor, click on it again to see what he is reading about or writhing down.',
+'Nice day in Kutina, a?',
+'You are punching holes in the bedclothes, you know...',
+'Did you notice that telescope he brought in?',
+'My leg hurts',
+'The beaatles!',
+'If you look closely, you can actually see the humanoid breathing.',
+'Wait, wait, wait...',
+'The refugee crisis.',
+'There seems to be a pattern in the change of horisontal vs vertical paintings...',
+'Free love!',
+'Space is the place.',
+'Beautiful cat, thats what you are.',
+'But why?',
+'Hiperactive lump of dark grey son of a b...',
+'What do you make of the fact ?',
+'This is not fiction',
+'U la la la u uuu la la la',
+'The silence is awful',
+'Kate Bush?',
+'Dont mind me...',
+'How do stars work?',
+'Space is the place',
+'Door to the cosmos',
+'I was born yesterday.',
+'Who is he aiming that thing at?',
+'You are not gonna eat me, are you?',
+'Promote Croatia',
+'Ima tko domaći?',
+'What`s da Vinci up to?',
+'He should get a job in the factory outside',
+'100 bugs - 100 hugs',
+'Whats the capitol of Poland?',
+'Did the James webb lounch?',
                           'Hi i am ' + vrstaBube + '.',
                           'Did you read the thing about that ' + $('#wiki-modal #wiki-title').text() + '?',
                           'Go read the article about that ' + $('#wiki-modal #wiki-title').text()  + ' before he googles something else!',
                           'You must be Mujc! I am ' + vrstaBube + '.',
-                          'wall image is ' + $('#image-text').text()
+                          'I think that this ' + $('#image-text').text() + ' is very beautiful, but i`m just a ' + vrstaBube + '.'
                     ];
 
                 console.log(vrstaBube);
