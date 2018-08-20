@@ -132,8 +132,7 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-  <!-- <script src="/build.js"></script>
-  -->
+ <script src="/build.js"></script>
 <script>
     System.import('/app/main.js');
     localStorage.removeItem('clicked-img');
@@ -155,7 +154,7 @@
 //    Pusher.log = function(msg) {
 //        console.log(msg);
 //    };
-    var pusher = new Pusher('7a6a1f7f43e7adb7c8df', 
+    var pusher = new Pusher('7a6a1f7f43e7adb7c8df', {
     encrypted: true,
         cluster: 'eu' // This
     });
