@@ -32,11 +32,24 @@
 
     </div>
 
-    <img class="key-hold-bug key-hold-a_cockroach_of_the_order_blattodea" src="images/zohar.gif" >
-    <img class="key-hold-bug key-hold-a_lady_bug_of_the_order_coccinellids" src="images/bubamara.gif" >
-    <img class="key-hold-bug key-hold-a_grasshoppers_of_the suborder_caelifera" src="images/skakavac.gif" >
-    <img class="key-hold-bug key-hold-a_fly_of_the_order_diptera_linnaeus" src="images/muha.gif" >
-    <img class="key-hold-bug key-hold-a_butterfly_of_the_order_lepidoptera" src="images/leptir.gif" >
+    <img class="key-hold-bug key-hold-blattodea" src="images/zohar.gif" >
+    <img class="key-hold-bug key-hold-coccinellids" src="images/bubamara.gif" >
+    <img class="key-hold-bug key-hold-caelifera" src="images/skakavac.gif" >
+    <img class="key-hold-bug key-hold-linnaeus" src="images/muha.gif" >
+    <img class="key-hold-bug key-hold-lepidoptera" src="images/leptir.gif" >
+    
+            <img class="key-hold-bug key-hold-moth" src="images/moljac1.gif" >
+
+            <img class="key-hold-bug key-hold-mothLikeThing" src="images/moljac2.gif" >
+    
+                <img class="key-hold-bug key-hold-nightButterfly" src="images/moljac5.gif" >
+
+            <img class="key-hold-bug key-hold-jealousGuy" src="images/moljac3.gif" >
+
+            <img class="key-hold-bug key-hold-simpleMoth" src="images/moljac4.gif" >
+    
+
+
     <div class="bug-buttons">
         <button type="button" data-role="bug-food" class="bug-btn">FOOD</button>
         <button type="button" data-role="bug-friend">FRIEND</button>
@@ -132,7 +145,7 @@
 <script src="/jspm_packages/system.js"></script>
 <script src="/config.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
- <script src="/build.js"></script>
+
 <script>
     System.import('/app/main.js');
     localStorage.removeItem('clicked-img');
@@ -144,7 +157,7 @@
         crossorigin="anonymous"></script>
 <script src="/js/custom.js"></script>
 
- <script src="//js.pusher.com/3.0/pusher.min.js"></script>
+<script src="//js.pusher.com/3.0/pusher.min.js"></script>
  <script>
 
     let userId = Math.random().toString(36).substring(7);

@@ -2838,7 +2838,7 @@ Router.add('a21', () => {
     //    showLink(5000);
  });
 
-    var mainTimeToClickMan = randomIntFromInterval(6000, 30000);
+    var mainTimeToClickMan = randomIntFromInterval(6000, 27000);
 
     let $element = $("#spadiv");
 
@@ -2967,12 +2967,16 @@ Router.add('a21', () => {
                   var lokacijaArray = [
                         
                         'lok1',
-                       'lok2',
-                       'lok3',
-                       'lok4',
-                       'lok5',
-                       'lok6',
-                       'lok0b'
+                        'lok2',
+                        'lok3',
+                        'lok4',
+                        'lok5',
+                        'lok6',
+                      'lok0b'
+
+
+
+                      
                      
                   ];
 
@@ -2981,7 +2985,7 @@ Router.add('a21', () => {
                   $('[data-role="bug"]').attr('class', '');
                   $('[data-role="bug"]').addClass('shown-bug').addClass(lokacijaArray[randomLokacijaNum]);
 
-            }, 45000);
+            }, 39000);
       }
 
       resetBugInterval();
@@ -3040,7 +3044,7 @@ Router.add('a21', () => {
 
       function CustomStaff() {
 
-            mainTimeToClickMan = randomIntFromInterval(6000, 30000);
+            mainTimeToClickMan = randomIntFromInterval(6000, 27000);
 
           if(!$('body').hasClass('teleskop-pokazan'))
         {
@@ -3206,18 +3210,18 @@ Router.add('a21', () => {
 
           var bugMessages =
               [
-                                      
+                                                                              
 'Who is president?',
 'Can you explain any of this?',
 'Did you know you can jump on the window board when the window is open!',
 'What is it with the factory outside?',
 'Dont eat me now, please!',
-'When you go on top of the computor, click on it again to see what he is reading about or writhing down.',
+'When you go on top of the computor, click on it to see what he is reading about or writhing down.',
 'Nice day in Kutina, a?',
 'You are punching holes in the bedclothes, you know...',
 'Did you notice that telescope he brought in?',
 'My leg hurts',
-'The beaatles!',
+'Beaatles!',
 'If you look closely, you can actually see the humanoid breathing.',
 'Wait, wait, wait...',
 'The refugee crisis.',
@@ -3228,9 +3232,8 @@ Router.add('a21', () => {
 'But why?',
 'Hiperactive lump of dark grey son of a b...',
 'What do you make of the fact ?',
-'This is not fiction',
 'U la la la u uuu la la la',
-'The silence is awful',
+'No problem.',
 'Kate Bush?',
 'Dont mind me...',
 'How do stars work?',
@@ -3239,36 +3242,50 @@ Router.add('a21', () => {
 'I was born yesterday.',
 'Who is he aiming that thing at?',
 'You are not gonna eat me, are you?',
-'Promote Croatia',
+'Promote Croatia!',
 'Ima tko domaći?',
 'What`s da Vinci up to?',
 'He should get a job in the factory outside',
 '100 bugs - 100 hugs',
 'Whats the capitol of Poland?',
 'Did the James webb lounch?',
-                    'Hi i am ' + vrstaBube + '.',
+         'the image of the ' + $('#image-text').text() + ' is just... You can view it from different angles... ',
+         'this ' + $('#image-text').text() + ' reminds me of how short life is.',
+         'that ' + $('#image-text').text() + ' rubs me in the right way.',
+         'the ' + $('#image-text').text() + ' is a painting by Carlo Sanchez',
+         'that ' + $('#image-text').text() + ' is a piece made by Xiung Scwartz',
+         'Markota Pošića did this ' + $('#image-text').text() + ' painting in case you were wondering',
+
+                          'Hi i am ' + vrstaBube + '.',
+                                              'Random ' + $('#wiki-modal #wiki-title').text() + ' paragraph is unique.',
+                                               'There is a boring paragraph of text on the computor about some' + $('#wiki-modal #wiki-title').text(),
+
                           'Did you read the thing about that ' + $('#wiki-modal #wiki-title').text() + '?',
-                     'Go read the article about that ' + $('#wiki-modal #wiki-title').text()  + ' before he googles something else!', 
-                          'You must be Mujc! I am ' + vrstaBube + '.',
-                'I think that this ' + $('#image-text').text() + ' is very beautiful, but i`m just a ' + vrstaBube + '.'
+                          'Go read the article about that ' + $('#wiki-modal #wiki-title').text()  + ' before he googles something else!',
+                          'I am a ' + vrstaBube + '.',
+                                              'Where are my ' + vrstaBube + ' friends?',
+   'hm..  this ' + $('#image-text').text() + ' is simplistic, Kutina is toxic, ' + vrstaBube + ',s hate it.' + $('#wiki-modal #wiki-title').text() + ' is kinda good.',
+          'I think that this ' + $('#image-text').text() + ' is cheep, the music is loud, ' + vrstaBube + 'don`t like it.' + $('#wiki-modal #wiki-title').text() + ' is what intrests me!',
+    $('#image-text').text() + $('#wiki-modal #wiki-title').text() + ' was me!---'  + vrstaBube + '.',
+                          'I think that this ' + $('#image-text').text() + ' is very beautiful, but i`m just a ' + vrstaBube + '.'
               ];
 
           $('[data-role="bug-friend"]').off('click').on('click', function () {
 
                 bugMessages =
                     [
-                    
+                                        
 'Who is president?',
 'Can you explain any of this?',
 'Did you know you can jump on the window board when the window is open!',
 'What is it with the factory outside?',
 'Dont eat me now, please!',
-'When you go on top of the computor, click on it again to see what he is reading about or writhing down.',
+'When you go on top of the computor, click on it to see what he is reading about or writhing down.',
 'Nice day in Kutina, a?',
 'You are punching holes in the bedclothes, you know...',
 'Did you notice that telescope he brought in?',
 'My leg hurts',
-'The beaatles!',
+'Beaatles!',
 'If you look closely, you can actually see the humanoid breathing.',
 'Wait, wait, wait...',
 'The refugee crisis.',
@@ -3279,9 +3296,8 @@ Router.add('a21', () => {
 'But why?',
 'Hiperactive lump of dark grey son of a b...',
 'What do you make of the fact ?',
-'This is not fiction',
 'U la la la u uuu la la la',
-'The silence is awful',
+'No problem.',
 'Kate Bush?',
 'Dont mind me...',
 'How do stars work?',
@@ -3290,20 +3306,33 @@ Router.add('a21', () => {
 'I was born yesterday.',
 'Who is he aiming that thing at?',
 'You are not gonna eat me, are you?',
-'Promote Croatia',
+'Promote Croatia!',
 'Ima tko domaći?',
 'What`s da Vinci up to?',
 'He should get a job in the factory outside',
 '100 bugs - 100 hugs',
 'Whats the capitol of Poland?',
 'Did the James webb lounch?',
+         'the image of the ' + $('#image-text').text() + ' is just... You can view it from different angles... ',
+         'this ' + $('#image-text').text() + ' reminds me of how short life is.',
+         'that ' + $('#image-text').text() + ' rubs me in the right way.',
+         'the ' + $('#image-text').text() + ' is a painting by Carlo Sanchez',
+         'that ' + $('#image-text').text() + ' is a piece made by Xiung Scwartz',
+         'Markota Pošića did this ' + $('#image-text').text() + ' painting in case you were wondering',
+
                           'Hi i am ' + vrstaBube + '.',
+                                              'Random ' + $('#wiki-modal #wiki-title').text() + ' paragraph is unique.',
+                                               'There is a boring paragraph of text on the computor about some' + $('#wiki-modal #wiki-title').text(),
+
                           'Did you read the thing about that ' + $('#wiki-modal #wiki-title').text() + '?',
                           'Go read the article about that ' + $('#wiki-modal #wiki-title').text()  + ' before he googles something else!',
-                          'You must be Mujc! I am ' + vrstaBube + '.',
+                          'I am a ' + vrstaBube + '.',
+                                              'Where are my ' + vrstaBube + ' friends?',
+   'hm..  this ' + $('#image-text').text() + ' is simplistic, Kutina is toxic, ' + vrstaBube + ',s hate it.' + $('#wiki-modal #wiki-title').text() + ' is kinda good.',
+          'I think that this ' + $('#image-text').text() + ' is cheep, the music is loud, ' + vrstaBube + 'don`t like it.' + $('#wiki-modal #wiki-title').text() + ' is what intrests me!',
+    $('#image-text').text() + $('#wiki-modal #wiki-title').text() + ' was me!---'  + vrstaBube + '.',
                           'I think that this ' + $('#image-text').text() + ' is very beautiful, but i`m just a ' + vrstaBube + '.'
-                    ];
-
+];
                 console.log(vrstaBube);
                 $('.bug-text').show().text(bugMessages[Math.floor(Math.random()*bugMessages.length)]);
                 // $('body').removeClass('bug-key-hold-on');
@@ -3342,15 +3371,19 @@ Router.add('a21', () => {
                   {
                         //nastavak na key-hold-{nastavak ispod}
                         var bugArray = [
-                              'a_cockroach_of_the_order_blattodea',
-                             'a_lady_bug_of_the_order_coccinellids',
-                              'a_grasshoppers_of_the suborder_caelifera',
-                            'a_fly_of_the_order_diptera_linnaeus',
-                            'a_butterfly_of_the_order_lepidoptera'
-                             
+                              'blattodea',
+                             'coccinellids',
+                              'caelifera',
+                            'linnaeus',
+                            'lepidoptera',
+                            'moth',
+                          'mothLikeThing',
+                                                        'nightButterfly',
+                                                        'jealousGuy',
+                                                        'simpleMoth'
+
                         ];
 
-                        
            
                       
                       
