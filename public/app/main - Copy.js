@@ -106,24 +106,110 @@ import a18                 from 'app/pages/a18.hbs!';
 
 import a17               from 'app/pages/a17.hbs!';
 import a19                 from 'app/pages/a19.hbs!';
+import a21                 from 'app/pages/a21.hbs!';
+import a23                 from 'app/pages/a23.hbs!';
+import a25                 from 'app/pages/a25.hbs!';
+import a27                 from 'app/pages/a27.hbs!';
+import a29                 from 'app/pages/a29.hbs!';
 
 
+import a20                 from 'app/pages/a20.hbs!';
+import a22                 from 'app/pages/a22.hbs!';
+import a24                 from 'app/pages/a24.hbs!';
+import a26                 from 'app/pages/a26.hbs!';
+
+import a28                 from 'app/pages/a28.hbs!';
+import a30     from
+'app/pages/a30.hbs!';
 
 
+import a31     from
+'app/pages/a31.hbs!';
+
+
+import a33                 from 'app/pages/a33.hbs!';
+import a37                 from 'app/pages/a37.hbs!';
+import a35                 from 'app/pages/a35.hbs!';
+import a39                 from 'app/pages/a39.hbs!';
+import a41                 from 'app/pages/a41.hbs!';
+import a43                 from 'app/pages/a43.hbs!';
+import a47                 from 'app/pages/a47.hbs!';
+import a45                 from 'app/pages/a45.hbs!';
+import a49                 from 'app/pages/a49.hbs!';
+import a51                 from 'app/pages/a51.hbs!';
 
 
       import a32                 from 'app/pages/a32.hbs!';
  
+import a34                 from 'app/pages/a34.hbs!';
+import a36                 from 'app/pages/a36.hbs!';
+import a38                 from 'app/pages/a38.hbs!';
 
+import a40                 from 'app/pages/a40.hbs!';
+      import a42                 from 'app/pages/a42.hbs!';
+import a44                 from 'app/pages/a44.hbs!';
+import a46                 from 'app/pages/a46.hbs!';
+import a48                 from 'app/pages/a48.hbs!';
 
+import a50                 from 'app/pages/a50.hbs!';
+      import a52                 from 'app/pages/a52.hbs!';
+import a54                 from 'app/pages/a54.hbs!';
+import a56                 from 'app/pages/a56.hbs!';
+import a58                 from 'app/pages/a58.hbs!';
+import a60                 from 'app/pages/a60.hbs!';
+      import a62                 from 'app/pages/a62.hbs!';
 
 import a53                 from 'app/pages/a53.hbs!';
 import a55                 from 'app/pages/a55.hbs!';
+import a57                 from 'app/pages/a57.hbs!';
 import a59                 from 'app/pages/a59.hbs!';
+      import a61                 from 'app/pages/a61.hbs!';
 
 
 import a63                 from 'app/pages/a63.hbs!';
+import a65                 from 'app/pages/a65.hbs!';
+import a67                 from 'app/pages/a67.hbs!';
+import a69                 from 'app/pages/a69.hbs!';
+import a71                 from 'app/pages/a71.hbs!';
 
+import a73                 from 'app/pages/a73.hbs!';
+import a75                 from 'app/pages/a75.hbs!';
+import a77                 from 'app/pages/a77.hbs!';
+import a79                 from 'app/pages/a79.hbs!';
+import a81                 from 'app/pages/a81.hbs!';
+
+
+import a83                 from 'app/pages/a83.hbs!';
+import a85                 from 'app/pages/a85.hbs!';
+import a87                 from 'app/pages/a87.hbs!';
+import a89                 from 'app/pages/a89.hbs!';
+import a91              from 'app/pages/a91.hbs!';
+
+
+import a64                 from 'app/pages/a64.hbs!';
+import a66                 from 'app/pages/a66.hbs!';
+import a68                 from 'app/pages/a68.hbs!';
+
+
+import a70                from 'app/pages/a70.hbs!';
+import a72                 from 'app/pages/a72.hbs!';
+import a74                 from 'app/pages/a74.hbs!';
+import a76                 from 'app/pages/a76.hbs!';
+import a78                 from 'app/pages/a78.hbs!';
+
+import a80                from 'app/pages/a80.hbs!';
+import a82                 from 'app/pages/a82.hbs!';
+import a84                 from 'app/pages/a84.hbs!';
+import a86                 from 'app/pages/a86.hbs!';
+import a88                 from 'app/pages/a88.hbs!';
+
+import a90                from 'app/pages/a90.hbs!';
+import a92                 from 'app/pages/a92.hbs!';
+import a93                 from 'app/pages/a93.hbs!';
+
+import a94                 from 'app/pages/a94.hbs!';
+import a95                from 'app/pages/a95.hbs!';
+import a96                 from 'app/pages/a96.hbs!';
 import a98                 from 'app/pages/a98.hbs!';
 
 import a97                 from 'app/pages/a97.hbs!';
@@ -137,13 +223,20 @@ import a109                 from 'app/pages/a109.hbs!';
 
 import a139                 from 'app/pages/a139.hbs!';
 import a141                 from 'app/pages/a141.hbs!';
+import a143                 from 'app/pages/a143.hbs!';
+import a145                 from 'app/pages/a145.hbs!';
 
+import a147                 from 'app/pages/a147.hbs!';
 import a149                 from 'app/pages/a149.hbs!';
 import a151                 from 'app/pages/a151.hbs!';
 import a153                 from 'app/pages/a153.hbs!';
+import a155                 from 'app/pages/a155.hbs!';
 
-
-
+import a100                 from 'app/pages/a100.hbs!';
+import a102                 from 'app/pages/a102.hbs!';
+import a104                 from 'app/pages/a104.hbs!';
+import a106                 from 'app/pages/a106.hbs!';
+import a108                 from 'app/pages/a108.hbs!';
 
 
 
@@ -152,10 +245,16 @@ import a153                 from 'app/pages/a153.hbs!';
 
 
 import a140                 from 'app/pages/a140.hbs!';
-
+import a142                 from 'app/pages/a142.hbs!';
+import a144                 from 'app/pages/a144.hbs!';
+import a146                 from 'app/pages/a146.hbs!';
+import a148                 from 'app/pages/a148.hbs!';
 
 import a150                 from 'app/pages/a150.hbs!';
 import a152                 from 'app/pages/a152.hbs!';
+import a154                 from 'app/pages/a154.hbs!';
+import a156                 from 'app/pages/a156.hbs!';
+import a158                 from 'app/pages/a158.hbs!';
 
 import z1                 from 'app/pages/z1.hbs!';
 import z2                 from 'app/pages/z2.hbs!';
@@ -908,6 +1007,12 @@ Router.add('a16', () => {
         $element.html(a19());
     //    showLink(5000);
     });
+Router.add('a21', () => {
+        $element.html(a21());
+    //    showLink(5000);
+    });
+
+
 
     Router.add('a17', () => {
         $element.html(a17());
@@ -918,16 +1023,111 @@ Router.add('a16', () => {
         $element.html(a20());
     //    showLink(5000);
     });
+    Router.add('a22', () => {
+        $element.html(a22());
+    //    showLink(5000);
+    });
+
+
+
+    Router.add('a24', () => {
+        $element.html(a24());
+    });
+
+
+     Router.add('a23', () => {
+        $element.html(a23());
+    });
+
    
-  
+        Router.add('a25', () => {
+        $element.html(a25());
+    //    showLink(5000);
+    });
+    Router.add('a27', () => {
+        $element.html(a27());
+    //    showLink(5000);
+    });
 
        
+
+
+    Router.add('a29', () => {
+        $element.html(a29());
+    });
+
+        Router.add('a26', () => {
+        $element.html(a26());
+    //    showLink(5000);
+    });
+    Router.add('a28', () => {
+        $element.html(a28());
+    });
+
+        Router.add('a30', () => {
+        $element.html(a30());
+    //    showLink(5000);
+    });
+
+        Router.add('a31', () => {
+        $element.html(a31());
+    //    showLink(5000);
+    });
+
+    Router.add('a32', () => {
+        $element.html(a32());
+    });
+  
+
+        Router.add('a34', () => {
+        $element.html(a34());
+    //    showLink(5000);
+    });
+    Router.add('a36', () => {
+        $element.html(a36());
+    });
 
         Router.add('a33', () => {
         $element.html(a33());
     //    showLink(5000);
     });
-   
+    Router.add('a35', () => {
+        $element.html(a35());
+    //    showLink(5000);
+    });
+
+    Router.add('a37', () => {
+        $element.html(a37());
+    });
+
+        Router.add('a39', () => {
+        $element.html(a39());
+    //    showLink(5000);
+    });
+    Router.add('a41', () => {
+        $element.html(a41());
+    });
+      Router.add('a43', () => {
+        $element.html(a43());
+    //    showLink(5000);
+    });
+    Router.add('a45', () => {
+        $element.html(a45());
+    //    showLink(5000);
+    });
+
+    Router.add('a47', () => {
+        $element.html(a47());
+    });
+
+        Router.add('a49', () => {
+        $element.html(a49());
+    //    showLink(5000);
+    });
+
+    Router.add('a51', () => {
+        $element.html(a51());
+           });
 
      Router.add('a53', () => {
         $element.html(a53());
@@ -938,30 +1138,247 @@ Router.add('a16', () => {
     //    showLink(5000);
     });
 
-   
+    Router.add('a57', () => {
+        $element.html(a57());
+    });
 
         Router.add('a59', () => {
         $element.html(a59());
     //    showLink(5000);
     });
-   
+    Router.add('a61', () => {
+        $element.html(a61());
+    });
+
       Router.add('a63', () => {
         $element.html(a63());
     //    showLink(5000);
     });
-    
+    Router.add('a65', () => {
+        $element.html(a65());
+    //    showLink(5000);
+    });
+
+    Router.add('a67', () => {
+        $element.html(a67());
+    });
+
+        Router.add('a69', () => {
+        $element.html(a69());
+    //    showLink(5000);
+    });
+    Router.add('a71', () => {
+        $element.html(a71());
+    });
+
+
+     Router.add('a73', () => {
+        $element.html(a73());
+    //    showLink(5000);
+    });
+    Router.add('a75', () => {
+        $element.html(a75());
+    //    showLink(5000);
+    });
+
+    Router.add('a77', () => {
+        $element.html(a77());
+    });
+
+        Router.add('a79', () => {
+        $element.html(a79());
+    //    showLink(5000);
+    });
+    Router.add('a81', () => {
+        $element.html(a81());
+    });
+
+
+
+         Router.add('a83', () => {
+        $element.html(a83());
+    //    showLink(5000);
+    });
+    Router.add('a85', () => {
+        $element.html(a85());
+    //    showLink(5000);
+    });
+
+    Router.add('a87', () => {
+        $element.html(a87());
+    });
+
+        Router.add('a89', () => {
+        $element.html(a89());
+    //    showLink(5000);
+    });
+    Router.add('a91', () => {
+        $element.html(a91());
+    });
+
+
+
+
+        Router.add('a38', () => {
+        $element.html(a38());
+    //    showLink(5000);
+    });
+          Router.add('a40', () => {
+        $element.html(a40());
+    //    showLink(5000);
+    });
+
+    Router.add('a42', () => {
+        $element.html(a42());
+    });
+
+        Router.add('a44', () => {
+        $element.html(a44());
+    //    showLink(5000);
+    });
+    Router.add('a46', () => {
+        $element.html(a46());
+    });
+
+        Router.add('a48', () => {
+        $element.html(a48());
+        showLink(5000);
+    });
+
+         Router.add('a50', () => {
+        $element.html(a50());
+    //    showLink(5000);
+    });
+
+    Router.add('a52', () => {
+        $element.html(a52());
+    });
+
+        Router.add('a54', () => {
+        $element.html(a54());
+    //    showLink(5000);
+    });
+    Router.add('a56', () => {
+        $element.html(a56());
+    });
+
+        Router.add('a58', () => {
+        $element.html(a58());
+        showLink(5000);
+    });
+    Router.add('a60', () => {
+        $element.html(a60());
+    //    showLink(5000);
+    });
+
+    Router.add('a62', () => {
+        $element.html(a62());
+    });
+
+        Router.add('a64', () => {
+        $element.html(a64());
+    //    showLink(5000);
+    });
+    Router.add('a66', () => {
+        $element.html(a66());
+    });
+
+        Router.add('a68', () => {
+        $element.html(a68());
+        showLink(5000);
+    });
+    Router.add('a70', () => {
+        $element.html(a70());
+    //    showLink(5000);
+    });
+
+    Router.add('a72', () => {
+        $element.html(a72());
+    });
+
+        Router.add('a74', () => {
+        $element.html(a74());
+    //    showLink(5000);
+    });
+    Router.add('a76', () => {
+        $element.html(a76());
+    });
+
+        Router.add('a78', () => {
+        $element.html(a78());
+        showLink(5000);
+    });
+
+      Router.add('a80', () => {
+        $element.html(a80());
+    //    showLink(5000);
+    });
+
+    Router.add('a82', () => {
+        $element.html(a82());
+    });
+
+        Router.add('a84', () => {
+        $element.html(a84());
+    //    showLink(5000);
+    });
+    Router.add('a86', () => {
+        $element.html(a86());
+    });
+
+        Router.add('a88', () => {
+        $element.html(a88());
+        showLink(5000);
+    });
+         Router.add('a89', () => {
+        $element.html(a89());
+        showLink(5000);
+    });
+
+    Router.add('a90', () => {
+        $element.html(a90());
+    //    showLink(5000);
+    });
+
+
+
+    Router.add('a92', () => {
+        $element.html(a92());
+    });
+          Router.add('a93', () => {
+        $element.html(a93());
+    //    showLink(5000);
+    });
+
+        Router.add('a94', () => {
+        $element.html(a94());
+    //    showLink(5000);
+    });
+      Router.add('a95', () => {
+        $element.html(a95());
+    //    showLink(5000);
+    });
+    Router.add('a96', () => {
+        $element.html(a96());
+    });
       Router.add('a97', () => {
         $element.html(a97());
     //    showLink(5000);
     });
-        
+        Router.add('a98', () => {
+        $element.html(a98());
+        showLink(5000);
+    });
       Router.add('a99', () => {
         $element.html(a99());
        // showLink(5000);
     });
 
 
-     
+      Router.add('a100', () => {
+        $element.html(a100());
+    //    showLink(5000);
+    });
 
        Router.add('a101', () => {
         $element.html(a101());
@@ -992,7 +1409,25 @@ Router.add('a16', () => {
         $element.html(a139());
     //    showLink(5000);
     });
-       
+       Router.add('a141', () => {
+        $element.html(a141());
+    //    showLink(5000);
+    });
+     Router.add('a143', () => {
+        $element.html(a143());
+    //    showLink(5000);
+    });
+      Router.add('a145', () => {
+        $element.html(a145());
+    //    showLink(5000);
+    });
+
+
+
+     Router.add('a147', () => {
+        $element.html(a147());
+    //    showLink(5000);
+    });
        Router.add('a149', () => {
         $element.html(a149());
     //    showLink(5000);
@@ -1005,9 +1440,28 @@ Router.add('a16', () => {
         $element.html(a153());
     //    showLink(5000);
     });
-     
+      Router.add('a155', () => {
+        $element.html(a155());
+    //    showLink(5000);
+    });
 
-     
+     Router.add('a102', () => {
+        $element.html(a102());
+        showLink(5000);
+    });
+    Router.add('a104', () => {
+        $element.html(a104());
+    });
+
+        Router.add('a106', () => {
+        $element.html(a106());
+    //    showLink(5000);
+    });
+    Router.add('a108', () => {
+        $element.html(a108());
+    });
+
+
 
      
      
@@ -1016,7 +1470,20 @@ Router.add('a16', () => {
         $element.html(a140());
         showLink(5000);
     });
-        
+         Router.add('a142', () => {
+        $element.html(a142());
+        showLink(5000);
+    });
+    Router.add('a144', () => {
+        $element.html(a144());
+    });
+        Router.add('a146', () => {
+        $element.html(a146());
+    //    showLink(5000);
+    });
+    Router.add('a148', () => {
+        $element.html(a148());
+    });
 
       Router.add('a150', () => {
         $element.html(a150());
@@ -1026,7 +1493,16 @@ Router.add('a16', () => {
         $element.html(a152());
         showLink(5000);
     });
-   
+    Router.add('a154', () => {
+        $element.html(a154());
+    });
+        Router.add('a156', () => {
+        $element.html(a156());
+    //    showLink(5000);
+    });
+    Router.add('a158', () => {
+        $element.html(a158());
+    });
 
 
 
